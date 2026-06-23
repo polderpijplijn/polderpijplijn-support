@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "Vraag stellen / Ask a question"
+    url: https://github.com/diveman50/polderpijplijn-support/discussions
+    about: "Voor vragen en overleg. / For questions and discussion."
+  - name: "Kennisbank / Knowledge base"
+    url: https://www.polderpijplijn.nl/support/
+    about: "Lees eerst de help-artikelen. / Read the help articles first."
+  - name: "E-mail"
+    url: mailto:info@polderpijplijn.nl
+    about: "Liever privé contact? / Prefer private contact?"

@@ -1,0 +1,38 @@
+name: "Functie voorstellen / Suggest a feature"
+description: "Stel een nieuwe functie of verbetering voor. / Suggest a new feature or improvement."
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Leuk dat je meedenkt! Beschrijf je idee hieronder.
+
+        _Thanks for sharing your idea! Describe it below._
+  - type: dropdown
+    id: app
+    attributes:
+      label: "Welke app? / Which app?"
+      options:
+        - Grim Reader
+        - Thuis
+        - "Anders / Other"
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: "Je idee / Your idea"
+      description: "Wat zou je graag toegevoegd of veranderd zien? / What would you like added or changed?"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: "Welk probleem lost het op? / What problem does it solve?"
+      description: "Wanneer zou dit je helpen? / When would this help you?"
+  - type: markdown
+    attributes:
+      value: |
+        Twijfel je of wil je eerst overleggen? Open liever een **Discussion**.
+
+        _Not sure yet, or want to discuss first? Open a **Discussion** instead._

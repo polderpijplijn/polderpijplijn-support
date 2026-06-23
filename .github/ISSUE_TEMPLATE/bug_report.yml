@@ -1,0 +1,54 @@
+name: "Probleem melden / Report a problem"
+description: "Meld een bug of iets dat niet werkt. / Report a bug or something that isn't working."
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Bedankt voor je melding! Vul hieronder zo veel mogelijk in — dat helpt enorm bij het oplossen.
+
+        _Thanks for reporting! Please fill in as much as you can — it really helps._
+  - type: dropdown
+    id: app
+    attributes:
+      label: "Welke app? / Which app?"
+      options:
+        - Grim Reader
+        - Thuis
+        - "Anders / Other"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: "Wat gebeurde er? / What happened?"
+      description: "Beschrijf het probleem. / Describe the problem."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Stappen om het te herhalen / Steps to reproduce"
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Wat verwachtte je? / What did you expect?"
+  - type: input
+    id: version
+    attributes:
+      label: "App-versie / App version"
+      description: "Te vinden in Instellingen. / Found in Settings."
+  - type: input
+    id: device
+    attributes:
+      label: "Apparaat & iOS-versie / Device & iOS version"
+      placeholder: "bv. iPhone 15, iOS 18.5"
+  - type: textarea
+    id: extra
+    attributes:
+      label: "Schermafbeeldingen of extra info / Screenshots or extra info"
+      description: "Sleep afbeeldingen hierin. / Drag images here."
