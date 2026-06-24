@@ -3,6 +3,21 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 1.70 — 2026-06-24
+
+- **A search bar on every book screen:** every screen with books now has a search
+  bar pinned at the top that searches within that screen — All books, each
+  library, shelf and smart shelf, a series, an author's books, and My books.
+- **Search everything from the home screen:** a search field right under the
+  Grim Reader logo searches your whole library.
+- **Search bar pinned on the Authors screen** so it's always in reach.
+- **Faster edit screen:** opening the edit screen from a book's details no longer
+  stalls while it re-formats the description.
+- **Covers no longer disappear after you change them:** the new cover is uploaded
+  directly instead of asking the server to fetch it, which could fail and wipe the
+  existing cover. Missing covers in a library grid also retry instead of staying
+  blank.
+
 ## 1.69 — 2026-06-24
 
 - **Covers from your Grimmory server refresh straight away:** after you replace
