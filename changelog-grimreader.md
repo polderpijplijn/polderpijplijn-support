@@ -3,6 +3,17 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 1.66 — 2026-06-24
+
+- **Edit metadata for your own books:** for books that don't come from your
+  Grimmory server you can now edit the title, author, language and description
+  from a pencil button on the book screen.
+- **Auto-fill book details online:** search Open Library and Google Books for the
+  whole book and fill in the title, author, language, description and cover in one
+  go — you can still tweak everything by hand afterwards.
+- **Change the cover three ways:** an online cover search, a photo from your
+  library, or an image file.
+
 ## 1.65 — 2026-06-24
 
 - **"Open with …" for EPUB/PDF:** open an EPUB or PDF file from Files or the
