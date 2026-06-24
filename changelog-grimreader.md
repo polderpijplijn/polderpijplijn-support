@@ -3,6 +3,15 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 1.69 — 2026-06-24
+
+- **Covers from your Grimmory server refresh straight away:** after you replace
+  the cover of a server book, the library updates immediately instead of only
+  after restarting the app.
+- **More cover choices when searching:** the online cover search now also looks
+  on Apple Books, alongside Open Library and Google Books — handy for modern
+  titles the others don't have.
+
 ## 1.68 — 2026-06-24
 
 - **Author and series pages now show their books:** when an author or series had
