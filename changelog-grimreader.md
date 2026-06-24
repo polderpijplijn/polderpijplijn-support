@@ -3,6 +3,14 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 1.71 — 2026-06-24
+
+- **A new cover stays put when you go back:** after you change the cover of a book
+  from your Grimmory server, the new image now shows immediately on every screen,
+  including the library grid one step back. Previously the cover could briefly go
+  blank there and only fill in later, because the app re-fetched it from the server
+  before the server had finished saving it. It now reuses the image you just picked.
+
 ## 1.70 — 2026-06-24
 
 - **A search bar on every book screen:** every screen with books now has a search
