@@ -3,6 +3,19 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 1.67 — 2026-06-24
+
+- **Pick the language from a list:** when editing a book you now choose the
+  language from a searchable list of languages instead of typing free text, so
+  it's always stored consistently.
+- **Edit Grimmory books too:** administrators can now edit the title, author,
+  language and description of books from your Grimmory server — including the
+  online "search the whole book" auto-fill and online cover search — just like
+  for your own local books.
+- **Read-aloud now scrolls and highlights:** starting read-aloud switches the
+  reader to scroll mode and highlights the sentence being spoken; the highlight
+  is now visible in every theme.
+
 ## 1.66 — 2026-06-24
 
 - **Edit metadata for your own books:** for books that don't come from your
