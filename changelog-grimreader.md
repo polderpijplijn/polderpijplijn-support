@@ -1,37 +1,36 @@
-# Wijzigingslog — Grim Reader
+# Changelog — Grim Reader
 
-Alle noemenswaardige wijzigingen per release. Nieuwste bovenaan.
-Versies komen overeen met de `vX.Y`-tags en `CFBundleShortVersionString`.
+All notable changes per release. Newest first.
+Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## 1.65 — 2026-06-24
 
-- **"Open met …" voor EPUB/PDF:** open een EPUB- of PDF-bestand vanuit Bestanden
-  of het deelblad rechtstreeks in Grim Reader. Het bestand wordt in je lokale
-  bibliotheek bewaard en meteen geopend — ook zonder dat je op de server bent
-  ingelogd.
-- **"Gedownload" wordt "Mijn boeken":** serverdownloads en lokaal toegevoegde
-  of uit een catalogus gedownloade boeken staan nu samen in één raster.
-  Boeken van je eigen Grimmory-server hebben een NAS-badge op de cover.
-- De Ontdek-tab toont voortaan alleen de catalogi; de download-sectie is naar
-  "Mijn boeken" verhuisd.
+- **"Open with …" for EPUB/PDF:** open an EPUB or PDF file from Files or the
+  share sheet straight into Grim Reader. The file is saved to your local
+  library and opened right away — even when you're not signed in to the server.
+- **"Downloaded" becomes "My books":** server downloads and locally added or
+  catalogue-downloaded books now sit together in a single grid. Books from your
+  own Grimmory server carry a NAS badge on the cover.
+- The Discover tab now shows only the catalogues; the downloads section moved
+  to "My books".
 
 ## 1.64 — 2026-06-23
 
-- **Nieuwe Ontdek-tab met DRM-vrije catalogi (Project Gutenberg):** blader door
-  ruim 70.000 gratis publieke-domeinboeken, download ze en lees ze offline in de
-  app. Werkt los van je Grimmory-server.
+- **New Discover tab with DRM-free catalogues (Project Gutenberg):** browse
+  over 70,000 free public-domain books, download them and read them offline in
+  the app. Works independently of your Grimmory server.
 
 ## 1.62 — 2026-06-23
 
-- iPad-zijpaneel sprong niet langer terug naar Favorieten: de geselecteerde
-  plank/bibliotheek blijft nu staan.
-- De verbindingscontrole ververst de weergave niet meer onnodig.
+- The iPad sidebar no longer jumps back to Favourites: the selected shelf or
+  library now stays put.
+- The connection check no longer refreshes the view unnecessarily.
 
 ## 1.61 — 2026-06-23
 
-- Verbeteringen aan de offline-demo.
+- Improvements to the offline demo.
 
 ## 1.60 — 2026-06-23
 
-- Demoknop hernoemd naar "Offline demo".
-- Verzorgde, in code getekende kaften voor de demoboeken.
+- Renamed the demo button to "Offline demo".
+- Polished, code-drawn covers for the demo books.
