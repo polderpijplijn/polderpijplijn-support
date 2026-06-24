@@ -3,6 +3,15 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 1.68 — 2026-06-24
+
+- **Author and series pages now show their books:** when an author or series had
+  stray spaces in its stored name, the page showed a book count but no books.
+  It now falls back to searching, so the books appear just like they do when you
+  search for them.
+- **Covers refresh straight away:** after you edit a book and change its cover,
+  "My books" now updates immediately instead of only after restarting the app.
+
 ## 1.67 — 2026-06-24
 
 - **Pick the language from a list:** when editing a book you now choose the
