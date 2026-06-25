@@ -3,6 +3,20 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 1.79 — 2026-06-25
+
+- **De app werkt nu ook zonder Grimmory-server:** wil je alleen boeken van een
+  WebDAV-server (NAS, Nextcloud e.d.) lezen, dan kun je vanaf het inlogscherm meteen
+  een WebDAV-server toevoegen zonder eerst op een Grimmory-server in te loggen. De
+  Grimmory-specifieke onderdelen (Start, Series, Schrijvers, Bibliotheken, Zoeken,
+  Onderhoud …) blijven dan netjes verborgen; je ziet enkel je servers, Mijn boeken en
+  Ontdek. Log je later alsnog in op een Grimmory-server, dan verschijnt alles vanzelf.
+- **Onderhoud opgeruimd in Instellingen:** de beheerdersfuncties voor je Grimmory-
+  bibliotheek (duplicaten, samenvoegen, metadata aanvullen …) staan nu samen onder één
+  "Onderhoud"-knop in plaats van los onder elkaar.
+- **Geen storende balk meer:** de rode "geen verbinding"-strook onderaan is verdwenen;
+  schermen die niet kunnen laden tonen zelf al een melding.
+
 ## 1.78 — 2026-06-25
 
 - **Boeken van een WebDAV-server bewerken:** open je een boek van een WebDAV-server,
