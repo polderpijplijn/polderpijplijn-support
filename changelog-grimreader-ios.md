@@ -3,6 +3,14 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 1.80 — 2026-06-25
+
+- **Uitloggen houdt je in de app:** log je uit van je Grimmory-server, dan kom je nu
+  netjes terug in het hoofdmenu (met Mijn boeken, Ontdek en je WebDAV-servers) in plaats
+  van vast te lopen op het accountscherm. En na een herstart word je niet meer naar het
+  Grimmory-inlogscherm gedwongen zodra je de app eenmaal hebt gebruikt — opnieuw inloggen
+  kan altijd via Instellingen.
+
 ## 1.79 — 2026-06-25
 
 - **De app werkt nu ook zonder Grimmory-server:** wil je alleen boeken van een
