@@ -3,6 +3,18 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 1.77 — 2026-06-25
+
+- **Voortgang tijdens het scannen van een WebDAV-server:** loopt de app map voor
+  map door de server, dan zie je nu live "X mappen doorzocht · Y boeken" onder de
+  spinner, en een balkje bovenaan als je een al gevulde lijst vernieuwt — zodat je
+  ziet dat hij nog bezig is in plaats van enkel een tollend wieltje.
+- **Bibliotheek laadt direct op een tweede toestel:** na een scan bewaart de app de
+  hele boekenstructuur als `books.yaml` op de server zelf (naast `authors.yaml`).
+  Open je dezelfde server op een ander toestel, dan verschijnt de bibliotheek meteen
+  uit die index in plaats van opnieuw de hele mappenboom te scannen; covers vullen
+  daarna vanzelf aan. Op een alleen-lezen share blijft het bij de gewone scan.
+
 ## 1.76 — 2026-06-25
 
 - **Schrijversinfo bij WebDAV-boeken:** open je een boek van een WebDAV-server, dan
