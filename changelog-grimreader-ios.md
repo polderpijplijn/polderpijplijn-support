@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 1.81 — 2026-06-25
+
+- **VoiceOver houdt je leespositie vast:** zet je VoiceOver aan (of weer uit) terwijl je
+  een EPUB leest, dan blijft de lezer nu staan waar je was, in plaats van terug te springen
+  naar het begin van het hoofdstuk. De positie wordt bij het wisselen tussen kolom- en
+  doorlopende voorleesweergave bewaard.
+
 ## 1.80 — 2026-06-25
 
 - **Uitloggen houdt je in de app:** log je uit van je Grimmory-server, dan kom je nu
