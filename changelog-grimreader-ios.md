@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 1.82 — 2026-06-26
+
+- **Swipen om te bladeren:** veeg in de EPUB-lezer naar links voor de volgende pagina en
+  naar rechts voor de vorige — naast het bestaande tikken links/rechts. De veegbeweging
+  werkte voorheen niet doordat de tekstweergave hem opslokte; dat is nu verholpen.
+
 ## 1.81 — 2026-06-25
 
 - **VoiceOver houdt je leespositie vast:** zet je VoiceOver aan (of weer uit) terwijl je
