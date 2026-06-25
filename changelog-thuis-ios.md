@@ -3,6 +3,9 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.76 — 2026-06-25
+- Climate screen: the local weather for your location (the outdoor temperature sensor plus the Home Assistant weather entity — condition, temperature and humidity) now shows in a separate "Location" card at the top, instead of being mixed in with the room sensors. Only your own temperature and humidity sensors remain in the indoor/outdoor room lists.
+
 ## 4.75 — 2026-06-25
 - New "Climate" tile and detail screen: indoor and outdoor temperature and humidity from any sensors connected to Home Assistant. Detection is brand-independent — sensors are recognised by their Home Assistant device class, so Aqara, Xiaomi, SwitchBot, Shelly, Sonoff, Govee and others all work. Temperature and humidity from the same spot are paired into one room, split into indoor and outdoor, and each room can be given a custom name.
 
