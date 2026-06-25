@@ -3,6 +3,16 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 1.73 — 2026-06-25
+
+- **De tekst springt niet meer als je het paneel opent:** tik je tijdens het lezen
+  onderaan om de bediening te tonen, dan blijft de pagina nu staan. Eerder schoof de
+  statusbalk mee waardoor het boek opnieuw werd ingedeeld en de tekst versprong.
+- **Gewijzigde schrijversfoto verandert direct overal:** pas je een auteur aan
+  (foto, naam of een online match), dan ververst de portretfoto meteen op elk scherm,
+  ook in de lijst "Schrijvers" — net zoals boekkaften dat al deden. Voorheen zag je
+  de nieuwe foto pas na het herstarten van de app.
+
 ## 1.72 — 2026-06-25
 
 - **You're back where you stopped reading:** when you leave a book and come back,
