@@ -3,6 +3,9 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.75 — 2026-06-25
+- New "Climate" tile and detail screen: indoor and outdoor temperature and humidity from any sensors connected to Home Assistant. Detection is brand-independent — sensors are recognised by their Home Assistant device class, so Aqara, Xiaomi, SwitchBot, Shelly, Sonoff, Govee and others all work. Temperature and humidity from the same spot are paired into one room, split into indoor and outdoor, and each room can be given a custom name.
+
 ## 4.74 — 2026-06-25
 - The dashboard's solar "expected today" tile now matches the figure in the solar detail screen. It previously dropped to just the energy produced so far whenever the live forecast fetch came back empty; it now falls back to the cached forecast like the detail view already did.
 - The "Forecast accuracy" line is now solid from the first real (pre-frozen) prediction onward, even when only one real day exists yet — so the day you started getting genuine predictions no longer shows up as a dashed endpoint.
