@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.78 — 2026-06-25
+- New ventilation tip: pick an indoor and an outdoor temperature sensor in Settings, and the dashboard shows "You can ventilate now" whenever it's warmer than 20°C indoors and more than 1°C cooler outside — the moment to air out without cooling the house down.
+- Fixed a bug where the app could suddenly jump to the setup screen (with no "Done" button and a greyed-out "Connect" button); a transient empty iCloud sync read was briefly clearing the stored host/token. The app now only adopts non-empty synced credentials.
+
 ## 4.77 — 2026-06-25
 - Climate screen now shows only real combined sensors: an entry appears only when a sensor reports both temperature and humidity, and only actual `sensor.*` measurements are considered. This removes the clutter from devices like the SONOFF SNZB-02D, which expose extra configuration/threshold entities (comfort min/max temperature, comfort humidity limits, humidity compensation) and from standalone temperature-only or humidity-only sensors.
 
