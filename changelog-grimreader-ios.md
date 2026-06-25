@@ -3,6 +3,17 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 1.78 — 2026-06-25
+
+- **Boeken van een WebDAV-server bewerken:** open je een boek van een WebDAV-server,
+  dan kun je nu via het potlood titel, auteur, taal en omschrijving aanpassen — net
+  als bij je eigen boeken in "Mijn boeken". Je kunt ook de cover vervangen via een
+  online zoekopdracht, een foto of een bestand. De wijzigingen worden bewaard in de
+  `books.yaml` op de server zelf, zodat ze op al je toestellen verschijnen; heb je het
+  boek gedownload, dan worden de gegevens daar meteen mee bijgewerkt.
+- **Rustiger overzicht:** het mapicoon ("Bladeren per map") is uit het serverboeken-
+  raster gehaald; het scherm toont nu enkel je boeken.
+
 ## 1.77 — 2026-06-25
 
 - **Voortgang tijdens het scannen van een WebDAV-server:** loopt de app map voor
