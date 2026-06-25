@@ -3,6 +3,16 @@
 Alle noemenswaardige wijzigingen per release. Nieuwste eerst.
 Versies komen overeen met de `vX.Y`-tags en `versionName`.
 
+## 1.3 — 2026-06-25
+
+- **Ontdek (gratis boeken):** een nieuw "Ontdek"-icoon bovenin opent een
+  catalogus met gratis, legale boeken uit Project Gutenberg. Blader of zoek,
+  download in EPUB of PDF, en je boeken belanden in "Mijn boeken" om offline te
+  lezen.
+- **Leespositie wordt onthouden:** de lezer onthoudt nu waar je gebleven was —
+  bij EPUB het hoofdstuk, bij PDF de pagina — zodat je een boek weer opent op de
+  plek waar je stopte.
+
 ## 1.2 — 2026-06-25
 
 - **Mijn boeken (offline):** een nieuw "Mijn boeken"-icoon bovenin opent je
