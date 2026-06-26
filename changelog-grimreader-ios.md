@@ -3,6 +3,14 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 1.96 — 2026-06-26
+
+- **Eerste tik op Vertalen pakt nu meteen de juiste paginatekst:** het
+  vertaalscherm werd geopend via een aparte aan/uit-schakelaar terwijl de tekst in
+  losse toestand stond, waardoor de sheet die tekst soms nog leeg inlas (de "0
+  tekens / geen debug"-meldingen). De paginatekst reist nu mee als het item dat het
+  scherm opent, dus het scherm krijgt gegarandeerd precies de uitgelezen pagina.
+
 ## 1.95 — 2026-06-26
 
 - **Vertalen leest de pagina nu zonder reflow-race uit:** de uitlezing zette vlak
