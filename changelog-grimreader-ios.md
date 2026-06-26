@@ -3,6 +3,15 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 1.84 — 2026-06-26
+
+- **Je blijft langer ingelogd op je Grimmory-server:** een tijdelijke serverhapering
+  (bijvoorbeeld als de NAS net even herstart) meldt je niet meer onnodig af. Pas als je
+  aanmelding echt is verlopen, kom je terug op het inlogscherm.
+- **Vertalen (proef) werkt nu echt:** koos je een taal die je nog niet had, dan bleef het
+  bij een tollend wieltje. iOS vraagt nu netjes om het taalpakket te downloaden, en de
+  brontaal wordt uit de boekgegevens gehaald (of anders automatisch herkend).
+
 ## 1.83 — 2026-06-26
 
 - **Eigen OPDS-catalogi:** voeg in Instellingen je eigen OPDS-bron toe (bijvoorbeeld een
