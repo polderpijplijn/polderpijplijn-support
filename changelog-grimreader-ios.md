@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 1.89 — 2026-06-26
+
+- **Vertalen pakt nu daadwerkelijk alleen de huidige pagina:** de vorige poging las
+  de zichtbare tekst nog niet goed uit en viel terug op het hele hoofdstuk (traag).
+  De paginatekst wordt nu betrouwbaar bepaald, zodat alleen wat op het scherm staat
+  vertaald wordt.
+
 ## 1.88 — 2026-06-26
 
 - **Vertalen pakt nu echt alleen de huidige pagina:** in 1.87 viel hij soms terug
