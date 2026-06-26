@@ -3,6 +3,16 @@
 Alle noemenswaardige wijzigingen per release. Nieuwste eerst.
 Versies komen overeen met de `vX.Y`-tags en `versionName`.
 
+## 1.6 — 2026-06-26
+
+- **Echte paginatie:** EPUB-boeken bladeren nu pagina voor pagina in plaats van te
+  scrollen — de tekst wordt in schermvullende kolommen verdeeld. Tik links/rechts of
+  veeg om te bladeren; aan het eind van een hoofdstuk loop je door naar het volgende.
+- **PDF per pagina:** PDF's blader je nu ook pagina voor pagina (horizontaal vegen),
+  waarbij elke pagina volledig in beeld past.
+- **Nette schermranden:** tekst en pagina's blijven netjes binnen het scherm en vallen
+  niet meer onder de camera of de systeembalken.
+
 ## 1.5 — 2026-06-26
 
 - **Strips lezen (CBZ/CBR):** boeken in stripformaat (cbz, cbr, cb7) open je nu
