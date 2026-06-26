@@ -3,6 +3,15 @@
 Alle noemenswaardige wijzigingen per release. Nieuwste eerst.
 Versies komen overeen met de `vX.Y`-tags en `versionName`.
 
+## 1.4 — 2026-06-26
+
+- **Engelstalige interface:** de app spreekt nu ook Engels. De teksten volgen de
+  taal van je toestel — Nederlands of Engels — in plaats van alleen Nederlands.
+- **Toegankelijker met TalkBack:** boeken in de lijsten worden nu als één
+  duidelijke knop voorgelezen (titel, auteur), schermtitels zijn als koptekst
+  gemarkeerd voor snellere navigatie, en covers worden niet meer dubbel
+  voorgelezen.
+
 ## 1.3 — 2026-06-25
 
 - **Ontdek (gratis boeken):** een nieuw "Ontdek"-icoon bovenin opent een
