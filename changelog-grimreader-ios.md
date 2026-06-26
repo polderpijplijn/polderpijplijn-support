@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 1.90 — 2026-06-26
+
+- **Tijdelijke diagnose in de vertaalweergave:** toont onder "Diagnose (tijdelijk)"
+  hoeveel paginatekst wordt opgehaald, om te achterhalen waarom het vertalen het hele
+  hoofdstuk pakte in plaats van de huidige pagina. Wordt in een volgende versie weer
+  verwijderd.
+
 ## 1.89 — 2026-06-26
 
 - **Vertalen pakt nu daadwerkelijk alleen de huidige pagina:** de vorige poging las
