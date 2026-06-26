@@ -3,6 +3,14 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 1.93 — 2026-06-26
+
+- **Vertalen pakt nu correct de huidige pagina, ook met twee kolommen:** de
+  paginatekst werd bepaald door af te ronden op één staprondte, waardoor de tweede
+  kolom (en soms de hele pagina) buiten beeld viel en hij terugviel op het hele
+  hoofdstuk (traag). De zichtbare tekst wordt nu bepaald op de x-band van de pagina,
+  met een terugval op wat letterlijk in beeld staat. De korte herpoging is ingekort.
+
 ## 1.92 — 2026-06-26
 
 - **Vertalen pakt nu betrouwbaar de huidige pagina, ook bij de eerste tik:** de
