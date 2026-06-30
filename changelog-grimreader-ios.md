@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 2.56 — 2026-06-30
+
+- **`navigator.epubReadingSystem` toegevoegd:** boeken met eigen scripts (EPUB3 "scripted content") kunnen nu detecteren wat de lezer ondersteunt, zoals de spec voorschrijft. Gemeld als geen muis-events (een touch-toestel heeft er geen), zodat scripts die daarop letten netjes terugvallen op native bediening.
+- **`linear="no"`-pagina's overgeslagen:** een omslagpagina die in de spine buiten de normale leesvolgorde staat (zoals bij het EPUB3-voorbeeldbestand "A Shared Culture") verscheen voorheen ten onrechte als gewone eerste pagina, dubbel op met het al aparte omslagscherm van de app. Wordt nu overgeslagen, zoals de spec voorschrijft.
+
 ## 2.55 — 2026-06-30
 
 - **Video in EPUB's speelt nu af:** `autoplay`-video startte nooit vanzelf (WKWebView blokkeert dat standaard zonder gebruikersactie), en de onzichtbare bladerlaag onderschepte ook elke tik bedoeld voor de eigen afspeelknop van de video. Beide zijn gefixt: autoplay-video start nu vanzelf, en op pagina's met video maakt de bladerlaag plaats na de eerste tik zodat de video-bediening bereikbaar wordt.
