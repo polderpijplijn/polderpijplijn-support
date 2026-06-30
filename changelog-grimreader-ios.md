@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 2.55 — 2026-06-30
+
+- **Video in EPUB's speelt nu af:** `autoplay`-video startte nooit vanzelf (WKWebView blokkeert dat standaard zonder gebruikersactie), en de onzichtbare bladerlaag onderschepte ook elke tik bedoeld voor de eigen afspeelknop van de video. Beide zijn gefixt: autoplay-video start nu vanzelf, en op pagina's met video maakt de bladerlaag plaats na de eerste tik zodat de video-bediening bereikbaar wordt.
+
 ## 2.54 — 2026-06-30
 
 - **EPUB3 Media Overlays (voorlezing met echte audio):** boeken die per pagina een ingesproken audiospoor + SMIL-synchronisatie bevatten (zoals Grim-books die genereert) tonen nu een "Voorlezing afspelen"-knop met de eigen audio van het boek, in plaats van alleen de robotstem-voorleesfunctie. Speelt automatisch door naar de volgende pagina als die ook audio heeft, met pauzeren en vorig/volgend fragment.
