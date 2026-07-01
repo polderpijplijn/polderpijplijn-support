@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 2.70 — 2026-07-01
+
+- **Voorlezen fundamenteel herbouwd voor betrouwbaar doorspelen op de achtergrond.** Zes pogingen om de live spraakmotor op de achtergrond aan de praat te houden strandden op hetzelfde iOS-gedrag: de volgende zin start simpelweg niet meer, hoe correct de audio-instellingen ook staan. Het voorlezen rendert de zinnen nu vooraf als kleine audiofragmenten en speelt die naadloos af via dezelfde afspeeltechniek als audioboeken — die aantoonbaar wél feilloos doorspelen. Bediening, zin-oplichting, hoofdstukdoorloop en snelheid werken zoals voorheen.
+
 ## 2.69 — 2026-07-01
 
 - **Voorlezen op de achtergrond, volgende poging:** de spraakstem gebruikt nu een eigen, door iOS beheerde audiosessie (de bekende oplossing van de Apple-ontwikkelaarsforums voor "leest één zin en valt dan stil"). De diagnose uit 2.68 bewees dat de app-sessie zelf al die tijd correct stond, dus het probleem zit in de spraakmotor zelf.
