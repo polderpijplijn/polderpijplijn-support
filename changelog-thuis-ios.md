@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.81 — 2026-07-01
+- Fixed a gap in the EV charging graph: while actively charging with the sun out, the current (still in-progress) hour always showed 0% solar, because the grid/solar split relied on Home Assistant's hourly statistics, which only finalize once an hour has fully elapsed. The current hour now falls back to the live self-sufficiency ratio (already updated every second) instead.
+- The charge-power slider is back on the EV charging screen — set the OCPP charge limit (in kW, up to the charger's hardware maximum) during an active session. It now also shows the live measured power right next to it, so you can immediately see whether raising the limit actually increases the delivered power, or whether the charger itself has a lower local cap in place that PlugChoice's API can't see or override.
+
 ## 4.80 — 2026-07-01
 - New "Analyses" tab: the savings analysis, home battery capacity advice and heat pump exploration cards moved off the home screen (which had grown to 12+ tiles) into their own tab, with a disclaimer at the top that these are indicative model-based calculations, not guarantees.
 
