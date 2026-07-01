@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.79 — 2026-07-01
+- Fixed the remaining case of the "app jumps to the setup screen" bug from 4.78: that fix covered later iCloud sync notifications, but the very first read on a cold launch could still momentarily treat an empty iCloud value as real and wipe the locally cached host/token. Mostly noticeable on iPhone, since iOS terminates suspended apps there far more aggressively than on iPad, so closing and reopening the app tends to force a real cold launch (and hit this window) sooner.
+- "Expected today" on the solar tile and detail screen now stays pinned for the whole day instead of drifting with every new weather forecast — the accuracy graph already used a frozen daily total, but the headline number next to it was still recalculated live on each refresh.
+- The efficiency detail screen now opens on the same rolling 12-month window the dashboard tile uses, instead of the calendar year — so the letter grade shown there always matches the tile instead of occasionally disagreeing with it.
+
 ## 4.78 — 2026-06-25
 - New ventilation tip: pick an indoor and an outdoor temperature sensor in Settings, and the dashboard shows "You can ventilate now" whenever it's warmer than 20°C indoors and more than 1°C cooler outside — the moment to air out without cooling the house down.
 - Fixed a bug where the app could suddenly jump to the setup screen (with no "Done" button and a greyed-out "Connect" button); a transient empty iCloud sync read was briefly clearing the stored host/token. The app now only adopts non-empty synced credentials.
