@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 2.62 — 2026-07-01
+
+- **Voorlezen heeft nu bediening op het toegangsscherm en in Bedieningspaneel.** Titel, auteur en omslag van het boek verschijnen in het "speelt nu"-paneel, met knoppen voor afspelen/pauzeren en de vorige/volgende zin — ook met het scherm op slot. Voorheen had alleen de audioboek-speler dit.
+
 ## 2.61 — 2026-07-01
 
 - **Voorlezen speelt nu door op de achtergrond en met het scherm op slot.** Voorheen las de voorleesstem één zin, stopte en wachtte — waardoor iOS de app op de achtergrond schorste en het geluid na de eerste zin stilviel. De resterende zinnen van een hoofdstuk worden nu in één keer klaargezet, zodat het voorlezen ononderbroken doorloopt.
