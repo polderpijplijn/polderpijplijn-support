@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 2.67 — 2026-07-01
+
+- **Voorlezen op de achtergrond: terug naar de bewezen werkende aanpak.** De slimmere sessie-afhandeling uit 2.66 bleek de verse start juist te breken; het voorlezen herstelt de audiosessie nu altijd expliciet vóór het starten, exact zoals in de versie waar dit aantoonbaar werkte.
+- **Tijdelijke diagnoseregel in het voorleespaneel** die laat zien wat de audiosessie werkelijk deed — ook van de vorige app-sessie, mocht de app op de achtergrond zijn beëindigd. Wordt weer verwijderd zodra het achtergrond-voorlezen op alle paden bevestigd werkt.
+
 ## 2.66 — 2026-07-01
 
 - **Voorlezen bij een verse start speelt weer door op de achtergrond.** De leesweergave zelf (de webweergave die de boekpagina toont) claimt bij het laden de audiosessie, waardoor het voorlezen in 2.65 op de achtergrond stilviel en de app zelfs afgesloten kon worden. Het voorlezen en de ingesproken-audiospeler zetten de sessie nu eerst expliciet terug — behalve wanneer die net door de audioboekspeler is overgedragen, want dat pad werkte juist al.
