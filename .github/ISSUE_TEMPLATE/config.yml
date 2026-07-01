@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: "Vraag stellen / Ask a question"
-    url: https://github.com/diveman50/polderpijplijn-support/discussions
+    url: https://github.com/polderpijplijn/polderpijplijn-support/discussions
     about: "Voor vragen en overleg. / For questions and discussion."
   - name: "Kennisbank / Knowledge base"
     url: https://www.polderpijplijn.nl/support/

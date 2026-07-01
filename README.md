@@ -7,9 +7,9 @@ Support en feedback voor de [Polderpijplijn](https://www.polderpijplijn.nl)-apps
 
 ## Wat kan ik hier doen? / What can I do here?
 
-- **Probleem melden / Report a problem** — [open een issue](https://github.com/diveman50/polderpijplijn-support/issues/new?template=bug_report.yml)
-- **Functie voorstellen / Suggest a feature** — [open een issue](https://github.com/diveman50/polderpijplijn-support/issues/new?template=feature_request.yml)
-- **Vraag stellen / Ask a question** — [start een discussie](https://github.com/diveman50/polderpijplijn-support/discussions)
+- **Probleem melden / Report a problem** — [open een issue](https://github.com/polderpijplijn/polderpijplijn-support/issues/new?template=bug_report.yml)
+- **Functie voorstellen / Suggest a feature** — [open een issue](https://github.com/polderpijplijn/polderpijplijn-support/issues/new?template=feature_request.yml)
+- **Vraag stellen / Ask a question** — [start een discussie](https://github.com/polderpijplijn/polderpijplijn-support/discussions)
 - **Hulp lezen / Read help** — [kennisbank op de website](https://www.polderpijplijn.nl/support/)
 
 Liever privé? Mail naar `info@polderpijplijn.nl`.
