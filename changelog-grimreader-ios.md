@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 2.68 — 2026-07-01
+
+- **Voorlezen op de achtergrond: de echte oorzaak gevonden en verholpen.** De diagnose uit 2.67 wees uit dat de audiosessie al die tijd correct stond — het probleem is dat de spraakstem tussen twee zinnen een fractie van een seconde stil is, en iOS de app precies in dat gaatje als "speelt niets" aanmerkt, waarna de volgende zin nooit meer start. Een onhoorbare achtergrondloop houdt de audio nu continu, zodat het voorlezen ook op de achtergrond gewoon doorleest.
+
 ## 2.67 — 2026-07-01
 
 - **Voorlezen op de achtergrond: terug naar de bewezen werkende aanpak.** De slimmere sessie-afhandeling uit 2.66 bleek de verse start juist te breken; het voorlezen herstelt de audiosessie nu altijd expliciet vóór het starten, exact zoals in de versie waar dit aantoonbaar werkte.
