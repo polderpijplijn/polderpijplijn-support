@@ -3,6 +3,20 @@
 Alle noemenswaardige wijzigingen per release. Nieuwste eerst.
 Versies komen overeen met de `vX.Y`-tags en `versionName`.
 
+## 1.8 — 2026-07-03
+
+- **Startscherm herbouwd** met horizontale planken — Lees verder, Luister verder,
+  Recent toegevoegd en Ontdek — plus een zoekbalk die de hele bibliotheek doorzoekt,
+  en een tabbalk onderin (Start/Boeken/Mijn boeken/Instellingen) voor snelle
+  navigatie.
+- **Audioboeken**: een volwaardige speler met hoofdstukken, schuifbalk, ±10/30
+  seconden, afspeelsnelheid (0.75x–2x) en bediening op het toegangsscherm en in
+  Bedieningspaneel. Afspelen loopt door als je het scherm sluit; de voortgang
+  wordt bewaard op de server.
+- **WebDAV-servers**: voeg een NAS of Nextcloud toe onder Instellingen → Servers,
+  scan de boekenboom en download rechtstreeks naar Mijn boeken. Titel, auteur en
+  omslag worden automatisch uit elk bestand gehaald.
+
 ## 1.7 — 2026-07-03
 
 - **De app werkt nu ook zonder Grimmory-server.** "Gebruik zonder server" op het
