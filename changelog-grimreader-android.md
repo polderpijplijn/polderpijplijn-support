@@ -3,6 +3,11 @@
 Alle noemenswaardige wijzigingen per release. Nieuwste eerst.
 Versies komen overeen met de `vX.Y`-tags en `versionName`.
 
+## 1.11 — 2026-07-03
+
+- **Kleinere app** (~80MB → ~33MB): de installatie splitst nu per
+  CPU-architectuur i.p.v. één universeel bestand met alle vier erin.
+
 ## 1.10 — 2026-07-03
 
 - **Schrijvers**: doorzoekbare lijst met foto en boekentelling; tik voor de
