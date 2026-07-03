@@ -3,6 +3,17 @@
 Alle noemenswaardige wijzigingen per release. Nieuwste eerst.
 Versies komen overeen met de `vX.Y`-tags en `versionName`.
 
+## 1.7 — 2026-07-03
+
+- **De app werkt nu ook zonder Grimmory-server.** "Gebruik zonder server" op het
+  inlogscherm maakt Mijn boeken het startscherm; importeer eigen EPUB- en
+  PDF-bestanden via de "+"-knop (bestandskiezer, meerdere tegelijk), of stuur ze
+  vanuit een andere app naar Grim Reader via "Openen met…". Titel, auteur en
+  omslag worden uit het boek zelf gelezen.
+- **Offline demo:** drie voorbeeldboeken om de app te proberen zonder server.
+- Mijn boeken toont voortaan alles wat offline leesbaar is op één plek:
+  server-downloads en lokaal toegevoegde boeken samen.
+
 ## 1.6 — 2026-06-26
 
 - **Echte paginatie:** EPUB-boeken bladeren nu pagina voor pagina in plaats van te
