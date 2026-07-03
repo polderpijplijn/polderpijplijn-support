@@ -3,6 +3,12 @@
 Alle noemenswaardige wijzigingen per release. Nieuwste eerst.
 Versies komen overeen met de `vX.Y`-tags en `versionName`.
 
+## 1.9 — 2026-07-03
+
+- **Sjablonen**: pas het uiterlijk van de app aan met kleuren en een
+  achtergrondafbeelding, onder Instellingen → Sjablonen. Sjabloonpakketten
+  (`.grimtemplate`) zijn uitwisselbaar met de iOS-app.
+
 ## 1.8 — 2026-07-03
 
 - **Startscherm herbouwd** met horizontale planken — Lees verder, Luister verder,
