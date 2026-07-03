@@ -3,6 +3,25 @@
 Alle noemenswaardige wijzigingen per release. Nieuwste eerst.
 Versies komen overeen met de `vX.Y`-tags en `versionName`.
 
+## 1.10 — 2026-07-03
+
+- **Schrijvers**: doorzoekbare lijst met foto en boekentelling; tik voor de
+  boeken van die auteur.
+- **Series**: doorzoekbaar raster van boekenreeksen, met de boeken per serie.
+- **Planken**: handmatige en slimme planken van de server, bereikbaar via de
+  "Boeken"-tab.
+- **Favorieten**: markeer boeken en schrijvers met een hartje; eigen overzicht.
+- **Taalfilterbalk**: snel filteren op boektaal boven het boekenraster.
+- **Eigen OPDS-catalogi**: voeg naast Project Gutenberg zelf een OPDS-adres toe
+  onder Ontdek.
+- **Vertalen op het scherm**: vertaal het huidige hoofdstuk on-device naar
+  Nederlands, Engels, Duits, Frans, Spaans of Italiaans.
+- **Media Overlays**: boeken met eigen ingesproken audio (zoals Grim-books
+  genereert) krijgen een afspeelbediening in de lezer die de pagina's automatisch
+  meebeweegt.
+- **App-informatie**: nieuw scherm met versie en licenties, bereikbaar via de
+  appnaam op het startscherm.
+
 ## 1.9 — 2026-07-03
 
 - **Sjablonen**: pas het uiterlijk van de app aan met kleuren en een
