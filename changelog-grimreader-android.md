@@ -3,6 +3,14 @@
 Alle noemenswaardige wijzigingen per release. Nieuwste eerst.
 Versies komen overeen met de `vX.Y`-tags en `versionName`.
 
+## 1.16 — 2026-07-04
+
+- **Meer scherm voor je boeken**: op de Boeken-tab en het startscherm scrollen
+  de kop, zoekbalk en filters mee weg, zodat de boeken vrijwel het hele scherm
+  vullen. Ook de loze strook onderaan de schermen is weg.
+- **Sjabloon-afbeeldingen op het boekdetailscherm**: de achtergrond- en
+  boekkaart-afbeelding van je sjabloon tonen nu ook daar, net als op iOS.
+
 ## 1.15 — 2026-07-04
 
 - **Boek bewerken**: pas titel, auteur(s), taal en samenvatting aan via het
