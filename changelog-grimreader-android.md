@@ -3,6 +3,15 @@
 Alle noemenswaardige wijzigingen per release. Nieuwste eerst.
 Versies komen overeen met de `vX.Y`-tags en `versionName`.
 
+## 1.14 — 2026-07-04
+
+- **Audioboek-kaart met omslag**: de medianotificatie en het toegangsscherm
+  tonen nu een volwaardige kaart met de boekomslag; tikken opent de app.
+- **Material 3 door de hele app**: echte filterchips (met vinkje en
+  tik-effect), nette lijstrijen bij Schrijvers/Planken/Favorieten,
+  pil-vormige zoekbalken met wisknop, en alle kleuren en vormen volgen nu
+  overal het gekozen sjabloon.
+
 ## 1.13 — 2026-07-04
 
 - **Boek-infoscherm in Mijn boeken**: tikken op een boek opent nu eerst een
