@@ -3,6 +3,13 @@
 Alle noemenswaardige wijzigingen per release. Nieuwste eerst.
 Versies komen overeen met de `vX.Y`-tags en `versionName`.
 
+## 1.12 — 2026-07-04
+
+- **Zwevende onderbalk**: pil-vormig met ronde hoeken en marge tot de randen,
+  i.p.v. de rand-tot-rand balk — net als op iOS.
+- **Startscherm met diepte**: elke plank (Lees verder/Luister verder/Recent
+  toegevoegd/Ontdekken) staat nu in een eigen kaart met schaduw.
+
 ## 1.11 — 2026-07-03
 
 - **Kleinere app** (~80MB → ~33MB): de installatie splitst nu per
