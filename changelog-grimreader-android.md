@@ -3,6 +3,14 @@
 Alle noemenswaardige wijzigingen per release. Nieuwste eerst.
 Versies komen overeen met de `vX.Y`-tags en `versionName`.
 
+## 1.13 — 2026-07-04
+
+- **Boek-infoscherm in Mijn boeken**: tikken op een boek opent nu eerst een
+  infopagina (omslag, titel, auteur, samenvatting) i.p.v. direct de lezer.
+- **Modernere Android-basis**: systeemanimatie bij terug-swipen (predictive
+  back), een actueel Material3-basisthema en een consistente typografieschaal
+  door de hele app.
+
 ## 1.12 — 2026-07-04
 
 - **Zwevende onderbalk**: pil-vormig met ronde hoeken en marge tot de randen,
