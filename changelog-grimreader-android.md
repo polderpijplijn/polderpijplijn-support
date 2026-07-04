@@ -3,6 +3,21 @@
 Alle noemenswaardige wijzigingen per release. Nieuwste eerst.
 Versies komen overeen met de `vX.Y`-tags en `versionName`.
 
+## 1.15 — 2026-07-04
+
+- **Boek bewerken**: pas titel, auteur(s), taal en samenvatting aan via het
+  potlood-icoon op het boekdetailscherm (vereist bewerkrechten op de server).
+- **Grote audioboek-omslag op het toegangsscherm**: de omslag vult nu de
+  mediakaart i.p.v. een klein plaatje.
+- **Crash gefixt** bij het openen van de app-informatie op het startscherm.
+- **Audioboek-omslagen** tonen nu ook in het Boeken-raster en op het
+  detailscherm.
+- **Sjabloon importeren gefixt**: de knop werd door de lijst van het scherm
+  gedrukt.
+- **Standaard Android-onderbalk** is terug (de zwevende variant beviel niet),
+  nu met sjabloon-kleuren.
+- **Rustigere Boeken-kop**: Favorieten, Series en Planken zitten in een menu.
+
 ## 1.14 — 2026-07-04
 
 - **Audioboek-kaart met omslag**: de medianotificatie en het toegangsscherm
