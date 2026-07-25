@@ -3,6 +3,26 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.89 — 2026-07-25
+- Tikken op een warmtepomp opent nu een detailscherm: past deze pomp bij je berekende warmteverlies (inclusief pendelrisico), de volledige specificaties, het geluid met de afstand tot de erfgrens voor zowel de dag- als de nachtnorm, en de jaarkosten doorgerekend met déze pomp. De pomp wordt bij het tikken nog steeds gekozen, dus de simulatie op de achtergrond rekent gewoon mee.
+
+## 4.88 — 2026-07-25
+- Warmtepomplijst bijgewerkt naar peildatum juli 2026: Quatt heeft er een volledig elektrische uitvoering bij (en de capaciteiten van de hybride klopten niet), Daikin's Altherma 3 M is vervangen door de Altherma 4 op propaan, en Weheat's Flint, Sparrow en Blackbird staan niet langer vastgepind op één systeemtype — die zijn alle drie zowel hybride als volledig elektrisch leverbaar. Panasonic en LG zijn gecorrigeerd aan de hand van hun eigen documentatie.
+- **Geluid toegevoegd bij elke pomp**: het geluidsvermogen van de buitenunit plus de afstand tot de erfgrens waarop de nachtnorm van 40 dB(A) gehaald wordt. Bewust het geluidsvermogen en niet de geluidsdruk uit folders, want die wordt in stille modus op een zelfgekozen afstand gemeten en ligt tot 15 dB lager.
+
+## 4.87 — 2026-07-08
+- Auto-afbeeldingen zijn terug, nu optioneel en per model instelbaar.
+
+## 4.86 — 2026-07-08
+- Buitentemperatuur valt nu in drie stappen terug: je eigen sensor, anders de weersensor, anders Open-Meteo — zodat de berekeningen ook kloppen als er geen buitensensor gekoppeld is.
+- Het warmtepompscherm meldt nu eerlijk wanneer een sensorkoppeling ontbreekt in plaats van stilletjes met een aanname te rekenen.
+
+## 4.85 — 2026-07-08
+- Het getekende autosilhouet is vervangen door een systeem-icoon.
+
+## 4.84 — 2026-07-08
+- App Store-voorbereiding: automerk-foto's verwijderd, automatische detectie toegevoegd en generieke standaardwaarden gebruikt.
+
 ## 4.83 — 2026-07-02
 - Solar forecast fixes from a code review: the dashboard could freeze "expected today" for the whole day based on yesterday's cached weather forecast when the fresh fetch happened to fail at first open — freezing now only happens on a fresh forecast (as the solar screen already did), which also keeps the accuracy graph honest. And the fallback estimate shown just after midnight now includes the remainder of the current hour pro rata, instead of skipping up to a full peak hour.
 
