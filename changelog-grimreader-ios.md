@@ -3,6 +3,22 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 2.78 — 2026-07-18
+
+- **Tikken op een plaatje in een EPUB speelt nu het bijbehorende geluid én opent het plaatje schermvullend** (met knijp-zoom). Twee bugs hielden het geluid daarvoor stil: het pad naar het audiobestand werd relatief doorgegeven in plaats van als volledige URL, en de vergelijking op tagnaam ging mis omdat XHTML als XML wordt gelezen (kleine letters in plaats van hoofdletters).
+
+## 2.77 — 2026-07-18
+
+- Een tik op een plaatje bereikte de leesweergave helemaal niet: er ligt een onzichtbare laag overheen die veegbewegingen opvangt om te kunnen bladeren, en die slokte de tik op. De app vraagt nu bij een tik aan de pagina of daar een plaatje met geluid zit — zonder het bladeren te breken.
+
+## 2.76 — 2026-07-18
+
+- Geluid dat in een EPUB aan een plaatje hangt (`epub:trigger`) wordt nu door de app zelf afgespeeld. Rechtstreeks afspelen vanuit de pagina werkt niet betrouwbaar op iOS.
+
+## 2.75 — 2026-07-08
+
+- Internetboeken (OPDS/Gutenberg) verwijderd uit de App Store-build.
+
 ## 2.74 — 2026-07-02
 
 - **Tekst en bediening vallen op de iPhone niet meer weg aan de zijkanten tijdens het voorlezen.** De bedieningsrij was met zes knoppen breder dan het scherm en rekte daardoor de hele leesweergave op; de weergave-knop (AA) wijkt nu zolang het voorlezen speelt.
