@@ -3,6 +3,10 @@
 Alle noemenswaardige wijzigingen per release. Nieuwste eerst.
 Versies komen overeen met de `vX.Y`-tags en `versionName`.
 
+## 1.17 — 2026-07-22
+
+- De app target nu Android 16 (API 36), zoals Google Play vereist.
+
 ## 1.16 — 2026-07-04
 
 - **Meer scherm voor je boeken**: op de Boeken-tab en het startscherm scrollen
