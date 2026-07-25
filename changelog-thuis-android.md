@@ -3,6 +3,16 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `versionName`.
 
+## 4.77 — 2026-07-25
+- Tikken op een warmtepomp opent nu een detailscherm: past deze pomp bij je berekende warmteverlies (inclusief pendelrisico), de volledige specificaties, het geluid met de afstand tot de erfgrens voor zowel de dag- als de nachtnorm, en de jaarkosten doorgerekend met déze pomp. Gelijk aan de iOS-versie.
+
+## 4.76 — 2026-07-25
+- Warmtepomplijst gelijkgetrokken met iOS (peildatum juli 2026): Quatt All-Electric toegevoegd en de hybride capaciteiten gecorrigeerd, Daikin Altherma 3 M vervangen door de Altherma 4 op propaan, en Weheat's Flint, Sparrow en Blackbird zijn nu alle drie zowel hybride als volledig elektrisch leverbaar. Panasonic en LG bijgesteld aan de hand van hun eigen documentatie.
+- **Geluid toegevoegd bij elke pomp**: het geluidsvermogen van de buitenunit plus de afstand tot de erfgrens waarop de nachtnorm van 40 dB(A) gehaald wordt.
+
+## 4.75 — 2026-07-22
+- De app target nu Android 16 (API 36), zoals Google Play vereist.
+
 ## 4.74 — 2026-07-04
 - New Climate screen: all indoor/outdoor temperature and humidity sensors, grouped by room and renameable, plus a dashboard tip that appears when it's a good moment to ventilate (indoors warm, outdoors cooler).
 - Gas chart now overlays outdoor temperature (its own right-hand axis) and the 7-day average as a background band, on the day view.
