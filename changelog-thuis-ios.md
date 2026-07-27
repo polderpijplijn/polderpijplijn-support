@@ -3,6 +3,9 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.91 — 2026-07-27
+- Kolomkop boven de klimaatsensoren, zodat duidelijk is welk getal temperatuur, luchtvochtigheid en dauwpunt is — de iconen alleen waren niet zelfverklarend. Het dauwpunt staat nu ook in de VoiceOver-omschrijving van elke rij.
+
 ## 4.90 — 2026-07-27
 - **Dauwpunt bij elke klimaatsensor**, binnen én buiten. Anders dan de luchtvochtigheid in procenten is het dauwpunt wél vergelijkbaar tussen kamers en met buiten: het zegt hoeveel vocht er absoluut in de lucht zit.
 - **De ventilatietip klopt nu ook bij vochtig weer.** Hij keek alleen naar temperatuur, waardoor hij kon adviseren te luchten met buitenlucht die kouder maar vochtiger was — waarmee je het binnen juist klammer maakt. Zijn de dauwpunten bekend, dan moet de buitenlucht ook echt droger zijn, en de tip laat zien hoeveel.
