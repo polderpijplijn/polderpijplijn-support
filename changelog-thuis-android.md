@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `versionName`.
 
+## 4.78 — 2026-07-27
+- **Dauwpunt bij elke klimaatsensor**, binnen én buiten. Anders dan de luchtvochtigheid in procenten is het dauwpunt wél vergelijkbaar tussen kamers en met buiten: het zegt hoeveel vocht er absoluut in de lucht zit.
+- **De ventilatietip klopt nu ook bij vochtig weer.** Hij keek alleen naar temperatuur, waardoor hij kon adviseren te luchten met buitenlucht die kouder maar vochtiger was — waarmee je het binnen juist klammer maakt. Zijn de dauwpunten bekend, dan moet de buitenlucht ook echt droger zijn, en de tip laat zien hoeveel.
+- **Eigen buitenvochtsensor krijgt voorrang op de weersvoorspelling.** De app zoekt zelf de vochtsensor die bij je buitentemperatuur-sensor hoort; vindt hij die niet, dan gebruikt hij zoals voorheen de weer-entiteit.
+
 ## 4.77 — 2026-07-25
 - Tikken op een warmtepomp opent nu een detailscherm: past deze pomp bij je berekende warmteverlies (inclusief pendelrisico), de volledige specificaties, het geluid met de afstand tot de erfgrens voor zowel de dag- als de nachtnorm, en de jaarkosten doorgerekend met déze pomp. Gelijk aan de iOS-versie.
 
