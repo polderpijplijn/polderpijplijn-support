@@ -3,6 +3,9 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `versionName`.
 
+## 4.80 — 2026-07-27
+- **Laadpaal bleef "Aan het laden" tonen na een sessie.** De app keek naast de status van de paal ook naar het gemeten vermogen, en PlugChoice blijft daar na afloop de laatste waarde teruggeven. Zegt de laadpaal nu "Beschikbaar" of "Gepauzeerd", dan is dat leidend en verdwijnt ook de spookladsnelheid.
+
 ## 4.79 — 2026-07-27
 - Kolomkop boven de klimaatsensoren, zodat duidelijk is welk getal temperatuur, luchtvochtigheid en dauwpunt is — de iconen alleen waren niet zelfverklarend.
 
