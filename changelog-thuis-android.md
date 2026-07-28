@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `versionName`.
 
+## 4.83 — 2026-07-28
+- **De automatische sensorherkenning kon het netvermogen op één fase leggen.** De fase-sensoren van een P1-meter passen op hetzelfde profiel als het totaal, en de keuze hing af van de volgorde waarin de sensoren binnenkwamen. Op een fase zonder verbruik bleef het dashboard dan op 0 W en "Net" staan terwijl je in werkelijkheid teruglevert. De keuze ligt nu vast en valt nooit meer op een losse fase.
+- In demomodus meldt de statusregel niet langer dat de gegevens verouderd zijn — daar horen ze stil te staan.
+
 ## 4.82 — 2026-07-28
 - **Stooklabel, graaddagen, gasgrafiek en warmtepompverkenning werken nu ook zonder eigen buitensensor.** Waar de app eerst niets liet zien als er geen gekoppelde buitentemperatuursensor met historie was, zoekt hij nu zelf een weersensor van je weer-integratie, en anders haalt hij de historische buitentemperatuur bij Open-Meteo op basis van de locatie die Home Assistant zelf rapporteert. De iOS-app deed dit al.
 - **Het dashboard flikkert niet meer als een sensor kortstondig wegvalt.** Meldde een sensor even "unavailable", dan werd de laatst bekende goede waarde overschreven — waardoor bijvoorbeeld de zon op 0 sprong en de teruglevering te groot leek. Zulke tussenwaarden worden nu genegeerd.
