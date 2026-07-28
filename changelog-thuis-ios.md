@@ -3,6 +3,9 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.93 — 2026-07-28
+- **Het dashboard kon een bevroren stand tonen alsof die live was.** Zette het systeem de app in de achtergrond, dan kon de verbinding met Home Assistant stilvallen zonder dat de app dat merkte: de statusregel bleef "Live" melden terwijl de getallen eronder uren stil konden staan. Een teruglevering van vanochtend zag er dan uit als afname van nu. De app kijkt voortaan of er ook echt gegevens binnenkomen, herstelt de verbinding zodra die opdroogt, en zegt het eerlijk ("Gegevens van 20 min geleden") als dat niet lukt.
+
 ## 4.92 — 2026-07-27
 - **Laadpaal bleef "Aan het laden" tonen na een sessie.** De app keek naast de status van de paal ook naar het gemeten vermogen, en PlugChoice blijft daar na afloop de laatste waarde teruggeven. Zegt de laadpaal nu "Beschikbaar" of "Gepauzeerd", dan is dat leidend en verdwijnt ook de spookladsnelheid.
 
