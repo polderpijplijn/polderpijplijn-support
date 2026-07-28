@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.94 — 2026-07-28
+- **Twee apparaten konden verschillende netvermogens tonen bij dezelfde Home Assistant.** De app zocht de netvermogen-sensor zelf op, maar pakte de eerste treffer uit een lijst zonder vaste volgorde — en de fase-sensoren van een P1-meter passen op datzelfde profiel. Zo kon een iPad naar één fase kijken terwijl de iPhone het totaal las: op een fase zonder verbruik bleef het dashboard dan op 0 W en "Net" staan, terwijl je in werkelijkheid teruglevert. De keuze ligt nu vast, valt nooit meer op een losse fase, en een apparaat dat al verkeerd stond herstelt zichzelf bij de eerstvolgende verbinding.
+- In demomodus meldt de statusregel niet langer dat de gegevens verouderd zijn — daar horen ze stil te staan.
+
 ## 4.93 — 2026-07-28
 - **Het dashboard kon een bevroren stand tonen alsof die live was.** Zette het systeem de app in de achtergrond, dan kon de verbinding met Home Assistant stilvallen zonder dat de app dat merkte: de statusregel bleef "Live" melden terwijl de getallen eronder uren stil konden staan. Een teruglevering van vanochtend zag er dan uit als afname van nu. De app kijkt voortaan of er ook echt gegevens binnenkomen, herstelt de verbinding zodra die opdroogt, en zegt het eerlijk ("Gegevens van 20 min geleden") als dat niet lukt.
 
