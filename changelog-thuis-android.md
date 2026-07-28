@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `versionName`.
 
+## 4.82 — 2026-07-28
+- **Stooklabel, graaddagen, gasgrafiek en warmtepompverkenning werken nu ook zonder eigen buitensensor.** Waar de app eerst niets liet zien als er geen gekoppelde buitentemperatuursensor met historie was, zoekt hij nu zelf een weersensor van je weer-integratie, en anders haalt hij de historische buitentemperatuur bij Open-Meteo op basis van de locatie die Home Assistant zelf rapporteert. De iOS-app deed dit al.
+- **Het dashboard flikkert niet meer als een sensor kortstondig wegvalt.** Meldde een sensor even "unavailable", dan werd de laatst bekende goede waarde overschreven — waardoor bijvoorbeeld de zon op 0 sprong en de teruglevering te groot leek. Zulke tussenwaarden worden nu genegeerd.
+- **De laadpaal valt weer netjes terug bij een haperend netwerk.** Een time-out bij het ophalen van het laadvermogen kon het hele laadpaalpaneel laten mislukken in plaats van terug te vallen op de berekende waarde.
+
 ## 4.81 — 2026-07-28
 - **Het dashboard kon een bevroren stand tonen alsof die live was.** Zette het systeem de app in de achtergrond, dan kon de verbinding met Home Assistant stilvallen zonder dat de app dat merkte: de statusregel bleef "Live" melden terwijl de getallen eronder uren stil konden staan. Een teruglevering van vanochtend zag er dan uit als afname van nu. De app kijkt voortaan of er ook echt gegevens binnenkomen, herstelt de verbinding zodra die opdroogt, en zegt het eerlijk ("Gegevens van 20 min geleden") als dat niet lukt.
 
