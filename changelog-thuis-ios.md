@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.02 — 2026-07-30
+- **Nog eens 71 teksten vertaald**, waaronder de periode-keuzes (Week/Maand/Jaar) in alle detailschermen en de titels die daarop meebewegen ("Stroomkosten per week").
+- **Datums en getallen volgen nu ook de taal.** De app zette de datumtaal op elf plekken hard op Nederlands, dus in het Engels bleven weekdagen en maanden Nederlands ("Woensdag 30 juli"). En op 22 plekken werd het decimaalteken hard een komma, waardoor er in het Engels "31,0°" stond in plaats van "31.0°". Beide volgen nu de taal die je in de app hebt gekozen.
+
 ## 5.01 — 2026-07-29
 - **De vertaling was op veel plekken nog Nederlands.** Woorden als "Zon vandaag", "Net vandaag", "Gas vandaag", "Efficiëntie", "Huis", "Binnen" en "Buiten" bleven staan, en in de detailschermen ook regelmatig. Die teksten liepen via gedeelde bouwstenen (de tegels, de rijen, de invoervelden) die ze als gewone tekst doorgaven, waardoor iOS ze niet als vertaalbaar zag. 68 teksten zijn nu wél vertaald.
 
