@@ -3,6 +3,9 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.01 — 2026-07-29
+- **De vertaling was op veel plekken nog Nederlands.** Woorden als "Zon vandaag", "Net vandaag", "Gas vandaag", "Efficiëntie", "Huis", "Binnen" en "Buiten" bleven staan, en in de detailschermen ook regelmatig. Die teksten liepen via gedeelde bouwstenen (de tegels, de rijen, de invoervelden) die ze als gewone tekst doorgaven, waardoor iOS ze niet als vertaalbaar zag. 68 teksten zijn nu wél vertaald.
+
 ## 5.00 — 2026-07-29
 - **Taalkeuze in Instellingen**, net als in Grim Reader: een knop die je naar de taalinstelling van de app in iOS brengt. Daar kies je Nederlands of Engels, los van de taal van je toestel. Die keuze was er technisch al sinds 4.98, maar iOS liet hem niet zien omdat de app zijn talen nog niet formeel aanmeldde.
 
