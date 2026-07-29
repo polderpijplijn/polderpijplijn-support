@@ -3,6 +3,9 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.98 — 2026-07-29
+- **De app is nu ook in het Engels.** Staat je iPhone of iPad op Engels, dan is de hele app dat voortaan ook: alle schermen, knoppen, uitlegteksten en meldingen. Nederlands blijft de oorspronkelijke taal; je hoeft niets in te stellen, de app volgt gewoon de taal van je toestel.
+
 ## 4.97 — 2026-07-29
 - **Uurprijzen komen nu uit je eigen Home Assistant als je de EnergyZero-integratie hebt.** De app haalde ze altijd zelf op bij EnergyZero, ook als je Home Assistant dat al deed. Draait die integratie, dan leest de app de prijzen voortaan daaruit — inclusief historie en de prijzen van morgen. Heb je de integratie niet, dan verandert er niets: de app haalt ze zelf op, precies zoals voorheen.
 
