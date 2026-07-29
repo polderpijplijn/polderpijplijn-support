@@ -3,6 +3,9 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `versionName`.
 
+## 4.85 — 2026-07-29
+- **"Bekijk de demo" op het welkomstscherm.** De demomodus bestond al, maar was alleen te bereiken door het woord "demo" als adres in te typen — dus onvindbaar. Nu kun je de app meteen met voorbeeldgegevens bekijken voordat je een Home Assistant-token aanmaakt.
+
 ## 4.84 — 2026-07-29
 - **De ventilatietip bleef weg terwijl luchten wél zinvol was.** Sinds het dauwpunt meetelt was "buiten droger" een harde eis geworden bóvenop "buiten koeler" — dus bij 25 °C binnen en 20 °C buiten met even vochtige lucht kreeg je niets, terwijl een raam openzetten dan gewoon vijf graden scheelt. Koelen en drogen zijn nu twee losse redenen: elk is op zichzelf genoeg. Vochtige buitenlucht houdt de koeltip nog steeds tegen, maar alleen als die ook echt merkbaar vochtiger is.
 - De tip zegt er nu bij wát je wint: koelen, drogen, of allebei.
