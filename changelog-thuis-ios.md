@@ -3,6 +3,9 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.99 — 2026-07-29
+- **Kamernamen op het Klimaat-scherm werden op een iPhone letter voor letter afgebroken.** De kolomkoppen uit 4.91 kregen vaste breedtes die samen met het icoon en de potloodknop de hele regel opvulden, waardoor er niets meer overbleef voor de naam — "zolder" kwam er verticaal uit te staan. De kolommen zijn nu per soort waarde op maat, de iconen bij de getallen zijn weg (de kopregel zegt al wat elke kolom is) en de naam krimpt desnoods een fractie in plaats van te wikkelen.
+
 ## 4.98 — 2026-07-29
 - **De app is nu ook in het Engels.** Staat je iPhone of iPad op Engels, dan is de hele app dat voortaan ook: alle schermen, knoppen, uitlegteksten en meldingen. Nederlands blijft de oorspronkelijke taal; je hoeft niets in te stellen, de app volgt gewoon de taal van je toestel.
 
