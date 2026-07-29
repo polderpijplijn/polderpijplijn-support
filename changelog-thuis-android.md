@@ -3,6 +3,9 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `versionName`.
 
+## 4.86 — 2026-07-29
+- **Uurprijzen komen nu uit je eigen Home Assistant als je de EnergyZero-integratie hebt.** De app haalde ze altijd zelf op bij EnergyZero, ook als je Home Assistant dat al deed. Draait die integratie, dan leest de app de prijzen voortaan daaruit — inclusief historie en de prijzen van morgen. Heb je de integratie niet, dan verandert er niets.
+
 ## 4.85 — 2026-07-29
 - **"Bekijk de demo" op het welkomstscherm.** De demomodus bestond al, maar was alleen te bereiken door het woord "demo" als adres in te typen — dus onvindbaar. Nu kun je de app meteen met voorbeeldgegevens bekijken voordat je een Home Assistant-token aanmaakt.
 
