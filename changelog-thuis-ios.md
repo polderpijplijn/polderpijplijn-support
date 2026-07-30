@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.03 — 2026-07-30
+- **Grafieklegenda's en de laatste subteksten zijn nu ook Engels.** De legenda's kregen hun tekst uit de gegevens zelf (Afname/Teruglevering, Vast/Dynamisch, Net/Zon), en die tekst was tegelijk de sleutel van het kleurenschema — daarom moesten ze samen mee. Verder nog 76 losse teksten: foutmeldingen, de namen in de entiteitkiezer, en de uitlegblokken onder de grafieken.
+- Bij de batterij-uitleg en de autofoto-hulptekst stonden zinnen aan elkaar geplakt met `+`. Dat werkt niet in een vertaling, want de woordvolgorde verschilt per taal; die zijn samengevoegd tot één tekst.
+
 ## 5.02 — 2026-07-30
 - **Nog eens 71 teksten vertaald**, waaronder de periode-keuzes (Week/Maand/Jaar) in alle detailschermen en de titels die daarop meebewegen ("Stroomkosten per week").
 - **Datums en getallen volgen nu ook de taal.** De app zette de datumtaal op elf plekken hard op Nederlands, dus in het Engels bleven weekdagen en maanden Nederlands ("Woensdag 30 juli"). En op 22 plekken werd het decimaalteken hard een komma, waardoor er in het Engels "31,0°" stond in plaats van "31.0°". Beide volgen nu de taal die je in de app hebt gekozen.
