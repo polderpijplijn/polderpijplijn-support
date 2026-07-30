@@ -3,6 +3,9 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `versionName`.
 
+## 4.89 — 2026-07-30
+- **Taalkeuze in Instellingen.** De Engelse vertaling zat er sinds 4.87 in, maar Android bood de keuze niet aan omdat de app zijn talen nog niet formeel aanmeldde. Nu kun je de taal per app kiezen: via Instellingen → Taal in de app, of via Instellingen → Apps → Thuis → Taal in Android zelf. (Die keuze bestaat vanaf Android 13; op ouder volgt de app de systeemtaal.)
+
 ## 4.88 — 2026-07-30
 - **De laadpaal stond op "Beschikbaar" terwijl de auto laadde.** Deze laadpaal houdt zijn echte status bij op de connector, niet op de paal zelf: die blijft "Beschikbaar" melden ook als er 4 kW doorheen gaat. De app las de verkeerde van de twee. Nu is de connector-status leidend, en blijft de correctie uit 4.80 gewoon staan.
 
