@@ -3,6 +3,9 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.06 — 2026-07-30
+- **Het info-scherm zegt nu welke sensoren waarvoor nodig zijn.** Vochtsensoren stonden niet in de lijst met aanbevolen koppelingen, terwijl het klimaatscherm en het dauwpunt er wel op leunen. Wie ze niet heeft, zag die schermen leeg blijven zonder te weten waarom.
+
 ## 5.05 — 2026-07-30
 - **De laadpaal stond op "Beschikbaar" terwijl de auto laadde.** Deze laadpaal houdt zijn echte status bij op de connector, niet op de paal zelf: die blijft "Beschikbaar" melden ook als er 4 kW doorheen gaat. De app las de verkeerde van de twee. Nu is de connector-status leidend, en blijft de correctie uit 4.92 (een achtergebleven vermogenswaarde mag geen laden voorwenden) gewoon staan.
 
