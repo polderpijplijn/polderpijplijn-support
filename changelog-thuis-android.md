@@ -3,6 +3,9 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `versionName`.
 
+## 4.88 — 2026-07-30
+- **De laadpaal stond op "Beschikbaar" terwijl de auto laadde.** Deze laadpaal houdt zijn echte status bij op de connector, niet op de paal zelf: die blijft "Beschikbaar" melden ook als er 4 kW doorheen gaat. De app las de verkeerde van de twee. Nu is de connector-status leidend, en blijft de correctie uit 4.80 gewoon staan.
+
 ## 4.87 — 2026-07-30
 - **De app is nu ook in het Engels.** Staat je telefoon of tablet op Engels, dan is de hele app dat voortaan ook: alle schermen, knoppen, grafieklegenda's en uitlegteksten. Nederlands blijft de oorspronkelijke taal; je hoeft niets in te stellen, de app volgt de taal van je toestel. Je kunt de taal ook per app kiezen via Instellingen → Apps → Thuis → Taal.
 - **Datums volgen nu ook de taal.** Weekdagen en maanden stonden op achttien plekken vast op Nederlands, dus die bleven staan als je de app op Engels zette.
