@@ -3,6 +3,9 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.05 — 2026-07-30
+- **De laadpaal stond op "Beschikbaar" terwijl de auto laadde.** Deze laadpaal houdt zijn echte status bij op de connector, niet op de paal zelf: die blijft "Beschikbaar" melden ook als er 4 kW doorheen gaat. De app las de verkeerde van de twee. Nu is de connector-status leidend, en blijft de correctie uit 4.92 (een achtergebleven vermogenswaarde mag geen laden voorwenden) gewoon staan.
+
 ## 5.04 — 2026-07-30
 - **De laatste Nederlandse teksten in de Engelse app zijn weg.** Het ging vooral om de kaartjes onder de grafieken ("Verwarmings-gas", "Graaddagen", "Basislijn", "Aandeel verwarming", "Toegevoegd deze sessie", "Piek oplaadsnelheid"), de statusregel bovenaan, de ondertitels van het beste-moment- en ventilatieblok, de laadduur en het tarief, en op het warmtepompscherm de ontwerptemperatuur en de afstand tot de erfgrens.
 
