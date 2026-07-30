@@ -3,6 +3,9 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.04 — 2026-07-30
+- **De laatste Nederlandse teksten in de Engelse app zijn weg.** Het ging vooral om de kaartjes onder de grafieken ("Verwarmings-gas", "Graaddagen", "Basislijn", "Aandeel verwarming", "Toegevoegd deze sessie", "Piek oplaadsnelheid"), de statusregel bovenaan, de ondertitels van het beste-moment- en ventilatieblok, de laadduur en het tarief, en op het warmtepompscherm de ontwerptemperatuur en de afstand tot de erfgrens.
+
 ## 5.03 — 2026-07-30
 - **Grafieklegenda's en de laatste subteksten zijn nu ook Engels.** De legenda's kregen hun tekst uit de gegevens zelf (Afname/Teruglevering, Vast/Dynamisch, Net/Zon), en die tekst was tegelijk de sleutel van het kleurenschema — daarom moesten ze samen mee. Verder nog 76 losse teksten: foutmeldingen, de namen in de entiteitkiezer, en de uitlegblokken onder de grafieken.
 - Bij de batterij-uitleg en de autofoto-hulptekst stonden zinnen aan elkaar geplakt met `+`. Dat werkt niet in een vertaling, want de woordvolgorde verschilt per taal; die zijn samengevoegd tot één tekst.
