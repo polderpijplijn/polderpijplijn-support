@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `versionName`.
 
+## 4.91 — 2026-07-30
+- **De demo staat nu altijd in Instellingen**, niet alleen bij de allereerste start.
+- **Je verliest je instellingen niet meer als je de demo probeert.** Eerder overschreef de demo je Home Assistant-adres; nu is het een losse schakelaar met een knop "Terug naar mijn Home Assistant".
+
 ## 4.90 — 2026-07-30
 - **Het info-scherm zegt nu welke sensoren waarvoor nodig zijn.** Vochtsensoren stonden niet in de lijst met aanbevolen koppelingen, terwijl het klimaatscherm en het dauwpunt er wel op leunen.
 
