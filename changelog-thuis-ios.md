@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.07 — 2026-07-30
+- **De demo staat nu altijd in Instellingen**, niet alleen bij de allereerste start. Handig om te zien wat een scherm doet dat bij jou leeg blijft — het klimaatscherm zonder sensoren, bijvoorbeeld.
+- **Je verliest je instellingen niet meer als je de demo probeert.** Eerder overschreef de demo je Home Assistant-adres; nu is het een losse schakelaar en staat er een knop "Terug naar mijn Home Assistant" zolang hij aanstaat.
+
 ## 5.06 — 2026-07-30
 - **Het info-scherm zegt nu welke sensoren waarvoor nodig zijn.** Vochtsensoren stonden niet in de lijst met aanbevolen koppelingen, terwijl het klimaatscherm en het dauwpunt er wel op leunen. Wie ze niet heeft, zag die schermen leeg blijven zonder te weten waarom.
 
