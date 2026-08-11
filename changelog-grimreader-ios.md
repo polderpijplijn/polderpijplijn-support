@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 2.79 — 2026-08-11
+
+- **"Overslaan"-knop op het inlogscherm.** Bij een verse installatie oogde het inlogscherm als een verplichte instellingenpagina: twee secties met (lege) inlogvelden vóór je "WebDAV-server toevoegen" of "Offline demo" tegenkwam. Rechtsboven staat nu direct een "Overslaan"-knop die naar een leeg hoofdscherm gaat — geen voorbeeldboeken zoals de demo, gewoon een lege "Mijn boeken" voor wie eigen bestanden importeert of een WebDAV-server toevoegt.
+- **De app valt nu terug op lokale boeken als de server niet bereikbaar is, ook al heeft het toestel internet.** Weg van huis met mobiel internet aan dacht de app eerder dat hij bij de Grimmory-server kon (het toestel heeft immers internet), en elk scherm probeerde de server alsnog te bereiken — tot 20 seconden per verzoek, zonder nette terugval. Er is nu een aparte, snelle proef (5s) die de server zelf test in plaats van alleen de internetverbinding van het toestel; is de server onbereikbaar, dan schakelt de app meteen om naar lokaal geïmporteerde/gedownloade boeken. Werkt ook beter in vliegtuigmodus.
+
 ## 2.78 — 2026-07-18
 
 - **Tikken op een plaatje in een EPUB speelt nu het bijbehorende geluid én opent het plaatje schermvullend** (met knijp-zoom). Twee bugs hielden het geluid daarvoor stil: het pad naar het audiobestand werd relatief doorgegeven in plaats van als volledige URL, en de vergelijking op tagnaam ging mis omdat XHTML als XML wordt gelezen (kleine letters in plaats van hoofdletters).
