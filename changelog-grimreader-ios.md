@@ -3,6 +3,15 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 2.83 — 2026-08-11
+
+- **Je WebDAV-server wordt niet meer bij elke start opnieuw doorzocht.** De bewaarde lijst werd genegeerd doordat een scan die niet helemaal afmaakte — bij een grote bibliotheek bijna altijd — als "nooit gescand" gold. De app toont nu wat hij van je server kent en jij bepaalt zelf wanneer je ververst. Stond er nog helemaal niets, dan zoekt hij wel vanzelf.
+- **Boeken verdwenen tijdens het opnieuw zoeken.** Een herscan begon met een lege lijst en vulde die gaandeweg, waardoor nog niet teruggevonden boeken tijdelijk uit beeld waren — en blijvend als de scan afbrak. Inclusief hun al opgehaalde omslag en schrijver. De scan begint nu bij wat er al is.
+- **Aantal boeken naast de servernaam**, in Instellingen en in het serveroverzicht.
+- **Omslagen en schrijvers worden nu voor je hele bibliotheek opgehaald**, niet alleen voor de boeken die je toevallig in beeld hebt gehad. Dat gebeurt rustig op de achtergrond en blijft bewaard, dus het is eenmalig werk per boek. De regel bovenaan laat zien hoeveel er nog te gaan zijn.
+- **De app schrijft veel minder naar je server.** Grim Reader houdt op je WebDAV-server een boekenindex bij (`.grimreader/books.yaml`) zodat een tweede toestel niet opnieuw hoeft te zoeken. Die werd bij élk aangevuld boek opnieuw geüpload; bij een grote bibliotheek werden dat duizenden uploads van een steeds groter bestand. Nu wordt dat gebundeld tot één keer.
+- Op de iPad stonden je OPDS-catalogi dubbel: als eigen onderdeel én bij de servers. Nu alleen nog bij de servers, net als op de iPhone.
+
 ## 2.82 — 2026-08-11
 
 - **Zoeken in een OPDS-catalogus gaf "Kan niet laden … requires the use of a secure connection".** Catalogi geven hun zoekadres vaak nog als `http://` op, ook als ze zelf allang via `https://` draaien (Project Gutenberg doet dat), en iOS blokkeert zo'n onbeveiligde aanroep. De app zet dat adres nu om naar `https` wanneer de catalogus zelf ook beveiligd is. Een server op je eigen netwerk die bewust over `http` draait blijft ongemoeid.
