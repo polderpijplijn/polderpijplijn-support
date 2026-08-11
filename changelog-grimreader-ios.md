@@ -3,7 +3,7 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
-## 2.84 — 2026-08-11
+## 2.85 — 2026-08-11
 
 - **Je server werd onterecht als "alleen-lezen" aangemerkt** (het slotje in Instellingen). De app testte zijn schrijfrechten met een bestandje dat met een punt begon, en veel servers — waaronder QNAP met Apache — weigeren zulke verborgen bestanden standaard. De boekenindex zelf heeft geen punt en werd wél geaccepteerd, dus de test mat iets anders dan wat de app werkelijk doet. Het testbestand heet nu `write-test.tmp`.
 - **Mislukt het bijwerken van de index op je server, dan zegt de app dat nu ook.** Die fout werd volledig weggeslikt; je kon het alleen ontdekken door op je NAS naar de datum van het bestand te kijken. De reden staat nu in de regel bovenaan het serverscherm.
