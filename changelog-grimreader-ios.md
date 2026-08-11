@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 2.82 — 2026-08-11
+
+- **Zoeken in een OPDS-catalogus gaf "Kan niet laden … requires the use of a secure connection".** Catalogi geven hun zoekadres vaak nog als `http://` op, ook als ze zelf allang via `https://` draaien (Project Gutenberg doet dat), en iOS blokkeert zo'n onbeveiligde aanroep. De app zet dat adres nu om naar `https` wanneer de catalogus zelf ook beveiligd is. Een server op je eigen netwerk die bewust over `http` draait blijft ongemoeid.
+
 ## 2.81 — 2026-08-11
 
 - **Je eigen OPDS-catalogi staan nu bij je WebDAV-servers onder "Servers"**, in plaats van in een aparte tab "Mijn catalogi". Het zijn allebei bronnen die je zelf toevoegt, dus die horen bij elkaar — en het scheelt een tab in de onderbalk.
