@@ -3,6 +3,15 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 2.80 — 2026-08-11
+
+- **Eigen collecties.** Onder Bladeren → Collecties maak je zelf groepen ("Sciencefiction", "Nog lezen") om je boeken te ordenen. Toevoegen doe je vanuit Mijn boeken: houd een boek ingedrukt en kies "Toevoegen aan collectie". Een boek kan in meerdere collecties zitten, en er wordt niets verplaatst of hernoemd op schijf. Werkt voor zowel geïmporteerde bestanden als van je server gedownloade boeken.
+- **Je eigen OPDS-catalogus kan weer.** Onder Instellingen → Servers voeg je het adres van je eigen bron toe, bijvoorbeeld een Calibre-Web-server — net zoals je dat met WebDAV en Grimmory doet. De app levert zelf geen catalogi mee; de tab "Mijn catalogi" verschijnt pas zodra je er een hebt toegevoegd.
+- **Een scan van een WebDAV-server stopt niet meer als je van tab wisselt, en toont gevonden boeken meteen.** De scan hing aan het scherm en werd door het systeem afgebroken zodra je wegklikte, waarna al het werk verloren was en hij bij terugkomst weer bij nul begon. De scan loopt nu los van het scherm door, en boeken verschijnen in de bibliotheek zodra ze gevonden zijn in plaats van pas aan het eind.
+- **Van je server gedownloade boeken staan nu ook onder Start en Schrijvers als je offline bent.** Ze zaten in een andere opslag dan geïmporteerde bestanden, en alleen die laatste werd gebruikt om die schermen te vullen — een gedownload boek was daardoor onderweg alleen via Mijn boeken te vinden. Wie uitsluitend downloadt zag die schermen zelfs helemaal leeg.
+- **Boeken zonder schrijver in hun metadata (vaak PDF's) verdwenen uit de schrijverslijst.** Die staan nu onder "Onbekende schrijver".
+- Het sorteermenu bij Schrijvers (naam, aantal boeken, recent toegevoegd) deed niets zolang je zonder server werkte. Dat werkt nu.
+
 ## 2.79 — 2026-08-11
 
 - **"Overslaan"-knop op het inlogscherm.** Bij een verse installatie oogde het inlogscherm als een verplichte instellingenpagina: twee secties met (lege) inlogvelden vóór je "WebDAV-server toevoegen" of "Offline demo" tegenkwam. Rechtsboven staat nu direct een "Overslaan"-knop die naar een leeg hoofdscherm gaat — geen voorbeeldboeken zoals de demo, gewoon een lege "Mijn boeken" voor wie eigen bestanden importeert of een WebDAV-server toevoegt.
