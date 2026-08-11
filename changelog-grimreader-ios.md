@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 2.84 — 2026-08-11
+
+- **Je server werd onterecht als "alleen-lezen" aangemerkt** (het slotje in Instellingen). De app testte zijn schrijfrechten met een bestandje dat met een punt begon, en veel servers — waaronder QNAP met Apache — weigeren zulke verborgen bestanden standaard. De boekenindex zelf heeft geen punt en werd wél geaccepteerd, dus de test mat iets anders dan wat de app werkelijk doet. Het testbestand heet nu `write-test.tmp`.
+- **Mislukt het bijwerken van de index op je server, dan zegt de app dat nu ook.** Die fout werd volledig weggeslikt; je kon het alleen ontdekken door op je NAS naar de datum van het bestand te kijken. De reden staat nu in de regel bovenaan het serverscherm.
+
 ## 2.83 — 2026-08-11
 
 - **Je WebDAV-server wordt niet meer bij elke start opnieuw doorzocht.** De bewaarde lijst werd genegeerd doordat een scan die niet helemaal afmaakte — bij een grote bibliotheek bijna altijd — als "nooit gescand" gold. De app toont nu wat hij van je server kent en jij bepaalt zelf wanneer je ververst. Stond er nog helemaal niets, dan zoekt hij wel vanzelf.
