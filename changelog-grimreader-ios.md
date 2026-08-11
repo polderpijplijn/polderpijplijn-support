@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 2.81 — 2026-08-11
+
+- **Je eigen OPDS-catalogi staan nu bij je WebDAV-servers onder "Servers"**, in plaats van in een aparte tab "Mijn catalogi". Het zijn allebei bronnen die je zelf toevoegt, dus die horen bij elkaar — en het scheelt een tab in de onderbalk.
+- **Zoeken in een OPDS-catalogus werkt nu vanzelf.** Voorheen moest je bij het toevoegen met de hand een zoek-URL invullen; deed je dat niet, dan was er simpelweg geen zoekbalk en zag je niet waarom. De app vraagt de catalogus nu zelf om zijn zoekadres (via de zoeklink in de feed, en zo nodig de OpenSearch-beschrijving daarachter). Het handmatige veld blijft bestaan voor het geval een catalogus dat niet netjes publiceert.
+
 ## 2.80 — 2026-08-11
 
 - **Eigen collecties.** Onder Bladeren → Collecties maak je zelf groepen ("Sciencefiction", "Nog lezen") om je boeken te ordenen. Toevoegen doe je vanuit Mijn boeken: houd een boek ingedrukt en kies "Toevoegen aan collectie". Een boek kan in meerdere collecties zitten, en er wordt niets verplaatst of hernoemd op schijf. Werkt voor zowel geïmporteerde bestanden als van je server gedownloade boeken.
