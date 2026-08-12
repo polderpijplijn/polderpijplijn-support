@@ -3,6 +3,15 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.0 — 2026-08-13
+
+- **Een audioboek rechtstreeks van je server afspelen werkte niet.** De app vertelde de speler wel hoe groot het bestand was, maar stuurde nooit de audio zelf — die vraag werd met het verkeerde antwoord afgedaan.
+- **De speler onthield niet waar je gebleven was.** Bij een boek van je eigen server werd de tijdwaarnemer overgeslagen, en juist die houdt je positie bij en bewaart hem. Daardoor stond de schuifbalk ook stil.
+- **Strips: "geen pagina's gevonden".** Of een bestand als pagina meetelt wordt nu bepaald door te kijken of het werkelijk een afbeelding is, in plaats van af te gaan op de bestandsnaam. Komt er alsnog niets uit, dan vertelt de app wat er wél in het archief zat.
+- **Een schrijver bewerken was niet te openen.** De potloodknop op het schrijversscherm was gekoppeld aan een beheerdersrol op een Grimmory-server; zonder zo'n server bleef hij verborgen. Nu kun je naam, levensbericht en foto aanpassen — handig als er een verkeerde Wikipedia-pagina bij is gezocht.
+- **Eigen rijen voor Audioboeken en Strips op het startscherm**, zodat ze niet tussen de rest verdwijnen. Werkt ook met een Grimmory-server.
+- **"Recent toegevoegd" toont nu ook boeken van je server.** Die hadden geen datum en belandden daardoor altijd achteraan; de app gebruikt nu de datum van het bestand op de server. Dit geldt voor boeken die na deze versie zijn doorzocht.
+
 ## 2.99 — 2026-08-12
 
 - **Strips en audioboeken op je server worden nu gevonden.** De app keek alleen naar EPUB en PDF; al het andere werd bij het doorzoeken overgeslagen. CBZ-strips en audiobestanden (mp3, m4b, m4a, aac) staan nu gewoon in je bibliotheek. CBR blijft buiten beeld: dat is een RAR-archief en daar kan de app niet in kijken — zichtbaar maken wat je niet kunt openen leek ons vervelender dan weglaten.
