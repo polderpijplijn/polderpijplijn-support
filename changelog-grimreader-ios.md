@@ -3,6 +3,19 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 2.92 — 2026-08-12
+
+- **Een boek bewerken kan nu ook zonder Grimmory-server.** De potloodknop was gekoppeld aan een beheerdersrol op die server, en verscheen dus nooit als je alleen je eigen bestanden of een WebDAV-server gebruikt. Vanuit Schrijvers, Start of waar dan ook kun je nu titel, schrijver, taal en samenvatting aanpassen. Voor een geïmporteerd bestand blijft dat op je toestel; voor een boek van je WebDAV-server gaat het naar die server, zodat je andere toestellen het ook zien.
+- **Je bewerking wordt nu meteen naar je server geschreven.** Dat gebeurde pas twintig seconden nadat het stil werd, wat bedoeld is voor het massaal aanvullen van omslagen — sloot je de app in die tijd, dan was je wijziging weg.
+- **Een boek bewerken dat je via de mappenbrowser had gevonden ging verloren.** Stond het boek niet in een doorzochte index, dan werd alleen de omslag bewaard en verdwenen titel en schrijver zonder melding. Het boek wordt nu alsnog aan de index toegevoegd.
+- **Alles downloaden in één keer**, bij een schrijver en in een servermap. Boven de twintig boeken wordt eerst gevraagd of je het zeker weet, en tijdens het downloaden zie je de voortgang met een stopknop. In een map worden alleen de boeken in die map gepakt, niet die in de submappen.
+
+## 2.91 — 2026-08-12
+
+- **Het aantal boeken naast een schrijver klopte niet.** Schrijvers werden voor die telling op hun exacte schrijfwijze gegroepeerd, terwijl het openen van een schrijver hoofdletters juist negeert. "Stephen King" en "STEPHEN KING" stonden daardoor als twee regels met elk een deel van de boeken, terwijl je bij het openen van één van beide het volledige aantal kreeg. Ze worden nu als één schrijver geteld.
+- **Bij het bladeren door de mappen van je server kun je kiezen tussen een lijst en een raster met omslagen.** De keuze blijft bewaard.
+- **Open je een boek vanuit de mappenbrowser, dan zie je nu meteen de omslag, de titel en de schrijver.** Die waren al opgehaald voor het overzicht, maar werden niet doorgegeven aan het detailscherm — dat begon daardoor blanco.
+
 ## 2.90 — 2026-08-12
 
 - **Je boeken op een WebDAV-server tellen nu overal mee.** Start, Schrijvers en Collecties lieten alleen zien wat je zelf had geïmporteerd of al had gedownload — de duizenden boeken die de app op je server had gevonden zaten er niet bij, en waren dus alleen via het serveroverzicht te vinden. Nu maakt het niet meer uit waar een boek vandaan komt: het staat gewoon onder zijn schrijver. Tik je zo'n boek aan, dan wordt het op dat moment van je server gehaald.
