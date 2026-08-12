@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 2.88 — 2026-08-12
+
+- **Omslagen en schrijversnamen ophalen kost nu een kwart van het dataverkeer.** De app haalde per boek het hele bestand van je server op om er een plaatje en een naam uit te vissen en gooide de rest weg; bij een grote bibliotheek liep dat in de gigabytes. Nu wordt alleen het stukje opgehaald dat er werkelijk toe doet. Op een verzameling van bijna tienduizend boeken scheelt dat ruwweg vijf gigabyte. Servers die dit niet ondersteunen werken gewoon zoals voorheen.
+- **Het aanvullen van omslagen wacht nu tot het doorzoeken klaar is.** Beide gebeurden tegelijk en gebruikten dezelfde verbinding met je server, waarbij de zware boekdownloads de lichte mapopvragingen in de weg zaten — waardoor juist het doorzoeken, dat je als eerste wilt zien, langzaam ging.
+
 ## 2.87 — 2026-08-12
 
 - **Het doorzoeken van een WebDAV-server gaat ongeveer vier keer zo snel.** De app vroeg de mappen één voor één op en wachtte telkens op het antwoord voor hij verder ging; nu vraagt hij er acht tegelijk op. Op een bibliotheek van zo'n vierduizend mappen scheelt dat ruwweg vier en een halve minuut wachten tegenover iets meer dan één. Servers die de hele mappenboom in één keer kunnen leveren gebruikten die snelle weg al — maar veel servers, waaronder Synology, staan dat niet toe en waren dus altijd op de trage manier aangewezen.
