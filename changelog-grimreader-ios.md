@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 2.90 — 2026-08-12
+
+- **Je boeken op een WebDAV-server tellen nu overal mee.** Start, Schrijvers en Collecties lieten alleen zien wat je zelf had geïmporteerd of al had gedownload — de duizenden boeken die de app op je server had gevonden zaten er niet bij, en waren dus alleen via het serveroverzicht te vinden. Nu maakt het niet meer uit waar een boek vandaan komt: het staat gewoon onder zijn schrijver. Tik je zo'n boek aan, dan wordt het op dat moment van je server gehaald.
+- Een boek dat je al hebt binnengehaald verschijnt niet meer dubbel naast zijn versie op de server.
+- De schrijversnaam van een serverboek komt uit het boekbestand zelf; zolang de app dat nog niet heeft opgehaald staat het boek onder "Onbekende schrijver" en schuift het vanzelf op zijn plek zodra dat gebeurd is.
+
 ## 2.89 — 2026-08-12
 
 - **Door de mappen van je server bladeren, zonder te wachten op het doorzoeken.** Rechtsboven in het boekenoverzicht van een server staat nu een mapknop. Daarmee loop je je server door zoals je dat op je computer zou doen: elke map wordt opgehaald op het moment dat je hem opent, dus je kunt meteen een boek zoeken en lezen. Van de boeken in de map die je openslaat worden de omslag, de titel en de schrijver erbij gehaald terwijl je kijkt. Bij een bibliotheek van duizenden mappen is dat het verschil tussen direct beginnen en minutenlang wachten. Het doorzoeken van de hele bibliotheek blijft bestaan en blijft nodig voor zoeken, de schrijverslijst en het Start-scherm.
