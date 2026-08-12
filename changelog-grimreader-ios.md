@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 2.96 — 2026-08-12
+
+- **"Ook in het boekbestand zelf opslaan" werkte alleen als je het boek via je server opende.** Bewerkte je hetzelfde boek vanuit Schrijvers of Start, dan werd de instelling genegeerd en bleef het bestand ongemoeid. Beide wegen doen nu hetzelfde.
+
 ## 2.95 — 2026-08-12
 
 - **Je kunt de gegevens nu ook in het boekbestand zelf laten opslaan.** Tot nu toe werden je wijzigingen naast het boek bewaard, zodat andere programma's de oude titel bleven tonen. Zet je in het bewerkscherm "Ook in het boekbestand zelf opslaan" aan, dan worden titel, schrijver, taal en samenvatting in het EPUB geschreven. Het boek wordt daarvoor opgehaald, aangepast en teruggezet op je server. Alleen voor EPUB; de instelling blijft onthouden en staat standaard uit.
