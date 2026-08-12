@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 2.94 — 2026-08-12
+
+- **Het aantal boeken achter een schrijver liep niet mee.** De schrijverslijst werd één keer opgebouwd en daarna niet meer; kwamen er boeken bij, dan bleven de getallen op de oude stand staan terwijl het openen van die schrijver wél alles liet zien. De lijst werkt nu bij zodra er boeken bijkomen, en je kunt hem omlaagtrekken om te vernieuwen.
+- **Achter elke server in het zijpaneel staat nu hoeveel boeken de app van die server kent**, net als bij de bibliotheken.
+
 ## 2.93 — 2026-08-12
 
 - **Een boek bewerken zonder Grimmory-server gaf "Serverfout (401)".** Het opslaan van de gegevens ging goed, maar de omslag werd daarna alsnog naar een Grimmory-server gestuurd die je niet hebt. Datzelfde gold voor het wijzigen van de taal en de schrijver. Die gaan nu allemaal naar je eigen opslag of naar je WebDAV-server, net als de rest van de bewerking.
