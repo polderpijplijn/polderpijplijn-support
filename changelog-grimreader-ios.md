@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 2.98 — 2026-08-12
+
+- **Een schrijver uit je eigen bibliotheek kun je nu bewerken, met opzoeken erbij.** Via het potlood op het schrijversscherm pas je de naam, het levensbericht en de foto aan; met de zoekknop haal je die gegevens van Wikipedia. **Verander je de naam, dan wordt die in alle boeken van die schrijver meteen meeveranderd** — en bestaat de nieuwe naam al, dan worden de twee samengevoegd.
+- **De foto van een schrijver staat nu ook in het rondje in de schrijverslijst**, niet alleen op het scherm van de schrijver zelf. Wat de app nog niet heeft opgehaald blijft leeg; met "Schrijversgegevens aanvullen" in het onderhoudsscherm haal je ze in één keer op.
+
 ## 2.97 — 2026-08-12
 
 - **Het schrijversscherm toont nu ook de foto en het levensbericht van schrijvers uit je eigen bibliotheek.** Die gegevens werden al opgehaald en naast je boeken bewaard, maar je zag ze alleen bij een boek — het schrijversscherm zelf bleef leeg.
