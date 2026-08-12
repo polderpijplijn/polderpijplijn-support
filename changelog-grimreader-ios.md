@@ -3,6 +3,14 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 2.99 — 2026-08-12
+
+- **Strips en audioboeken op je server worden nu gevonden.** De app keek alleen naar EPUB en PDF; al het andere werd bij het doorzoeken overgeslagen. CBZ-strips en audiobestanden (mp3, m4b, m4a, aac) staan nu gewoon in je bibliotheek. CBR blijft buiten beeld: dat is een RAR-archief en daar kan de app niet in kijken — zichtbaar maken wat je niet kunt openen leek ons vervelender dan weglaten.
+- **Strips lezen** met bladeren per pagina, knijp-zoomen en dubbeltikken om in te zoomen. De app onthoudt op welke pagina je gebleven was.
+- **Audioboeken kun je afspelen zonder ze eerst binnen te halen.** Een audioboek is al gauw honderden megabytes; met "Luisteren" begin je meteen en wordt alleen opgehaald wat er op dat moment nodig is. Wil je hem offline kunnen horen, dan kan downloaden nog steeds.
+- **De speler onthoudt waar je gebleven was**, ook zonder Grimmory-server.
+- **Omslag, titel en schrijver van een audioboek** worden uit het bestand zelf gehaald — uit alleen de eerste tienduizenden bytes, niet het hele bestand. Werkt voor mp3 en voor m4b/m4a.
+
 ## 2.98 — 2026-08-12
 
 - **Een schrijver uit je eigen bibliotheek kun je nu bewerken, met opzoeken erbij.** Via het potlood op het schrijversscherm pas je de naam, het levensbericht en de foto aan; met de zoekknop haal je die gegevens van Wikipedia. **Verander je de naam, dan wordt die in alle boeken van die schrijver meteen meeveranderd** — en bestaat de nieuwe naam al, dan worden de twee samengevoegd.
