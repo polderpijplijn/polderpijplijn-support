@@ -3,6 +3,17 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 2.87 — 2026-08-12
+
+- **Het doorzoeken van een WebDAV-server gaat ongeveer vier keer zo snel.** De app vroeg de mappen één voor één op en wachtte telkens op het antwoord voor hij verder ging; nu vraagt hij er acht tegelijk op. Op een bibliotheek van zo'n vierduizend mappen scheelt dat ruwweg vier en een halve minuut wachten tegenover iets meer dan één. Servers die de hele mappenboom in één keer kunnen leveren gebruikten die snelle weg al — maar veel servers, waaronder Synology, staan dat niet toe en waren dus altijd op de trage manier aangewezen.
+- **Het ophalen van omslagen en schrijversnamen gaat eveneens sneller**, om dezelfde reden: acht boeken tegelijk in plaats van drie.
+
+## 2.86 — 2026-08-11
+
+- **Favorieten op je eigen geïmporteerde boeken wezen na een herstart een ander boek aan.** Die boeken krijgen bij elke start een nieuw intern nummer toegekend, in de volgorde waarin ze op schijf gevonden worden — en juist dat nummer werd als favoriet opgeschreven. Startte je de app opnieuw, dan hoorde het bij een ander boek. Favorieten worden nu bewaard op iets dat niet verandert: het bestand zelf, net zoals collecties dat al deden. Favorieten op boeken van je server werkten wel goed en blijven behouden; die op geïmporteerde boeken zijn niet te herstellen en beginnen opnieuw.
+- **Favorieten beloofden synchronisatie tussen je apparaten, maar deden dat nooit.** De app schreef ze naar iCloud zonder daar toestemming voor te hebben aangevraagd, waardoor iOS het stilzwijgend negeerde. Je favorieten werkten al die tijd op de lokale kopie — dat verandert dus niets — maar de app belooft nu niets meer wat hij niet waarmaakt.
+- **Vijf teksten stonden nog in het Nederlands als je de app in het Engels gebruikte**, waaronder drie voorleeslabels voor VoiceOver.
+
 ## 2.85 — 2026-08-11
 
 - **Je server werd onterecht als "alleen-lezen" aangemerkt** (het slotje in Instellingen). De app testte zijn schrijfrechten met een bestandje dat met een punt begon, en veel servers — waaronder QNAP met Apache — weigeren zulke verborgen bestanden standaard. De boekenindex zelf heeft geen punt en werd wél geaccepteerd, dus de test mat iets anders dan wat de app werkelijk doet. Het testbestand heet nu `write-test.tmp`.
