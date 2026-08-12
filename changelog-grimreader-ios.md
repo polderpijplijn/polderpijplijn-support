@@ -3,6 +3,15 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 2.97 — 2026-08-12
+
+- **Het schrijversscherm toont nu ook de foto en het levensbericht van schrijvers uit je eigen bibliotheek.** Die gegevens werden al opgehaald en naast je boeken bewaard, maar je zag ze alleen bij een boek — het schrijversscherm zelf bleef leeg.
+- **Onderhoud voor je eigen servers**, in Instellingen. Drie hulpmiddelen die eerder alleen met een Grimmory-server bestonden:
+  - **Schrijvers samenvoegen** — "P.G. Wodehouse", "P. G. Wodehouse" en "p g wodehouse" worden als één schrijver herkend; jij kiest welke schrijfwijze blijft.
+  - **Schrijversgegevens aanvullen** — haalt van al je schrijvers in één keer de foto en het levensbericht op, in plaats van pas wanneer je toevallig een boek van ze opent.
+  - **Taalcodes standaardiseren** — brengt "nl", "nl-NL" en "Dutch" onder één noemer, zodat filteren op taal klopt.
+- Deze hulpmiddelen werken op de gegevens die de app naast je boeken bewaart; je boekbestanden worden er niet door aangepast.
+
 ## 2.96 — 2026-08-12
 
 - **"Ook in het boekbestand zelf opslaan" werkte alleen als je het boek via je server opende.** Bewerkte je hetzelfde boek vanuit Schrijvers of Start, dan werd de instelling genegeerd en bleef het bestand ongemoeid. Beide wegen doen nu hetzelfde.
