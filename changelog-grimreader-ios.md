@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 2.95 — 2026-08-12
+
+- **Je kunt de gegevens nu ook in het boekbestand zelf laten opslaan.** Tot nu toe werden je wijzigingen naast het boek bewaard, zodat andere programma's de oude titel bleven tonen. Zet je in het bewerkscherm "Ook in het boekbestand zelf opslaan" aan, dan worden titel, schrijver, taal en samenvatting in het EPUB geschreven. Het boek wordt daarvoor opgehaald, aangepast en teruggezet op je server. Alleen voor EPUB; de instelling blijft onthouden en staat standaard uit.
+- Bij het aanpassen van een boekbestand blijft het origineel op je server staan tot de nieuwe versie volledig is geüpload. Valt de verbinding weg, dan is je boek ongemoeid en ligt er hooguit een tijdelijk bestand naast. Alles in het boek behalve de metadata wordt ongewijzigd overgenomen — er wordt niets opnieuw ingepakt.
+
 ## 2.94 — 2026-08-12
 
 - **Het aantal boeken achter een schrijver liep niet mee.** De schrijverslijst werd één keer opgebouwd en daarna niet meer; kwamen er boeken bij, dan bleven de getallen op de oude stand staan terwijl het openen van die schrijver wél alles liet zien. De lijst werkt nu bij zodra er boeken bijkomen, en je kunt hem omlaagtrekken om te vernieuwen.
