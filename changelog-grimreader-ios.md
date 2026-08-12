@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 2.89 — 2026-08-12
+
+- **Door de mappen van je server bladeren, zonder te wachten op het doorzoeken.** Rechtsboven in het boekenoverzicht van een server staat nu een mapknop. Daarmee loop je je server door zoals je dat op je computer zou doen: elke map wordt opgehaald op het moment dat je hem opent, dus je kunt meteen een boek zoeken en lezen. Van de boeken in de map die je openslaat worden de omslag, de titel en de schrijver erbij gehaald terwijl je kijkt. Bij een bibliotheek van duizenden mappen is dat het verschil tussen direct beginnen en minutenlang wachten. Het doorzoeken van de hele bibliotheek blijft bestaan en blijft nodig voor zoeken, de schrijverslijst en het Start-scherm.
+- **Een nieuwe server wordt niet meer ongevraagd helemaal doorzocht.** Voorheen begon dat vanzelf zodra je zijn boeken opende, wat bij een grote bibliotheek minuten stil wachten betekende zonder dat je erom had gevraagd. Nu krijg je de keuze: doorzoeken, of meteen door de mappen bladeren. Bewaarde de app al eerder een boekenindex op de server zelf, dan wordt die nog steeds vanzelf geladen — dat is één bestand en zo gebeurd.
+
 ## 2.88 — 2026-08-12
 
 - **Omslagen en schrijversnamen ophalen kost nu een kwart van het dataverkeer.** De app haalde per boek het hele bestand van je server op om er een plaatje en een naam uit te vissen en gooide de rest weg; bij een grote bibliotheek liep dat in de gigabytes. Nu wordt alleen het stukje opgehaald dat er werkelijk toe doet. Op een verzameling van bijna tienduizend boeken scheelt dat ruwweg vijf gigabyte. Servers die dit niet ondersteunen werken gewoon zoals voorheen.
