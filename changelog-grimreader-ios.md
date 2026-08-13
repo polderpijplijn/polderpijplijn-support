@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.2 — 2026-08-13
+
+- **Een strip die nog niet op je toestel staat wordt nu automatisch opgehaald** wanneer je hem opent. Voorheen kon je op een melding belanden waar je niet meer uit kwam. De strip wordt bewaard, dus de volgende keer opent hij meteen.
+- **Audioboeken van je eigen server spelen nu door op de achtergrond en op het toegangsscherm**, met de omslag en de bedieningsknoppen erbij — net als audioboeken van een Grimmory-server. Sluit je het spelerscherm terwijl het speelt, dan loopt het gewoon door.
+- **Het inlogscherm is opgeruimd.** WebDAV, thema en de demo stonden op het Grimmory-inlogscherm terwijl het app-brede instellingen zijn; die vind je nu allemaal onder Instellingen. De demoknop staat daar bovenaan.
+
 ## 3.1 — 2026-08-13
 
 - **Een audioboek vanaf het startscherm openen gaf een serverfout.** Het ging langs de speler die bij een Grimmory-server hoort; nu wordt het net als vanuit het serveroverzicht afgespeeld — van je toestel als het er staat, anders rechtstreeks van je server.
