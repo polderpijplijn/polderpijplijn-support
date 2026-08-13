@@ -3,6 +3,17 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.1 — 2026-08-13
+
+- **Een audioboek vanaf het startscherm openen gaf een serverfout.** Het ging langs de speler die bij een Grimmory-server hoort; nu wordt het net als vanuit het serveroverzicht afgespeeld — van je toestel als het er staat, anders rechtstreeks van je server.
+- **Strips openden soms met "het archief kon worden geopend maar bleek leeg".** Een interne padcontrole liep mis op de iPhone, waardoor er niets werd uitgepakt. Opgelost.
+- **Een boek van je server verwijderen** kan nu, via het menu in het boekdetail. Het bestand wordt van je server gehaald; dit kan niet ongedaan gemaakt worden.
+- **Schrijversgegevens aanvullen laat nu eerst zien wat er gevonden is.** Je keurt per schrijver goed, of alles in één keer, en kunt er één aanpassen voordat er iets bewaard wordt. Wijkt de gevonden pagina af van de naam, dan staat daar een waarschuwing bij — dan heeft de bron mogelijk de verkeerde persoon.
+- **Bij een schrijver zoeken kies je nu uit meerdere kandidaten**, met aantal boeken en jaartallen erbij, uit Open Library naast Wikipedia. Handig als er automatisch een verkeerde pagina bij is gezocht.
+- **Je kunt zelf een foto voor een schrijver kiezen**, uit je fotoalbum of als bestand.
+- Schrijversfoto's die in de lijst ontbraken terwijl ze op het scherm van de schrijver wél stonden, verschijnen nu overal, en vullen hun rondje netjes in plaats van er verloren in te zweven.
+- Nieuwe strips en audioboeken verschijnen meteen op het startscherm na een scan, in plaats van pas nadat je de app opnieuw opent.
+
 ## 3.0 — 2026-08-13
 
 - **Een audioboek rechtstreeks van je server afspelen werkte niet.** De app vertelde de speler wel hoe groot het bestand was, maar stuurde nooit de audio zelf — die vraag werd met het verkeerde antwoord afgedaan.
