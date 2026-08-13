@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.3 — 2026-08-13
+
+- **Delen van de app stonden nog in het Nederlands als je hem in het Engels gebruikte**, waaronder het schrijversscherm, het onderhoudsscherm en de nieuwe knoppen rond strips en audioboeken. Die zijn nu vertaald.
+- Op het scherm om een schrijver te bewerken heet "Levensbericht" nu "Beschrijving".
+
 ## 3.2 — 2026-08-13
 
 - **Een strip die nog niet op je toestel staat wordt nu automatisch opgehaald** wanneer je hem opent. Voorheen kon je op een melding belanden waar je niet meer uit kwam. De strip wordt bewaard, dus de volgende keer opent hij meteen.
