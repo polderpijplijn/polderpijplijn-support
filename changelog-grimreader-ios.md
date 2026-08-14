@@ -3,6 +3,14 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.48 — 2026-08-14
+
+- **De leesvoortgang was nergens te zien bij je eigen boeken.** De app bewaarde hem wel, maar gaf hem niet door aan het scherm — de balk op de "Lees verder"-kaart bleef daardoor altijd weg. Nu staat het percentage er weer bij, samen met wanneer je het boek het laatst open had.
+- **Favorieten waren niet te bereiken zonder Grimmory-server.** Je kon een boek wel als favoriet markeren, maar de lijst nergens openen. Die verschijnt nu vanzelf zodra je je eerste favoriet hebt.
+- **"Mijn boeken" heet voortaan "Lokale boeken".**
+- De kleuren van de Modern-interface zijn aangepast zodat alle tekst en knoppen ook in donkere modus goed leesbaar zijn.
+- De "Lees verder"-kaart heeft rustiger verhoudingen: kleinere omslag en compacte knoppen in plaats van knoppen over de volle breedte.
+
 ## 3.47 — 2026-08-14
 
 - **"Lees verder" begint nu bij het boek dat je het laatst open had.** Die rij stond in een willekeurige volgorde, omdat de app wel bijhield dát je ergens gebleven was maar niet wanneer. Dat wordt nu vastgelegd zodra je een boek sluit. Boeken die je vóór deze versie las hebben nog geen tijdstip en staan erachter.
