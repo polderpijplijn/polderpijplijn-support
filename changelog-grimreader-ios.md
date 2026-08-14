@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.47 — 2026-08-14
+
+- **"Lees verder" begint nu bij het boek dat je het laatst open had.** Die rij stond in een willekeurige volgorde, omdat de app wel bijhield dát je ergens gebleven was maar niet wanneer. Dat wordt nu vastgelegd zodra je een boek sluit. Boeken die je vóór deze versie las hebben nog geen tijdstip en staan erachter.
+
 ## 3.46 — 2026-08-14
 
 - **Het Modern-startscherm en het detailpaneel zijn verder bijgewerkt** naar het beoogde ontwerp, met een eigen kleuraccent voor knoppen.
