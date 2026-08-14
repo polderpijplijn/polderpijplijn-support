@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.45 — 2026-08-14
+
+- **Het detailpaneel van Modern zit nu ook bij Alle boeken, Favorieten en Mijn boeken**, niet alleen op het startscherm. Overal waar je een boekenraster ziet, staat naast je selectie dezelfde context.
+- **Nieuw in het paneel: informatie over de schrijver**, opgehaald uit de bronnen die de app al gebruikt en in je eigen taal. Die wordt per boek opnieuw geladen, dus wisselen blijft snel.
+- De omslag wisselt nu netjes mee wanneer je een ander boek aantikt.
+- In de zijbalk staat Series nu ook bij een WebDAV-server, en een losse pijl is verdwenen.
+
 ## 3.44 — 2026-08-14
 
 - **Modern op iPad is verder afgemaakt.** De detailkolom is nu in te klappen, de indeling volgt de werkelijke breedte (dus ook bij draaien of een gesplitst scherm), en je opent een boek rechtstreeks vanuit het paneel.
