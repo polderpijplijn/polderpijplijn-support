@@ -3,6 +3,16 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.50 — 2026-08-14
+
+- **Schrijversfoto's verschijnen nu meteen** in plaats van langzaam in te druppelen; ze werden bij elke beweging opnieuw van schijf gelezen. Ook in Favorieten staan ze er nu bij.
+- **Luisterboeken hebben een eigen tabblad onder Favorieten**, los van je boeken.
+- **Meerdere boeken kiezen kan nu ook op het scherm van een schrijver.**
+- **Een wijziging aan een strip leek niet bewaard** wanneer je hem vanuit de mappenbrouwer aanpaste: de map toonde nog de oude titel. Nu zie je je wijziging meteen.
+- **Boeken delen vanuit een andere app werkt nu ook voor strips en audioboeken.** Bij een gedeelde strip worden de omslag en gegevens uit het bestand gehaald, net als bij boeken van je server.
+- Op iPad staan de naam en het logo van de app bovenaan de zijbalk in plaats van boven de boekenlijst.
+- Nog een reeks teksten die in het Engels Nederlands bleven, waaronder de koppen van Strips en Luisterboeken en "Verder lezen" in het detailpaneel.
+
 ## 3.49 — 2026-08-14
 
 - **Modern is nu de standaardweergave.** Had je eerder bewust Klassiek gekozen, dan blijft dat zo; je wisselt via Instellingen.
