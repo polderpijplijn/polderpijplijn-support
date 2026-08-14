@@ -3,6 +3,14 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.31 — 2026-08-14
+
+- **Strips van je server tonen nu hun eigen titel, serie en tekenaar** in plaats van alleen de bestandsnaam, als die gegevens in het bestand staan. Je ziet het bij strips die na deze versie worden gescand.
+- **Bij het zoeken van een schrijver staat er nu een vinkje** bij degene die je gekozen hebt. Kies je iemand zonder beschrijving of foto, dan worden de oude gegevens ook echt gewist in plaats van te blijven staan.
+- **Schrijversfoto's zijn na een herstart meteen zichtbaar** in plaats van pas na een tel; ze worden nu bewaard in plaats van elke keer opnieuw opgehaald.
+- **De omslag van sommige audioboeken bleef leeg** wanneer er een accent of ander bijzonder teken in de omschrijving van de omslag stond. Die worden nu goed gelezen.
+- **De tijdbalk van een audioboek van je server sleepte stroef en belastte je server**: tijdens het slepen werd bij elke beweging opnieuw gezocht. Nu gebeurt dat pas als je loslaat.
+
 ## 3.3 — 2026-08-13
 
 - **Delen van de app stonden nog in het Nederlands als je hem in het Engels gebruikte**, waaronder het schrijversscherm, het onderhoudsscherm en de nieuwe knoppen rond strips en audioboeken. Die zijn nu vertaald.
