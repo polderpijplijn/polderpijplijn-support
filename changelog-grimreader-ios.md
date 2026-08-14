@@ -3,6 +3,14 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.46 — 2026-08-14
+
+- **Het Modern-startscherm en het detailpaneel zijn verder bijgewerkt** naar het beoogde ontwerp, met een eigen kleuraccent voor knoppen.
+- **"Bekijk alles" werkt nu overal**: elke sectie op het startscherm brengt je naar de bijbehorende volledige lijst.
+- Bij Mijn boeken staat het zoekveld nu boven de boekenlijst in plaats van over het hele scherm, zodat het detailpaneel ernaast blijft staan.
+- De leesvoortgang in het paneel klopt weer.
+- Instellingen staat op de iPad onderaan de zijbalk, los van de bibliotheekonderdelen.
+
 ## 3.45 — 2026-08-14
 
 - **Het detailpaneel van Modern zit nu ook bij Alle boeken, Favorieten en Mijn boeken**, niet alleen op het startscherm. Overal waar je een boekenraster ziet, staat naast je selectie dezelfde context.
