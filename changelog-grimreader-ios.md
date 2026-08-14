@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.44 — 2026-08-14
+
+- **Modern op iPad is verder afgemaakt.** De detailkolom is nu in te klappen, de indeling volgt de werkelijke breedte (dus ook bij draaien of een gesplitst scherm), en je opent een boek rechtstreeks vanuit het paneel.
+- Leesvoortgang wordt duidelijker weergegeven, en "Verder lezen" loopt weer gelijk met wat er in het paneel staat.
+- De zijbalk is opgeruimd en houdt rekening met je WebDAV-servers.
+
 ## 3.43 — 2026-08-14
 
 - **Modern op iPad gebruikt de breedte nu echt.** Naast je bibliotheek staat een vast paneel met het boek dat je hebt aangetikt: omslag, schrijver, serie, taal, leesvoortgang en de omschrijving, met knoppen om te lezen of het boek te bewaren. Op iPhone blijft het rustige startscherm zoals het was.
