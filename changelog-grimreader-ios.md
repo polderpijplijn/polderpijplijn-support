@@ -3,6 +3,30 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.42 — 2026-08-14
+
+- **Nieuwe, optionele interface: Modern.** Een rustiger, contentgericht startscherm voor iPhone en iPad. De vertrouwde weergave blijft de standaard en heet nu Klassiek; je wisselt ertussen via Instellingen.
+
+## 3.41 — 2026-08-14
+
+- **Een beschadigd boekbestand meldt zich nu als beschadigd** in plaats van gedeeltelijk of leeg te openen. Ook een schrijffout op je toestel (bijvoorbeeld een volle schijf) blijft niet langer onopgemerkt.
+- Boeken met een compressievorm die de app niet kent worden herkend en netjes geweigerd, in plaats van als onleesbare tekst te worden getoond.
+- Verwijzingen binnen een boek — inclusief de audiobestanden bij voorlezen — kunnen niet meer buiten het boek wijzen.
+- Dezelfde controles gelden nu ook bij het rechtstreeks van je server lezen, en verdachte bestanden worden geweigerd vóórdat er iets wordt opgehaald.
+
+## 3.40 — 2026-08-14
+
+- **Beveiliging van het openen van boekbestanden aangescherpt.** Een geprepareerd boek kon de app dwingen enorme hoeveelheden geheugen te reserveren. Er gelden nu grenzen aan de grootte, het aantal bestanden en de compressieverhouding, en een beschadigd bestand geeft een duidelijke melding in plaats van een half boek.
+- Boeken die met een wachtwoord beveiligd zijn of een archiefvorm gebruiken die de app niet leest, worden nu netjes geweigerd met uitleg.
+- **Wachtwoorden en toegangssleutels blijven op je toestel** en gaan niet meer via iCloud naar je andere Apple-apparaten. Je serveradres en gebruikersnaam nog wel — die typ je liever niet opnieuw. Bestaande gegevens worden bij het opstarten automatisch teruggehaald.
+- Bij een serveradres dat met `http://` begint verschijnt nu een waarschuwing dat je gegevens onbeschermd over het netwerk gaan.
+
+## 3.39 — 2026-08-14
+
+- **Meerdere boeken kiezen kan nu ook tijdens het bladeren door mappen**, en vanuit het scherm van een schrijver of een serie. Voorheen kon dat alleen in het serveroverzicht, terwijl een map met strips juist de plek is waar je een hele reeks in één keer wilt bijwerken.
+- In de mappenbrowser blijven submappen gewoon te openen terwijl je kiest; alleen boeken zijn aan te vinken.
+- Boeken die je via de mappenbrowser aanpast worden meteen aan je bibliotheek toegevoegd, ook als je de server nog nooit hebt doorzocht.
+
 ## 3.38 — 2026-08-14
 
 - **Series worden nu uit je boeken gelezen** en verschijnen in het Series-scherm, net als bij een Grimmory-server. Voor EPUB leest de app zowel de officiële EPUB 3-manier als de velden die Calibre schrijft; voor strips de Series- en Number-velden uit ComicInfo.xml.
