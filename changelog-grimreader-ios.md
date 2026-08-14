@@ -3,6 +3,18 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.38 — 2026-08-14
+
+- **Series worden nu uit je boeken gelezen** en verschijnen in het Series-scherm, net als bij een Grimmory-server. Voor EPUB leest de app zowel de officiële EPUB 3-manier als de velden die Calibre schrijft; voor strips de Series- en Number-velden uit ComicInfo.xml.
+- **Series instellen kan in het scherm voor meerdere boeken.** Je kiest een serie die je al hebt of tikt een nieuwe naam, en kunt de gekozen boeken in één keer doornummeren vanaf een startgetal.
+- De serie wordt desgewenst ook in de bestanden zelf geschreven — bij een EPUB in beide vormen tegelijk, zodat zowel Calibre als andere e-readers hem zien.
+- Een PDF kent geen serieveld; daar blijft de serie in de app bewaard.
+
+## 3.37 — 2026-08-14
+
+- **Bij het bewerken van een boek kies je de schrijver nu uit een lijst** van wie je al in je bibliotheek hebt, met het aantal boeken erbij. Een nieuwe naam intik je gewoon in hetzelfde zoekveld. Zo houd je dezelfde schrijfwijze aan en levert een tikfout geen tweede schrijver meer op.
+- **Meerdere boeken tegelijk aanpassen.** Kies in het serveroverzicht *Meerdere aanpassen*, vink de boeken aan en zet in één keer de schrijver en/of de taal. Ook hier kun je kiezen om de schrijver meteen in de boekbestanden zelf te schrijven.
+
 ## 3.36 — 2026-08-14
 
 - **Bij het hernoemen van een schrijver kun je nu kiezen om de naam ook in de boekbestanden zelf te schrijven**, zodat andere programma's hem ook zien. Staat uit tenzij je hem aanzet; je ziet vooraf om hoeveel boeken het gaat en tijdens het bijwerken hoe ver het is.
