@@ -3,72 +3,48 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.43 — 2026-08-14
+
+- **Modern op iPad gebruikt de breedte nu echt.** Naast je bibliotheek staat een vast paneel met het boek dat je hebt aangetikt: omslag, schrijver, serie, taal, leesvoortgang en de omschrijving, met knoppen om te lezen of het boek te bewaren. Op iPhone blijft het rustige startscherm zoals het was.
+
 ## 3.42 — 2026-08-14
 
 - **Nieuwe, optionele interface: Modern.** Een rustiger, contentgericht startscherm voor iPhone en iPad. De vertrouwde weergave blijft de standaard en heet nu Klassiek; je wisselt ertussen via Instellingen.
-
-## 3.41 — 2026-08-14
-
-- **Een beschadigd boekbestand meldt zich nu als beschadigd** in plaats van gedeeltelijk of leeg te openen. Ook een schrijffout op je toestel (bijvoorbeeld een volle schijf) blijft niet langer onopgemerkt.
-- Boeken met een compressievorm die de app niet kent worden herkend en netjes geweigerd, in plaats van als onleesbare tekst te worden getoond.
-- Verwijzingen binnen een boek — inclusief de audiobestanden bij voorlezen — kunnen niet meer buiten het boek wijzen.
-- Dezelfde controles gelden nu ook bij het rechtstreeks van je server lezen, en verdachte bestanden worden geweigerd vóórdat er iets wordt opgehaald.
-
-## 3.40 — 2026-08-14
-
-- **Beveiliging van het openen van boekbestanden aangescherpt.** Een geprepareerd boek kon de app dwingen enorme hoeveelheden geheugen te reserveren. Er gelden nu grenzen aan de grootte, het aantal bestanden en de compressieverhouding, en een beschadigd bestand geeft een duidelijke melding in plaats van een half boek.
-- Boeken die met een wachtwoord beveiligd zijn of een archiefvorm gebruiken die de app niet leest, worden nu netjes geweigerd met uitleg.
+- **Meerdere boeken kiezen kan nu ook tijdens het bladeren door mappen**, en vanuit het scherm van een schrijver of een serie. Voorheen kon dat alleen in het serveroverzicht, terwijl een map met strips juist de plek is waar je een hele reeks in één keer wilt bijwerken. Submappen blijven gewoon te openen terwijl je kiest; alleen boeken zijn aan te vinken.
+- Boeken die je via de mappenbrowser aanpast worden meteen aan je bibliotheek toegevoegd, ook als je de server nog nooit hebt doorzocht.
+- **Het openen van boekbestanden is grondig beveiligd.** Een geprepareerd boek kon de app dwingen enorme hoeveelheden geheugen te reserveren; er gelden nu grenzen aan de grootte, het aantal bestanden en de compressieverhouding. Een beschadigd bestand meldt zich als beschadigd in plaats van half of leeg te openen, en een schrijffout op je toestel — bijvoorbeeld een volle schijf — blijft niet langer onopgemerkt.
+- Boeken die met een wachtwoord beveiligd zijn, of een archief- of compressievorm gebruiken die de app niet kent, worden nu herkend en geweigerd met uitleg.
+- Verwijzingen binnen een boek — inclusief de audiobestanden bij voorlezen — kunnen niet meer buiten het boek wijzen. Dezelfde controles gelden bij het rechtstreeks van je server lezen, waarbij verdachte bestanden worden geweigerd vóórdat er iets wordt opgehaald.
 - **Wachtwoorden en toegangssleutels blijven op je toestel** en gaan niet meer via iCloud naar je andere Apple-apparaten. Je serveradres en gebruikersnaam nog wel — die typ je liever niet opnieuw. Bestaande gegevens worden bij het opstarten automatisch teruggehaald.
 - Bij een serveradres dat met `http://` begint verschijnt nu een waarschuwing dat je gegevens onbeschermd over het netwerk gaan.
 
-## 3.39 — 2026-08-14
-
-- **Meerdere boeken kiezen kan nu ook tijdens het bladeren door mappen**, en vanuit het scherm van een schrijver of een serie. Voorheen kon dat alleen in het serveroverzicht, terwijl een map met strips juist de plek is waar je een hele reeks in één keer wilt bijwerken.
-- In de mappenbrowser blijven submappen gewoon te openen terwijl je kiest; alleen boeken zijn aan te vinken.
-- Boeken die je via de mappenbrowser aanpast worden meteen aan je bibliotheek toegevoegd, ook als je de server nog nooit hebt doorzocht.
-
 ## 3.38 — 2026-08-14
 
+- **Bij het bewerken van een boek kies je de schrijver nu uit een lijst** van wie je al in je bibliotheek hebt, met het aantal boeken erbij. Een nieuwe naam intik je gewoon in hetzelfde zoekveld. Zo houd je dezelfde schrijfwijze aan en levert een tikfout geen tweede schrijver meer op.
+- **Meerdere boeken tegelijk aanpassen.** Kies in het serveroverzicht *Meerdere aanpassen*, vink de boeken aan en zet in één keer de schrijver en/of de taal. Ook hier kun je kiezen om de schrijver meteen in de boekbestanden zelf te schrijven.
 - **Series worden nu uit je boeken gelezen** en verschijnen in het Series-scherm, net als bij een Grimmory-server. Voor EPUB leest de app zowel de officiële EPUB 3-manier als de velden die Calibre schrijft; voor strips de Series- en Number-velden uit ComicInfo.xml.
 - **Series instellen kan in het scherm voor meerdere boeken.** Je kiest een serie die je al hebt of tikt een nieuwe naam, en kunt de gekozen boeken in één keer doornummeren vanaf een startgetal.
 - De serie wordt desgewenst ook in de bestanden zelf geschreven — bij een EPUB in beide vormen tegelijk, zodat zowel Calibre als andere e-readers hem zien.
 - Een PDF kent geen serieveld; daar blijft de serie in de app bewaard.
 
-## 3.37 — 2026-08-14
-
-- **Bij het bewerken van een boek kies je de schrijver nu uit een lijst** van wie je al in je bibliotheek hebt, met het aantal boeken erbij. Een nieuwe naam intik je gewoon in hetzelfde zoekveld. Zo houd je dezelfde schrijfwijze aan en levert een tikfout geen tweede schrijver meer op.
-- **Meerdere boeken tegelijk aanpassen.** Kies in het serveroverzicht *Meerdere aanpassen*, vink de boeken aan en zet in één keer de schrijver en/of de taal. Ook hier kun je kiezen om de schrijver meteen in de boekbestanden zelf te schrijven.
-
 ## 3.36 — 2026-08-14
-
-- **Bij het hernoemen van een schrijver kun je nu kiezen om de naam ook in de boekbestanden zelf te schrijven**, zodat andere programma's hem ook zien. Staat uit tenzij je hem aanzet; je ziet vooraf om hoeveel boeken het gaat en tijdens het bijwerken hoe ver het is.
-- **Strips in CBZ kunnen nu ook worden bijgewerkt.** Titel en schrijver gaan naar het ComicInfo.xml in het bestand, dat wordt aangemaakt als het er nog niet was. Voorheen kon alleen een EPUB worden aangepast.
-
-## 3.35 — 2026-08-14
-
-- **Een schrijver hernoemen paste alleen de boeken op je server aan.** Boeken die je zelf had toegevoegd of gedownload bleven onder de oude naam staan, zodat je die schrijver daarna twee keer in de lijst had. Nu gaan al je boeken mee, ook bij het samenvoegen van schrijvers in het onderhoudsscherm.
-- Een zelfgekozen schrijversfoto verhuist mee bij het hernoemen. Voeg je twee schrijvers samen, dan blijft de foto van degene die je behoudt staan.
-- Het aantal boeken dat bij het hernoemen wordt genoemd klopt nu; dat telde eerder alleen je serverboeken.
-- Een schrijver hernoemen werkt nu ook zonder server ingesteld te hebben.
-
-## 3.34 — 2026-08-14
-
-- **Sommige audioboeken misten hun titel of hadden een afgekapte schrijversnaam.** De app las de lengtevelden in het metadatablok op één manier, terwijl een deel van de programma's die zo'n bestand maakt ze anders wegschrijft. Beide manieren worden nu herkend, en één beschadigd veld kost niet langer alles wat erachter staat.
-- **Een server verwijderen terwijl hij nog aan het inlezen was, liet de app doorwerken** aan een bibliotheek die niet meer bestond. Dat stopt nu meteen.
-- Knoppen op het toegangsscherm melden niet langer dat ze iets deden als de speler al was afgesloten.
-- Door mappen bladeren is soepeler bij mappen met veel boeken.
-
-## 3.33 — 2026-08-14
-
-- **De titel van een boek aanpassen kon in zeldzame gevallen het boekbestand beschadigen.** Bij een EPUB met een leeg titelveld werd niet dat veld maar alles wat erop volgde overschreven. Nu wordt zo'n leeg veld overgeslagen.
-- **Een audioboek dat rechtstreeks van je server speelt kon blijven hangen** als je het spelerscherm sloot terwijl er nog een stuk werd opgehaald. Ook konden twee gelijktijdige aanvragen elkaar in de weg zitten.
-- Mislukte downloads lieten geen tijdelijke bestanden meer achter op je toestel.
-
-## 3.32 — 2026-08-14
 
 - **Een verkeerd wachtwoord zag eruit als een lege bibliotheek.** Ging het doorzoeken van je server mis, dan werd de fout stilzwijgend ingeslikt en bleef er niets over om naar te kijken. Nu staat er wat er misging, met een knop om het opnieuw te proberen. Stond er al een lijst van een eerdere keer, dan zie je erboven dat de laatste poging mislukte.
 - **Na een afgekeurd wachtwoord probeerde de app alsnog omslagen op te halen** — acht tegelijk, allemaal kansloos. Dat gebeurt nu niet meer.
 - **Een boek openen voelde traag als je veel boeken op je toestel hebt staan.** De app las bij elke handeling opnieuw de hele map van schijf; dat gebeurt nu één keer en daarna alleen nog als er echt iets verandert.
+- **De titel van een boek aanpassen kon in zeldzame gevallen het boekbestand beschadigen.** Bij een EPUB met een leeg titelveld werd niet dat veld maar alles wat erop volgde overschreven. Nu wordt zo'n leeg veld overgeslagen.
+- **Een audioboek dat rechtstreeks van je server speelt kon blijven hangen** als je het spelerscherm sloot terwijl er nog een stuk werd opgehaald. Ook konden twee gelijktijdige aanvragen elkaar in de weg zitten.
+- Mislukte downloads lieten geen tijdelijke bestanden meer achter op je toestel.
+- **Sommige audioboeken misten hun titel of hadden een afgekapte schrijversnaam.** De app las de lengtevelden in het metadatablok op één manier, terwijl een deel van de programma's die zo'n bestand maakt ze anders wegschrijft. Beide manieren worden nu herkend, en één beschadigd veld kost niet langer alles wat erachter staat.
+- **Een server verwijderen terwijl hij nog aan het inlezen was, liet de app doorwerken** aan een bibliotheek die niet meer bestond. Dat stopt nu meteen.
+- Knoppen op het toegangsscherm melden niet langer dat ze iets deden als de speler al was afgesloten.
+- Door mappen bladeren is soepeler bij mappen met veel boeken.
+- **Een schrijver hernoemen paste alleen de boeken op je server aan.** Boeken die je zelf had toegevoegd of gedownload bleven onder de oude naam staan, zodat je die schrijver daarna twee keer in de lijst had. Nu gaan al je boeken mee, ook bij het samenvoegen van schrijvers in het onderhoudsscherm.
+- Een zelfgekozen schrijversfoto verhuist mee bij het hernoemen. Voeg je twee schrijvers samen, dan blijft de foto van degene die je behoudt staan.
+- Het aantal boeken dat bij het hernoemen wordt genoemd klopt nu; dat telde eerder alleen je serverboeken.
+- Een schrijver hernoemen werkt nu ook zonder server ingesteld te hebben.
+- **Bij het hernoemen van een schrijver kun je nu kiezen om de naam ook in de boekbestanden zelf te schrijven**, zodat andere programma's hem ook zien. Staat uit tenzij je hem aanzet; je ziet vooraf om hoeveel boeken het gaat en tijdens het bijwerken hoe ver het is.
+- **Strips in CBZ kunnen nu ook worden bijgewerkt.** Titel en schrijver gaan naar het ComicInfo.xml in het bestand, dat wordt aangemaakt als het er nog niet was. Voorheen kon alleen een EPUB worden aangepast.
 
 ## 3.31 — 2026-08-14
 
