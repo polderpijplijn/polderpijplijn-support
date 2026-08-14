@@ -3,6 +3,37 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.36 — 2026-08-14
+
+- **Bij het hernoemen van een schrijver kun je nu kiezen om de naam ook in de boekbestanden zelf te schrijven**, zodat andere programma's hem ook zien. Staat uit tenzij je hem aanzet; je ziet vooraf om hoeveel boeken het gaat en tijdens het bijwerken hoe ver het is.
+- **Strips in CBZ kunnen nu ook worden bijgewerkt.** Titel en schrijver gaan naar het ComicInfo.xml in het bestand, dat wordt aangemaakt als het er nog niet was. Voorheen kon alleen een EPUB worden aangepast.
+
+## 3.35 — 2026-08-14
+
+- **Een schrijver hernoemen paste alleen de boeken op je server aan.** Boeken die je zelf had toegevoegd of gedownload bleven onder de oude naam staan, zodat je die schrijver daarna twee keer in de lijst had. Nu gaan al je boeken mee, ook bij het samenvoegen van schrijvers in het onderhoudsscherm.
+- Een zelfgekozen schrijversfoto verhuist mee bij het hernoemen. Voeg je twee schrijvers samen, dan blijft de foto van degene die je behoudt staan.
+- Het aantal boeken dat bij het hernoemen wordt genoemd klopt nu; dat telde eerder alleen je serverboeken.
+- Een schrijver hernoemen werkt nu ook zonder server ingesteld te hebben.
+
+## 3.34 — 2026-08-14
+
+- **Sommige audioboeken misten hun titel of hadden een afgekapte schrijversnaam.** De app las de lengtevelden in het metadatablok op één manier, terwijl een deel van de programma's die zo'n bestand maakt ze anders wegschrijft. Beide manieren worden nu herkend, en één beschadigd veld kost niet langer alles wat erachter staat.
+- **Een server verwijderen terwijl hij nog aan het inlezen was, liet de app doorwerken** aan een bibliotheek die niet meer bestond. Dat stopt nu meteen.
+- Knoppen op het toegangsscherm melden niet langer dat ze iets deden als de speler al was afgesloten.
+- Door mappen bladeren is soepeler bij mappen met veel boeken.
+
+## 3.33 — 2026-08-14
+
+- **De titel van een boek aanpassen kon in zeldzame gevallen het boekbestand beschadigen.** Bij een EPUB met een leeg titelveld werd niet dat veld maar alles wat erop volgde overschreven. Nu wordt zo'n leeg veld overgeslagen.
+- **Een audioboek dat rechtstreeks van je server speelt kon blijven hangen** als je het spelerscherm sloot terwijl er nog een stuk werd opgehaald. Ook konden twee gelijktijdige aanvragen elkaar in de weg zitten.
+- Mislukte downloads lieten geen tijdelijke bestanden meer achter op je toestel.
+
+## 3.32 — 2026-08-14
+
+- **Een verkeerd wachtwoord zag eruit als een lege bibliotheek.** Ging het doorzoeken van je server mis, dan werd de fout stilzwijgend ingeslikt en bleef er niets over om naar te kijken. Nu staat er wat er misging, met een knop om het opnieuw te proberen. Stond er al een lijst van een eerdere keer, dan zie je erboven dat de laatste poging mislukte.
+- **Na een afgekeurd wachtwoord probeerde de app alsnog omslagen op te halen** — acht tegelijk, allemaal kansloos. Dat gebeurt nu niet meer.
+- **Een boek openen voelde traag als je veel boeken op je toestel hebt staan.** De app las bij elke handeling opnieuw de hele map van schijf; dat gebeurt nu één keer en daarna alleen nog als er echt iets verandert.
+
 ## 3.31 — 2026-08-14
 
 - **Strips van je server tonen nu hun eigen titel, serie en tekenaar** in plaats van alleen de bestandsnaam, als die gegevens in het bestand staan. Je ziet het bij strips die na deze versie worden gescand.
