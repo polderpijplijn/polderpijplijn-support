@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.49 — 2026-08-14
+
+- **Modern is nu de standaardweergave.** Had je eerder bewust Klassiek gekozen, dan blijft dat zo; je wisselt via Instellingen.
+- **Je leespositie werd bij de meeste boeken niet bewaard.** Bij een EPUB of PDF zonder Grimmory-server ging er helemaal niets naar je toestel, en bij strips en luisterboeken werd hij weggeschreven op een plek waar de app zelf niet zocht. Daardoor bleef "Lees verder" op hetzelfde boek staan. Posities van vóór deze versie zijn helaas niet terug te halen.
+- **Favorieten bleven leeg als je geen Grimmory-server gebruikt.** Je hartjes waren wel bewaard, maar de lijst kon er niet bij. Ze staan er nu allemaal weer in.
+- **Delen van de app bleven Nederlands als je hem op Engels zet**, waaronder de zijbalk, "Bekijk alles" en het hele detailpaneel rechts. Die zijn nu vertaald.
+
 ## 3.48 — 2026-08-14
 
 - **De leesvoortgang was nergens te zien bij je eigen boeken.** De app bewaarde hem wel, maar gaf hem niet door aan het scherm — de balk op de "Lees verder"-kaart bleef daardoor altijd weg. Nu staat het percentage er weer bij, samen met wanneer je het boek het laatst open had.
