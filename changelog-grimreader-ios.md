@@ -3,6 +3,14 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.53 — 2026-08-15
+
+- **Open EPUB-, PDF-, CBZ- en audiobestanden rechtstreeks in Grim Reader** vanuit Bestanden, Mail en andere apps.
+- **De navigatie op iPhone en iPad gebruikt nu dezelfde bestemmingen.** Op iPhone blijven de onderste tabs compact via Bladeren en Meer.
+- **"Lees verder" opent een aanwezige lokale kopie direct** op de opgeslagen positie en downloadt alleen als het bestand echt ontbreekt.
+- **Favoriete strips en luisterboeken staan weer in hun eigen categorie**, ook voor WebDAV en lokale imports.
+- **WebDAV-CBZ-metadata wordt veilig in ComicInfo.xml bewaard.** Eerst wordt een tijdelijke kopie geüpload; pas na succesvolle vervanging worden index en caches bijgewerkt.
+
 ## 3.52 — 2026-08-15
 
 - **Een schrijver die je bij meerdere strips tegelijk invulde werd stilletjes teruggedraaid.** De app zag zo'n boek nog als "nog te bekijken" en haalde de oude gegevens later opnieuw uit het bestand. Wat je zelf invult wint nu.
