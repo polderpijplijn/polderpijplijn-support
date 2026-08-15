@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.55 — 2026-08-15
+
+- **Zoeken naar boekgegevens levert nauwkeurigere resultaten op.** Resultaten uit meerdere bronnen worden slimmer samengevoegd en gerangschikt op ISBN, titel en schrijver, terwijl een tijdelijke storing bij één bron de andere resultaten niet meer tegenhoudt.
+- **Schrijvers worden betrouwbaarder herkend en samengevoegd** met blijvende VIAF- en Wikidata-identiteiten, alternatieve namen en aanvullende gegevens. Gelijknamige schrijvers blijven afzonderlijk als hun identiteit niet overeenkomt.
+- **Het Series-scherm is volledig vernieuwd voor iPhone en iPad.** Series tonen hun omslagen, voortgang en het eerstvolgende ongelezen deel; op iPad staat de geselecteerde serie in een ruim detailpaneel volgens de mockup.
+- **Luisterboeken hebben op iPad een eigen moderne bibliotheekweergave** met zoeken, taalfilter, sortering, luistervoortgang en directe bediening. Het detailpaneel toont de belangrijkste boek- en schrijversinformatie; op iPhone blijft het compacte raster behouden.
+
 ## 3.54 — 2026-08-15
 
 - **‘Alle boeken’ opent weer betrouwbaar op iPhone.** De dubbele navigatiestack blokkeerde dit scherm en maakte daarna ook de andere opties onder Bladeren onbruikbaar.
