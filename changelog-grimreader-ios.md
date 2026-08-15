@@ -3,6 +3,17 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.52 — 2026-08-15
+
+- **Een schrijver die je bij meerdere strips tegelijk invulde werd stilletjes teruggedraaid.** De app zag zo'n boek nog als "nog te bekijken" en haalde de oude gegevens later opnieuw uit het bestand. Wat je zelf invult wint nu.
+- **Het filterscherm gaf een serverfout** als je geen Grimmory-server gebruikt. De filterkeuzes komen nu uit je eigen bibliotheek.
+- **Een taal bleef in de balk staan nadat je hem bij het laatste boek had weggehaald.** En bij een serie stonden talen die geen enkel boek in die serie heeft.
+- **Is een lijst leeg door een taalfilter, dan staat dat er nu bij** — met een knop om alle talen weer te tonen. Boeken zonder bekende taal vallen namelijk ook buiten zo'n filter.
+- De opslaan-knop heette in het Engels "Keep"; dat is nu "Save". Kies je een schrijver bij het zoeken, dan wordt zijn naam meteen ingevuld.
+- De naam van de app staat op iPad weer boven de boekenlijst, want in de zijbalk liep hij over twee regels.
+- Enkele teksten die in het Engels Nederlands bleven, waaronder de favorietknop en een aantal labels die alleen VoiceOver voorleest.
+- Gedimde regels in de keuzemodus waren te licht voor de toegankelijkheidsnorm; die zijn nu beter leesbaar.
+
 ## 3.51 — 2026-08-15
 
 - **Bij een EPUB van je server werd je leespositie niet bewaard.** De app zocht het bestand op de plek waar alleen boeken van een Grimmory-server staan, en bood daardoor niets aan om te lezen. Nu werkt het en verschijnt de voortgangsbalk onder "Lees verder".
