@@ -3,6 +3,15 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.51 — 2026-08-15
+
+- **Bij een EPUB van je server werd je leespositie niet bewaard.** De app zocht het bestand op de plek waar alleen boeken van een Grimmory-server staan, en bood daardoor niets aan om te lezen. Nu werkt het en verschijnt de voortgangsbalk onder "Lees verder".
+- **Twee boeken met dezelfde bestandsnaam overschreven elkaar** bij het toevoegen. Ze staan nu naast elkaar; hetzelfde boek nogmaals toevoegen vervangt het zoals voorheen.
+- **Verbindingen met een Grimmory-server gaan standaard beveiligd.** Tik je een adres zonder "https://" ervoor, dan wordt dat nu een beveiligde verbinding. Kies je bewust voor een onbeveiligde verbinding, dan krijg je daar een waarschuwing bij.
+- Je toegangssleutel staat niet langer in het adres van een audiostream, waar hij in logboeken van servers terecht kan komen.
+- De app biedt zichzelf niet meer aan voor CBR-bestanden, die hij niet kan openen.
+- Na het downloaden van een boek schakelt de app meteen goed over als de serververbinding wegvalt.
+
 ## 3.50 — 2026-08-14
 
 - **Schrijversfoto's verschijnen nu meteen** in plaats van langzaam in te druppelen; ze werden bij elke beweging opnieuw van schijf gelezen. Ook in Favorieten staan ze er nu bij.
