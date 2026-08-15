@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.54 — 2026-08-15
+
+- **‘Alle boeken’ opent weer betrouwbaar op iPhone.** De dubbele navigatiestack blokkeerde dit scherm en maakte daarna ook de andere opties onder Bladeren onbruikbaar.
+- **Het auteursprofiel heeft op iPad een nieuwe ruime indeling** met een grotere foto, prominente naam, echt boekaantal en een beter leesbare, inklapbare biografie.
+- **Boeken van een auteur staan in een herkenbare collectie-sectie** en kunnen worden gesorteerd op titel of publicatiejaar. Op iPhone blijft het profiel compact.
+
 ## 3.53 — 2026-08-15
 
 - **Open EPUB-, PDF-, CBZ- en audiobestanden rechtstreeks in Grim Reader** vanuit Bestanden, Mail en andere apps.
