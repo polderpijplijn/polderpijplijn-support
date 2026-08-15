@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.56 — 2026-08-15
+
+- **Luisterboeken spelen nu rechtstreeks vanuit het Luisterboeken-scherm.** De afspeelknop verandert live in pauze, de voortgang volgt de echte luisterpositie en in het detailpaneel kun je terug- en vooruitspoelen of de tijdlijn verslepen. Lokale en WebDAV-audioboeken tonen hun omslag ook op het toegangsscherm.
+- **Een auteursprofiel opent altijd met alle talen.** Een taalfilter uit een ander bibliotheekscherm kon de boeken van een schrijver ongemerkt verbergen terwijl de teller wel boeken aangaf.
+- **Het Series-scherm blijft op iPhone niet meer blanco** wanneer de apparaatinstelling voor de minimale serielengte alle reeksen wegfiltert. Het scherm legt nu uit wat er gebeurt en biedt direct aan om alle series te tonen.
+
 ## 3.55 — 2026-08-15
 
 - **Zoeken naar boekgegevens levert nauwkeurigere resultaten op.** Resultaten uit meerdere bronnen worden slimmer samengevoegd en gerangschikt op ISBN, titel en schrijver, terwijl een tijdelijke storing bij één bron de andere resultaten niet meer tegenhoudt.
