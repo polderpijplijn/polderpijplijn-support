@@ -3,6 +3,14 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.57 — 2026-08-16
+
+- **Boeken hervatten zonder storende paginaflits.** EPUB en PDF worden pas zichtbaar nadat de opgeslagen leespositie is hersteld. Sluit je een boek dat je rechtstreeks via ‘Lees verder’ opende, dan keer je terug naar het scherm waar je vandaan kwam.
+- **WebDAV scant nu ook diep geneste bibliotheken volledig.** De vaste limiet van acht mapniveaus is verwijderd, terwijl dubbele en cyclische mapbezoeken veilig worden voorkomen.
+- **Opgeslagen schrijversfoto's verschijnen direct in het schrijversoverzicht**, zonder dat je een schrijver eerst afzonderlijk hoeft te openen.
+- **De app is voorbereid op de strengere Swift 6-concurrencycontrole.** Alle waarschuwingen uit de strikte Release-build zijn opgelost in de reader, vertaling, audio, WebDAV-streaming en menutellers.
+- **Het infoscherm beschrijft Grim Reader nu als zelfstandige bibliotheekapp** voor boeken, strips en luisterboeken uit bestanden, WebDAV en OPDS, zonder advertenties of tracking.
+
 ## 3.56 — 2026-08-15
 
 - **Luisterboeken spelen nu rechtstreeks vanuit het Luisterboeken-scherm.** De afspeelknop verandert live in pauze, de voortgang volgt de echte luisterpositie en in het detailpaneel kun je terug- en vooruitspoelen of de tijdlijn verslepen. Lokale en WebDAV-audioboeken tonen hun omslag ook op het toegangsscherm.
