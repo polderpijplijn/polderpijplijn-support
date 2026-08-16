@@ -3,6 +3,16 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.58 — 2026-08-16
+
+- **WebDAV-series bevatten nu de volledige bibliotheek.** Boeken uit de serverindex tellen mee en gedownloade exemplaren behouden hun serienaam en deelnummer.
+- **Offline toont Grim Reader alleen boeken die werkelijk op het apparaat staan.** Niet-gedownloade WebDAV-boeken verdwijnen zodra de verbinding wegvalt en komen bij herstel automatisch terug.
+- **Schrijversfoto's blijven offline zichtbaar.** Eenmaal opgehaalde Wikipedia- en Grimmory-portretten worden duurzaam lokaal bewaard.
+- **Taalfilters zijn voortaan per scherm.** Een taalkeuze in ‘Alle boeken’ beïnvloedt Series, Schrijvers, Strips en Luisterboeken niet meer.
+- **Lokale audioboeken met voortgang staan onder ‘Luister verder’** in plaats van onder ‘Lees verder’.
+- **Gedownloade WebDAV-boeken verschijnen niet meer dubbel onder schrijvers**, ook niet wanneer hun serverpad percent-encoding bevat.
+- **Rechtstreeks hervatten en sluiten verloopt zonder tussenliggende boekdetailflits.**
+
 ## 3.57 — 2026-08-16
 
 - **Boeken hervatten zonder storende paginaflits.** EPUB en PDF worden pas zichtbaar nadat de opgeslagen leespositie is hersteld. Sluit je een boek dat je rechtstreeks via ‘Lees verder’ opende, dan keer je terug naar het scherm waar je vandaan kwam.
