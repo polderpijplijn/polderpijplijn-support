@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.59 — 2026-08-16
+
+- **WebDAV-series worden nu rechtstreeks uit de volledige serverbibliotheek opgebouwd.** Series combineert lokale en servergegevens, valt bij een onbereikbare Grimmory-server terug op WebDAV en herlaadt zodra de WebDAV-index beschikbaar komt.
+- **Oudere WebDAV-indexen worden eenmalig opnieuw op seriegegevens gecontroleerd.** De analyse start vanuit het Series-scherm zelf; gevonden series verschijnen tijdens het proces en blijven lokaal en in de server-sidecar bewaard.
+- **Collecties staat nu ook in de iPad-zijbalk**, met dezelfde collectie-interface en boeknavigatie als op iPhone.
+
 ## 3.58 — 2026-08-16
 
 - **WebDAV-series bevatten nu de volledige bibliotheek.** Boeken uit de serverindex tellen mee en gedownloade exemplaren behouden hun serienaam en deelnummer.
