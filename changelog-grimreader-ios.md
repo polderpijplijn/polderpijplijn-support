@@ -3,6 +3,14 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.82 — 2026-08-21
+
+- **Een net toegevoegde server wordt meteen doorzocht.** Voorheen moest je daarna zelf het serverscherm opzoeken en op een knop tikken; deed je dat niet, dan bleef je bibliotheek leeg.
+- **Het startscherm meldt geen verbindingsfout meer als er simpelweg nog niets is.** Na het toevoegen van een server stond er "Kan niet laden — geen verbinding met de server" terwijl de verbinding er prima was; de server was alleen nog niet doorzocht. Nu zie je waar je aan toe bent: dat er doorzocht wordt, dat er nog geen boeken zijn, of — als er écht iets mis is — wat de server terugmeldde.
+- **Verbinden met een andere Grimmory-server ruimt nu op.** Twee servers geven hun boeken dezelfde nummers, waardoor een boek van de oude server kon doorschuiven naar de nieuwe en de app stil het verkeerde bestand opende. De app waarschuwt nu vooraf en verwijdert daarna de downloads, favorieten en collecties van de vorige server. Je eigen geïmporteerde boeken en alles van een WebDAV-server blijven staan.
+- **De instelling voor serielengte begint bij 2 in plaats van bij een lege waarde.** Op een nieuwe installatie stond daar geen getal maar "Toon alle series", wat leest als een leeg veld. Eén boek met een serienaam is ook geen serie.
+- **Losse Nederlandse teksten in de Engelse app zijn weg.** Vooral foutmeldingen, maar ook een bevestigingsvraag, een lege-staat en wat VoiceOver voorlas bleven Nederlands. Vijftig teksten toegevoegd aan de vertalingen.
+
 ## 3.81 — 2026-08-21
 
 - **Een verse installatie legt nu uit hoe je begint.** Bij de eerste start stond er alleen dat je een boek kon downloaden of een bestand openen — terwijl de app juist om je eigen bibliotheek draait, en die werd nergens genoemd. Er staat nu een welkomstscherm met allebei de manieren: een WebDAV-server, OPDS-catalogus of Grimmory-server verbinden, of een bestand van je toestel openen. Met een knop voor elk, een knop naar de demo, en een link naar polderpijplijn.nl. Je ziet dit alleen zolang je nog nergens een bron hebt ingesteld.
