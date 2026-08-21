@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.84 — 2026-08-22
+
+- **Genres uit je boeken, en filteren daarop.** De app leest nu de genres uit een EPUB en toont ze bij het boek. Onder Alle boeken kun je er via het filter op zoeken, en je kunt ze zelf aanpassen — je wijziging gaat het boekbestand in.
+- **Meer gegevens in het boekdetailscherm.** ISBN, leeftijdscategorie, medewerkers zoals de vertaler of illustrator, en de rechten. Die stonden vaak wel in het bestand maar werden nooit uitgelezen; voor ISBN en genres lag de weergave er zelfs al klaar.
+- **Doorzoeken van een WebDAV-server haalt nu alles op.** Voorheen moest je een boek eerst downloaden om die gegevens te zien. Ze worden ook meegeschreven naar je server, zodat een tweede toestel ze meteen heeft. Bestaande bibliotheken vullen zich bij de volgende scan.
+- **Informatie over de uitgeverij bij een boek.** Oprichtingsjaar, land, moederbedrijf en een link naar de website, met het logo als dat te vinden is. Eenmaal opgehaald blijft het op je toestel staan, dus het werkt ook zonder verbinding.
+
 ## 3.83 — 2026-08-21
 
 - **De samenvatting en de taal worden nu echt in een EPUB opgeslagen.** Zet je "ook in het boekbestand zelf opslaan" aan, dan bleef je samenvatting soms weg zonder foutmelding — namelijk als het boek daar nog geen veld voor had, wat bij veel EPUB's zo is. Datzelfde gold voor de taal.
