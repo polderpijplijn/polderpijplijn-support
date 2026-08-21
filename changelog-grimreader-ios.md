@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.83 — 2026-08-21
+
+- **De samenvatting en de taal worden nu echt in een EPUB opgeslagen.** Zet je "ook in het boekbestand zelf opslaan" aan, dan bleef je samenvatting soms weg zonder foutmelding — namelijk als het boek daar nog geen veld voor had, wat bij veel EPUB's zo is. Datzelfde gold voor de taal.
+- **Ook de serie gaat mee bij je eigen boeken.** Bij een boek van een WebDAV-server werd de serie al in het bestand geschreven, bij een zelf geïmporteerd of gedownload boek niet. En je kon de serie daar niet eens invullen: het bewerkscherm heeft nu velden voor serienaam en deel, net als bij een WebDAV-boek.
+- **Een net toegevoegde server geeft niet langer meteen "geen verbinding".** Bij de eerste keer vraagt iOS toestemming voor je lokale netwerk, en de scan die op dat moment al liep strandde daarop. De app probeert het nu vanzelf nog een keer, en er staat een knop "Opnieuw proberen" bij de foutmelding als het langer duurt.
+
 ## 3.82 — 2026-08-21
 
 - **Een net toegevoegde server wordt meteen doorzocht.** Voorheen moest je daarna zelf het serverscherm opzoeken en op een knop tikken; deed je dat niet, dan bleef je bibliotheek leeg.
