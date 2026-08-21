@@ -3,6 +3,118 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.79 — 2026-08-20
+
+- **Nieuwe optie "Vernieuwen en gegevens opnieuw inlezen" bij een WebDAV-server.** Gewoon vernieuwen kijkt alleen of er boeken bij zijn gekomen; boeken die de app al kent blijven staan zoals ze zijn. Wil je titel, schrijver, serie en omslag opnieuw uit de bestanden laten halen — bijvoorbeeld om striptitels op te halen die er eerder niet goed uit kwamen — dan kan dat nu met deze extra optie. De app vraagt eerst om bevestiging: het haalt elk boek op, en gegevens die je zelf hebt aangepast worden overschreven door wat er in het bestand staat.
+
+## 3.78 — 2026-08-20
+
+- **Bij een strip zie je weer de titel van het album in plaats van de serienaam.** Een strip met serie "Storm", deel 2 en titel "De Laatste Vechter" heette in de app "Storm 2"; die titel raakte je kwijt. Serie en titel staan nu netjes apart. Strips die je al in je bibliotheek had houden hun huidige naam tot je die opnieuw laat doorzoeken — doe dat op elk toestel, anders verschilt het per apparaat.
+- **De titel van een strip aanpassen overschrijft niet langer de serienaam.** Wijzigde je de titel van een album dat bij een serie hoorde, dan belandde die tekst in het serieveld — waarmee de hele reeks werd hernoemd.
+
+## 3.77 — 2026-08-20
+
+- **Bij een strip kun je nu kiezen of de nieuwe omslag de eerste pagina vervangt.** Standaard komt hij er als extra pagina vóór, zodat er niets verloren gaat. Begint de strip al met een covertekening, dan zag je die daardoor dubbel — zet de nieuwe schakelaar aan en de bestaande eerste pagina wordt overschreven. Die keuze maak je per strip, want overschrijven kan niet ongedaan worden gemaakt.
+- **De getoonde omslag van een strip klopt nu altijd met de eerste pagina in de lezer.** Bij archieven met meerdere submappen, of met paginanamen zonder bestandsextensie, kon de omslag een andere plaat zijn dan de pagina waarmee de strip opent.
+
+## 3.76 — 2026-08-20
+
+- **Een gewijzigde omslag wordt nu ook in het boekbestand zelf opgeslagen.** Tot nu toe bleef die alleen in de app: je zag je nieuwe cover hier wel, maar in elke andere lezer de oude. Bij een EPUB gaat dat zonder aan de inhoud te komen. Een strip heeft geen apart omslagveld — daar wordt de nieuwe omslag als extra eerste pagina toegevoegd, zodat er niets van je bestand verloren gaat; dat staat ook in het bewerkscherm vermeld. Strips waarvan je de omslag al eerder had aangepast moet je één keer opnieuw opslaan.
+- **Sommige PDF's konden niet worden bijgewerkt.** Bij een deel van de bestanden — vooral ingescande strips — meldde de app dat bijwerken niet lukte. Die weigering was terecht bedoeld als vangrail (er is nooit een beschadigd bestand weggeschreven), maar de oorzaak was een fout in de app zelf. Dit type PDF werkt nu gewoon.
+
+## 3.75 — 2026-08-20
+
+- **Metadata bijwerken in een PDF laat de rest van het bestand nu met rust.** De app bouwde een PDF bij het opslaan opnieuw op, en daarbij verdwenen dingen die er wél in stonden: de taal en de structuur waar schermlezers op leunen. Bladwijzers bleven gelukkig behouden. Voortaan blijft je originele bestand onaangeroerd en wordt de wijziging er netjes achter gezet, zoals het PDF-formaat daar zelf voor bedoeld is.
+- **De taal van een boek wordt nu ook echt in een PDF opgeslagen** — en weer teruggelezen als je hem opnieuw inleest. PDF heeft daar een eigen veld voor dat we tot nu toe niet gebruikten.
+- **"Meerdere aanpassen" werkte niet voor PDF's.** Selecteerde je een stapel PDF's en paste je de schrijver of serie aan met "ook in de boekbestanden bijwerken", dan gebeurde er in de bestanden niets — zonder melding. Ook een taalwijziging kwam nooit in het bestand terecht.
+- **Bronnen opent hetzelfde boekscherm als de rest van de app.** Via Bronnen → je server → een boek kreeg je een ander, eenvoudiger scherm dan bij "Alle boeken".
+- **Bij Bibliotheek staat nu de naam die je je bron zelf hebt gegeven** in plaats van "Op de server" — handig zodra je er meer dan één hebt.
+- **Een gedownloade strip toont zijn omslag in "Mijn boeken".** Die bleef leeg, terwijl dezelfde strip één tik verderop wél een omslag had.
+- **Spreek je geen Nederlands of Engels, dan is de app nu Engels in plaats van Nederlands.** Wie iOS op bijvoorbeeld Duits of Frans heeft staan kreeg tot nu toe een Nederlandse interface.
+
+## 3.74 — 2026-08-19
+
+- **Metadata bijwerken op een lokaal EPUB, CBZ of PDF schrijft nu ook echt in het bestand zelf.** Deze functie bestond al voor WebDAV; via "Ook in het boekbestand zelf opslaan" in het bewerkscherm werkt hij nu ook voor geïmporteerde bestanden zonder server. Bij een strip staat dit altijd aan, omdat ComicInfo.xml daar de primaire metadata is.
+- **Je ziet nu een balkje wanneer een boekbestand wordt bijgewerkt**, met een duidelijke melding als het lukt of mislukt. Deze terugkoppeling bestond al in de mappenbrowser, maar niet op de plek waar je 'm waarschijnlijk het vaakst tegenkomt: de "Bewerk"-knop op het boekdetailscherm. Een mislukte poging bleef daar tot nu toe helemaal onopgemerkt.
+- **PDF's met alleen een eigenaarswachtwoord (rechten beperken, vrij leesbaar) kunnen weer bijgewerkt worden.** Kwam vaak voor bij e-books en werd tot nu toe onterecht geweigerd, alsof het bestand écht vergrendeld was.
+- **Eerste opstart vraagt niet meer om een Grimmory-login.** Je komt meteen in de app terecht, met lege secties tot je zelf iets toevoegt. Inloggen bij Grimmory kan nog gewoon later via Instellingen.
+
+## 3.73 — 2026-08-19
+
+- **Een handmatig aangepaste titel of auteur van een WebDAV-boek springt niet meer terug naar de oude waarde.** Opslaan leek te lukken, maar de wijziging kwam later — bijvoorbeeld na het bezoeken van Series — stilletjes weer terug op wat er nog in het bestand stond. Gold ook voor "Meerdere aanpassen" (bv. onder een schrijver) en het hernoemen van een schrijver.
+- **De tekst bij "Ook in de boekbestanden bijwerken" (bulkbewerking) noemt nu ook PDF.** Dat werkte al net zo goed als bij EPUB en CBZ, maar de tekst zei nog "alleen EPUB en CBZ" en beloofde dus minder dan de app deed.
+
+## 3.72 — 2026-08-19
+
+- **Boekdetails zien er nu overal hetzelfde uit, ook in "Mijn boeken".** Een geïmporteerd of gedownload boek opende voorheen een ander, eenvoudiger scherm dan bijvoorbeeld "Alle boeken" — zonder leesvoortgang, series of categorieën. Nu krijg je overal hetzelfde volledige boekdetailscherm te zien. Bijvangst: "Download verwijderen" op zo'n boek deed voorheen niets; dat werkt nu wel.
+- **Een PDF op je eigen server kun je nu ook echt bijwerken.** Titel, auteur, samenvatting en trefwoorden aanpassen ging al, maar de wijziging kwam nooit in het PDF-bestand zelf terecht. Via "Ook in het boekbestand zelf opslaan" gebeurt dat nu wél, met dezelfde veilige route als bij EPUB en strips: eerst een tijdelijke kopie, pas na een geslaagde controle het origineel vervangen. Een beveiligd of digitaal ondertekend PDF-bestand wordt geweigerd. Serie en deelnummer kun je er ook aan toevoegen; PDF heeft daar geen standaardveld voor, dus Grim Reader bewaart dat als een herkenbaar trefwoord.
+- **Een audioboek zonder Grimmory-server toont nu zijn omslag** — in de speler en op het lockscreen tijdens afspelen op de achtergrond. Die ontbrak, wat er op sommige toestellen uitzag als een verschil tussen iPhone en iPad, maar in werkelijkheid gold voor alle geïmporteerde, WebDAV- en OPDS-audioboeken ongeacht toestel.
+- **Foutmeldingen bij het bewerken van een EPUB of strip zijn nu leesbaar.** Ging er iets mis, dan stond er een kale technische melding in plaats van uitleg — en juist dan wil je weten dat je bestand ongewijzigd is gebleven.
+
+## 3.71 — 2026-08-19
+
+- **"Toon één versie per boek" werkt nu ook bij een bibliotheek met tienduizenden boeken.** De optie uit 3.70 maakte de app traag en kon hem laten vastlopen zodra je hem aanzette op een grote bibliotheek. De app controleerde per boek de omslag door het hele afbeeldingsbestand in te lezen, vergeleek ook boeken die helemaal geen dubbele hebben, en bouwde de boekenlijst bij elk schermonderdeel opnieuw op. Dat gebeurt nu allemaal veel zuiniger.
+
+## 3.70 — 2026-08-19
+
+- **Staat hetzelfde boek meerdere keren in je bibliotheek, dan kun je er nu één laten tonen.** Via Instellingen → Dubbele boeken zet je "Toon één versie per boek" aan. De app groepeert alleen boeken waarvan zowel de titel als de schrijver overeenkomen, en kiest het exemplaar waarin je al aan het lezen bent — en anders het prettigst leesbare bestand. Er wordt niets verwijderd: de andere exemplaren blijven gewoon op de server staan. Standaard staat de optie uit.
+
+## 3.69 — 2026-08-19
+
+- **De app blijft vlot reageren tijdens het doorzoeken van een grote bibliotheek.** Tijdens een scan werd het scherm bij élke doorzochte map opnieuw opgebouwd en de hele boekenlijst opnieuw gesorteerd. Dat gebeurt nu rustiger en op de achtergrond, waardoor het doorzoeken zelf ook sneller gaat.
+- **Omslagen worden niet meer telkens opnieuw van schijf gelezen.** Bij het scrollen door een grote bibliotheek werd voor elk boekje in beeld steeds opnieuw het omslagbestand geopend; ze worden nu onthouden.
+- **Een serienaam met een aanhalingsteken beschadigt het boekbestand niet meer.** Bewerkte je de serie van een EPUB en stond er een `"` in de naam, dan werden de gegevens ín het boek onleesbaar voor andere leesprogramma's. Bovendien controleert de app een bijgewerkt boek nu voordat het het origineel vervangt: klopt er iets niet, dan blijft het originele bestand staan.
+- **Je bibliotheek en collecties raken niet meer beschadigd als de app onverwacht stopt.** Alle lijsten die de app zelf bijhoudt worden nu in één keer weggeschreven in plaats van gaandeweg, zodat er nooit een half bestand achterblijft.
+- **Een collectie met veel boeken opent sneller.**
+
+## 3.68 — 2026-08-19
+
+- **Een WebDAV-server met tienduizenden boeken toevoegen laat de app niet meer vastlopen.** Na het inlezen van de boekenlijst van de server bleef de app hangen en werd hij door iOS afgesloten; bij de volgende start meldde die dat de app was gecrasht. Het inlezen van die lijst en het klaarzetten van de omslagen gebeuren nu op de achtergrond en veel efficiënter, zodat de app bedienbaar blijft.
+
+## 3.67 — 2026-08-19
+
+- **Op iPhone staat je WebDAV-bibliotheek er meteen weer na het opstarten.** Na het starten van de app — het duidelijkst na het installeren van een nieuwe versie — toonden Start, Bladeren en Schrijvers alleen de lokale boeken; je WebDAV-boeken verschenen pas zodra je zelf de server opende. Er ging niets verloren: de bewaarde lijst werd alleen niet ingelezen. Op iPad speelde dit niet.
+
+## 3.66 — 2026-08-18
+
+- **Op iPhone opent een boek weer wanneer je het aantikt na "Bekijk alles" op de startpagina.** Via Ontdek, Strips of Luisterboeken naar het volledige overzicht gaan en daar een boek aantikken deed niets; alle andere routes naar een boek werkten wel. Op iPad viel het niet op, omdat een tik daar de kolom ernaast vult.
+- **De navigatie werkt nu overal op dezelfde manier.** De schermen achter de tab "Meer" — Favorieten, Bibliotheken, Zoeken en Instellingen — volgen dezelfde opzet als de rest van de app.
+- **De app start vlot en zonder vastlopen bij een zeer grote WebDAV-bibliotheek.** De bewaarde boekenlijst wordt nu op de achtergrond ingelezen; bij tienduizenden boeken kon het inlezen de app bij het opstarten laten crashen. Ook het bewaren gebeurt voortaan op de achtergrond.
+
+## 3.65 — 2026-08-18
+
+- **Grote WebDAV-bibliotheken (tienduizenden boeken) scannen nu vlot en zonder vastlopen.** Bij zeer veel boeken werd tijdens het scannen en aanvullen telkens de complete lijst opnieuw gesorteerd en weggeschreven, waardoor het scannen eindeloos duurde en de app na verloop van tijd kon crashen. De app werkt de lijst nu gebundeld bij, zodat het doorzoeken van de mappen niet langer op zichzelf hoeft te wachten.
+
+## 3.64 — 2026-08-18
+
+- **Het boekdetailscherm toont geen leesstatusknop meer, maar je leesvoortgang.** Was je al in een boek bezig, dan staat er nu een balk die laat zien hoever je was — met "Pagina x van y" wanneer dat bekend is, anders het percentage. Nog niet begonnen boeken tonen niets.
+- **Boeken op een WebDAV-server tonen nu ook uitgever, verschijningsdatum en beschrijving uit het EPUB-bestand zelf.** Deze gegevens werden al uit het bestand gelezen maar niet bewaard; bestaande bibliotheken lezen ze eenmalig alsnog in.
+- **Twee Nederlandse teksten op het detailscherm die in de Engelse app bleven staan zijn vertaald** ("Onbekend" en "Op de server").
+- **De rechterkolom van een boek toont geen losse scheidingslijntjes meer** wanneer een boek geen extra details heeft, en lokale boeken zonder schrijver krijgen een duidelijk "Schrijver onbekend"-blok met de hint dat je er zelf een kunt invullen.
+
+## 3.63 — 2026-08-18
+
+- **Een Details-knop in de rechterkolom opent het volledige boekscherm.** Op een brede iPad zet een tik op een omslag de selectie in de kolom ernaast; het uitgebreide scherm met alle gegevens, leesstatus en waardering was daardoor vanuit Start, Alle boeken, Favorieten en Lokale boeken niet meer te bereiken.
+
+## 3.62 — 2026-08-18
+
+- **Het boekdetailscherm gebruikt op een brede iPad de ruimte.** Links het boek met de bediening — omslag, titel, schrijver, serie, de hoofdknop, download verwijderen, leesstatus en de waardering — en rechts "Over dit boek" met daaronder de details als scanbare rijen met pictogram. Op iPhone en in een smal venster blijft de vertrouwde indeling.
+- **Boekgegevens aanpassen kan nu ook vanuit de rechterkolom**, op Start en in de bibliotheekoverzichten. Dezelfde knop werkt voor je Grimmory-server, je eigen geïmporteerde boeken en boeken op je WebDAV-server, inclusief online zoeken naar gegevens en omslagen.
+- **Een storing bij een naslagbron laat het zoeken niet meer vastlopen.** Toen openlibrary.org uit de lucht was, bleef een scan hangen omdat er een minuut op antwoord werd gewacht. Een bron die niet reageert wordt nu snel overgeslagen; de overige bronnen leveren gewoon hun resultaat.
+- **"Pagina x van y" telt bij ieder boek weer het hele boek.** Bij sommige boeken kwam de teller niet verder dan ongeveer het aantal hoofdstukken.
+
+## 3.61 — 2026-08-16
+
+- **Favoriete boeken, strips en luisterboeken hebben op iPad ieder hun eigen correcte detailkolom.** De rechterkolom volgt nu altijd de actieve mediacategorie: bij Boeken kan geen luisterboek meer blijven staan, en onder Luisterboeken kun je een favoriet selecteren en direct in het detailpaneel bekijken.
+
+## 3.60 — 2026-08-16
+
+- **Boeken die je aan een collectie toevoegt zijn nu werkelijk in die collectie zichtbaar.** Collecties vinden lokale, gedownloade, WebDAV- en Grimmory-serverboeken terug; vanuit Alle boeken en andere boekrasters kun je via het contextmenu direct aan een collectie toevoegen.
+- **WebDAV-series laden alleen opnieuw wanneer hun inhoud echt verandert.** Het openen of bewerken van één boek vraagt niet langer ongewijzigde series opnieuw op.
+- **Serienaam en deelnummer zijn bewerkbaar bij WebDAV-boeken.** Bij EPUB kunnen deze gegevens ook in het boekbestand zelf worden opgeslagen als EPUB 3- en Calibre-metadata.
+- **De rechterkolom van Series toont nu ook de schrijver bij ieder boek.** Dit sluit aan bij Alle boeken en de overige bibliotheekoverzichten.
+- **WebDAV-boeken kunnen vanuit Series en de algemene boeklijsten definitief van de NAS worden verwijderd**, wanneer de server schrijfrechten bevestigt. Een aparte waarschuwing voorkomt onbedoeld verwijderen; index, omslag en eventuele lokale kopie worden pas na een geslaagde serveractie opgeruimd.
+
 ## 3.59 — 2026-08-16
 
 - **WebDAV-series worden nu rechtstreeks uit de volledige serverbibliotheek opgebouwd.** Series combineert lokale en servergegevens, valt bij een onbereikbare Grimmory-server terug op WebDAV en herlaadt zodra de WebDAV-index beschikbaar komt.
