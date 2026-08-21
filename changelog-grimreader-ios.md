@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.80 — 2026-08-21
+
+- **Een boek toont niet langer even de omslag van een ander boek.** Bij het scrollen kon een cel kort de afbeelding van zijn vorige bewoner laten zien — een strip van Jan Jans met de cover van iets anders, of een schrijversportret bij de verkeerde naam. Het boek zelf was gewoon goed; alleen het plaatje liep achter. Openen en teruggaan herstelde het, nu gebeurt het niet meer.
+- **Een boek kan niet meer onder de verkeerde schrijver belanden.** Boeken en schrijvers kregen op je toestel nummers uit dezelfde reeks, waardoor die elkaar bij genoeg boeken konden inhalen — een boek van Asimov verscheen dan onder Pratchett tot je de app opnieuw opende. De twee reeksen staan nu zo ver uit elkaar dat ze elkaar niet kunnen raken.
+- **De app blijft leesbaar bij de grootste tekstinstellingen van iOS.** Zet je de systeemtekst op een toegankelijkheidsgrootte, dan werden boektitels afgekapt tot "De Mist…" en schrijvers tot "Lena…", waardoor delen van dezelfde serie niet uit elkaar te houden waren. Het boekenraster gaat nu naar één brede kolom en gunt titel en schrijver meer regels; de "Lees verder"-kaart zet omslag en tekst onder elkaar; en het serveradres in Instellingen loopt door in plaats van af te kappen.
+
 ## 3.79 — 2026-08-20
 
 - **Nieuwe optie "Vernieuwen en gegevens opnieuw inlezen" bij een WebDAV-server.** Gewoon vernieuwen kijkt alleen of er boeken bij zijn gekomen; boeken die de app al kent blijven staan zoals ze zijn. Wil je titel, schrijver, serie en omslag opnieuw uit de bestanden laten halen — bijvoorbeeld om striptitels op te halen die er eerder niet goed uit kwamen — dan kan dat nu met deze extra optie. De app vraagt eerst om bevestiging: het haalt elk boek op, en gegevens die je zelf hebt aangepast worden overschreven door wat er in het bestand staat.
