@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.81 — 2026-08-21
+
+- **Een verse installatie legt nu uit hoe je begint.** Bij de eerste start stond er alleen dat je een boek kon downloaden of een bestand openen — terwijl de app juist om je eigen bibliotheek draait, en die werd nergens genoemd. Er staat nu een welkomstscherm met allebei de manieren: een WebDAV-server, OPDS-catalogus of Grimmory-server verbinden, of een bestand van je toestel openen. Met een knop voor elk, een knop naar de demo, en een link naar polderpijplijn.nl. Je ziet dit alleen zolang je nog nergens een bron hebt ingesteld.
+- **De Grimmory-serverinstellingen werken zoals die van WebDAV en OPDS.** Er stond rechtsboven "Overslaan" — een overblijfsel van toen dit nog het inlogscherm bij de eerste start was — en annuleren kon niet. Nu staat "Annuleren" links en "Inloggen" rechts, en sluit het scherm zichzelf zodra het gelukt is. Voorheen bleef het ingevulde formulier gewoon staan en was niet te zien of het had gewerkt.
+- **Twee teksten stonden in het Nederlands terwijl de app op Engels stond.** De uitleg onder "Ook in het boekbestand zelf opslaan" bleef bij een EPUB Nederlands, en het land van een schrijver werd altijd in het Nederlands opgehaald — "Verenigd Koninkrijk" in plaats van "United Kingdom". Schrijversgegevens en biografieën volgen nu de taal waarin je de app gebruikt.
+
 ## 3.80 — 2026-08-21
 
 - **Een boek toont niet langer even de omslag van een ander boek.** Bij het scrollen kon een cel kort de afbeelding van zijn vorige bewoner laten zien — een strip van Jan Jans met de cover van iets anders, of een schrijversportret bij de verkeerde naam. Het boek zelf was gewoon goed; alleen het plaatje liep achter. Openen en teruggaan herstelde het, nu gebeurt het niet meer.
