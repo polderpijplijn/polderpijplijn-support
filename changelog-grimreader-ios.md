@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.87 — 2026-08-22
+
+- **Een boek dat je buiten de app hebt aangepast wordt bij het doorzoeken opnieuw ingelezen.** Bleef het pad hetzelfde, dan hield de app de oude gegevens vast — ook als je het bestand intussen had bijgewerkt. Nu wordt aan de grootte en de wijzigingsdatum gezien dat er iets veranderd is.
+- **De taal van een WebDAV-boek komt nu uit het bestand zelf.** Die werd alleen ingevuld als je hem met de hand had ingesteld.
+- **Bij het zoeken zie je de serie ook als je op een boektitel zoekt.** Zoek je op de naam van een deel, dan staat de serie waar het bij hoort nu boven de losse boeken.
+- **De schrijverskaart in de zoekresultaten toont de foto.** Die keek alleen naar de foto van een Grimmory-server; heb je je schrijvers via WebDAV verrijkt, dan zag je een silhouet.
+
 ## 3.86 — 2026-08-22
 
 - **Zoeken vindt nu ook series en schrijvers.** Tik je een serienaam of een schrijver in, dan staan die bovenaan als aparte kaart — een serie van tien delen is zo één resultaat in plaats van tien. Tik op een schrijver en je gaat naar zijn pagina. De losse boeken staan er daaronder.
