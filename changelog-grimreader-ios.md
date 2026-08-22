@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.86 — 2026-08-22
+
+- **Zoeken vindt nu ook series en schrijvers.** Tik je een serienaam of een schrijver in, dan staan die bovenaan als aparte kaart — een serie van tien delen is zo één resultaat in plaats van tien. Tik op een schrijver en je gaat naar zijn pagina. De losse boeken staan er daaronder.
+- **De omschrijving van een boek heet overal hetzelfde.** In het bewerkscherm stond "Samenvatting" en in het boekdetail "Over dit boek", terwijl het om hetzelfde veld gaat. Dat heet nu overal "Over dit boek", en op de iPhone staat die kop er nu ook boven.
+
 ## 3.85 — 2026-08-22
 
 - **Het boekdetailscherm toont veel meer van wat er in je bestanden staat.** Bij een strip komen nu de samenvatting, taal, verschijningsjaar, leeftijdscategorie, het aantal pagina's en de tekenaars erbij — inkt, kleuren, letters, omslag en redactie, elk met wat diegene gedaan heeft. Bij een PDF zie je het aantal pagina's en de datum, en bij een boek met meerdere schrijvers staan ze er nu allemaal in plaats van alleen de eerste.
