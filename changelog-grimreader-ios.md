@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.85 — 2026-08-22
+
+- **Het boekdetailscherm toont veel meer van wat er in je bestanden staat.** Bij een strip komen nu de samenvatting, taal, verschijningsjaar, leeftijdscategorie, het aantal pagina's en de tekenaars erbij — inkt, kleuren, letters, omslag en redactie, elk met wat diegene gedaan heeft. Bij een PDF zie je het aantal pagina's en de datum, en bij een boek met meerdere schrijvers staan ze er nu allemaal in plaats van alleen de eerste.
+- **Genres en de uitgeverij werken nu ook bij strips.** ComicInfo bevat die gegevens al lang; de app keek er alleen niet naar. Je kunt er dus ook op filteren.
+- **De genres staan bovenaan bij het boek**, direct onder de titel en de schrijver, in plaats van halverwege de pagina.
+- **Bij een luisterboek wordt de voorlezer niet langer als schrijver getoond.** Die stond in een veld dat de app als auteur las. Ook album, uitgever, genre, jaar en de beschrijving worden nu uit luisterboeken gehaald.
+
 ## 3.84 — 2026-08-22
 
 - **Genres uit je boeken, en filteren daarop.** De app leest nu de genres uit een EPUB en toont ze bij het boek. Onder Alle boeken kun je er via het filter op zoeken, en je kunt ze zelf aanpassen — je wijziging gaat het boekbestand in.
