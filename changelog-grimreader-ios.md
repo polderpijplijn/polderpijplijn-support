@@ -3,6 +3,16 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.90 — 2026-08-22
+
+Onder de motorkap. Deze versie bereidt de app voor op hele grote bibliotheken — tienduizenden tot honderdduizend boeken op een NAS. Je ziet er weinig van, behalve dat het sneller en rustiger hoort te zijn.
+
+- **Je bibliotheek staat nu in een database op je toestel.** Tot nu toe werd de hele boekenlijst als één bestand ingelezen en weer weggeschreven. Bij een grote bibliotheek kostte dat bij elke start seconden en veel geheugen. Nu wordt alleen opgehaald wat nodig is. Je bestaande lijst wordt bij de eerste start automatisch overgezet; er gaat niets verloren.
+- **De app haalt niet meer elk boek op voor gegevens die hij al heeft.** Na het inlezen van de gedeelde index werd alsnog elk boek van de server gedownload om titel en omslag uit het bestand te halen — bij tienduizenden boeken eindeloos. Wat de index al weet wordt nu overgeslagen, en omslagen worden alleen opgehaald voor de boeken die je in beeld hebt. Wegnavigeren stopt dat werk ook echt.
+- **Zoeken en filteren op een serverlijst gaan door de database.** Bij een lange lijst wordt er per keer een stuk geladen in plaats van alles tegelijk, en filteren gebeurt niet meer door de hele lijst na te lopen. Typ je snel achter elkaar, dan verschijnt niet meer kort het resultaat van je vorige zoekterm.
+- **Je scrollpositie blijft staan tijdens het doorzoeken van een server.** De lijst sprong terug naar boven zodra er boeken bijkwamen.
+- **Een boek houdt zijn plek na een herstart.** Boeken kregen intern bij elke start een nieuw nummer; dat is nu vast.
+
 ## 3.89 — 2026-08-22
 
 - **Een boek dat je op je iPad aanpast verschijnt nu ook op je iPhone.** Je toestellen delen een index op de NAS, maar die werd alleen gelezen als een toestel nog helemaal geen bibliotheek had. Daardoor bleef je tweede toestel op oude gegevens staan, ook al klopte alles op de NAS allang. Nu kijkt elk toestel bij verbinding of er een nieuwere versie klaarstaat en neemt die over — één klein bestand, geen volledige doorzoeking. Een boek dat je op dat moment open hebt staan wordt meteen bijgewerkt.
