@@ -3,6 +3,15 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.88 — 2026-08-22
+
+- **Boekgegevens komen nu van de nationale bibliotheek van je boek.** Zoek je gegevens bij een Nederlands boek, dan wordt eerst de Koninklijke Bibliotheek geraadpleegd; bij een Duits boek de Deutsche Nationalbibliothek en bij een Frans boek de Bibliothèque nationale de France. Die weten van vertaalde uitgaven veel meer dan de algemene diensten: de juiste uitgever, het jaar, de vertaler, de reeks, het aantal pagina's en de oorspronkelijke titel. Levert de nationale bibliotheek niets op, dan wordt alsnog bij Open Library en Google Books gekeken. In het zoekscherm kun je de bron ook zelf kiezen.
+- **Het zoekscherm laat zien wat voor uitgave je voor je hebt.** Een verzamelband of een stripbewerking van een roman is als zodanig gemarkeerd, en de vertaler, de reeks en het paginatal staan erbij. Bij een strip komen stripbewerkingen juist bovenaan, bij een gewoon boek juist niet.
+- **Alle zichtbare boeken in één keer verrijken.** Nieuw in de werkbalk van je boekenlijsten en bij een NAS-server. Het gaat over de boeken die op dat moment in de lijst staan, dus filteren op schrijver of taal bepaalt wat er meegaat. Je ziet eerst per boek en per veld wat er zou veranderen en wat er nu staat, en vinkt zelf af wat je toepast. Boeken waarover twijfel bestaat staan uit tot je er zelf naar kijkt, en een veld waarover de bibliotheek niets weet blijft staan zoals het was. Je kiest of alleen Grim Reader wordt bijgewerkt of ook de boekbestanden zelf.
+- **Een boek dat je buiten de app hebt aangepast wordt nu helemaal opnieuw ingelezen.** Veranderde je op de NAS de serie of haalde je de taal of de beschrijving eruit, dan bleef de oude waarde staan. Nu volgt alles het bestand — behalve wat je zelf in de app hebt ingevuld, dat blijft van jou.
+- **Het bewerkscherm toont de omschrijving die je al had staan.** Die bleef leeg, waardoor je hem per ongeluk kon wissen door gewoon te bewaren.
+- **Een wijziging is meteen te zien.** Na Bewaar toonde het boekdetailscherm soms nog even de oude titel of omschrijving.
+
 ## 3.87 — 2026-08-22
 
 - **Een boek dat je buiten de app hebt aangepast wordt bij het doorzoeken opnieuw ingelezen.** Bleef het pad hetzelfde, dan hield de app de oude gegevens vast — ook als je het bestand intussen had bijgewerkt. Nu wordt aan de grootte en de wijzigingsdatum gezien dat er iets veranderd is.
