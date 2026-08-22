@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.89 — 2026-08-22
+
+- **Een boek dat je op je iPad aanpast verschijnt nu ook op je iPhone.** Je toestellen delen een index op de NAS, maar die werd alleen gelezen als een toestel nog helemaal geen bibliotheek had. Daardoor bleef je tweede toestel op oude gegevens staan, ook al klopte alles op de NAS allang. Nu kijkt elk toestel bij verbinding of er een nieuwere versie klaarstaat en neemt die over — één klein bestand, geen volledige doorzoeking. Een boek dat je op dat moment open hebt staan wordt meteen bijgewerkt.
+- **Wat je zelf hebt ingevuld blijft van jou, op al je toestellen.** Paste je op de iPad een titel of beschrijving aan, dan was die op de iPhone niet beschermd en kon een herinlezing van het bestand hem alsnog overschrijven. Dat gaat nu mee.
+- **Twee toestellen overschrijven elkaar niet meer.** Werken je iPhone en iPad kort na elkaar bij, dan wordt dat opgemerkt en samengevoegd in plaats van dat de laatste het wint.
+- **Is de NAS onbereikbaar, dan blijft je bibliotheek gewoon staan.** Ook bij een time-out, een aanmeldfout of een beschadigd indexbestand: er wordt niets gewist en je boeken, talen, series en omslagen blijven zichtbaar.
+
 ## 3.88 — 2026-08-22
 
 - **Boekgegevens komen nu van de nationale bibliotheek van je boek.** Zoek je gegevens bij een Nederlands boek, dan wordt eerst de Koninklijke Bibliotheek geraadpleegd; bij een Duits boek de Deutsche Nationalbibliothek en bij een Frans boek de Bibliothèque nationale de France. Die weten van vertaalde uitgaven veel meer dan de algemene diensten: de juiste uitgever, het jaar, de vertaler, de reeks, het aantal pagina's en de oorspronkelijke titel. Levert de nationale bibliotheek niets op, dan wordt alsnog bij Open Library en Google Books gekeken. In het zoekscherm kun je de bron ook zelf kiezen.
