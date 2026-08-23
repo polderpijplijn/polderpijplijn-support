@@ -3,6 +3,15 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.91 — 2026-08-23
+
+- **Grote WebDAV-bibliotheken gebruiken nog minder geheugen.** De laatste volledige boekenkopie is uit het geheugen verwijderd; boeken, schrijvers en series komen nu rechtstreeks en in pagina's uit SQLite. Ook het gedeelde `books.yaml` wordt in stukken opgebouwd.
+- **Scans zijn veiliger en hervatbaar.** Pauzeren en doorgaan begint niet opnieuw, een onleesbare map wist geen geldige bibliotheek en de app laat zien hoeveel boeken nieuw, gewijzigd of verwijderd zijn.
+- **Book Details toont beschikbare gegevens onafhankelijk van de bron.** ISBN-10, ISBN-13 en EAN krijgen het juiste label. Een gedownload boek vult ontbrekende beschrijving, taal, genres, uitgever, serie, medewerkers en rechten aan uit het lokale bestand, ook zonder NAS-verbinding.
+- **De laatst bekende bibliotheek blijft offline beschikbaar.** Alle boeken, schrijvers en series blijven zichtbaar wanneer de NAS onderweg niet bereikbaar is; alleen een niet-gedownload bestand zelf kan dan niet worden geopend.
+- **Praktijkmeting voor grote bibliotheken.** Onder Instellingen → Onderhoud servers staat een meetpaneel voor boekenaantal, SQLite-querytijden, geheugen, scans en offline herstart. Het rapport kan rechtstreeks worden gedeeld.
+- **Betrouwbaardere tests.** Testcatalogi zijn geïsoleerd en asynchrone catalogusupdates lopen niet meer door naar een volgende test.
+
 ## 3.90 — 2026-08-22
 
 Onder de motorkap. Deze versie bereidt de app voor op hele grote bibliotheken — tienduizenden tot honderdduizend boeken op een NAS. Je ziet er weinig van, behalve dat het sneller en rustiger hoort te zijn.
