@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.94 — 2026-08-23
+
+- **Taalfilters zijn nu beschikbaar in meer bibliotheekschermen.** Je kunt ook bij schrijvers, favorieten, strips en afzonderlijke bronnen op taal filteren. De aantallen en resultaten komen rechtstreeks uit de catalogus en lege talen worden niet getoond.
+- **Schrijverspagina's verschijnen merkbaar sneller.** De kop en reeds bekende schrijversinformatie worden direct getoond; de beschrijving en boekenlijst laden daarna onafhankelijk van elkaar, zodat het scherm niet op het langzaamste onderdeel hoeft te wachten.
+- **Verrijkte schrijversgegevens staan voortaan in de lokale database.** Biografie, foto-URL, levensdata en externe identifiers zijn offline beschikbaar zonder eerst een serverbestand te lezen. Een schrijver heeft één bibliotheekbreed profiel, ook als diens boeken op meerdere bronnen staan. Bestaande caches worden automatisch overgezet en `authors.yaml` blijft gebruikt voor synchronisatie tussen toestellen.
+
 ## 3.93 — 2026-08-23
 
 - **Het gekozen audioboek blijft in de rechterkolom staan.** Afspelen vanaf Start selecteert het audioboek en na pauzeren springt de inspector niet meer terug naar het eerder gelezen EPUB-boek. De actuele luistervoortgang blijft wel meelopen.
