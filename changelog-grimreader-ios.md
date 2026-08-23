@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.96 — 2026-08-23
+
+- **Taalfilters tonen na iedere appstart dezelfde complete selectie.** Verschillende schrijfwijzen voor dezelfde taal, zoals `nl`, `nld` en `Dutch`, blijven één Nederlandse chip maar worden bij het zoeken allemaal meegenomen. Daardoor verdwijnen of verschijnen niet langer willekeurig boeken wanneer je Grim Reader opnieuw opent.
+
 ## 3.95 — 2026-08-23
 
 - **YAML-indexen worden alleen nog op jouw verzoek naar de NAS geschreven.** Scannen, bewerken, verwijderen, schrijvers verrijken en omslagen ophalen werken voortaan uitsluitend de lokale SQLite-catalogus bij. Onder Instellingen → Onderhoud servers staat de nieuwe actie ‘Schrijver- en boekenindexen naar servers schrijven’. Die schrijft `books.yaml` en `authors.yaml` bewust naar alle ingestelde WebDAV-servers en toont de voortgang en eventuele fouten per server.
