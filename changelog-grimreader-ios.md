@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.93 — 2026-08-23
+
+- **Het gekozen audioboek blijft in de rechterkolom staan.** Afspelen vanaf Start selecteert het audioboek en na pauzeren springt de inspector niet meer terug naar het eerder gelezen EPUB-boek. De actuele luistervoortgang blijft wel meelopen.
+- **Meerdere boeken aanpassen rondt netjes af.** Na een geslaagde bulkbewerking sluit het aanpasscherm automatisch. Alleen bij een gedeeltelijke bestandsfout blijft het open om de fout te tonen.
+- **Coverdownloads schrijven de gedeelde boekenindex niet meer onnodig weg.** Het ophalen van toestel-eigen omslagen verandert `books.yaml` op de NAS niet meer. Alleen werkelijk gewijzigde gedeelde metadata wordt gebundeld gepubliceerd.
+- **Lege taalfilters verdwijnen direct.** Na het verplaatsen van boeken naar een andere taal worden de taaltellingen opnieuw opgebouwd, oude cachewaarden verwijderd en talen met nul boeken niet meer getoond.
+
 ## 3.92 — 2026-08-23
 
 - **Audioboeken spelen direct af vanaf Start en de rechterkolom.** De afspeelknop opent niet langer eerst het detailscherm en verandert tijdens het afspelen meteen in Pauzeren. Open je na een gewoon boek een audioboek, dan blijft bovendien het gekozen audioboek actief in plaats van terug te springen.
