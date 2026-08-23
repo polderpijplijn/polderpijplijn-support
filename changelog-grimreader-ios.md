@@ -3,6 +3,14 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.92 — 2026-08-23
+
+- **Audioboeken spelen direct af vanaf Start en de rechterkolom.** De afspeelknop opent niet langer eerst het detailscherm en verandert tijdens het afspelen meteen in Pauzeren. Open je na een gewoon boek een audioboek, dan blijft bovendien het gekozen audioboek actief in plaats van terug te springen.
+- **Boeken die je bekijkt krijgen voorrang.** Zichtbare boeken op Start en in de bibliotheek halen hun omslag en aanvullende gegevens als eerste op; achtergrondwerk hoeft daar niet meer op te worden afgewacht.
+- **Bulkbewerkingen van taal blijven bewaard.** Na het wijzigen van meerdere boeken worden de filters direct ververst, lege taalfilters verdwijnen en de oude taal keert na een herstart niet terug.
+- **WebDAV-bronnen laden volledig en tonen eerlijk waar een scan mee bezig is.** De bronlijst stopt niet meer na de eerste pagina en aan het einde zie je aparte fasen voor verwerken, indexeren en afronden in plaats van een schijnbaar vastgelopen laatste map.
+- **Het hervatten van ontbrekende boekgegevens is duidelijker.** De app legt beter uit welke achtergrondtaak wordt voortgezet en wat al voltooid is.
+
 ## 3.91 — 2026-08-23
 
 - **Grote WebDAV-bibliotheken gebruiken nog minder geheugen.** De laatste volledige boekenkopie is uit het geheugen verwijderd; boeken, schrijvers en series komen nu rechtstreeks en in pagina's uit SQLite. Ook het gedeelde `books.yaml` wordt in stukken opgebouwd.
