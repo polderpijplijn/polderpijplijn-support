@@ -5,6 +5,12 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 3.99 — 2026-08-24
+
+- **Schrijvers samenvoegen toont nu iedere verwerkingsstap.** Na het herschrijven van de boekbestanden zie je afzonderlijk de voortgang van de catalogusupdate en daarna de afronding van lokale gegevens, schrijversfoto's en de vernieuwde schrijverslijst. Daardoor lijkt een grote bewerking niet meer stil te staan wanneer de eerste teller klaar is.
+- **Bulkbewerkingen tonen voortaan ook de voortgang ná het schrijven van de bestanden.** Bij onder meer het wijzigen van de taal zie je afzonderlijk het voorbereiden, herschrijven van boekbestanden, bijwerken van de SQLite-bibliotheek en vernieuwen van de boekenlijsten.
+- **Metadataresultaten zijn beter te vergelijken.** Iedere kandidaat vermeldt hoeveel en welke details de bron levert. ‘Over dit boek’ krijgt een eigen bronvermelding en, wanneer direct beschikbaar, een korte voorvertoning.
+
 ## 3.98 — 2026-08-24
 
 - **EPUB-reparatie kan voortaan optioneel ondubbelzinnige technische metadatafouten opruimen.** De nieuwe instelling staat standaard uit. Zet je hem aan, dan verdwijnen lege en dubbele identifiers, krijgen geldige ISBN's het juiste schema, krijgen makerrollen geldige OPF-prefixen en worden herkenbare datum/tijdwaarden een gewone ISO-datum. Met de instelling uit wordt alleen een daadwerkelijk gewijzigd veld gerepareerd; een gekozen taal wordt bijvoorbeeld één consequente standaardcode. Taalmarkeringen van echte anderstalige passages blijven behouden.
