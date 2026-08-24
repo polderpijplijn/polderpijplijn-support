@@ -5,6 +5,11 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.06 — 2026-08-24
+
+- **Mappen met meerdere audiobestanden verschijnen nu als één luisterboek.** Grim Reader groepeert MP3-, M4A-, M4B-, AAC- en OPUS-delen per diepste map, sorteert op disc-/tracktags met natuurlijke bestandsvolgorde als terugval en bewaart de afspeellijst in SQLite en `books.yaml`. De speler loopt zonder onderbreking door alle delen, bewaart één totale positie, toont de delenlijst en ondersteunt hervatbare downloads van het hele boek voor offline gebruik.
+- **Bij schrijvers samenvoegen kun je nu ook ‘Achternaam, Voornaam’ behouden.** Een komma-naam en dezelfde naam in gewone volgorde komen in één groep. Naast het voornaam-eerstvoorstel toont Grim Reader een netjes opgemaakte komma-variant als afzonderlijke doelkeuze.
+
 ## 4.05 — 2026-08-24
 
 - **Lokale downloads en imports worden nu crashveilig bewaard.** Grim Reader vervangt boekbestand, metadata en omslag als één transactie met automatisch herstel na een schrijffout of onderbroken app. Een bestaande leesbare kopie blijft behouden en onvolledige boek/metadata-paren verschijnen niet in de bibliotheek.
