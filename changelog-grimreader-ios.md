@@ -3,6 +3,15 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## Nog niet uitgebracht
+
+## 3.98 — 2026-08-24
+
+- **EPUB-reparatie kan voortaan optioneel ondubbelzinnige technische metadatafouten opruimen.** De nieuwe instelling staat standaard uit. Zet je hem aan, dan verdwijnen lege en dubbele identifiers, krijgen geldige ISBN's het juiste schema, krijgen makerrollen geldige OPF-prefixen en worden herkenbare datum/tijdwaarden een gewone ISO-datum. Met de instelling uit wordt alleen een daadwerkelijk gewijzigd veld gerepareerd; een gekozen taal wordt bijvoorbeeld één consequente standaardcode. Taalmarkeringen van echte anderstalige passages blijven behouden.
+- **Alle boeken onder een actief taalfilter zijn in één keer te selecteren.** De actie neemt ook resultaten mee die nog niet in beeld of geladen zijn en werkt in algemene boekenlijsten, schrijverdetails en afzonderlijke WebDAV-bronnen.
+- **Ook de testcode is vrij van waarschuwingen die onder Swift 6 compileerfouten worden.**
+- **Dubbele WebDAV-schrijvers kunnen optioneel ook in de boekbestanden worden samengevoegd.** De nieuwe schakelaar staat standaard uit. Met de optie aan worden EPUB-, CBZ- en PDF-bestanden veilig één voor één herschreven; een mislukt bestand blijft met zijn oude schrijver in de catalogus staan en wordt in het resultaat genoemd.
+
 ## 3.97 — 2026-08-24
 
 - **EPUB-metadata wordt bij het bewaren automatisch opgeschoond.** Grim Reader bewaart voortaan precies één canonieke taalcode en maakt bestaande taalmarkeringen in het boek en de inhoudsopgave consequent. Ontbreekt de technische omslagverwijzing terwijl er een duidelijke coverafbeelding aanwezig is, dan wordt die veilig hersteld.
