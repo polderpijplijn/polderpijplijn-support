@@ -5,6 +5,11 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.02 — 2026-08-24
+
+- **De actie ‘Samenvoegen’ blijft altijd zichtbaar.** In het schrijversscherm staat de knop voortaan in een vaste onderbalk, samen met de actuele voortgang en resultaatmelding, zodat je bij een lange lijst niet meer naar beneden hoeft te scrollen.
+- **Samengevoegde schrijvers blijven ook na een herstart samengevoegd.** De nieuwe auteursnaam wordt voortaan als een bewuste metadatawijziging beschermd tegen oude gegevens uit `books.yaml` of een ongewijzigd boekbestand. Het scherm wacht bovendien tot lokale en gedownloade boeken daadwerkelijk in SQLite zijn bijgewerkt, zodat verwerkte schrijfwijzen ook direct verdwijnen.
+
 ## 4.01 — 2026-08-24
 
 - **De recent toegevoegde schermen zijn nu volledig in het Engels vertaald.** Dit omvat het zoeken naar bestaande schrijvers, schrijvers samenvoegen, voortgang van bulkbewerkingen, EPUB-reparatie en selectie onder een taalfilter.
