@@ -5,6 +5,12 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.04 — 2026-08-24
+
+- **Oude schrijvers verdwijnen nu betrouwbaar na hernoemen of samenvoegen.** Ook wijzigingen van alleen hoofdletters en alle schrijfwijzen die alleen in hoofdletters verschillen worden meegenomen. De auteurslijst, het open schrijversdetail, foto's en verrijkte profielen verversen direct en verhuizen naar de nieuwe naam.
+- **Meerdere echte schrijvers blijven afzonderlijk bewaard.** SQLite, `books.yaml`, downloads en de EPUB-writer gebruiken voortaan een auteurslijst in plaats van tekst op komma's te splitsen. Daardoor blijft `Achternaam, Voornaam` één schrijver, terwijl alle afzonderlijke `dc:creator`-elementen wel behouden en gericht herschreven worden. Ook series toont namen met komma's correct.
+- **De upgrade van bestaande schrijversindexen is veiliger.** De v9→v10-migratie herstelt fout gesplitste WebDAV-namen zonder echte auteursrelaties van lokale boeken te wissen. Onderhoud werkt op de fysieke NAS-regel, ook als hetzelfde boek al is gedownload, en een SQLite-schrijffout kan een bulkbewerking niet meer eindeloos laten herhalen.
+
 ## 4.03 — 2026-08-24
 
 - **De schrijverslijst toont direct de nieuwe naam na hernoemen of samenvoegen.** Het overzicht krijgt na een voltooide auteurswijziging een gericht ververssignaal en wacht bij lokale boeken tot SQLite werkelijk is bijgewerkt, ook wanneer het totale boekaantal gelijk blijft.
