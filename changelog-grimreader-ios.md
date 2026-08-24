@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 3.97 — 2026-08-24
+
+- **EPUB-metadata wordt bij het bewaren automatisch opgeschoond.** Grim Reader bewaart voortaan precies één canonieke taalcode en maakt bestaande taalmarkeringen in het boek en de inhoudsopgave consequent. Ontbreekt de technische omslagverwijzing terwijl er een duidelijke coverafbeelding aanwezig is, dan wordt die veilig hersteld.
+- **Alle lokale en WebDAV-bewerkingsroutes gebruiken dezelfde EPUB-writer.** Ook oudere bewerkingsschermen geven de volledige bestaande metadata mee, zodat een wijziging van alleen titel, schrijver of omslag niet ongemerkt taal, serie of genres verliest. De Grimmory-serverroute is niet gewijzigd.
+
 ## 3.96 — 2026-08-23
 
 - **Taalfilters tonen na iedere appstart dezelfde complete selectie.** Verschillende schrijfwijzen voor dezelfde taal, zoals `nl`, `nld` en `Dutch`, blijven één Nederlandse chip maar worden bij het zoeken allemaal meegenomen. Daardoor verdwijnen of verschijnen niet langer willekeurig boeken wanneer je Grim Reader opnieuw opent.
