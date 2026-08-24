@@ -5,6 +5,16 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.05 — 2026-08-24
+
+- **Lokale downloads en imports worden nu crashveilig bewaard.** Grim Reader vervangt boekbestand, metadata en omslag als één transactie met automatisch herstel na een schrijffout of onderbroken app. Een bestaande leesbare kopie blijft behouden en onvolledige boek/metadata-paren verschijnen niet in de bibliotheek.
+- **WebDAV-verrijking herstelt nu van tijdelijke leesfouten.** Een mislukte Range-aanvraag of download wordt niet langer als voltooid opgeslagen en verlaagt de openstaande teller niet. Korte storingen krijgen begrensde retries met wachttijd; bewust niet ondersteunde audioformaten blijven wel een geldige eindtoestand.
+- **Lees- en luistervoortgang kan niet meer terugspringen door trage netwerkwrites.** EPUB, PDF, strips en audioboeken gebruiken één geordende wachtrij per boek en mediatype. Er loopt maximaal één PUT tegelijk, tussentijdse posities worden samengevoegd tot de nieuwste en een mislukte laatste positie krijgt begrensde retries.
+- **Definitief verwijderde boeken verdwijnen nu overal.** Eén centrale cleanup verwijdert na een geslaagde Grimmory-, WebDAV-, import- of OPDS-delete de stabiele boeksleutel uit zowel favorieten als alle collecties. Een mislukte serverdelete of het verwijderen van alleen een offline kopie behoudt die koppelingen juist.
+- **Oude zoekantwoorden kunnen actuele lijsten niet meer overschrijven.** Start en het moderne iPad-luisterboekenscherm gebruiken beheerde taken plus een monotone generatie voor zoekterm, taal, sortering en alle pagina's. Zelfs wanneer een backend te laat op annulering reageert, mag alleen de nieuwste aanvraag nog boeken, metadata, foutstatus of selectie wijzigen.
+- **Grote bestanden blokkeren “Open met Grim Reader” niet meer.** Kopiëren, fingerprinting, boekgegevens/omslag uitlezen en crash-veilig opslaan draaien buiten de hoofdthread. De import toont de fasen kopiëren, lezen en opslaan, kan vóór het opslaan veilig worden geannuleerd en serialiseert gelijktijdig aangeboden bestanden.
+- **Runtime-meldingen volgen nu werkelijk de app-taal.** Fouten, onderhoudsresultaten en automatisch gemaakte hoofdstuk- en deelnamen worden als gelokaliseerde strings opgebouwd in plaats van Nederlandse modeltekst. De vertaaltest bewaakt voortaan ook zichtbare String-state en bekende model-fallbacks, terwijl technische identifiers en logs buiten beschouwing blijven.
+
 ## 4.04 — 2026-08-24
 
 - **Oude schrijvers verdwijnen nu betrouwbaar na hernoemen of samenvoegen.** Ook wijzigingen van alleen hoofdletters en alle schrijfwijzen die alleen in hoofdletters verschillen worden meegenomen. De auteurslijst, het open schrijversdetail, foto's en verrijkte profielen verversen direct en verhuizen naar de nieuwe naam.
