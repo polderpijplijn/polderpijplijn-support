@@ -5,6 +5,10 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.03 — 2026-08-24
+
+- **De schrijverslijst toont direct de nieuwe naam na hernoemen of samenvoegen.** Het overzicht krijgt na een voltooide auteurswijziging een gericht ververssignaal en wacht bij lokale boeken tot SQLite werkelijk is bijgewerkt, ook wanneer het totale boekaantal gelijk blijft.
+
 ## 4.02 — 2026-08-24
 
 - **De actie ‘Samenvoegen’ blijft altijd zichtbaar.** In het schrijversscherm staat de knop voortaan in een vaste onderbalk, samen met de actuele voortgang en resultaatmelding, zodat je bij een lange lijst niet meer naar beneden hoeft te scrollen.
