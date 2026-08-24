@@ -5,6 +5,12 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.00 — 2026-08-24
+
+- **Het boekaantal op een schrijverspagina volgt nu het gekozen taalfilter.** Zowel de kop als ‘Boeken van …’ tonen het aantal boeken in de geselecteerde taal in plaats van het totale aantal van de schrijver.
+- **Een schrijver zoeken controleert voortaan eerst je eigen bibliotheek.** In het bewerkscherm verschijnen bestaande schrijvers uit de lokale SQLite-catalogus direct bovenaan, inclusief hun boekaantal en een duidelijke melding dat kiezen de namen samenvoegt. Resultaten van Wikipedia en andere online bronnen volgen daaronder.
+- **Schrijvers samenvoegen volgt nu een vaste naamstijl en vereist een bewuste selectie.** De optie om boekbestanden bij te werken staat bovenaan, iedere schrijversgroep staat standaard uit en met één schakelaar kun je alles selecteren. De voorgestelde naam gebruikt hoofdletters voor voor- en achternamen, kleine Nederlandse tussenvoegsels, punten na initialen zonder tussenliggende spaties en nooit losse interpunctie aan het einde van de naam.
+
 ## 3.99 — 2026-08-24
 
 - **Schrijvers samenvoegen toont nu iedere verwerkingsstap.** Na het herschrijven van de boekbestanden zie je afzonderlijk de voortgang van de catalogusupdate en daarna de afronding van lokale gegevens, schrijversfoto's en de vernieuwde schrijverslijst. Daardoor lijkt een grote bewerking niet meer stil te staan wanneer de eerste teller klaar is.
