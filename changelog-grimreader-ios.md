@@ -5,6 +5,10 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.01 — 2026-08-24
+
+- **De recent toegevoegde schermen zijn nu volledig in het Engels vertaald.** Dit omvat het zoeken naar bestaande schrijvers, schrijvers samenvoegen, voortgang van bulkbewerkingen, EPUB-reparatie en selectie onder een taalfilter.
+
 ## 4.00 — 2026-08-24
 
 - **Het boekaantal op een schrijverspagina volgt nu het gekozen taalfilter.** Zowel de kop als ‘Boeken van …’ tonen het aantal boeken in de geselecteerde taal in plaats van het totale aantal van de schrijver.
