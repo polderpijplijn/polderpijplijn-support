@@ -5,6 +5,14 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.07 — 2026-08-25
+
+- **Een server kan nu een tweede adres krijgen voor onderweg.** Ben je niet thuis maar via Tailscale of een VPN met je NAS verbonden, dan wijkt Grim Reader uit naar dat tweede adres zodra het eerste niet antwoordt. Je bibliotheek verandert er niet van: er wordt niets opnieuw doorzocht en je leesvoortgang en favorieten blijven staan. Beide adressen moeten wel op dezelfde map wijzen — alleen het IP of de hostnaam mag verschillen.
+- **Vanuit de mappenweergave kun je nu één map doorzoeken.** Handig als je één map met boeken hebt toegevoegd: dat scheelt de minuten die een volledige scan van een grote bibliotheek kost. Boeken buiten die map blijven ongemoeid, ook als daar intussen iets is verdwenen.
+- **Zoeken in het schrijversscherm doorzoekt eerst je eigen bibliotheek.** Online bronnen zijn een aparte knop geworden, zodat je niet op Open Library, VIAF, Wikidata en Wikipedia hoeft te wachten voor de vraag die er meestal toe doet: staat deze schrijver er al onder een andere schrijfwijze?
+- **Een schrijver kiezen neemt nu ook zijn beschrijving en foto over.** Eerder veranderde alleen de naam en bleven de gegevens van de vorige schrijver staan. Heeft de gekozen schrijver geen beschrijving, dan wordt dat veld leeggemaakt in plaats van de oude tekst te laten staan.
+- **Meer schrijvers krijgen een foto bij het zoeken.** Treffers uit Open Library tonen nu hun portret, en wie er dan nog geen heeft krijgt er alsnog een uit Wikidata. Schrijvers die al in je bibliotheek staan tonen hun eigen foto in de zoeklijst.
+
 ## 4.06 — 2026-08-24
 
 - **Mappen met meerdere audiobestanden verschijnen nu als één luisterboek.** Grim Reader groepeert MP3-, M4A-, M4B-, AAC- en OPUS-delen per diepste map, sorteert op disc-/tracktags met natuurlijke bestandsvolgorde als terugval en bewaart de afspeellijst in SQLite en `books.yaml`. De speler loopt zonder onderbreking door alle delen, bewaart één totale positie, toont de delenlijst en ondersteunt hervatbare downloads van het hele boek voor offline gebruik.
