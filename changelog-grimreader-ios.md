@@ -5,6 +5,13 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.10 — 2026-08-25
+
+- **Een luisterboek van meerdere bestanden speelt weer af.** Zo'n boek wordt als één boek getoond, maar de tracklijst werd op sommige plekken niet meegelezen. De app dacht dan dat het boek uit één bestand bestond — en dat "bestand" is de map waar de delen in zitten. Afspelen deed niets, er was geen titel en bewerken lukte niet, terwijl de schrijver wél zichtbaar was.
+- **Nietszeggende tags maken niet langer de titel kapot.** Bij luisterboeken met per hoofdstuk getagde bestanden werd het meest voorkomende album blind als boektitel genomen; staat daar overal een streepje, dan heette je boek een streepje. Een waarde moet nu door minstens de helft van de delen gedeeld worden en gaat door een zeef die streepjes, losse cijfers en verzamelnamen als "unknown" of "various" weigert. Zegt het album niets, dan blijft de mapnaam de titel. Dat voorkomt ook dat een hoofdstuknaam als schrijver in je bibliotheek belandt.
+- **Alles wat opnieuw op te halen is blijft uit je iCloud-backup.** Niet alleen de omslagen en schrijversfoto's, maar ook de serverindexen en de catalogusdatabase. Bij een grote bibliotheek scheelt dat tientallen gigabytes in je backup. Je collecties en de schrijversfoto's die je zelf hebt gekozen blijven er wel in; die zijn niet terug te halen. In Instellingen > Opslag staat nu of het aanstaat.
+- **Comprimeren werkt nu ook bij tienduizenden omslagen.** Het liep één bestand tegelijk en stopte zodra je het scherm verliet. Nu vier tegelijk, met een voortgangsbalk en een stopknop, en het gaat door als je wegnavigeert. Afbeeldingen worden iets kleiner bewaard dan eerst, wat bij een grote bibliotheek ruwweg de helft scheelt zonder zichtbaar verschil.
+
 ## 4.09 — 2026-08-25
 
 - **Instellingen > Opslag laat zien waar de ruimte op je toestel heen gaat.** Per soort: luisterboeken, boeken, omslagen, schrijversfoto's, de catalogus en de rest, met een streepje voor de verhouding. Zonder dat is er geen antwoord op "de app neemt gigabytes in beslag" — en of dat nu gedownloade audio of omslagen zijn, maakt voor wat je eraan kunt doen alle verschil.
