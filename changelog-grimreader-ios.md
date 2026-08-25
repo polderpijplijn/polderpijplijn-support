@@ -5,6 +5,13 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.13 — 2026-08-25
+
+- **Afgebroken downloads laten geen gigabytes meer achter.** Een download zet eerst een bestand in de tijdelijke map; bij een goede afloop verhuist dat naar je bibliotheek, maar bij een mislukking of als je hem afbrak bleef het staan — bij een strip of een luisterboekdeel honderden megabytes per keer, en niets ruimde het ooit op. Elke download ruimt nu zijn eigen bestand op, en bij het starten wordt opgeruimd wat er nog stond.
+- **Omslagen en schrijversfoto's worden als HEIC bewaard.** Gemeten op echte omslagen scheelt dat nog eens 39% ten opzichte van JPEG, bij dezelfde kwaliteit. Bestaande omslagen worden omgezet zodra je ze comprimeert en houden ondertussen gewoon hun beeld. Kan een toestel geen HEIC maken, dan blijft het JPEG.
+- **Omslagen van gedownloade en geïmporteerde boeken worden nu ook verkleind.** Die gingen buiten de verkleiner om en werden op volle grootte bewaard.
+- **Een verwijderde server laat geen halve scanronde meer achter.** Voegde je diezelfde server later opnieuw toe, dan pakte de scan de oude ronde op en ruimde daardoor verdwenen boeken niet op.
+
 ## 4.12 — 2026-08-25
 
 - **Het opslagscherm telt nu alles.** Het keek alleen naar de mappen die het zelf kent en sloeg de caches en tijdelijke bestanden over, waardoor het minder meldde dan je toestel. Het totaal komt nu uit de hele map van de app, met de bekende posten eraf getrokken — zo klopt de optelsom altijd.
