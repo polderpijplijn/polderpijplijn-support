@@ -5,6 +5,13 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.09 — 2026-08-25
+
+- **Instellingen > Opslag laat zien waar de ruimte op je toestel heen gaat.** Per soort: luisterboeken, boeken, omslagen, schrijversfoto's, de catalogus en de rest, met een streepje voor de verhouding. Zonder dat is er geen antwoord op "de app neemt gigabytes in beslag" — en of dat nu gedownloade audio of omslagen zijn, maakt voor wat je eraan kunt doen alle verschil.
+- **Omslagen en schrijversfoto's worden nu verkleind bewaard.** Wat er stond was wat de bron toevallig gaf: de omslag zoals hij in het EPUB zit, bij een strip de eerste pagina op volle scanresolutie, een portret op 800 pixels breed. In beeld komt daar een rastercel van een paar honderd punten van terecht. Nieuwe afbeeldingen worden meteen verkleind, en met één knop haal je ook wat er al staat door de verkleiner — inclusief teller van wat er is vrijgemaakt. Afbeeldingen met doorzichtigheid blijven ongemoeid, en wat al klein genoeg is wordt overgeslagen, zodat een tweede ronde geen kwaliteit kost.
+- **Omslagen en foto's kunnen in één keer gewist worden.** Ze worden opnieuw opgehaald zodra je een boek of schrijver bekijkt. Je boeken, leesvoortgang, favorieten en zelf gekozen schrijversfoto's blijven ongemoeid.
+- **De cachemappen gaan niet meer mee in je iCloud-backup.** Het zijn gegevens die opnieuw op te halen zijn; die hoeven je backup niet groter te maken. De catalogus blijft er bewust wél in, want daarin staan de nummers waar je favorieten en leesvoortgang aan hangen.
+
 ## 4.08 — 2026-08-25
 
 - **Het tweede serveradres voor onderweg werkt nu echt.** In 4.07 werd er alleen naar dat adres uitgeweken als je toevallig de serverlijst in Instellingen had geopend; ging je meteen naar je boeken, dan bleef Grim Reader op het onbereikbare thuisadres proberen. Het uitwijken zit nu in elk verzoek: loopt de verbinding stuk, dan gaat het tweede adres eenmalig op de proef en wordt het bij succes onthouden. Bij het starten van de app wordt bovendien meteen uitgezocht welk van de twee antwoordt, zodat je niet eerst een time-out van tientallen seconden uitzit. Een afgekeurd wachtwoord telt niet als verbindingsprobleem, en werken beide adressen niet, dan krijgt het thuisadres bij de volgende poging weer de voorkeur.
