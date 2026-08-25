@@ -5,6 +5,10 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.08 — 2026-08-25
+
+- **Het tweede serveradres voor onderweg werkt nu echt.** In 4.07 werd er alleen naar dat adres uitgeweken als je toevallig de serverlijst in Instellingen had geopend; ging je meteen naar je boeken, dan bleef Grim Reader op het onbereikbare thuisadres proberen. Het uitwijken zit nu in elk verzoek: loopt de verbinding stuk, dan gaat het tweede adres eenmalig op de proef en wordt het bij succes onthouden. Bij het starten van de app wordt bovendien meteen uitgezocht welk van de twee antwoordt, zodat je niet eerst een time-out van tientallen seconden uitzit. Een afgekeurd wachtwoord telt niet als verbindingsprobleem, en werken beide adressen niet, dan krijgt het thuisadres bij de volgende poging weer de voorkeur.
+
 ## 4.07 — 2026-08-25
 
 - **Een server kan nu een tweede adres krijgen voor onderweg.** Ben je niet thuis maar via Tailscale of een VPN met je NAS verbonden, dan wijkt Grim Reader uit naar dat tweede adres zodra het eerste niet antwoordt. Je bibliotheek verandert er niet van: er wordt niets opnieuw doorzocht en je leesvoortgang en favorieten blijven staan. Beide adressen moeten wel op dezelfde map wijzen — alleen het IP of de hostnaam mag verschillen.
