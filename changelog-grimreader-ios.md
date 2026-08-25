@@ -5,6 +5,10 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.11 — 2026-08-25
+
+- **Omslagen van verdwenen boeken worden opgeruimd.** Verdween een boek van je server, dan wiste de scan wel het boek uit de bibliotheek maar bleef de bewaarde omslag staan — voorgoed. Hetzelfde bij een boek dat verhuist naar een andere map. Bij een grote bibliotheek stapelt dat stil op. De scan ruimt ze nu mee op, en in Instellingen > Opslag verschijnt een knop zodra er omslagen zijn die bij geen enkel boek meer horen, met hoeveel het er zijn en wat het oplevert. Staat er niets in de catalogus, dan gebeurt er niets: dan is niet vastgesteld dát iets verweesd is.
+
 ## 4.10 — 2026-08-25
 
 - **Een luisterboek van meerdere bestanden speelt weer af.** Zo'n boek wordt als één boek getoond, maar de tracklijst werd op sommige plekken niet meegelezen. De app dacht dan dat het boek uit één bestand bestond — en dat "bestand" is de map waar de delen in zitten. Afspelen deed niets, er was geen titel en bewerken lukte niet, terwijl de schrijver wél zichtbaar was.
