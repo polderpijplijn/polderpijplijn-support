@@ -5,6 +5,11 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.14 — 2026-08-25
+
+- **Je kunt nu kiezen hoe lang omslagen bewaard blijven.** Bij een grote bibliotheek bewaart de app een omslag voor elk boek, terwijl je er maar een deel van bekijkt. In Instellingen > Opslag kies je tussen alles bewaren (zoals het was) of alleen wat je de laatste 7, 30, 90 of 365 dagen hebt gezien. Onder de keuze staat meteen hoeveel er buiten die termijn valt en wat het oplevert. Kom je zo'n boek weer tegen, dan wordt de omslag opnieuw opgehaald; je boeken en gegevens blijven ongemoeid.
+- **De catalogus geeft niet meer op als hij even bezet is.** Er wordt op twee manieren in de database geschreven, en botsten die, dan gaf dat direct een fout in plaats van een korte pauze. Dat kon zich voordoen tijdens een scan terwijl je door je bibliotheek bladerde.
+
 ## 4.13 — 2026-08-25
 
 - **Afgebroken downloads laten geen gigabytes meer achter.** Een download zet eerst een bestand in de tijdelijke map; bij een goede afloop verhuist dat naar je bibliotheek, maar bij een mislukking of als je hem afbrak bleef het staan — bij een strip of een luisterboekdeel honderden megabytes per keer, en niets ruimde het ooit op. Elke download ruimt nu zijn eigen bestand op, en bij het starten wordt opgeruimd wat er nog stond.
