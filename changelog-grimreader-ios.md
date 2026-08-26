@@ -5,6 +5,14 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.20 — 2026-08-26
+
+- **Een aangepaste zoekterm werkt nu echt.** Vond Grim Reader niets en paste je de zoekterm aan — precies wat het scherm je aanraadt — dan bereikte die aanpassing alleen de algemene bronnen. De Koninklijke Bibliotheek bleef zoeken op de titel zoals die in het bestand staat, en dat is meestal juist de reden dat er niets gevonden werd.
+- **Rommel in de titel wordt weggelaten bij het zoeken.** Een titel uit een bestandsnaam sleept van alles mee: het jaartal vooraan, de oorspronkelijke titel tussen haakjes, een formaat- of taalaanduiding. Daar vindt een catalogus niets bij. Grim Reader zoekt nu op de kale titel, en je ziet in het zoekveld waarop gezocht wordt zodat je het kunt bijstellen.
+- **Schrijvers worden veel vaker gevonden.** Staat een schrijver in je bibliotheek als "Achternaam, Voornaam" — zoals catalogi en veel e-boeken hem bewaren — dan vonden Wikidata en Wikipedia daar niets bij. De naam wordt nu omgedraaid voor de bronnen die dat nodig hebben.
+- **VIAF is als bron vervallen**; die dienst weigert al zijn verzoeken en liet zonder melding een deel van de resultaten wegvallen. De naamvarianten die het leverde komen nu uit de Koninklijke Bibliotheek, inclusief pseudoniemen.
+- **Sorteren in het serieoverzicht doet weer wat het zegt.** Op aantal boeken, naam, recent toegevoegd of voortgang — geen van vieren werkte, alleen bij "Naam" viel dat niet op.
+
 ## 4.19 — 2026-08-26
 
 - **Nederlandse boeken worden veel vaker gevonden.** Grim Reader vraagt de Koninklijke Bibliotheek nu ook als de taal van een boek nog niet bekend is — en dat is precies de situatie waarin je metadata gaat zoeken. Hij raadt de taal uit de titel; zit die gok ernaast, dan gebeurt er niets bijzonders en zoekt hij verder zoals eerst. Ter illustratie: van "De zeven wijzerplaten" van Agatha Christie kent de KB zeventien uitgaven, terwijl Open Library er geen enkele heeft.
