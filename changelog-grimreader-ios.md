@@ -5,6 +5,13 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.19 — 2026-08-26
+
+- **Nederlandse boeken worden veel vaker gevonden.** Grim Reader vraagt de Koninklijke Bibliotheek nu ook als de taal van een boek nog niet bekend is — en dat is precies de situatie waarin je metadata gaat zoeken. Hij raadt de taal uit de titel; zit die gok ernaast, dan gebeurt er niets bijzonders en zoekt hij verder zoals eerst. Ter illustratie: van "De zeven wijzerplaten" van Agatha Christie kent de KB zeventien uitgaven, terwijl Open Library er geen enkele heeft.
+- **Schrijversgegevens uit de Nederlandse Thesaurus van Auteursnamen.** Bij "Ook online zoeken" wordt nu ook de naamsautoriteit van de KB geraadpleegd: een Nederlandstalig levensbericht, geboorte- en sterfjaar en pseudoniemen. Daar hangt vaak een Wikidata-verwijzing aan, en daarmee komt ook de foto binnen. Staat de app in het Nederlands, dan wint een Nederlandse tekst voortaan van een langere Engelse.
+- **Voorlezen werkt nu ook bij Nederlandse boeken die niet in UTF-8 zijn opgeslagen.** Bij zulke boeken — vooral oudere uitgaven — kwam er geen tekst uit het bestand, waarna het voorlezen zonder melding niets deed terwijl het boek gewoon te lezen was. Grim Reader herkent de tekencodering nu zelf. En als er werkelijk geen tekst te halen valt, zegt hij dat voortaan in plaats van stil te blijven.
+- **Meerdere boeken in één keer verwijderen.** Kies je meerdere boeken, dan staat er naast "Aanpassen" nu een prullenbak. Je kiest of je de kopieën van dit toestel weghaalt — die zijn opnieuw te downloaden — of de bestanden definitief van je NAS. Met een teller en een stopknop, en zonder schrijfrechten is de NAS-optie uitgeschakeld met de reden erbij.
+
 ## 4.18 — 2026-08-26
 
 - **Het boekmenu zit nu ook in de schermen waar het nog ontbrak:** bij een schrijver, in de boekenlijst van een bibliotheek, bij zoekresultaten op het startscherm en bij luisterboeken. Houd een boek ingedrukt om het aan een collectie toe te voegen of te verwijderen — van dit toestel, van je NAS of van de server, net wat er bij dat boek kan.
