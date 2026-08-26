@@ -5,6 +5,14 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.21 — 2026-08-26
+
+- **Apple Books is erbij gekomen als boekenbron, en wordt als eerste geraadpleegd.** Voor Nederlandse uitgaven is dat verreweg de rijkste gratis bron: een Nederlandstalige beschrijving, genres, het jaar van uitgifte en een omslag. De nationale bibliotheek blijft ernaast staan voor wat Apple niet levert — ISBN, uitgever, omvang en serie — en dezelfde uitgave uit beide bronnen wordt één treffer met het beste van allebei.
+- **Er wordt gezocht in de winkel die bij het boek hoort.** Een Nederlands boek in de Nederlandse, een Frans boek in de Franse. Weet de app de taal niet, dan die van jou. Dit was de reden dat er zelden een omslag werd gevonden: er werd altijd in de Amerikaanse winkel gezocht, en die kent de Nederlandse uitgaven grotendeels niet.
+- **Omslagen worden ook op ISBN gezocht.** Dat wijst precies jouw editie aan in plaats van de hele familie eromheen.
+- **Bij elk zoekresultaat staat nu waar het vandaan komt.**
+- **Opgehaalde boekdetails verdwijnen niet meer** als je een ander boek kiest en terugkomt.
+
 ## 4.20 — 2026-08-26
 
 - **Een aangepaste zoekterm werkt nu echt.** Vond Grim Reader niets en paste je de zoekterm aan — precies wat het scherm je aanraadt — dan bereikte die aanpassing alleen de algemene bronnen. De Koninklijke Bibliotheek bleef zoeken op de titel zoals die in het bestand staat, en dat is meestal juist de reden dat er niets gevonden werd.
