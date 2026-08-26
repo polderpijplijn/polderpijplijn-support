@@ -5,6 +5,12 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.22 — 2026-08-27
+
+- **Een bewerking is meteen zichtbaar.** Paste je een boek aan, dan bleef het scherm waar je stond de oude titel tonen tot je zelf ververste. Alle boekenlijsten en de rechterkolom bewegen nu mee: Alle boeken, de bibliotheeklijst, schrijvers, series, collecties, favorieten, luisterboeken en het startscherm.
+- **Een schrijver krijgt niet langer de biografie en foto van iemand anders.** Grim Reader zocht op Wikipedia in de tekst van artikelen in plaats van op de naam, en nam de eerste treffer over. Bij A.G. Riddle leverde dat de foto en het levensverhaal van Val Kilmer op. Er wordt nu gecontroleerd of het gevonden artikel werkelijk over die schrijver gaat — en zo niet, dan blijft het veld leeg. Dat is beter dan een geloofwaardige onwaarheid.
+- **Meer over een schrijver:** geboorte- en sterfplaats, literaire prijzen en een aantikbare link naar zijn eigen website. Die stonden al in Wikidata, maar werden niet opgehaald.
+
 ## 4.21 — 2026-08-26
 
 - **Apple Books is erbij gekomen als boekenbron, en wordt als eerste geraadpleegd.** Voor Nederlandse uitgaven is dat verreweg de rijkste gratis bron: een Nederlandstalige beschrijving, genres, het jaar van uitgifte en een omslag. De nationale bibliotheek blijft ernaast staan voor wat Apple niet levert — ISBN, uitgever, omvang en serie — en dezelfde uitgave uit beide bronnen wordt één treffer met het beste van allebei.
