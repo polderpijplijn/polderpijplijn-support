@@ -5,6 +5,12 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.16 — 2026-08-26
+
+- **Het ontdubbelen bevriest niet meer.** Bij een grote bibliotheek liep de app vast zodra hij dubbele boeken ging zoeken: het wegen van de versies deed per vergelijking een schijfcontrole, en dat liep op de hoofdthread. Het vergelijken gebeurt nu op de achtergrond en elke versie wordt nog maar één keer gewogen.
+- **Je ziet nu wat hij doet, en je kunt stoppen.** Het scherm toont de fase — boeken ophalen, vergelijken — met een teller erbij, en er is een stopknop tijdens zowel het zoeken als het opruimen. Tijdens het opruimen zie je hoeveel boeken er al weg zijn.
+- **"Alles selecteren" staat nu standaard uit**, zoals bij schrijvers samenvoegen. Een lijst waarin alles al aanstaat nodigt uit tot één tik op opruimen zonder te kijken, en daar verdwijnen bestanden van je NAS mee.
+
 ## 4.15 — 2026-08-26
 
 - **Dubbele boeken opruimen.** Onder Instellingen > Onderhoud servers zoekt Grim Reader boeken die meer dan één keer in je bibliotheek staan — zelfde titel én schrijver, waarbij hoofdletters, accenten en leestekens niet meetellen — en stelt per groep voor welke versie je houdt. Die keuze kijkt naar hoeveel er is ingevuld, of er een omslag is en welk formaat het is, en staat erbij zodat je ziet waarom. Je kunt per groep een andere versie kiezen of alles in één keer selecteren.
