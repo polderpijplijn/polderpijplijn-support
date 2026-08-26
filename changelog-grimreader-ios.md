@@ -5,6 +5,10 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.17 — 2026-08-26
+
+- **Na het opruimen van dubbele boeken wordt je bibliotheek niet opnieuw doorzocht.** Dat gebeurde wel, en bij een grote bibliotheek kostte dat minuten wachten op iets wat de app al wist: van een opgeruimde groep blijft één versie over, dus die groep is geen groep meer. Breek je het opruimen halverwege af, dan blijft de rest van de lijst gewoon staan.
+
 ## 4.16 — 2026-08-26
 
 - **Het ontdubbelen bevriest niet meer.** Bij een grote bibliotheek liep de app vast zodra hij dubbele boeken ging zoeken: het wegen van de versies deed per vergelijking een schijfcontrole, en dat liep op de hoofdthread. Het vergelijken gebeurt nu op de achtergrond en elke versie wordt nog maar één keer gewogen.
