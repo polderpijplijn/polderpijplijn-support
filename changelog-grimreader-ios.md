@@ -5,6 +5,10 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.18 — 2026-08-26
+
+- **Het boekmenu zit nu ook in de schermen waar het nog ontbrak:** bij een schrijver, in de boekenlijst van een bibliotheek, bij zoekresultaten op het startscherm en bij luisterboeken. Houd een boek ingedrukt om het aan een collectie toe te voegen of te verwijderen — van dit toestel, van je NAS of van de server, net wat er bij dat boek kan.
+
 ## 4.17 — 2026-08-26
 
 - **Na het opruimen van dubbele boeken wordt je bibliotheek niet opnieuw doorzocht.** Dat gebeurde wel, en bij een grote bibliotheek kostte dat minuten wachten op iets wat de app al wist: van een opgeruimde groep blijft één versie over, dus die groep is geen groep meer. Breek je het opruimen halverwege af, dan blijft de rest van de lijst gewoon staan.
