@@ -5,6 +5,13 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.15 — 2026-08-26
+
+- **Dubbele boeken opruimen.** Onder Instellingen > Onderhoud servers zoekt Grim Reader boeken die meer dan één keer in je bibliotheek staan — zelfde titel én schrijver, waarbij hoofdletters, accenten en leestekens niet meetellen — en stelt per groep voor welke versie je houdt. Die keuze kijkt naar hoeveel er is ingevuld, of er een omslag is en welk formaat het is, en staat erbij zodat je ziet waarom. Je kunt per groep een andere versie kiezen of alles in één keer selecteren.
+- **Ook zonder schrijfrechten bruikbaar.** Zijn de bestanden op je server niet te verwijderen, dan staat die schakelaar uit met de reden erbij. De niet-gekozen versies verdwijnen dan alleen uit je bibliotheek — en komen bij een volgende scan niet terug, ook al staan de bestanden er nog.
+- **Hetzelfde boekmenu in elk scherm.** Toevoegen aan een collectie, van dit toestel verwijderen, van de NAS verwijderen en van de server verwijderen zitten nu overal waar een boek staat. Wat je ziet hangt af van het boek: van de NAS alleen bij een server waar de app op mag schrijven, van de server alleen met beheerdersrechten.
+- **"Van dit toestel verwijderen" is nieuw.** Op een server waar je niet mag schrijven was dat het enige wat je kon opruimen, en het kon nergens. Bij een boek dat ook op een server staat gaat alleen de kopie weg; bij een boek dat je zelf hebt geïmporteerd waarschuwt de app dat het echt weg is.
+
 ## 4.14 — 2026-08-25
 
 - **Je kunt nu kiezen hoe lang omslagen bewaard blijven.** Bij een grote bibliotheek bewaart de app een omslag voor elk boek, terwijl je er maar een deel van bekijkt. In Instellingen > Opslag kies je tussen alles bewaren (zoals het was) of alleen wat je de laatste 7, 30, 90 of 365 dagen hebt gezien. Onder de keuze staat meteen hoeveel er buiten die termijn valt en wat het oplevert. Kom je zo'n boek weer tegen, dan wordt de omslag opnieuw opgehaald; je boeken en gegevens blijven ongemoeid.
