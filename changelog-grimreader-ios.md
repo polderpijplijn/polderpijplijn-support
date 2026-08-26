@@ -5,6 +5,11 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.23 — 2026-08-27
+
+- **Schrijversgegevens worden niet meer bij het openen opgehaald.** Grim Reader ging tot nu toe het internet op zodra je een schrijver opende zonder bewaarde gegevens. Dat gebeurt niet meer: alles komt uit je eigen bibliotheek, en ophalen doe je zelf.
+- **Daarvoor in de plaats staat er een knop "Gegevens ophalen"** in het schrijversscherm. Die vult alleen lege velden aan — een biografie of foto die je zelf hebt gekozen blijft staan. Vindt hij niets, dan zegt hij dat.
+
 ## 4.22 — 2026-08-27
 
 - **Een bewerking is meteen zichtbaar.** Paste je een boek aan, dan bleef het scherm waar je stond de oude titel tonen tot je zelf ververste. Alle boekenlijsten en de rechterkolom bewegen nu mee: Alle boeken, de bibliotheeklijst, schrijvers, series, collecties, favorieten, luisterboeken en het startscherm.
