@@ -5,6 +5,12 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.27 — 2026-08-27
+
+- **De knoppen om gekozen boeken aan te passen of te verwijderen zijn weer zichtbaar.** Ze stonden in de systeembalk onderin, en die gaat schuil achter de tabbalk van de app. Nu staan ze direct onder je selectie.
+- **Bij het verwijderen van gekozen boeken kun je kiezen** of je ze van dit toestel haalt of van je NAS, net als bij één boek. Staat er ook iets bij dat op een Grimmory-server leeft, dan verschijnt daar een aparte knop voor.
+- Het filter "Zonder taal" toonde in de selectiebalk een kaal streepje in plaats van zijn naam.
+
 ## 4.26 — 2026-08-27
 
 - **Kiezen van meerdere boeken wijst zichzelf beter.** Zodra je begint te kiezen staat er boven de lijst hoeveel je hebt gekozen, een knop om alles of niets te kiezen, en een duidelijke knop **Gereed**. Die laatste zat rechtsboven tussen de andere knoppen en was op een iPhone makkelijk te missen.
