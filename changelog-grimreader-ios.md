@@ -5,6 +5,14 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.25 — 2026-08-27
+
+- **Een scan ruimt niet meer op als hij verdacht weinig ziet.** Kon een server maar een handjevol boeken tonen — bijvoorbeeld omdat een gedeelde map niet beschikbaar was — dan werd de rest als "verdwenen" beschouwd en uit je bibliotheek gehaald. Voortaan houdt Grim Reader dat tegen en zegt hij wat hij zag en wat er stond, zodat je eerst kunt kijken wat er met de server aan de hand is.
+- **Nieuw: "Boekenindex van de servers terugzetten"** in Onderhoud. Zijn er boeken uit je bibliotheek verdwenen, dan haalt deze knop ze terug uit de index die op je server staat. Wat je op dit toestel hebt aangepast blijft daarbij staan.
+- **De app bevriest niet meer bij het één voor één verwijderen van boeken.** Bij elke verwijdering werd de hele bibliotheek opnieuw ingelezen, en herlaadden alle lijsten tegelijk. Nu gebeurt dat op de achtergrond en worden opeenvolgende wijzigingen samengevat.
+- **De praktijkmeting is uit Onderhoud verdwenen**, en bovenaan die sectie staat nu duidelijk dat deze hulpmiddelen je bibliotheek veranderen en dat sommige acties niet ongedaan te maken zijn.
+- Acht meldingen die nog in het Nederlands verschenen — foutteksten over de index en de server — zijn nu ook in het Engels beschikbaar.
+
 ## 4.24 — 2026-08-27
 
 - **De taalbalk staat er nu altijd, ook bij één taal — en er is een filter "Zonder taal".** Daarmee vind je in één tik de boeken waar nog geen taal bij staat, wat precies de boeken zijn die je wilt aanvullen. Je kunt het ook combineren: Nederlands én de boeken zonder taal.
