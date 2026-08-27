@@ -5,6 +5,14 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.24 — 2026-08-27
+
+- **De taalbalk staat er nu altijd, ook bij één taal — en er is een filter "Zonder taal".** Daarmee vind je in één tik de boeken waar nog geen taal bij staat, wat precies de boeken zijn die je wilt aanvullen. Je kunt het ook combineren: Nederlands én de boeken zonder taal.
+- **De gegevens van een schrijver zijn nu te corrigeren.** Geboortejaar, plaatsen, nationaliteit, beroepen, prijzen en website staan als velden in het bewerkscherm. Klopt er iets niet uit de bronnen, dan pas je het aan — en een volgende zoekopdracht overschrijft jouw tekst niet.
+- **Schrijversgegevens en -foto's reizen mee naar een tweede apparaat.** De nieuwe velden staan in de `authors.yaml` op je server, en je zelfgekozen foto's komen in een map ernaast te staan.
+- **Je eigen schrijversfoto's konden verdwijnen.** Ze stonden in een map die iOS mag legen als de opslag krap wordt, en die niet meegaat in de iCloud-backup. Ze staan nu bij de rest van je gegevens.
+- **Je handwerk gaat weer mee in de iCloud-backup.** De catalogus werd overgeslagen omdat hij "opnieuw op te bouwen" was, maar er staan inmiddels ook aangepaste schrijversgegevens in en welke dubbele boeken je hebt opgeruimd. Dat komt met een nieuwe scan niet terug.
+
 ## 4.23 — 2026-08-27
 
 - **Schrijversgegevens worden niet meer bij het openen opgehaald.** Grim Reader ging tot nu toe het internet op zodra je een schrijver opende zonder bewaarde gegevens. Dat gebeurt niet meer: alles komt uit je eigen bibliotheek, en ophalen doe je zelf.
