@@ -5,6 +5,11 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.26 — 2026-08-27
+
+- **Kiezen van meerdere boeken wijst zichzelf beter.** Zodra je begint te kiezen staat er boven de lijst hoeveel je hebt gekozen, een knop om alles of niets te kiezen, en een duidelijke knop **Gereed**. Die laatste zat rechtsboven tussen de andere knoppen en was op een iPhone makkelijk te missen.
+- **Alles kiezen kan nu ook zonder taalfilter.** Die knop verscheen alleen als je op een taal had gefilterd, terwijl hij het zonder filter net zo goed doet.
+
 ## 4.25 — 2026-08-27
 
 - **Een scan ruimt niet meer op als hij verdacht weinig ziet.** Kon een server maar een handjevol boeken tonen — bijvoorbeeld omdat een gedeelde map niet beschikbaar was — dan werd de rest als "verdwenen" beschouwd en uit je bibliotheek gehaald. Voortaan houdt Grim Reader dat tegen en zegt hij wat hij zag en wat er stond, zodat je eerst kunt kijken wat er met de server aan de hand is.
