@@ -5,6 +5,22 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.28 — 2026-08-28
+
+- **Een luisterboek van meerdere bestanden verwijderen haalt nooit meer de hele map leeg.** De map is bij zo'n boek het "adres", en die verwijderen nam alles mee wat er verder in stond — een omslag, aantekeningen, een ander boek. Nu gaan precies de audiobestanden van dat boek weg, en de map alleen als er aantoonbaar niets meer in staat.
+- **Lukt het verwijderen maar half, dan klopt je bibliotheek daarna met wat er echt nog staat.** Eerder bleef het boek alle onderdelen vermelden terwijl een deel al van de NAS was.
+- **Je eigen correcties overleven het opnieuw opbouwen van de catalogus.** Titel, schrijver, taal, samenvatting, reeks, uitgever en genres die je zelf hebt aangepast zonder ze naar het bestand terug te schrijven, kwamen daarbij niet terug — een scan leest immers het bestand dat je juist corrigeerde. Schrijversprofielen en weggestreepte dubbelen worden net zo behandeld.
+- **Weggestreepte dubbele boeken blijven weg**, ook na een synchronisatie, een herstel vanaf de server, of nadat je het bestand hebt verplaatst of hernoemd.
+- **Schrijversgegevens werken nu ook zonder NAS-server.** Bio, foto, website en identiteiten zijn bibliotheekbreed en werden zonder server niet geladen; opslaan bouwde dan een leeg profiel over je gegevens heen. Het bewerkscherm wacht nu tot je gegevens ingeladen zijn voordat je kunt opslaan.
+- **Bij een online gekozen schrijversfoto wordt bewaard waar hij vandaan komt**, met een verwijzing naar de Wikimedia-bestandspagina waar de maker en de licentie staan. Dat staat onder het portret in het schrijversscherm. Kies je daarna een eigen foto, dan verdwijnt de oude foto én zijn bronvermelding.
+- **"Deze map doorzoeken" ruimt niets meer op als de map niet goed te lezen was.** Een share die tijdelijk een lege lijst teruggeeft, wiste eerder de boeken die eronder stonden. Een map die werkelijk leeg is wordt na een tweede scan alsnog opgeruimd.
+- **De app blijft vlot bij het importeren of verwijderen van veel boeken.** Elke wijziging startte een volledige scan van je toestelopslag; die worden nu gebundeld tot één ronde.
+- **Een hervatte scan telt door** in plaats van opnieuw vanaf nul, zowel op het scherm als in het eindverslag.
+- **Tijdelijke bestanden worden alleen nog opgeruimd als ze van Grim Reader zijn** en er niet aan gewerkt wordt. Een lopende import of upload wordt niet meer onder zijn eigen voeten weggehaald, en bestanden van andere apps worden met rust gelaten.
+- De catalogus gaat weer mee in de iCloud-backup; daar staan inmiddels gegevens in die een herscan niet terughaalt.
+- Bestanden verplaatsen werkt nu ook wanneer de app op het tweede serveradres zit.
+- Pseudoniemen van meerdere woorden uit de KB-schrijversbron blijven heel ("Mary Westmacott" werd "Mary" en "Westmacott").
+
 ## 4.27 — 2026-08-27
 
 - **De knoppen om gekozen boeken aan te passen of te verwijderen zijn weer zichtbaar.** Ze stonden in de systeembalk onderin, en die gaat schuil achter de tabbalk van de app. Nu staan ze direct onder je selectie.
