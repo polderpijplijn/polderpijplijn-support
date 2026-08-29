@@ -3,6 +3,16 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.30 — 2026-08-29
+
+- Een boek dat je vanuit de rechterkolom bewerkt verandert nu direct mee in de middelste boekenlijst. Een bibliotheekmelding die tijdens pagineren binnenkomt wordt daarna alsnog verwerkt, en herladen springt niet meer terug naar het eerste boek.
+- Bij een luisterboek heet de voortgang in de rechterkolom en op de detailpagina voortaan **Luistervoortgang** in plaats van **Leesvoortgang**.
+- Boeken zonder reeks kunnen via de metadatazoeker nu een reeks en deelnummer uit Wikidata krijgen. De app volgt de taal van het boek, houdt een handmatige correctie altijd intact en gebruikt waar mogelijk de schrijfwijze die al in je bibliotheek staat.
+- Schrijvers uit verschillende online bronnen worden betrouwbaarder gekoppeld via hun NTA-, VIAF-, GND-, ISNI-, BnF-, Wikidata- en Open Library-identiteiten. Daardoor is een gelijkende naam veel minder snel genoeg om de gegevens of foto van de verkeerde persoon over te nemen.
+- De onderhoudsactie voor schrijvers gebruikt nu dezelfde rijke bronnen als handmatig zoeken, werkt ook zonder WebDAV-server en bewaart de gevonden identiteiten. De aanvragen worden gedoseerd; bij afknijpen of volledige bronuitval stopt de ronde met een zichtbare melding in plaats van stil door te lopen.
+- Strips kunnen metadata opzoeken in de Grand Comics Database. Reeks, nummer, totaal aantal delen en uitgever worden als herkenbare GCD-kandidaat aangeboden en kunnen ook naar `ComicInfo.xml` in een lokaal of WebDAV-CBZ-bestand worden geschreven.
+- Grote bibliotheken worden sneller in SQLite bijgewerkt doordat terugkerende database-instructies worden hergebruikt. In de releaseproef daalde het schrijven van 100.000 rijke boekrecords van 41,0 naar 25,2 seconden; taal- en schrijversgroepen worden vooraf opgebouwd en daarna hergebruikt.
+
 ## 4.29 — 2026-08-29
 
 - Na het bewerken van een boek vanuit een schrijver wordt de boekenlijst van die schrijver meteen opnieuw uit de catalogus geladen. Titel, taal en schrijver blijven daardoor niet meer oud totdat je het scherm of de app opnieuw opent.
