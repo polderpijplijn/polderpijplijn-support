@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.31 — 2026-08-29
+
+- De online stripzoeker herkent nu ook het generieke Grimmory-type CBX en CB7, niet alleen CBZ en CBR. Grand Comics Database staat bij een strip vóór Apple Books en wordt ook geraadpleegd als er al een reeks in ComicInfo staat. Een gevonden reeks en deelnummer worden bij een Grimmory-serverboek en bij batchverrijking voortaan werkelijk opgeslagen en direct in het scherm bijgewerkt.
+
 ## 4.30 — 2026-08-29
 
 - Een boek dat je vanuit de rechterkolom bewerkt verandert nu direct mee in de middelste boekenlijst. Een bibliotheekmelding die tijdens pagineren binnenkomt wordt daarna alsnog verwerkt, en herladen springt niet meer terug naar het eerste boek.
