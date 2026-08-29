@@ -3,7 +3,21 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
-## Nog niet uitgebracht
+## 4.29 — 2026-08-29
+
+- Na het bewerken van een boek vanuit een schrijver wordt de boekenlijst van die schrijver meteen opnieuw uit de catalogus geladen. Titel, taal en schrijver blijven daardoor niet meer oud totdat je het scherm of de app opnieuw opent.
+- Tijdelijke onbereikbaarheid van een WebDAV-server wordt niet meer aangezien voor ontbrekende verwijderrechten. Verwijderen blijft beschikbaar wanneer schrijfrecht eerder is vastgesteld, terwijl een onbekende of losgekoppelde server een duidelijke melding geeft.
+- De Release-build is weer schoon onder de volledige Swift 6-concurrencycontrole. Omslagcache, bestandswrites, tijdelijke bestanden, verwijderrondes en parallelle zoekresultaten hebben nu expliciete, controleerbare isolatie.
+
+- Boekmetadata heeft nu één gelaagde schrijfroute voor losse bewerkingen, bulk, verrijking en auteurs-/seriesamenvoeging. Handmatige waarden winnen per veld van geaccepteerde externe metadata en bestandsmetadata; ontbrekende API-velden wissen niets. Schrijven naar EPUB/PDF/CBZ rapporteert pas succes nadat het bestand veilig is vervangen, en een zelfgekozen omslag blijft buiten de wisbare covercache bewaard.
+- Een WebDAV-luisterboek dat van één bestand naar meerdere delen groeit behoudt nu zijn identiteit. Favoriet, collectie, luistervoortgang en omslag blijven gekoppeld; een onbekend of vervangen bestand kan die identiteit niet zomaar erven.
+- Grote reeksen bibliotheekmeldingen blijven nu aantoonbaar begrensd: duizenden WebDAV-indexwijzigingen starten geen lokale bestandsscan, terwijl duizenden lokale imports of verwijderingen tot één scanronde worden samengevoegd. De echte productiemeldingen delen voortaan één expliciete, geteste domeingrens; vijfduizend wijzigingen worden ook in de zichtbare boekenlijsten tot precies één schermverversing gebundeld.
+- Bij het verplaatsen of hernoemen van een map met dubbele boeken blijft nu aantoonbaar het exemplaar zichtbaar dat je bij het ontdubbelen koos. Ook de winnaar krijgt een padonafhankelijk kenmerk; migratie van oudere catalogi en groepen met drie of meer kopieën kiezen niet langer op toevallige databaserijvolgorde.
+- Handmatige boekcorrecties zijn nu volledig verliesvrij bij een herscan, catalogusherbouw en migratie van een bestaande database: ook meerdere auteurs, bewust leeggemaakte velden, genres, ISBN en bijdragers blijven behouden. Een fout bij het vooraf redden van gegevens wordt niet langer ten onrechte als een geslaagd herstel gemeld.
+- Vastgelegd welk onderdeel eigenaar is van boekmetadata, gebruikerscorrecties, schrijversgegevens, omslagen, voortgang, favorieten, collecties, scanstatus en tijdelijke bestanden. De contracttest koppelt iedere SQLite-gebruikersoverlay nu aan haar concrete tabel en bewijst via een echte catalogusherbouw dat handmatige boekcorrecties, genegeerde dubbelen en schrijversprofielen behouden blijven.
+- Tijdelijke bestanden zijn nu ook racevrij bij gelijktijdige indexuploads en meerdere geopende stripvensters: registratie gebeurt vóór de eerste schrijfactie, gedeelde paden tellen hun gebruikers en een werkmap wordt pas verwijderd wanneer niemand hem meer gebruikt.
+- Een meerdelig WebDAV-luisterboek behoudt ook na een gedeeltelijk mislukte verwijdering zijn identiteit wanneer één bekende track overblijft; favorieten, collecties en luistervoortgang blijven daardoor na de volgende scan gekoppeld.
+- De zichtbare teller van een hervatte WebDAV-scan wordt nu samen met de mappenwachtrij in het echte checkpoint bewaard en kan bij het afronden niet meer kort teruglopen.
 
 ## 4.28 — 2026-08-28
 
