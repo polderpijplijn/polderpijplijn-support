@@ -3,6 +3,14 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## Nog niet uitgebracht
+
+## 4.32 — 2026-08-30
+
+- De Grand Comics Database-zoeker zoekt na de reeks nu gericht naar het exacte stripnummer. Een GCD-kandidaat kan daardoor de echte albumtitel, publicatiejaar, land, uitgever, paginatal, synopsis, genres, makers en cover tonen; hoofdissues gaan vóór herdrukvarianten en de aanvraag blijft tot vijf details begrensd.
+- Stripdetails lezen, tonen en bewerken nu rijke ComicInfo 2.0-metadata: uitgavegegevens, makersrollen, verhaalbogen, personages, teams, locaties, technische gegevens en beoordelingen. De informatie blijft bewaard in SQLite en de optionele serverindex en wordt via dezelfde centrale writer veilig naar lokale en WebDAV-CBZ-bestanden geschreven; ontbrekende API-velden laten bestaande waarden ongemoeid.
+- Een handmatig gewijzigd deelnummer van een WebDAV-strip blijft nu staan. Eerder werd alleen een gewijzigde reeksnaam als correctie gemarkeerd; daardoor verscheen een nieuw nummer kort in beeld en won bij de volgende catalogusverversing opnieuw de oude waarde.
+
 ## 4.31 — 2026-08-29
 
 - De online stripzoeker herkent nu ook het generieke Grimmory-type CBX en CB7, niet alleen CBZ en CBR. Grand Comics Database staat bij een strip vóór Apple Books en wordt ook geraadpleegd als er al een reeks in ComicInfo staat. Een gevonden reeks en deelnummer worden bij een Grimmory-serverboek en bij batchverrijking voortaan werkelijk opgeslagen en direct in het scherm bijgewerkt.
