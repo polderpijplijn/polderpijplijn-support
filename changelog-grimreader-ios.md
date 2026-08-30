@@ -5,6 +5,13 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.33 — 2026-08-30
+
+- Opstarten en wisselen tussen bibliotheekschermen is lichter: de app decodeert en sorteert bij de opstartcontrole niet meer de volledige lokale bibliotheek, ComicInfo-verrijking gooit geen ongewijzigde taal- en schrijversfacetten meer weg en veroorzaakt niet langer een algemene herlaadronde. Ook een dubbele herlaadactie in Schrijvers is verwijderd.
+- De stripeditor toont bij Serie alleen nog het deelnummer. Het verwarrende veld **Totaal** is verdwenen; een bestaande `Count` in `ComicInfo.xml` blijft gewoon behouden en een metadatazoekresultaat kan hem nog steeds bijwerken.
+- Een bewust leeggemaakt stripveld wordt nu ook uit `ComicInfo.xml` verwijderd, terwijl een veld dat een online bron niet levert bestaande metadata ongemoeid laat. Dit geldt voor lokale en WebDAV-strips via dezelfde writer.
+- Batchverrijking schrijft een gekozen uitgever en verschijningsjaar nu werkelijk naar de WebDAV-catalogus en, wanneer gevraagd, naar het boekbestand. Eerder stonden deze wijzigingen wel in het voorstel maar bereikten ze de schrijfroute niet.
+
 ## 4.32 — 2026-08-30
 
 - De Grand Comics Database-zoeker zoekt na de reeks nu gericht naar het exacte stripnummer. Een GCD-kandidaat kan daardoor de echte albumtitel, publicatiejaar, land, uitgever, paginatal, synopsis, genres, makers en cover tonen; hoofdissues gaan vóór herdrukvarianten en de aanvraag blijft tot vijf details begrensd.
