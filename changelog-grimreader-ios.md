@@ -5,6 +5,13 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.34 — 2026-08-30
+
+- Het opslagoverzicht telt alleen echte boek- en luisterboekbestanden mee en rekent downloads van een Grimmory-server bij de juiste categorie. Uitgepakte EPUB-caches worden nu meteen verwijderd met het lokale boek; achtergebleven caches uit oudere versies worden bij de eerste start eenmalig opgeruimd. Daardoor kan **Boeken** niet meer ruim een gigabyte blijven melden nadat alle lokale boeken zijn verwijderd.
+- Het seriescherm toont bij ieder boek voortaan de reeks en het deelnummer, en houdt de boeken in leesvolgorde: eerst op deelnummer, bij gelijke nummers op titel en boeken zonder nummer achteraan.
+- Import, OPDS, WebDAV en Grimmory-downloads bewaren voortaan dezelfde volledige metadataset. Bestandsmetadata en cataloguscorrecties blijven als aparte lagen bewaard; taal, beschrijving, reeks, genres, ISBN, bijdragers, rechten, doelgroep, paginatal en ComicInfo verdwijnen daardoor niet meer door de gekozen downloadroute of een latere armere lijstverversing. Oudere onvolledige Grimmory-sidecars worden aangevuld zodra de server weer bereikbaar is.
+- Schrijvers samenvoegen laat nu vooraf zien hoeveel groepen en schrijfwijzen kunnen worden samengevoegd. Iedere volledige naamregel is een ruime tikzone en toont een lege of gevulde kroon, zodat de te behouden schrijfwijze direct en betrouwbaar gekozen kan worden.
+
 ## 4.33 — 2026-08-30
 
 - Opstarten en wisselen tussen bibliotheekschermen is lichter: de app decodeert en sorteert bij de opstartcontrole niet meer de volledige lokale bibliotheek, ComicInfo-verrijking gooit geen ongewijzigde taal- en schrijversfacetten meer weg en veroorzaakt niet langer een algemene herlaadronde. Ook een dubbele herlaadactie in Schrijvers is verwijderd.
