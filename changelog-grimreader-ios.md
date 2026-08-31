@@ -5,6 +5,12 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.36 — 2026-08-31
+
+- De eerste opening van Schrijvers en Series is sneller bij grote bibliotheken. SQLite groepeert, zoekt en sorteert nog steeds de volledige catalogus, maar levert alleen de zichtbare pagina aan het scherm; auteurs en omslagen van series worden eveneens uitsluitend voor die pagina opgebouwd.
+- Het luisterboekscherm toont de eerste pagina meteen en vult de lijst daarna verder aan. Ook Start toont iedere rij zodra die eigen query klaar is, zodat een trage sectie de rest van het scherm niet langer tegenhoudt.
+- De bereikbaarheidstest en automatische metadata-verrijking beginnen pas nadat de lokale index en het eerste scherm tijd hebben gehad om te laden. De achtergrondwachtrij draait bovendien met lagere prioriteit, zodat koud openen niet met onderhoudswerk concurreert.
+
 ## 4.35 — 2026-08-31
 
 - Wisselen tussen Start, Alle boeken, Schrijvers, Series, Strips, Luisterboeken en bronoverzichten begint niet meer telkens vanaf een leeg scherm met een grote laadrotator. De app toont de laatst geladen SQLite-resultaten direct en ververst verouderde inhoud op de achtergrond; taalfilters, zoekopdrachten en sorteringen houden daarbij elk hun eigen resultaat.
