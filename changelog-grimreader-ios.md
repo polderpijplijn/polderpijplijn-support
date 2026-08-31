@@ -5,6 +5,11 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.35 — 2026-08-31
+
+- Wisselen tussen Start, Alle boeken, Schrijvers, Series, Strips, Luisterboeken en bronoverzichten begint niet meer telkens vanaf een leeg scherm met een grote laadrotator. De app toont de laatst geladen SQLite-resultaten direct en ververst verouderde inhoud op de achtergrond; taalfilters, zoekopdrachten en sorteringen houden daarbij elk hun eigen resultaat.
+- Een bezoek aan een bibliotheekscherm start niet langer zelf een WebDAV-bereikbaarheidscontrole of volledige achtergrondverrijking. Dat werk wordt één keer appbreed gecoördineerd, zodat navigeren niet met NAS-verkeer en databasewerk concurreert.
+
 ## 4.34 — 2026-08-30
 
 - Het opslagoverzicht telt alleen echte boek- en luisterboekbestanden mee en rekent downloads van een Grimmory-server bij de juiste categorie. Uitgepakte EPUB-caches worden nu meteen verwijderd met het lokale boek; achtergebleven caches uit oudere versies worden bij de eerste start eenmalig opgeruimd. Daardoor kan **Boeken** niet meer ruim een gigabyte blijven melden nadat alle lokale boeken zijn verwijderd.
