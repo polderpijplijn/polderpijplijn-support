@@ -5,6 +5,11 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.39 — 2026-09-01
+
+- Een vers geïmporteerd lokaal boek wordt op een schone installatie nu bij de eerste algemene bibliotheekquery in SQLite opgenomen, ook als de catalogus de oorspronkelijke importmelding nog niet kon ontvangen. Het boek verschijnt daardoor meteen in Start, Alle boeken, Schrijvers, Series, Strips of Luisterboeken en hoeft niet eerst bewerkt te worden.
+- De EPUB-lezer bewaart de zichtbare tekstpositie voortaan als inhoudsgebonden tekenlocatie met hoofdstuk-href en lokale progressie, niet als een paginanummer uit de huidige layout. Lettergrootte, leesfont, regelafstand, thema, kolommen, rotatie en schermformaat projecteren daardoor opnieuw naar dezelfde passage. Bestaande `grimmory:ch;pg`-posities migreren na de eerste weergave en echte EPUB-CFI's worden niet langer genegeerd.
+
 ## 4.38 — 2026-09-01
 
 - Een bibliotheek met uitsluitend lokale, geïmporteerde boeken krijgt nu dezelfde volledige hoofdnavigatie als een serverbibliotheek: Start, Alle boeken, Schrijvers, Series, Strips en Luisterboeken. De bron- en bereikbaarheidscontrole draait voortaan ook op de compacte iPhone-indeling; eerder zat die alleen aan de iPad-sidebar, waardoor op iPhone soms uitsluitend **Lokale boeken** en **Meer** overbleven.
