@@ -5,6 +5,10 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.38 — 2026-09-01
+
+- Een bibliotheek met uitsluitend lokale, geïmporteerde boeken krijgt nu dezelfde volledige hoofdnavigatie als een serverbibliotheek: Start, Alle boeken, Schrijvers, Series, Strips en Luisterboeken. De bron- en bereikbaarheidscontrole draait voortaan ook op de compacte iPhone-indeling; eerder zat die alleen aan de iPad-sidebar, waardoor op iPhone soms uitsluitend **Lokale boeken** en **Meer** overbleven.
+
 ## 4.37 — 2026-09-01
 
 - Een boek dat je vanuit de rechterkolom kiest met **Downloaden en openen** blijft nu open. De download ververst nog steeds de bibliotheek, maar de reader houdt voortaan zijn eigen vaste momentopname van boek, bestand, formaat en voortgangsbron; een lijstverversing kan hem daardoor niet meer na enkele tellen sluiten of naar een ander boek laten springen.
