@@ -5,6 +5,12 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## Nog niet uitgebracht
 
+## 4.37 — 2026-09-01
+
+- Een boek dat je vanuit de rechterkolom kiest met **Downloaden en openen** blijft nu open. De download ververst nog steeds de bibliotheek, maar de reader houdt voortaan zijn eigen vaste momentopname van boek, bestand, formaat en voortgangsbron; een lijstverversing kan hem daardoor niet meer na enkele tellen sluiten of naar een ander boek laten springen.
+- De foutgevoelige WebDAV-verbindingscontrole, gerichte mapscan, volledige scan, checkpoints en indexsynchronisatie zijn uit de grote bibliotheekfacade gehaald en draaien nu als afzonderlijk geteste onderdelen. Een mislukte catalogusbatch, checkpoint of afrondingswrite kan niet langer als een voltooide scan worden gemeld of opruiming starten; annuleren tijdens het afronden ruimt eveneens niets op.
+- De verantwoordelijkheden voor WebDAV-catalogusgegevens, gebruikerscorrecties, omslagen, verrijkingswachtrij en gedeelde indexbestanden hebben nu afgedwongen schrijfpoorten rond één databaseactor. Daarmee blijven transacties atomair terwijl scan- en herstelgedrag rechtstreeks in de gewone testsuite kan worden gecontroleerd.
+
 ## 4.36 — 2026-08-31
 
 - De eerste opening van Schrijvers en Series is sneller bij grote bibliotheken. SQLite groepeert, zoekt en sorteert nog steeds de volledige catalogus, maar levert alleen de zichtbare pagina aan het scherm; auteurs en omslagen van series worden eveneens uitsluitend voor die pagina opgebouwd.
