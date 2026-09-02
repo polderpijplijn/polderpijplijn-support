@@ -3,6 +3,26 @@
 Alle noemenswaardige wijzigingen per release. Nieuwste eerst.
 Versies komen overeen met de `vX.Y`-tags en `versionName`.
 
+## 1.18 — 2026-09-02
+
+- **Je bibliotheek zit nu in een database in plaats van in één groot bestand.**
+  De boekenlijst wordt per pagina geladen, dus een server met tienduizenden
+  boeken opent net zo snel als een met tien. Voorheen moest de hele lijst eerst
+  ingelezen zijn voordat je de eerste titel zag.
+- **Een scan die verdacht weinig ziet ruimt niets meer op** en vertelt waarom.
+  Een share die even niet bereikbaar is kan je bibliotheek niet meer leegmaken.
+- **Titel en schrijver die je zelf corrigeert blijven staan** na opnieuw
+  scannen, net als boeken die je hebt weggezet.
+- **Zoeken op een server**: een zoekbalk boven het boekenraster, die op titel,
+  bestandsnaam en schrijver zoekt.
+- **Titel en schrijver zelf aanpassen**: houd een boek ingedrukt en kies "Titel
+  aanpassen". Wat je invult blijft staan als je opnieuw scant.
+- **Boeken verbergen**: houd een boek ingedrukt en kies "Verbergen" — handig
+  voor dubbelen en bestanden die geen boek zijn. Via de knop in de kop zet je ze
+  weer terug.
+- Je bestaande boekenlijst wordt bij de eerste start automatisch overgezet;
+  opnieuw scannen is niet nodig.
+
 ## 1.17 — 2026-07-22
 
 - De app target nu Android 16 (API 36), zoals Google Play vereist.
