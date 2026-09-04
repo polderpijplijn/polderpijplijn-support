@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.42 — 2026-09-04
+
+- **De inhoudsopgave blijft nu ook op een echt toestel openstaan.** De vorige poging in 4.41 loste het stapelen van twee sheet-presentaties op, maar op een toestel kon de inhoudsopgave alsnog verdwijnen bij een WebView-, audio-, anker- of layoutwijziging. Ze draait daarom niet langer als een systeem-sheet, maar als een eigen laag binnen de lezer die alleen sluit via een hoofdstukkeuze of **Klaar**.
+
 ## 4.41 — 2026-09-04
 
 - **De inhoudsopgave blijft weer openstaan.** In 4.40 kon ze verschijnen en meteen weer dichtklappen. De lezer gebruikte twee sheet-presentaties naast elkaar, en een toestandswijziging tijdens het openen kon de ene wegtrekken; dat is nu één presentatie. Ook de hoogtemeting van het bedieningspaneel schrijft alleen nog als er werkelijk iets verandert.
