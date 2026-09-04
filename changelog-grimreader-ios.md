@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.41 — 2026-09-04
+
+- **De inhoudsopgave blijft weer openstaan.** In 4.40 kon ze verschijnen en meteen weer dichtklappen. De lezer gebruikte twee sheet-presentaties naast elkaar, en een toestandswijziging tijdens het openen kon de ene wegtrekken; dat is nu één presentatie. Ook de hoogtemeting van het bedieningspaneel schrijft alleen nog als er werkelijk iets verandert.
+
 ## 4.40 — 2026-09-04
 
 - **Eén sluitknop, overal op dezelfde plek.** Elke lezer had zijn eigen uitgang: een tekstknop linksboven bij PDF, strips en luisterboeken, en in de EPUB-lezer helemaal geen zichtbare knop tot je het verborgen paneel had gevonden. Nu staat in alle lezers hetzelfde kruisje rechtsboven.
