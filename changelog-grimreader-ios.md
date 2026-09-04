@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.44 — 2026-09-04
+
+- **De uitgeverij is nu een ingang naar je bibliotheek.** Tik in de details van een boek op de uitgeverij en je ziet alle boeken die je van die uitgeverij hebt — ook wanneer de naam per boek anders geschreven staat ("Prometheus", "Uitgeverij Prometheus", "Prometheus/Bert Bakker").
+- **Bij de uitgeverij staat nu ook een stuk geschiedenis.** Tot nu toe was er hooguit één regel ("Nederlandse uitgeverij"); daar komt de achtergrond van het Wikipedia-artikel bij, in de taal waarin de app draait en anders in het Engels. Is het een lang verhaal, dan staat het ingeklapt met een knop om verder te lezen. Uitgeverijen die je al eerder hebt bekeken krijgen die tekst er vanzelf bij zodra je online een boek van ze opent; ondertussen blijft staan wat er al was, ook zonder verbinding.
+
 ## 4.43 — 2026-09-04
 
 - **Uitgeverijen met een generiek woord in hun naam worden weer gevonden.** Namen als "Standaard Uitgeverij" leverden geen website, oprichtingsjaar of logo op: de app zocht alleen op de ingekorte naam, en die is voor zulke uitgeverijen te algemeen om iets te vinden. Er wordt nu eerst op de volledige naam gezocht en pas daarna op de korte vorm. Uitgeverijen die hierdoor eerder gemist werden, krijgen bij het volgende boek dat je opent vanzelf een nieuwe kans.
