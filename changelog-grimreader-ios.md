@@ -3,7 +3,18 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
-## Nog niet uitgebracht
+## 4.40 — 2026-09-04
+
+- **Eén sluitknop, overal op dezelfde plek.** Elke lezer had zijn eigen uitgang: een tekstknop linksboven bij PDF, strips en luisterboeken, en in de EPUB-lezer helemaal geen zichtbare knop tot je het verborgen paneel had gevonden. Nu staat in alle lezers hetzelfde kruisje rechtsboven.
+- **De leesbediening is te vinden zonder te zoeken.** Rechtsonder in de EPUB-lezer staat een klein bedieningsicoon. De tik onderin blijft werken, maar was tot nu toe de enige ingang en niets liet zien dat die er was.
+- **Het bedieningspaneel past altijd op het scherm.** Met de weergave-instellingen uitgeklapt, actieve audio en een grote tekstinstelling kon het paneel hoger worden dan het scherm, waardoor de bovenste knoppen — sluiten en de inhoudsopgave — buiten beeld vielen. Het paneel scrollt nu binnen het scherm; past alles, dan verandert er niets.
+- **De schuif bedient het hele boek.** De teller toonde de boekpagina terwijl de schuif eronder alleen het huidige hoofdstuk doorliep: naar het einde slepen bracht je naar het hoofdstukeinde in plaats van het boekeinde. Beide gebruiken nu dezelfde schaal, en de schuif verschijnt ook in doorlopende scrollmodus.
+- **De inhoudsopgave houdt tussenkoppen.** Boeken met meerdere hoofdstukken in één bestand toonden één regel per bestand, en kiezen sprong altijd naar het begin daarvan. Elke tussenkop is nu een eigen regel die naar de juiste plek springt, met de niveaus zichtbaar ingesprongen.
+- **Ingesproken boeken slaan geen hoofdstukken meer over.** Ontbrak de audio bij één hoofdstuk, dan stopte het afspelen daar — ook als alle hoofdstukken erna wél ingesproken waren. Vooruit en terug zoeken nu allebei het eerstvolgende hoofdstuk mét audio; een onleesbaar fragment wordt overgeslagen in plaats van dat het afspelen vastloopt.
+- **Het aantal boeken bij een schrijver klopt weer** nadat je er een verwijdert of het auteursveld aanpast.
+- EPUB-voorlezen en EPUB3 Media Overlays beginnen nu bij de zichtbare leespassage in plaats van vooraan in het hoofdstuk. Exacte tekstoffsets en SMIL-ankers krijgen voorrang; oudere EPUB's vallen voorspelbaar terug op de hoofdstukvoortgang. Bladeren of scrollen terwijl audio actief is verplaatst de audio mee, en de markering onderscheidt herhaalde zinnen op hun inhoudspositie.
+- Interactieve inhoud in EPUB's is niet langer afgedekt door schermbrede readerlagen. Voetnoot- en hoofdstuklinks, knoppen, eenvoudige formulieren en video-/audiobediening krijgen nu voorrang; afbeeldingen en EPUB-geluidstriggers blijven werken zonder dubbele afhandeling. Swipen op gewone tekst bladert nog steeds, de onderste tikzone opent de bediening en een terugknop brengt je na een interne link terug naar de oorspronkelijke passage. Externe links openen uitsluitend via het veilige systeembeleid voor http en https.
+- Doorlopend scrollen in de EPUB-lezer loopt nu automatisch vooruit en achteruit over hoofdstukgrenzen. De aangrenzende passage wordt als inhoudsanker hersteld, VoiceOver volgt dezelfde grensroute en de lezer houdt maximaal één spine-hoofdstuk tegelijk geladen. Scrollmodus schrijft bovendien niet langer een fictieve meting van één pagina over de echte paginatelling heen.
 
 ## 4.39 — 2026-09-01
 
