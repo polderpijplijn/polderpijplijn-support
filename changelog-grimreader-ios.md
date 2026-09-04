@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.43 — 2026-09-04
+
+- **Uitgeverijen met een generiek woord in hun naam worden weer gevonden.** Namen als "Standaard Uitgeverij" leverden geen website, oprichtingsjaar of logo op: de app zocht alleen op de ingekorte naam, en die is voor zulke uitgeverijen te algemeen om iets te vinden. Er wordt nu eerst op de volledige naam gezocht en pas daarna op de korte vorm. Uitgeverijen die hierdoor eerder gemist werden, krijgen bij het volgende boek dat je opent vanzelf een nieuwe kans.
+
 ## 4.42 — 2026-09-04
 
 - **De inhoudsopgave blijft nu ook op een echt toestel openstaan.** De vorige poging in 4.41 loste het stapelen van twee sheet-presentaties op, maar op een toestel kon de inhoudsopgave alsnog verdwijnen bij een WebView-, audio-, anker- of layoutwijziging. Ze draait daarom niet langer als een systeem-sheet, maar als een eigen laag binnen de lezer die alleen sluit via een hoofdstukkeuze of **Klaar**.
