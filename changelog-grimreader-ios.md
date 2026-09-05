@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.47 — 2026-09-05
+
+- **Boekenlijsten laden merkbaar sneller.** De app las bij het opbouwen van een lijst elk omslagbestand van schijf om alleen te bepalen *dát* er een omslag is. Bij een grote bibliotheek ging dat om honderden megabytes per lijst. Nu wordt er alleen gekeken of het bestand bestaat.
+- **Boeken controleren ruimt zelf op wat verdwenen is.** Staat een boek niet meer op de server, dan gaat het vanzelf uit je bibliotheek — er wordt niets verwijderd, het bestand was er al niet meer. Met de nieuwe schakelaar "Ook naar nieuwe boeken zoeken" wordt de server eerst doorzocht; nieuw gevonden boeken worden gecontroleerd vóórdat ze in je bibliotheek blijven staan, en beschadigde exemplaren komen er niet in. Van de server verwijderen blijft een bewuste keuze.
+- **Een lopende controle blijft doorlopen als je naar een ander scherm gaat**, en je ziet bij terugkomst gewoon de voortgang of het rapport. In het onderhoudsscherm is te zien dat er een controle loopt.
+- **Ontbrekende gegevens: een boek aantikken opent nu het detailscherm.** Dat deed voorheen niets. En na het aanpassen van een boek begint de zoekronde niet meer opnieuw — alleen dat ene boek wordt opnieuw bekeken en verdwijnt uit de lijst zodra het compleet is.
+
 ## 4.46 — 2026-09-05
 
 - **Meerdere boeken tegelijk toevoegen, of een hele map.** De knop bij Mijn boeken is een menu geworden: bestanden kiezen — nu meerdere in één keer — of een map scannen, zoals een USB-stick die je op je iPad aansluit. Alles eronder wordt doorlopen, inclusief submappen per schrijver of serie. Boeken die je al hebt worden overgeslagen, dus dezelfde stick nog eens aansluiten kan geen kwaad.
