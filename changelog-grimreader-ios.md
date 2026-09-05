@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.48 — 2026-09-05
+
+- **"Ontbrekende gegevens" liep vast bij het doorlopen van de bibliotheek.** Een fout in 4.47: bij het bepalen of een gedownload boek een omslag heeft, werd per boek de hele downloadmap uitgelezen. Bij een bibliotheek van enige omvang bleef het scherm daardoor staan op "Bibliotheek doorlopen…". Het scherm blijft nu ook reageren terwijl de ronde loopt.
+
 ## 4.47 — 2026-09-05
 
 - **Boekenlijsten laden merkbaar sneller.** De app las bij het opbouwen van een lijst elk omslagbestand van schijf om alleen te bepalen *dát* er een omslag is. Bij een grote bibliotheek ging dat om honderden megabytes per lijst. Nu wordt er alleen gekeken of het bestand bestaat.
