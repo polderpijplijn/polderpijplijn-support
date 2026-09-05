@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.52 — 2026-09-05
+
+- **Een boek aantikken bij "Ontbrekende gegevens" opent nu meteen dat boek.** Op iPad kwam er eerst een tweede kopie van het overzicht overheen; het aangetikte boek stond er dan één scherm onder.
+
 ## 4.51 — 2026-09-05
 
 - **Een map of USB-stick importeren is nu van begin tot eind te volgen.** Eerst zie je dat Grim Reader de mappen doorzoekt, daarna de voortgang en huidige bestandsnaam per boek. Na afloop staat er een overzicht van alle geïmporteerde titels. De importactie en het voortgangsscherm hebben bovendien een herkenbaar externe-schijf-icoon.
