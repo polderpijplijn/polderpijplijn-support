@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.49 — 2026-09-05
+
+- **Favorieten werkten niet goed voor je eigen boeken en schrijvers.** Een boek van een WebDAV-server verscheen soms helemaal niet in je favorieten, een boek op dit toestel kon er twee keer in staan, en een favoriete schrijver bleef weg. De oorzaak was één en dezelfde: de verwijzing die bij het hartje werd bewaard kon een vorm krijgen die nergens naar wees. Bestaande favorieten die zo zijn opgeslagen komen niet vanzelf terug — die moet je opnieuw aanvinken.
+- **Bij het zoeken naar ontbrekende gegevens zie je weer hoever hij is:** "1.234 van 5.678 bekeken", met een balk erbij.
+
 ## 4.48 — 2026-09-05
 
 - **"Ontbrekende gegevens" liep vast bij het doorlopen van de bibliotheek.** Een fout in 4.47: bij het bepalen of een gedownload boek een omslag heeft, werd per boek de hele downloadmap uitgelezen. Bij een bibliotheek van enige omvang bleef het scherm daardoor staan op "Bibliotheek doorlopen…". Het scherm blijft nu ook reageren terwijl de ronde loopt.
