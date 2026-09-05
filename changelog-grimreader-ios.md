@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.45 — 2026-09-05
+
+- **Favorieten uit je eigen boeken raakten zoek zodra je een Grimmory-server had.** Maakte je een schrijver (of boek) uit een geïmporteerd of WebDAV-boek favoriet, dan bleef het hartje wel gevuld, maar in het favorietenoverzicht verscheen hij niet: dat keek alleen bij de Grimmory-server, en daar bestaat zo'n boek niet. Beide bronnen worden nu altijd geraadpleegd. Je bestaande favorieten komen vanzelf terug — er is niets kwijtgeraakt.
+- **Schrijversgegevens kun je nu ook terugzetten vanaf je servers.** Onder Bronnen → Onderhoud stond alleen "Boekenindex terugzetten", terwijl juist bij schrijvers het handwerk zit: zelfgekozen foto's en biografieën. De nieuwe knop leest de authors.yaml van elke server en haalt terug wat hier ontbreekt, foto's inbegrepen. Wat je op dit toestel later hebt aangepast wordt niet overschreven.
+- **Het thuisscherm is bij het starten meteen gevuld.** Tot nu toe keek je bij elke start een tel of twee naar een draaiend rondje; de rijen van de vorige keer worden nu bewaard en direct getoond, terwijl ze op de achtergrond worden ververst. Wissel je van server, dan begint het scherm bewust wél leeg — anders zou je de boeken van je vorige bibliotheek zien staan.
+
 ## 4.44 — 2026-09-04
 
 - **De uitgeverij is nu een ingang naar je bibliotheek.** Tik in de details van een boek op de uitgeverij en je ziet alle boeken die je van die uitgeverij hebt — ook wanneer de naam per boek anders geschreven staat ("Prometheus", "Uitgeverij Prometheus", "Prometheus/Bert Bakker").
