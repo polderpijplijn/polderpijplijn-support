@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.50 — 2026-09-05
+
+- **Favorieten van WebDAV-boeken werken nu ook als ze eerder verkeerd zijn opgeslagen.** Er bleek nog een tweede oorzaak: de verwijzing werd soms met een gecodeerd adres bewaard terwijl de bibliotheek het gedecodeerde adres gebruikt, waardoor het hartje wel gevuld bleef maar het boek onvindbaar was. Bestaande favorieten worden bij het opstarten omgezet — anders dan bij 4.49 gemeld hoef je ze dus **niet** opnieuw aan te vinken.
+- **De EPUB-controle beoordeelt strenger en eerlijker.** De controle keek alleen of het inhoudsbestand aanwezig was; nu wordt het ook echt gelezen, met dezelfde ontleding als de lezer zelf gebruikt. Een boek waarvan dat bestand onleesbaar is gold daardoor ten onrechte als in orde.
+- **Ontbrekende gegevens begint niet meer ongevraagd opnieuw.** Terugkeren naar het scherm na een afgeronde ronde startte de zoektocht opnieuw wanneer er niets gevonden was, en een gewone bibliotheekwijziging kon dat ook doen. Alleen de eerste keer start hij vanzelf; daarna gebruik je "Opnieuw".
+
 ## 4.49 — 2026-09-05
 
 - **Favorieten werkten niet goed voor je eigen boeken en schrijvers.** Een boek van een WebDAV-server verscheen soms helemaal niet in je favorieten, een boek op dit toestel kon er twee keer in staan, en een favoriete schrijver bleef weg. De oorzaak was één en dezelfde: de verwijzing die bij het hartje werd bewaard kon een vorm krijgen die nergens naar wees. Bestaande favorieten die zo zijn opgeslagen komen niet vanzelf terug — die moet je opnieuw aanvinken.
