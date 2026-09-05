@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.51 — 2026-09-05
+
+- **Een map of USB-stick importeren is nu van begin tot eind te volgen.** Eerst zie je dat Grim Reader de mappen doorzoekt, daarna de voortgang en huidige bestandsnaam per boek. Na afloop staat er een overzicht van alle geïmporteerde titels. De importactie en het voortgangsscherm hebben bovendien een herkenbaar externe-schijf-icoon.
+- **Een USB-import maakt geen tweede lokale kopie meer, ongeacht waar de eerste vandaan kwam.** De inhoud wordt vergeleken met boeken die eerder zijn geïmporteerd of via OPDS, WebDAV of een Grimmory-server zijn gedownload. Ook dubbele bestanden binnen dezelfde gekozen map worden overgeslagen. EPUB, PDF, CBZ, MP3, M4B, M4A, AAC en Opus doen allemaal mee, inclusief bestanden in submappen.
+- **Ontbrekende gegevens blijft verdergaan als je het scherm verlaat.** Kandidaten, voortgang en de lopende taak horen nu bij één gedeelde sessie; terugnavigeren of tussendoor een boek bekijken bouwt de hele ronde niet opnieuw op.
+- **Boeken van dezelfde uitgeverij staan werkelijk bij elkaar.** Varianten als “Prometheus”, “Uitgeverij Prometheus” en verschillen in hoofdletters worden vóór paginering samengevoegd. Daardoor kloppen ook het totaal, de taalfilters en “Selecteer alles”, zowel voor lokale/WebDAV-boeken als bij een Grimmory-server.
+
 ## 4.50 — 2026-09-05
 
 - **Favorieten van WebDAV-boeken werken nu ook als ze eerder verkeerd zijn opgeslagen.** Er bleek nog een tweede oorzaak: de verwijzing werd soms met een gecodeerd adres bewaard terwijl de bibliotheek het gedecodeerde adres gebruikt, waardoor het hartje wel gevuld bleef maar het boek onvindbaar was. Bestaande favorieten worden bij het opstarten omgezet — anders dan bij 4.49 gemeld hoef je ze dus **niet** opnieuw aan te vinken.
