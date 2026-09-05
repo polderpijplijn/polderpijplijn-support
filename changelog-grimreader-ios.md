@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.46 — 2026-09-05
+
+- **Meerdere boeken tegelijk toevoegen, of een hele map.** De knop bij Mijn boeken is een menu geworden: bestanden kiezen — nu meerdere in één keer — of een map scannen, zoals een USB-stick die je op je iPad aansluit. Alles eronder wordt doorlopen, inclusief submappen per schrijver of serie. Boeken die je al hebt worden overgeslagen, dus dezelfde stick nog eens aansluiten kan geen kwaad.
+- **Boeken met ontbrekende gegevens opzoeken en aanvullen.** Onder Instellingen → Ontbrekende gegevens staan de boeken zonder schrijver of zonder omslag, met de aantallen erbij. Je kunt ze per stuk bewerken, of een selectie in één keer: zelf een waarde invullen, of de gegevens laten opzoeken. Boeken waar "Unknown" of "Onbekend" als schrijver staat tellen ook mee — dat is immers geen schrijver.
+- **Beschadigde EPUB's opsporen.** Onder Bronnen → Onderhoud loopt "Boeken controleren" de EPUB's van een bibliotheek na op bestanden die niet meer bestaan of niet meer te openen zijn. Per boek worden maar een paar kilobyte opgehaald, niet het hele bestand. Je krijgt een overzicht met de reden per boek en kiest zelf wat er weg mag; boeken die niet gecontroleerd konden worden blijven altijd met rust.
+
 ## 4.45 — 2026-09-05
 
 - **Favorieten uit je eigen boeken raakten zoek zodra je een Grimmory-server had.** Maakte je een schrijver (of boek) uit een geïmporteerd of WebDAV-boek favoriet, dan bleef het hartje wel gevuld, maar in het favorietenoverzicht verscheen hij niet: dat keek alleen bij de Grimmory-server, en daar bestaat zo'n boek niet. Beide bronnen worden nu altijd geraadpleegd. Je bestaande favorieten komen vanzelf terug — er is niets kwijtgeraakt.
