@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.53 — 2026-09-06
+
+- **Mijn boeken gebruikt nu dezelfde boekkolom als de rest van de bibliotheek.** Ook bij lokale boeken zie en bedien je voortaan dezelfde details en acties, zonder een afwijkend zijpaneel.
+- **Uitgeverijen hebben een eigen overzicht gekregen.** Varianten van dezelfde uitgeverij worden bij elkaar gezet en je ziet per uitgeverij de boeken, talen, het logo en het land. Namen en gegevens zijn te bewerken en opnieuw op te zoeken, waarbij handmatig gekozen informatie behouden blijft.
+- **Een lokaal boek selecteren blokkeert niet meer tijdens het bijwerken van de catalogus.** De detailkolom kan niet langer kort het vorige boek tonen, op iPhone wordt dezelfde veilige laadroute gebruikt en bij een fout verschijnt een knop om het opnieuw te proberen.
+
 ## 4.52 — 2026-09-05
 
 - **Een boek aantikken bij "Ontbrekende gegevens" opent nu meteen dat boek.** Op iPad kwam er eerst een tweede kopie van het overzicht overheen; het aangetikte boek stond er dan één scherm onder.
