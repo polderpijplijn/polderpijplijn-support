@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.58 — 2026-09-07
+
+- **"Uitgevers samenvoegen" sloot de app af zodra je het aantikte.** Dat gebeurde zodra je bibliotheek dezelfde uitgeversnaam met een accent in twee schrijfwijzen bevatte — precies het soort rommel waarvoor dat scherm bedoeld is.
+- **Een boek dat je aan het lezen was kon bij het begin openen.** Je positie was niet zoekgeraakt maar overschreven: tussen het omslaan van een pagina en het moment dat de lezer je exacte plek heeft gemeten zit een klein venster, en sloot je het boek precies dan — of ging het scherm op slot, want dat bewaart ook — dan verving een grove paginapositie je exacte plek. Boeken die dit al is overkomen openen nog één keer bij het hoofdstuk en onthouden daarna weer gewoon waar je bent.
+- **Hetzelfde kon bij PDF's**, met een ander venster: daar werd de positie bewaard voordat de opgeslagen pagina was teruggezet.
+
 ## 4.57 — 2026-09-07
 
 - **Verschillende schrijfwijzen van dezelfde uitgeverij kun je nu echt samenvoegen.** Onder Onderhoud staat een nieuwe functie die per groep de uitgever met de rijkste metadata voorstelt, met het boekenaantal als tweede criterium. Groepen staan standaard uit en kunnen afzonderlijk of allemaal worden geselecteerd.
