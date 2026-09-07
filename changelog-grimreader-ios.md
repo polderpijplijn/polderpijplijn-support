@@ -3,10 +3,15 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.54 — 2026-09-07
+
+- **Je leespositie staat voortaan altijd lokaal in SQLite.** Dit geldt voor geïmporteerde boeken, WebDAV en Grimmory en voor EPUB, PDF, strips en audioboeken. De Grimmory-server blijft synchroniseren, maar kan een nieuwere toestelpositie niet meer terugzetten. Bestaande lokale voortgang uit oudere versies wordt automatisch overgenomen en een herstel van de catalogus bewaart de leesposities.
+- **Snel een boek sluiten of het scherm vergrendelen bewaart de actuele plek betrouwbaarder.** EPUB voorkomt dat de nog aanwezige positie van de vorige pagina wint terwijl de WebView de nieuwe plek bepaalt; PDF en strips leggen hun laatste pagina ook vast wanneer de app inactief wordt.
+- **Uitgeverijen hebben een eigen overzicht gekregen.** Varianten van dezelfde uitgeverij worden bij elkaar gezet en je ziet per uitgeverij eerst de beschikbare metadata en daarna alle bijbehorende boeken, ongeacht vanuit welk scherm je het overzicht opent.
+
 ## 4.53 — 2026-09-06
 
 - **Mijn boeken gebruikt nu dezelfde boekkolom als de rest van de bibliotheek.** Ook bij lokale boeken zie en bedien je voortaan dezelfde details en acties, zonder een afwijkend zijpaneel.
-- **Uitgeverijen hebben een eigen overzicht gekregen.** Varianten van dezelfde uitgeverij worden bij elkaar gezet en je ziet per uitgeverij de boeken, talen, het logo en het land. Namen en gegevens zijn te bewerken en opnieuw op te zoeken, waarbij handmatig gekozen informatie behouden blijft.
 - **Een lokaal boek selecteren blokkeert niet meer tijdens het bijwerken van de catalogus.** De detailkolom kan niet langer kort het vorige boek tonen, op iPhone wordt dezelfde veilige laadroute gebruikt en bij een fout verschijnt een knop om het opnieuw te proberen.
 
 ## 4.52 — 2026-09-05
