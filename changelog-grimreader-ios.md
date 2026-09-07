@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.59 — 2026-09-07
+
+- **Boeken die je van je NAS had verwijderd konden terugkomen in je bibliotheek.** Het opruimen deed zijn werk goed, maar een verrijking die op dat moment nog liep zette het boek daarna gewoon opnieuw in de catalogus. Verrijken, terugschrijven en handmatig corrigeren kunnen nu geen boeken meer aanmaken; dat blijft het werk van een scan en van importeren.
+- **Bij het aanpassen van een boek kun je nu ook de uitgever kiezen**, net als de schrijver: typen zoekt in de uitgevers die je al hebt, en staat er niets tussen, dan maak je er met dezelfde tik een nieuwe aan. Ook bij het aanpassen van meerdere boeken tegelijk. De lijst toont de samengevoegde schrijfwijzen, zodat je niet per ongeluk een tweede variant van dezelfde uitgever aanmaakt.
+
 ## 4.58 — 2026-09-07
 
 - **"Uitgevers samenvoegen" sloot de app af zodra je het aantikte.** Dat gebeurde zodra je bibliotheek dezelfde uitgeversnaam met een accent in twee schrijfwijzen bevatte — precies het soort rommel waarvoor dat scherm bedoeld is.
