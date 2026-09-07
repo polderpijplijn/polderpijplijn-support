@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.55 — 2026-09-07
+
+- **Bij "Lees verder" op het startscherm zit nu "Zie meer".** Daarachter staan de boeken waar je in bezig bent onder elkaar, het laatst gelezen boek voorop, elk met zijn voortgang. Dat scheelt vooral in het Modern-sjabloon: daar was alleen het bovenste boek zichtbaar, dus wie meerdere boeken tegelijk leest kwam bij de rest niet meer.
+- **Een hoofdstuk kiezen in de inhoudsopgave van een EPUB springt nu echt naar dat hoofdstuk.** De lezer kon de gekozen plek nog met pagina 1 overschrijven voordat hij hem had gemeten.
+
 ## 4.54 — 2026-09-07
 
 - **Je leespositie staat voortaan altijd lokaal in SQLite.** Dit geldt voor geïmporteerde boeken, WebDAV en Grimmory en voor EPUB, PDF, strips en audioboeken. De Grimmory-server blijft synchroniseren, maar kan een nieuwere toestelpositie niet meer terugzetten. Bestaande lokale voortgang uit oudere versies wordt automatisch overgenomen en een herstel van de catalogus bewaart de leesposities.
