@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.56 — 2026-09-07
+
+- **Een boek dat op je NAS staat én is gedownload stond twee keer in "Lees verder".** Het telt nu als één boek, en je krijgt de kopie op het toestel te zien — die opent ook zonder verbinding.
+- **Elk boek achter "Zie meer" heeft nu een volledige kaart**, met dezelfde opbouw als op het startscherm: omslag, titel, schrijver, de voortgangsbalk met percentage, en wanneer je het boek voor het laatst las.
+
 ## 4.55 — 2026-09-07
 
 - **Bij "Lees verder" op het startscherm zit nu "Zie meer".** Daarachter staan de boeken waar je in bezig bent onder elkaar, het laatst gelezen boek voorop, elk met zijn voortgang. Dat scheelt vooral in het Modern-sjabloon: daar was alleen het bovenste boek zichtbaar, dus wie meerdere boeken tegelijk leest kwam bij de rest niet meer.
