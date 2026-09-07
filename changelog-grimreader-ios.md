@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.57 — 2026-09-07
+
+- **Verschillende schrijfwijzen van dezelfde uitgeverij kun je nu echt samenvoegen.** Onder Onderhoud staat een nieuwe functie die per groep de uitgever met de rijkste metadata voorstelt, met het boekenaantal als tweede criterium. Groepen staan standaard uit en kunnen afzonderlijk of allemaal worden geselecteerd.
+- **De gekozen uitgeversnaam kan ook in de boeken zelf worden gezet.** EPUB en CBZ worden optioneel één voor één bijgewerkt met zichtbare voortgang. Lukt een bestand niet, dan blijft dat boek veilig onder de oude uitgever staan; de overige bibliotheekgegevens, lokale boeken en downloads worden wel consequent bijgehouden.
+
 ## 4.56 — 2026-09-07
 
 - **Een boek dat op je NAS staat én is gedownload stond twee keer in "Lees verder".** Het telt nu als één boek, en je krijgt de kopie op het toestel te zien — die opent ook zonder verbinding.
