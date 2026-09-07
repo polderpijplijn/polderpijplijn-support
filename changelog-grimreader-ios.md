@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.60 — 2026-09-07
+
+- **Twee boeken konden elkaars gegevens tonen.** Je zag dan de titel, schrijver, omschrijving en omslag van een ánder boek, terwijl het openen wél gewoon het juiste boek gaf. Dat kwam doordat twee delen van de app tegelijk een intern nummer konden uitdelen en op hetzelfde getal uitkwamen; het boek bleef dan zonder nummer achter, en alle boeken zonder nummer vielen samen. **Boeken die dit al is overkomen komen goed met "Boekenindex herbouwen" onder Onderhoud** — die deelt alle nummers opnieuw uit.
+- **"Schrijversgegevens van de servers terugzetten" meldt nu wat er werkelijk gebeurde.** Een onbereikbare server, een onleesbare index en een mislukte opslag op dit toestel werden alle drie gemeld als "er stond niets terug te zetten". Ook telt alleen nog wat echt duurzaam is bewaard als hersteld.
+
 ## 4.59 — 2026-09-07
 
 - **Boeken die je van je NAS had verwijderd konden terugkomen in je bibliotheek.** Het opruimen deed zijn werk goed, maar een verrijking die op dat moment nog liep zette het boek daarna gewoon opnieuw in de catalogus. Verrijken, terugschrijven en handmatig corrigeren kunnen nu geen boeken meer aanmaken; dat blijft het werk van een scan en van importeren.
