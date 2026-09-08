@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.64 — 2026-09-08
+
+- **De schrijver opent op iPad weer vanuit boekdetails.** De iPad-bronweergave gebruikte een eigen navigatieroute, waardoor een tik op de schrijversnaam niets deed terwijl dezelfde actie op iPhone wel werkte. Boekdetails toont nu bovendien dezelfde schrijverskaart als de rechterkolom, met foto, biografie en een vaste knop naar de schrijver en al diens boeken.
+- **De lokale boekenindex kan op een drukke koude start niet meer half geopend achterblijven.** Wanneer het eerste scherm precies tijdens de SQLite-initialisatie al een boeknummer nodig had, kon de schema-opbouw te vroeg stoppen. De verbinding wacht nu vanaf de allereerste database-opdracht en een mislukte initialisatie wordt volledig opnieuw geprobeerd.
+
 ## 4.63 — 2026-09-08
 
 - **WebDAV-bibliotheken flitsen tijdens Vernieuwen niet meer leeg.** Met twee bibliotheken reageerden beide schermen op iedere achtergrondwijziging van één scan. De boeken waren niet uit de database verdwenen, maar het raster maakte zichzelf tijdens iedere SQLite-query kort leeg. De bestaande lijst blijft nu staan tot de verse gegevens klaar zijn en alleen de betreffende WebDAV-bron reageert; filters, geladen pagina's en scrollpositie blijven behouden.
