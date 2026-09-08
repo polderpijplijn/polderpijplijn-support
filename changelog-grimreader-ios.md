@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.63 — 2026-09-08
+
+- **WebDAV-bibliotheken flitsen tijdens Vernieuwen niet meer leeg.** Met twee bibliotheken reageerden beide schermen op iedere achtergrondwijziging van één scan. De boeken waren niet uit de database verdwenen, maar het raster maakte zichzelf tijdens iedere SQLite-query kort leeg. De bestaande lijst blijft nu staan tot de verse gegevens klaar zijn en alleen de betreffende WebDAV-bron reageert; filters, geladen pagina's en scrollpositie blijven behouden.
+
 ## 4.62 — 2026-09-08
 
 - **Een boek dat niet op het opgeslagen adres blijkt te staan, wordt nu meteen teruggevonden.** De app vraagt dan alleen die ene map opnieuw op en legt het actuele adres vast — geen volledige scan van je bibliotheek. Dat geldt bij openen, downloaden, strips, luisterboeken en het terugschrijven van metadata. Lukt het niet, dan hoor je hoeveel boeken het betreft in plaats van dat ze stil onbereikbaar blijven.
