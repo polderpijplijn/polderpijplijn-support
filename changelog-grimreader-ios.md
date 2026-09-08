@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.62 — 2026-09-08
+
+- **Een boek dat niet op het opgeslagen adres blijkt te staan, wordt nu meteen teruggevonden.** De app vraagt dan alleen die ene map opnieuw op en legt het actuele adres vast — geen volledige scan van je bibliotheek. Dat geldt bij openen, downloaden, strips, luisterboeken en het terugschrijven van metadata. Lukt het niet, dan hoor je hoeveel boeken het betreft in plaats van dat ze stil onbereikbaar blijven.
+- **Een hele map die uit beeld valt wordt niet meer opgeruimd.** Losse boeken verdwijnen omdat je ze weggooit; een complete map verdwijnt meestal omdat de server hem even niet teruggaf. Ook een auteursmap met allemaal kleine seriemapjes telt als één geheel. Je krijgt te zien om welke map het gaat; klopt het werkelijk, dan ruimt "Boekenindex herbouwen" onder Onderhoud hem op.
+- **Een boek dat niet gevonden wordt kost geen zinloze pogingen meer.** Zo'n boek werd behandeld als een tijdelijke netwerkfout en drie keer opnieuw geprobeerd op hetzelfde adres. Ook audioboeken doen daar niet meer aan mee; bij een luisterboek met meerdere delen wordt alleen het getroffen deel hersteld.
+
 ## 4.61 — 2026-09-08
 
 - **Boeken die elkaars gegevens toonden worden bij het bijwerken vanzelf hersteld.** Boeken die door de fout uit 4.60 hun interne nummer misten, kregen er alle hetzelfde — waardoor je bij het ene boek de titel, schrijver, omschrijving en omslag van een ander zag. Die krijgen nu eenmalig alsnog een eigen nummer. Je leesvoortgang, favorieten, collecties, eigen correcties en schrijversprofielen blijven daarbij ongemoeid; er wordt alleen iets bijgezet.
