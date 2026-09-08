@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.61 — 2026-09-08
+
+- **Boeken die elkaars gegevens toonden worden bij het bijwerken vanzelf hersteld.** Boeken die door de fout uit 4.60 hun interne nummer misten, kregen er alle hetzelfde — waardoor je bij het ene boek de titel, schrijver, omschrijving en omslag van een ander zag. Die krijgen nu eenmalig alsnog een eigen nummer. Je leesvoortgang, favorieten, collecties, eigen correcties en schrijversprofielen blijven daarbij ongemoeid; er wordt alleen iets bijgezet.
+- **Boeken verdwijnen niet meer uit je bibliotheek na één onvolledige serverlijst.** Een scan die een map oversloeg zonder een fout te melden, kon de boeken uit die map meteen opruimen. Voortaan gaat een boek pas weg als een tweede, onafhankelijke scan het opnieuw mist, en je ziet hoeveel boeken er op die bevestiging wachten.
+- **Boeken die "niet gevonden" gaven terwijl ze op de NAS stonden.** Bij een herscan bewaarde de app het oude adres, ook als het bestand zojuist op een nieuw adres was gevonden — bijvoorbeeld na een gewijzigd serveradres. Nu wordt het actuele adres vastgelegd, zonder je eigen correcties te overschrijven.
+
 ## 4.60 — 2026-09-07
 
 - **Twee boeken konden elkaars gegevens tonen.** Je zag dan de titel, schrijver, omschrijving en omslag van een ánder boek, terwijl het openen wél gewoon het juiste boek gaf. Dat kwam doordat twee delen van de app tegelijk een intern nummer konden uitdelen en op hetzelfde getal uitkwamen; het boek bleef dan zonder nummer achter, en alle boeken zonder nummer vielen samen. **Boeken die dit al is overkomen komen goed met "Boekenindex herbouwen" onder Onderhoud** — die deelt alle nummers opnieuw uit.
