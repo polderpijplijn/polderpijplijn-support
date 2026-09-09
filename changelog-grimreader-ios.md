@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.69 — 2026-09-09
+
+- **Zonder Grimmory-server staan Planken en Bibliotheken niet meer in het menu.** Ze leidden naar een scherm dat meldde dat ze niet beschikbaar waren. Dat geldt op iPad in de zijbalk en op iPhone in het bibliotheekscherm; een sectie die daardoor leeg zou raken verdwijnt mee.
+- **Bibliotheekbeheer toont alleen nog taken die je ook echt kunt uitvoeren.** Taken waarvoor je geen bron hebt — bijvoorbeeld serveronderhoud zonder Grimmory-server — worden weggelaten in plaats van als doodlopende optie getoond.
+- **De waarschuwing over risico staat nu waar het risico zit.** Ze stond boven het onderhoudsscherm, dat juist terugzet wat er op je servers staat. Ze hoort bij Gegevens verbeteren en Opschonen en samenvoegen, want dáár worden gegevens aangepast en kunnen bestanden gewijzigd of verwijderd worden.
+
 ## 4.68 — 2026-09-09
 
 - **Op iPad staat Bibliotheek niet meer dubbel in de zijbalk.** Dat menupunt leidde naar een verzamelpagina met precies de ingangen die er direct onder al uitgeklapt stonden.
