@@ -3,6 +3,14 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.68 — 2026-09-09
+
+- **Op iPad staat Bibliotheek niet meer dubbel in de zijbalk.** Dat menupunt leidde naar een verzamelpagina met precies de ingangen die er direct onder al uitgeklapt stonden.
+- **Bibliotheekbeheer is opgeruimd.** De kop "Geavanceerd en herstel" was woordelijk gelijk aan de enige regel eronder; die twee zijn samengevoegd tot één sectie Onderhoud. De taak zelf heet nu Back-up en herstel, wat beter dekt wat er gebeurt: de boekenindex en je schrijvers van de servers terugzetten.
+- **Een taak waarvoor je geen bron hebt, is niet meer aan te tikken.** Je kwam dan op een scherm met dezelfde titel dat "Niet beschikbaar" meldde. De reden staat nu gewoon in de lijst, zonder doodlopende doorstap.
+- **Bij het verwijderen van een eigen bestand belooft de app niet meer te veel.** Er stond dat het boek alleen op dit toestel bestond en dat verwijderen onomkeerbaar was. Grim Reader maakt bij het toevoegen echter een kopie, dus je origineel in Bestanden of iCloud Drive blijft gewoon staan — of dat er nog is, kan de app niet weten. De knop heet nu "Uit Grim Reader verwijderen" en de melding zegt wat er werkelijk gebeurt.
+- **Bij een boek van je NAS of uit een catalogus staat nu de bronnaam.** Met meerdere servers of catalogi zag je wel dat een boek van een NAS kwam, maar niet van welke.
+
 ## 4.67 — 2026-09-09
 
 - **De app is opnieuw ingedeeld.** Alle ingangen naar je bibliotheek staan nu bij elkaar, bibliotheekbeheer zit op één taakgerichte plek en de instellingen zijn geordend naar voorkeuren en bronnen. Op iPhone en iPad gedraagt de hoofdnavigatie zich hetzelfde.
