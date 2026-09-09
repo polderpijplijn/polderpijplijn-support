@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.65 — 2026-09-09
+
+- **Een EPUB opent niet meer met een absurd paginatotaal.** Sommige boeken begonnen op zo'n 20.000 pagina's om na een paar keer bladeren naar een normaal getal te zakken. De oorzaak was de omslag of het titelblad: een hoofdstuk van een paar tekens telde als volle pagina en bepaalde daarmee de schatting voor het hele boek. Alleen echte teksthoofdstukken bepalen die schatting nu, en verborgen opmaak- en scripttekst telt niet meer mee.
+
 ## 4.64 — 2026-09-08
 
 - **De schrijver opent op iPad weer vanuit boekdetails.** De iPad-bronweergave gebruikte een eigen navigatieroute, waardoor een tik op de schrijversnaam niets deed terwijl dezelfde actie op iPhone wel werkte. Boekdetails toont nu bovendien dezelfde schrijverskaart als de rechterkolom, met foto, biografie en een vaste knop naar de schrijver en al diens boeken.
