@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.66 — 2026-09-09
+
+- **Een boek met meerdere schrijvers kun je nu ook bewerken.** Bij het aanpassen staat er per schrijver een aparte regel met een plusknop, en elke regel opent dezelfde kiezer als elders: zoeken in de schrijvers die je al hebt, of de ingetikte naam als nieuwe schrijver overnemen. Verslepen bepaalt de volgorde, en de bovenste schrijver bepaalt waar het boek in je lijsten staat. Dit werkt bij boeken van je NAS, je eigen imports en boeken van een Grimmory-server.
+- **Een naam als "Christie, Agatha" wordt niet meer als twee schrijvers gelezen.** Eerder werden de namen bij het bewerken met komma's aan elkaar geplakt en daarna weer gesplitst, waardoor die schrijfwijze uiteenviel — en bij het opslaan van een boek met twee schrijvers verdween de tweede.
+- **Meerdere schrijvers werden al herkend bij scannen en verrijken; dat blijft nu ook staan.** Een tweede schrijver toevoegen, verwijderen of de volgorde wijzigen wordt bewaard als jouw keuze, zodat een volgende verrijkingsronde het niet meer overschrijft.
+
 ## 4.65 — 2026-09-09
 
 - **Een EPUB opent niet meer met een absurd paginatotaal.** Sommige boeken begonnen op zo'n 20.000 pagina's om na een paar keer bladeren naar een normaal getal te zakken. De oorzaak was de omslag of het titelblad: een hoofdstuk van een paar tekens telde als volle pagina en bepaalde daarmee de schatting voor het hele boek. Alleen echte teksthoofdstukken bepalen die schatting nu, en verborgen opmaak- en scripttekst telt niet meer mee.
