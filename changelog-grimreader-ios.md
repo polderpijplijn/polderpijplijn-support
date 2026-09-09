@@ -3,6 +3,16 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.67 — 2026-09-09
+
+- **De app is opnieuw ingedeeld.** Alle ingangen naar je bibliotheek staan nu bij elkaar, bibliotheekbeheer zit op één taakgerichte plek en de instellingen zijn geordend naar voorkeuren en bronnen. Op iPhone en iPad gedraagt de hoofdnavigatie zich hetzelfde.
+- **Op dit apparaat laat nu zien waar elk boek vandaan komt.** Je downloads stonden door elkaar met bestanden die je zelf had geopend, in één alfabetische rij. Ze staan nu in groepen — zelf toegevoegd, van je NAS, van je server, uit een catalogus — met per groep wat dat betekent voor je boeken.
+- **Weggooien zegt nu wat het weggooit.** Overal stond "Verwijderen", terwijl dezelfde knop bij een download alleen de offline kopie weghaalt en bij een eigen bestand je enige exemplaar. Er staat nu "Van dit toestel verwijderen" tegenover "Boek verwijderen", met een bevestiging die vertelt wat er achterblijft.
+- **Een serveradres zonder https:// werkt eindelijk zoals het scherm beloofde.** Er stond dat je zonder schema een beveiligde verbinding kreeg, maar de app maakte er onversleuteld verkeer van. Naar een server op een eigen domein blokkeerde iOS dat verzoek nog vóór het je toestel verliet: je zag "geen verbinding" terwijl je server niets binnenkreeg. Adressen op je eigen netwerk blijven gewoon http.
+- **Netwerkproblemen vertellen nu wat er mis is.** Een certificaat dat niet klopt, een adres dat niet bestaat, een dichte poort en een server die zwijgt gaven allemaal dezelfde melding: "Geen verbinding met de server." Elk van die gevallen heeft nu een eigen tekst.
+- **Je kunt eigen HTTP-headers meesturen naar je server.** Handig als er een proxy met eigen toegangscontrole voor staat, zoals Cloudflare Zero Trust, Authelia of Authentik. Ze worden veilig bewaard op je toestel en alleen naar je eigen server gestuurd, nooit naar andere diensten.
+- **Boekinformatie toont alle schrijvers**, niet alleen de eerste.
+
 ## 4.66 — 2026-09-09
 
 - **Een boek met meerdere schrijvers kun je nu ook bewerken.** Bij het aanpassen staat er per schrijver een aparte regel met een plusknop, en elke regel opent dezelfde kiezer als elders: zoeken in de schrijvers die je al hebt, of de ingetikte naam als nieuwe schrijver overnemen. Verslepen bepaalt de volgorde, en de bovenste schrijver bepaalt waar het boek in je lijsten staat. Dit werkt bij boeken van je NAS, je eigen imports en boeken van een Grimmory-server.
