@@ -3,6 +3,16 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.71 — 2026-09-10
+
+- **Onderwerpen zijn een volwaardig onderdeel van je bibliotheek geworden.** Boekbestanden noemen hetzelfde ding steeds anders — een EPUB heeft onderwerpen, een PDF trefwoorden, een strip genres en tags — waardoor "Science Fiction", "science fiction" en "SF" naast elkaar ontstaan. Je vindt ze nu onder Bladeren op → Onderwerpen, met per onderwerp alle bijbehorende boeken.
+- **Onderwerpen opschonen kan via Bibliotheekbeheer → Onderwerpen beheren.** Je ziet alle onderwerpen met hun aantal boeken, kunt zoeken en sorteren, en varianten samenvoegen onder één naam. De app stelt waarschijnlijke varianten voor maar voegt nooit zelf samen: schrijfwijzen die op elkaar lijken hoeven niet hetzelfde te betekenen. Vóór het samenvoegen zie je hoeveel boeken het raakt, en losmaken kan later weer.
+- **Je samenvoegingen blijven staan.** Ze overleven opnieuw scannen, de app herstarten en zelfs het herbouwen van de boekenindex — het is jouw keuze en geen scanresultaat.
+- **Onderwerpen bij een boek zijn aantikbaar** en openen dezelfde lijst.
+- **Favoriete onderwerpen staan op Start.** Maximaal vier tegels met naam en aantal boeken, in je eigen volgorde, en één tik opent ze. Hernoem of voeg je een onderwerp samen, dan blijft het favoriet.
+- **Bij het bewerken van een uitgeverij kun je nu ook online zoeken.** Net als bij schrijvers haalt de app omschrijving, oprichtingsjaar, land, website en logo op; wat je zelf hebt ingevuld blijft staan.
+- **De schrijverskiezer klapt niet meer dicht** voordat je een naam kon kiezen.
+
 ## 4.70 — 2026-09-10
 
 - **Een boek bewerken en meteen weer op het pennetje tikken toont nu je wijziging.** Het bewerkscherm begon opnieuw bij de gegevens van vóór je aanpassing. Een veld leegmaken werkt nu ook echt: een gewiste reeks, taal of beschrijving blijft gewist.
