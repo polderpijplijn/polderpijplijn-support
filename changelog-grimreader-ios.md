@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.72 — 2026-09-10
+
+- **Het onderwerpenscherm laadt niet meer minutenlang.** Om het aantal boeken per samengevoegd onderwerp te bepalen werd een aparte zoekopdracht per onderwerp gedaan; bij een bibliotheek met veel schrijfwijzen naast elkaar waren dat er honderden. Dat gebeurt nu in één keer. Ook wachtte het scherm eerst tot de hele catalogus opnieuw was doorgelopen — dat hoeft niet om een lijst te tonen.
+- **Onderwerpen, Beheer en de tegels op Start tonen nu eerst wat er al is** en vullen daarna aan zodra de bibliotheek is bijgewerkt. Bij een verse installatie blijft de laadmelding staan tot er echt iets te tonen valt, in plaats van ten onrechte "Nog geen onderwerpen".
+
 ## 4.71 — 2026-09-10
 
 - **Onderwerpen zijn een volwaardig onderdeel van je bibliotheek geworden.** Boekbestanden noemen hetzelfde ding steeds anders — een EPUB heeft onderwerpen, een PDF trefwoorden, een strip genres en tags — waardoor "Science Fiction", "science fiction" en "SF" naast elkaar ontstaan. Je vindt ze nu onder Bladeren op → Onderwerpen, met per onderwerp alle bijbehorende boeken.
