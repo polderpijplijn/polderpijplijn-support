@@ -3,6 +3,16 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.70 — 2026-09-10
+
+- **Een boek bewerken en meteen weer op het pennetje tikken toont nu je wijziging.** Het bewerkscherm begon opnieuw bij de gegevens van vóór je aanpassing. Een veld leegmaken werkt nu ook echt: een gewiste reeks, taal of beschrijving blijft gewist.
+- **De schrijverskiezer opent meteen.** Hij wachtte tot de bibliotheekcatalogus opnieuw was doorgelopen — precies wat het bewerken van een boek in gang zet — terwijl hij alleen een lijst namen nodig had. Hetzelfde gold voor de seriekiezer.
+- **Onder Op dit apparaat werkt Bestanden kiezen weer.** Twee bestandskiezers op één scherm verdroegen elkaar niet; er is er nu één voor zowel bestanden als een map of USB-stick.
+- **Een boekenlijst valt niet meer halverwege stil bij het scrollen.** Kwam het verzoek om de volgende pagina samen met een nog lopende ronde, dan werd het weggegooid en gebeurde er niets meer tot je opnieuw scrolde.
+- **Vanuit de rechterkolom naar een schrijver gaan opent niet meer eerst de schrijverspagina opnieuw.** Die knop navigeerde anders dan dezelfde knop in het linkermenu.
+- **De twee lege regels onder Op dit apparaat zijn weg uit de iPad-zijbalk.** Ze waren aantikbaar en lieten Bibliotheekbeheer en Instellingen tevoorschijn komen.
+- **Uitloggen terwijl je op Planken of Bibliotheken staat laat je niet meer op een leeg scherm achter.**
+
 ## 4.69 — 2026-09-09
 
 - **Zonder Grimmory-server staan Planken en Bibliotheken niet meer in het menu.** Ze leidden naar een scherm dat meldde dat ze niet beschikbaar waren. Dat geldt op iPad in de zijbalk en op iPhone in het bibliotheekscherm; een sectie die daardoor leeg zou raken verdwijnt mee.
