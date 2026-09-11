@@ -3,6 +3,15 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.73 — 2026-09-11
+
+- **Onderwerpen verwijderen kan nu.** Kies in Bibliotheekbeheer → Onderwerpen beheren een of meer onderwerpen en haal ze in één keer weg bij alle boeken die ze dragen. Andere schrijfwijzen van hetzelfde onderwerp gaan mee, anders zou het onderwerp meteen weer opduiken.
+- **Je kiest zelf hoe ver het gaat.** Standaard verdwijnt het onderwerp alleen uit Grim Reader en blijven je boekbestanden ongemoeid; die keuze blijft bewaard, ook na opnieuw scannen. Zet je de schakelaar om, dan wordt het onderwerp ook uit de bestanden zelf gehaald — EPUB en PDF, lokaal en op een WebDAV-server. Vóór je begint zie je om hoeveel boeken en hoeveel bestanden het gaat.
+- **Een aangevinkte regel is nu ook echt te zien** in de onderwerpenlijst, en de knoppenbalk verschijnt zodra je er één kiest.
+- **Bij het wegschrijven blijft in beeld wat er misging.** Boeken die niet bijgewerkt konden worden blijven in de lijst staan met de reden erbij, en met "Opnieuw" probeer je alleen die nog eens. Bestanden die zijn overgeslagen — een strip waarvan het onderwerp in het Tags-veld staat, bijvoorbeeld — worden apart gemeld: bij die boeken is het onderwerp wel uit de app gehaald, maar het bestand niet aangepast.
+- **Het laatste trefwoord uit een PDF wissen werkt echt.** Voorheen bleef dat ene trefwoord staan.
+- **Een verwijderd onderwerp blijft geen favoriet** en verdwijnt dus ook van Start.
+
 ## 4.72 — 2026-09-10
 
 - **Het onderwerpenscherm laadt niet meer minutenlang.** Om het aantal boeken per samengevoegd onderwerp te bepalen werd een aparte zoekopdracht per onderwerp gedaan; bij een bibliotheek met veel schrijfwijzen naast elkaar waren dat er honderden. Dat gebeurt nu in één keer. Ook wachtte het scherm eerst tot de hele catalogus opnieuw was doorgelopen — dat hoeft niet om een lijst te tonen.
