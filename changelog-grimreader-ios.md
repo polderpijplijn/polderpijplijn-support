@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.74 — 2026-09-12
+
+- **Onderwerpen beheren verschuift niet meer onder je handen.** Bij het openen verscheen de sectie "Mogelijke varianten" pas na de tweede laadronde, en omdat die bovenaan staat schoof de onderwerpenlijst — met de aantikrondjes — op dat moment naar beneden uit beeld. Alles staat er nu vanaf het eerste moment.
+- **Je onderwerpenlijst verdwijnt niet meer door een tijdelijke fout.** Ging het opvragen mis terwijl er bijvoorbeeld gescand werd, dan toonde het scherm "Nog geen onderwerpen" alsof je bibliotheek leeg was. Nu blijft staan wat er al stond.
+- **Een voorstel dat je hebt samengevoegd komt niet meer terug.** Schrijfwijzen die alleen in hoofdletters of accenten verschillen zijn voor de app al hetzelfde onderwerp; die werden voorgesteld, maar samenvoegen veranderde er niets aan en het voorstel verscheen telkens opnieuw. Echte varianten als "Science-Fiction" worden nog wel voorgesteld.
+
 ## 4.73 — 2026-09-11
 
 - **Onderwerpen verwijderen kan nu.** Kies in Bibliotheekbeheer → Onderwerpen beheren een of meer onderwerpen en haal ze in één keer weg bij alle boeken die ze dragen. Andere schrijfwijzen van hetzelfde onderwerp gaan mee, anders zou het onderwerp meteen weer opduiken.
