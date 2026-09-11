@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.75 — 2026-09-12
+
+- **Onderwerpen selecteren is nu direct zichtbaar.** De lange lijst met mogelijke samenvoegingen stond boven de gewone onderwerpen en duwde de selecteerbare regels uit beeld. Die voorstellen staan nu compact ingeklapt, zodat de onderwerpen met hun selectieknoppen meteen zichtbaar zijn.
+- **De selectieknoppen hebben meer contrast.** Iedere onderwerpregel heeft een duidelijke omrande cirkel; na aantikken wordt die gevuld met een vinkje en licht de hele regel op.
+- **Verwijderen en samenvoegen zijn duidelijk afzonderlijke handelingen.** Het scherm legt de werkwijze boven de lijst uit. Eén onderwerp kun je verwijderen; voor samenvoegen kies je minimaal twee onderwerpen.
+
 ## 4.74 — 2026-09-12
 
 - **Onderwerpen beheren verschuift niet meer onder je handen.** Bij het openen verscheen de sectie "Mogelijke varianten" pas na de tweede laadronde, en omdat die bovenaan staat schoof de onderwerpenlijst — met de aantikrondjes — op dat moment naar beneden uit beeld. Alles staat er nu vanaf het eerste moment.
