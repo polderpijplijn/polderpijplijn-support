@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.78 — 2026-09-12
+
+- **Het boekdetailscherm is rustiger en volgt de breedte van je scherm.** Op een brede iPad staan het boek met zijn bediening links en de beschrijving met de details rechts, in twee panelen naast elkaar. Op iPhone, in Split View en op een smalle iPad zakt alles terug naar één kolom. Kaarten, knoppen en marges volgen dezelfde vaste set als de rest van de app.
+- **Je voortgang staat nu vóór de leesknop.** Eerst zie je waar je gebleven was, daarna één brede knop om verder te lezen of te luisteren. Lange titels, uitgeversnamen en categorieën lopen netjes door in plaats van geknepen te worden, en de omslagkleur geeft de bovenste kaart een zachte gloed — die blijft weg bij verhoogd contrast.
+- **Alle boeken waar je in bezig bent zijn nu bereikbaar.** `Verder lezen` en `Luister verder` toonden alleen het laatste boek; er is nu per soort een eigen overzicht met alles wat openstaat.
+- **Een mislukte laadpoging kun je opnieuw proberen.** De foutmelding bij een verbroken verbinding heeft een herlaadknop gekregen, zodat je niet meer uit het scherm hoeft te gaan en terug.
+
 ## 4.77 — 2026-09-12
 
 - **Start begroet je en vraagt waar je verder wilt.** De appnaam was de grootste kop van het scherm, terwijl je die al kent. Er staat nu `Goedemorgen`, `Goedemiddag` of `Goedenavond` met `Waar wil je verdergaan?` eronder — of `Waar wil je beginnen?` als er niets openstaat. In de nacht groet de app met `Welkom terug`. Logo en appnaam blijven als kleine regel erboven staan.
