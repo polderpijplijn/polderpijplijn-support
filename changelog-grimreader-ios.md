@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.76 — 2026-09-12
+
+- **Samenvoegen en verwijderen zijn nu echt aparte taken.** Je ziet per taak alleen de keuzes en knoppen die daarbij horen, zodat verwijderen niet langer verstopt zit tussen de samenvoegopties.
+- **Grim Reader helpt rommelige onderwerpen vinden zonder zelf iets te wissen.** Mogelijke verwijderingen zijn gegroepeerd op weinig gebruik, alleen cijfers, een vreemd begin of een ongebruikelijk lange naam. Je opent zo'n groep eerst om de onderwerpen en het aantal bijbehorende boeken te controleren.
+- **De selectieknop past zich aan de geopende lijst aan.** Bijvoorbeeld `Selecteer alle 23` kiest alleen de onderwerpen in de huidige adviesgroep of zoekopdracht; daarna verandert de knop in `Deselecteer alle 23`.
+- **Actieknoppen blijven tijdens het controleren in beeld.** Ook bij duizenden onderwerpen hoef je niet meer naar het einde van de lijst te scrollen om een selectie uit te voeren.
+
 ## 4.75 — 2026-09-12
 
 - **Onderwerpen selecteren is nu direct zichtbaar.** De lange lijst met mogelijke samenvoegingen stond boven de gewone onderwerpen en duwde de selecteerbare regels uit beeld. Die voorstellen staan nu compact ingeklapt, zodat de onderwerpen met hun selectieknoppen meteen zichtbaar zijn.
