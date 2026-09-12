@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.77 — 2026-09-12
+
+- **Start begroet je en vraagt waar je verder wilt.** De appnaam was de grootste kop van het scherm, terwijl je die al kent. Er staat nu `Goedemorgen`, `Goedemiddag` of `Goedenavond` met `Waar wil je verdergaan?` eronder — of `Waar wil je beginnen?` als er niets openstaat. In de nacht groet de app met `Welkom terug`. Logo en appnaam blijven als kleine regel erboven staan.
+- **Verder lezen en Luister verder staan op een brede iPad naast elkaar.** Dat gebeurt zodra er ruimte voor is: met de boekdetails dichtgeklapt, met de zijbalk ingeklapt of op een grote iPad. Op iPhone, in Split View en bij grote tekst blijven ze onder elkaar, zodat titels en knoppen niet worden geknepen.
+- **Je ziet nu welk boek rechts in de boekdetails staat.** Tikte je op een omslag, dan veranderde het paneel aan de andere kant van het scherm terwijl het boek dat je aanraakte er hetzelfde uitzag. Het gekozen boek krijgt een duidelijke rand.
+- **Kaarten, knoppen, marges en afrondingen volgen één vaste set.** Er stonden veertien verschillende hoekradii en vijftien schaduwregels door de schermen heen. Dat geeft nu een rustiger beeld, en de randen van kaarten en het zoekveld zijn beter zichtbaar — ook in donkere modus en bij hoog contrast.
+
 ## 4.76 — 2026-09-12
 
 - **Samenvoegen en verwijderen zijn nu echt aparte taken.** Je ziet per taak alleen de keuzes en knoppen die daarbij horen, zodat verwijderen niet langer verstopt zit tussen de samenvoegopties.
