@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.79 — 2026-09-13
+
+- **De luisterboekspeler heeft een rustige, moderne indeling.** Titel, auteur en het hoofdstuk staan overzichtelijk bij elkaar, met de voortgangsbalk en de verstreken en resterende tijd eronder. Afspelen, 15 seconden terug en 30 seconden vooruit staan als één groep bediening in het midden; vorig en volgend hoofdstuk, de hoofdstukkeuze en de afspeelsnelheid zitten daaronder.
+- **Je ziet nu waar de speler mee bezig is.** `Audioboek laden…` en `Bufferen…` staan als eigen regel in beeld, en een fout komt met een duidelijke melding in plaats van een speler die niets doet. Tikken tijdens bufferen pauzeert nu echt, in plaats van het afspelen nog een keer te starten.
+- **Alle bediening blijft bereikbaar bij grote tekst.** Bij zeer grote letters gaat het scherm scrollen in plaats van knoppen weg te duwen, de knoppen houden een raakvlak van 44 punten en elke knop heeft een voorgelezen naam. De achtergrond blijft weg bij verminderde transparantie en verhoogd contrast.
+- **Gedownloade en gestreamde audioboeken gebruiken dezelfde speler.** Alleen het omslagbeeld verschilt nog tussen de twee routes, zodat de bediening overal gelijk werkt.
+
 ## 4.78 — 2026-09-12
 
 - **Het boekdetailscherm is rustiger en volgt de breedte van je scherm.** Op een brede iPad staan het boek met zijn bediening links en de beschrijving met de details rechts, in twee panelen naast elkaar. Op iPhone, in Split View en op een smalle iPad zakt alles terug naar één kolom. Kaarten, knoppen en marges volgen dezelfde vaste set als de rest van de app.
