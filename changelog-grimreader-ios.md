@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.81 — 2026-09-13
+
+- **Op iPhone staan de boekgegevens nu in dezelfde losse kaarten als op iPad.** `Over dit boek` en `Over de schrijver` plakten aan elkaar in één lange kaart; het zijn nu eigen kaarten, en de uitgever, de serie en de boekinformatie staan er ook op iPhone bij. Alleen de indeling verschilt nog: iPad zet ze in twee kolommen, iPhone onder elkaar.
+- **Onderwerpen en serie staan direct onder het boek.** Waar het boek over gaat en waar het bij hoort staat nu bij elkaar, meteen onder de omslag. Het verhaal, de schrijver, de uitgever en de boekinformatie volgen daarna.
+- **De kaart `Mijn boek` is weg.** De bibliotheek staat weer gewoon bij de boekinformatie, waar hij hoort.
+
 ## 4.80 — 2026-09-13
 
 - **Boekdetails op iPad staan nu in losse kaarten die de ruimte echt vullen.** Links het boek met zijn bediening, met de onderwerpen er direct onder en daaronder je eigen gegevens: bibliotheek en of het boek op dit apparaat staat. Rechts staan `Over dit boek`, de schrijver, de serie, de uitgever, de boekinformatie en de planken elk in een eigen kaart. Beide kolommen lopen onafhankelijk door, dus een lang verhaal rechts laat links geen lege ruimte meer achter.
