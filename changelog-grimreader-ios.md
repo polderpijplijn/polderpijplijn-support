@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.80 — 2026-09-13
+
+- **Boekdetails op iPad staan nu in losse kaarten die de ruimte echt vullen.** Links het boek met zijn bediening, met de onderwerpen er direct onder en daaronder je eigen gegevens: bibliotheek en of het boek op dit apparaat staat. Rechts staan `Over dit boek`, de schrijver, de serie, de uitgever, de boekinformatie en de planken elk in een eigen kaart. Beide kolommen lopen onafhankelijk door, dus een lang verhaal rechts laat links geen lege ruimte meer achter.
+- **De uitgever heeft een eigen kaart gekregen.** Daarin staat wat er over de uitgeverij bekend is, met dezelfde doorklik naar al hun boeken, en de uitgever wordt niet nog een keer als gewone regel in de boekinformatie herhaald. Ook een uitgever zonder verder profiel is nu aantikbaar.
+- **De serie opent nu overal.** Vanuit de nieuwe Serie-kaart kwam je vanuit Zoeken, Bibliotheken, Op dit apparaat en Luisterboeken nergens; die vier ingangen openen nu gewoon de serie.
+- **Kaarten zonder inhoud blijven weg, en smalle schermen houden hun vertrouwde indeling.** Bij Split View, een smalle iPad en bij zeer grote letters zakt het scherm terug naar één kolom; iPhone en de klassieke sjablonen veranderen niet.
+
 ## 4.79 — 2026-09-13
 
 - **De luisterboekspeler heeft een rustige, moderne indeling.** Titel, auteur en het hoofdstuk staan overzichtelijk bij elkaar, met de voortgangsbalk en de verstreken en resterende tijd eronder. Afspelen, 15 seconden terug en 30 seconden vooruit staan als één groep bediening in het midden; vorig en volgend hoofdstuk, de hoofdstukkeuze en de afspeelsnelheid zitten daaronder.
