@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.85 — 2026-09-14
+
+- **Een boek aantikken in `Bibliotheekbeheer` → `Ontbrekende gegevens` opent dat boek weer.** Er gebeurde niets: je tikte een kaartje aan en bleef op de lijst staan. Nu opent het boekdetailscherm, en brengt terug je weer op de resultatenlijst.
+
 ## 4.84 — 2026-09-14
 
 - **Zoeken in `Uitgeverijen` hapert niet meer.** Bij elke ingetikte letter ging de app voor élke uitgeverij opnieuw op schijf kijken of er een profiel bij hoorde — honderden keren per aanslag, en dat terwijl je aan het tikken was. De naam, het land en het logo staan nu klaar zodra de lijst geladen is; het zoeken zelf raakt de opslag niet meer aan.
