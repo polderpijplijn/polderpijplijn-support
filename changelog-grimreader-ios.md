@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.82 — 2026-09-14
+
+- **Je kunt uitgeverijen nu zelf samenvoegen.** Tik in `Uitgeverijen` rechtsboven op `Selecteer`, vink twee of meer uitgeverijen aan en kies met de kroon welke naam blijft — of typ een naam die er nog niet is, bijvoorbeeld de volledige bedrijfsnaam. Je vinkt een uitgeverij aan, niet een schrijfwijze: alle spellingen die er al onder vallen gaan mee. Met een schakelaar wordt de uitgever ook in de EPUB- en CBZ-bestanden zelf bijgewerkt; PDF heeft daar geen veld voor. Het bestaande scherm dat zelf dubbelen opspoort blijft bestaan — dat vindt wat de app herkent, dit is voor uitgevers die alleen jij als dezelfde herkent.
+- **`Lees verder` op het startscherm opent en sluit zonder tussenscherm.** Bij het eerste boek zag je zowel bij het openen als het sluiten heel even het boekdetailscherm voorbijkomen. Dat scherm werd daar alleen gebruikt om de lezer te starten; nu zie je tijdens het openen alleen de omslag en de titel van het boek waar je op tikte, en na het sluiten kom je rechtstreeks op Start terug. Kan een boek niet geopend worden, dan verschijnt de volledige pagina met haar knoppen, zoals voorheen.
+
 ## 4.81 — 2026-09-13
 
 - **Op iPhone staan de boekgegevens nu in dezelfde losse kaarten als op iPad.** `Over dit boek` en `Over de schrijver` plakten aan elkaar in één lange kaart; het zijn nu eigen kaarten, en de uitgever, de serie en de boekinformatie staan er ook op iPhone bij. Alleen de indeling verschilt nog: iPad zet ze in twee kolommen, iPhone onder elkaar.
