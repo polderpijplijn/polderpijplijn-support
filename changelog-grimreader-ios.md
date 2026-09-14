@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.83 — 2026-09-14
+
+- **Is je server niet te bereiken, dan toont de bibliotheek alleen nog de boeken die op dit apparaat staan.** Dat hoorde al zo te werken, maar de app keek of je telefoon een verbinding had in plaats van of je server antwoordde. Onderweg met mobiel internet aan, of thuis met de NAS uit, stond de complete serverlijst dus gewoon in beeld — vol boeken die niet te openen zijn. Nu verdwijnen die regels uit `Alle boeken`, `Start`, `Schrijvers` en `Series` zodra de bron zwijgt, en komen ze terug zodra hij weer antwoordt. Gedownloade en zelf geïmporteerde boeken blijven altijd staan.
+- **Heb je twee bronnen, dan telt elke bron apart.** Een NAS die niet reageert neemt de boeken van je andere server niet meer mee.
+- **De app merkt nu ook dat een server wegvalt terwijl hij openstaat.** De bereikbaarheid werd alleen opnieuw gemeten bij in- of uitloggen of wanneer de verbinding helemaal wegviel. Nu ook bij het wisselen van wifi naar mobiel — het huis uit lopen — en bij terugkeren uit de achtergrond.
+- **`Lees verder` toont geen boeken meer die je niet kunt openen.** Die lijst zoekt op leesvoortgang en liep om de bibliotheekfilter heen; een boek dat alleen op de stille server staat kwam daardoor vooraan op Start te staan.
+
 ## 4.82 — 2026-09-14
 
 - **Je kunt uitgeverijen nu zelf samenvoegen.** Tik in `Uitgeverijen` rechtsboven op `Selecteer`, vink twee of meer uitgeverijen aan en kies met de kroon welke naam blijft — of typ een naam die er nog niet is, bijvoorbeeld de volledige bedrijfsnaam. Je vinkt een uitgeverij aan, niet een schrijfwijze: alle spellingen die er al onder vallen gaan mee. Met een schakelaar wordt de uitgever ook in de EPUB- en CBZ-bestanden zelf bijgewerkt; PDF heeft daar geen veld voor. Het bestaande scherm dat zelf dubbelen opspoort blijft bestaan — dat vindt wat de app herkent, dit is voor uitgevers die alleen jij als dezelfde herkent.
