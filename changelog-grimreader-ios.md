@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.86 — 2026-09-14
+
+- **Navigeren vanuit `Bibliotheekbeheer` → `Ontbrekende gegevens` blijft nu overal op het gekozen boek.** Ook via `Boeken verrijken`, op iPhone en iPad, opent een boek zonder dat de resultatenlijst er weer overheen springt. Vanuit het boek kun je bovendien gewoon doorklikken naar de schrijver en onderwerpen, en teruggaan brengt je steeds naar het verwachte vorige scherm.
+
 ## 4.85 — 2026-09-14
 
 - **Een boek aantikken in `Bibliotheekbeheer` → `Ontbrekende gegevens` opent dat boek weer.** Er gebeurde niets: je tikte een kaartje aan en bleef op de lijst staan. Nu opent het boekdetailscherm, en brengt terug je weer op de resultatenlijst.
