@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.84 — 2026-09-14
+
+- **Zoeken in `Uitgeverijen` hapert niet meer.** Bij elke ingetikte letter ging de app voor élke uitgeverij opnieuw op schijf kijken of er een profiel bij hoorde — honderden keren per aanslag, en dat terwijl je aan het tikken was. De naam, het land en het logo staan nu klaar zodra de lijst geladen is; het zoeken zelf raakt de opslag niet meer aan.
+- **Zoeken naar een schrijver of een serie bij het bewerken van een boek is een stuk sneller.** Het filter liep per ingetikte letter meer dan eens door je volledige namenlijst, met een tekstvergelijking die per naam tientallen keren duurder is dan nodig. Bij een grote bibliotheek liep het tikken daar merkbaar op achter; dat is nu weg.
+- **Zoeken let niet meer op accenten.** Tik je `eluard`, dan vind je ook `Éluard`, en `transtromer` vindt `Tranströmer`. Dat geldt voor schrijvers, series en uitgeverijen.
+
 ## 4.83 — 2026-09-14
 
 - **Is je server niet te bereiken, dan toont de bibliotheek alleen nog de boeken die op dit apparaat staan.** Dat hoorde al zo te werken, maar de app keek of je telefoon een verbinding had in plaats van of je server antwoordde. Onderweg met mobiel internet aan, of thuis met de NAS uit, stond de complete serverlijst dus gewoon in beeld — vol boeken die niet te openen zijn. Nu verdwijnen die regels uit `Alle boeken`, `Start`, `Schrijvers` en `Series` zodra de bron zwijgt, en komen ze terug zodra hij weer antwoordt. Gedownloade en zelf geïmporteerde boeken blijven altijd staan.
