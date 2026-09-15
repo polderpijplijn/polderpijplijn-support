@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.92 — 2026-09-16
+
+- **"Ook online zoeken" bij een uitgeverij toont nu een lijst kandidaten in plaats van er zelf één te kiezen.** Eerder paste de app de eerste plausibele treffer automatisch toe en werd die al bewaard vóór je iets had gezien — Annuleren draaide dat niet terug. Je kiest nu zelf uit de kandidaten (of "Geen van deze"), ziet een korte preview van wat er verandert, en pas Bewaar zet iets vast.
+- **Die zoekactie vindt nu ook meer uitgeverijen.** Er wordt in meer dan één taal gezocht, en een kandidaat met alleen een breed bedrijfstype (zoals "bedrijf" of "organisatie") wordt niet meer verworpen — hij staat gewoon lager in de lijst dan een echte uitgeverij.
+
 ## 4.91 — 2026-09-15
 
 - **"Ook online zoeken" vindt nu ook uitgeverijen waarvan de naam "uitgeverij" als achtervoegsel heeft**, zoals "Westfriesland uitgeverij". Wikidata kent zulke uitgeverijen vaak onder de vorm "Uitgeverij X", en die poging werd eerder overgeslagen.
