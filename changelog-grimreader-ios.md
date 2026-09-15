@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.90 — 2026-09-15
+
+- **"Ook online zoeken" bij een uitgeverij houdt nu rekening met wat je in het Naam-veld hebt getypt.** Eerder bleef de zoekactie de oorspronkelijke schrijfwijze gebruiken, ook nadat je die had gecorrigeerd — waardoor typen van bijvoorbeeld een volledigere naam niets leek te doen.
+- **Uitgevers samenvoegen toont nu elke schrijfwijze apart, met een eigen kroon.** Schrijfwijzen die de app al zelf had samengevoegd (zoals bij "eburon") waren daarvoor onzichtbaar; je kon dus niet kiezen welke van die schrijfwijzen precies bewaard blijft.
+
 ## 4.89 — 2026-09-15
 
 - **Zelf ingevulde uitgeverijgegevens gaan nu ook mee in een reservekopie van je toestel.** Eerder stonden je correcties bij een uitgeverij (bijvoorbeeld een aangepaste omschrijving of website) in een bestand dat bewust buiten de back-up viel; bij een herstel of een nieuw toestel verdwenen ze daardoor onterecht. Uitgeverijgegevens zelf werken verder precies zoals voorheen.
