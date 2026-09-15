@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.89 — 2026-09-15
+
+- **Zelf ingevulde uitgeverijgegevens gaan nu ook mee in een reservekopie van je toestel.** Eerder stonden je correcties bij een uitgeverij (bijvoorbeeld een aangepaste omschrijving of website) in een bestand dat bewust buiten de back-up viel; bij een herstel of een nieuw toestel verdwenen ze daardoor onterecht. Uitgeverijgegevens zelf werken verder precies zoals voorheen.
+
 ## 4.88 — 2026-09-15
 
 - **Bekende uitgeverijen die eerder onvindbaar waren, worden nu wel gevonden.** Namen met een merkstreep zoals `Ambo|Anthos`, namen waar Wikidata het woord "Uitgeverij" wél in het label heeft staan (`Cossee`, `Atlas Contact`, `Wereldbibliotheek`), en een uitgeverij die alleen via het bijbehorende Wikipedia-artikel te vinden was, leveren nu allemaal de juiste gegevens op.
