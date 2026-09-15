@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.91 — 2026-09-15
+
+- **"Ook online zoeken" vindt nu ook uitgeverijen waarvan de naam "uitgeverij" als achtervoegsel heeft**, zoals "Westfriesland uitgeverij". Wikidata kent zulke uitgeverijen vaak onder de vorm "Uitgeverij X", en die poging werd eerder overgeslagen.
+
 ## 4.90 — 2026-09-15
 
 - **"Ook online zoeken" bij een uitgeverij houdt nu rekening met wat je in het Naam-veld hebt getypt.** Eerder bleef de zoekactie de oorspronkelijke schrijfwijze gebruiken, ook nadat je die had gecorrigeerd — waardoor typen van bijvoorbeeld een volledigere naam niets leek te doen.
