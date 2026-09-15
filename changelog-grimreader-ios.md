@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.87 — 2026-09-15
+
+- **Uitgeverijen zijn nu rechtstreeks en volledig te bewerken.** De verborgen driepuntenknop is vervangen door een duidelijke knop `Bewerken`. In het bewerkscherm kun je de naam, omschrijving, oprichting, het land, de website, het moederbedrijf en de geschiedenis aanpassen. `Ook online zoeken` staat direct na de naam en vult ontbrekende gegevens aan via Wikidata en Wikipedia.
+- **Een aangepaste uitgeversnaam kan naar alle bijbehorende boeken worden doorgezet.** Je kiest afzonderlijk of alleen het uitgeversprofiel verandert, of ook de boeken in je bibliotheek. Desgewenst schrijft Grim Reader de naam eveneens in EPUB- en CBZ-bestanden op WebDAV. De app toont daarbij voortgang en meldt welke bestanden niet konden worden aangepast.
+- **Bibliotheekbeheer bevat geen dubbele route voor boeken verrijken meer.** `Alle boeken` staat al in de hoofdnavigatie en `Ontbrekende gegevens` heeft een eigen beheertaak; de extra verzamelpagina voegde dezelfde ingangen nogmaals toe en is daarom verwijderd.
+
 ## 4.86 — 2026-09-14
 
 - **Navigeren vanuit `Bibliotheekbeheer` → `Ontbrekende gegevens` blijft nu overal op het gekozen boek.** Ook via `Boeken verrijken`, op iPhone en iPad, opent een boek zonder dat de resultatenlijst er weer overheen springt. Vanuit het boek kun je bovendien gewoon doorklikken naar de schrijver en onderwerpen, en teruggaan brengt je steeds naar het verwachte vorige scherm.
