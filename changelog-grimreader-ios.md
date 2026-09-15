@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.88 — 2026-09-15
+
+- **Bekende uitgeverijen die eerder onvindbaar waren, worden nu wel gevonden.** Namen met een merkstreep zoals `Ambo|Anthos`, namen waar Wikidata het woord "Uitgeverij" wél in het label heeft staan (`Cossee`, `Atlas Contact`, `Wereldbibliotheek`), en een uitgeverij die alleen via het bijbehorende Wikipedia-artikel te vinden was, leveren nu allemaal de juiste gegevens op.
+- **De uitgeverijenlijst opent lichter bij een grote bibliotheek.** Logo's werden tot nu toe allemaal vooraf gedecodeerd en voor de hele duur van het scherm in het geheugen gehouden, ook van uitgeverijen die nooit in beeld kwamen. Ze laden nu pas als een rij daadwerkelijk getoond wordt, in een begrensde cache.
+
 ## 4.87 — 2026-09-15
 
 - **Uitgeverijen zijn nu rechtstreeks en volledig te bewerken.** De verborgen driepuntenknop is vervangen door een duidelijke knop `Bewerken`. In het bewerkscherm kun je de naam, omschrijving, oprichting, het land, de website, het moederbedrijf en de geschiedenis aanpassen. `Ook online zoeken` staat direct na de naam en vult ontbrekende gegevens aan via Wikidata en Wikipedia.
