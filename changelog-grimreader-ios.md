@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.93 — 2026-09-16
+
+- **Online zoeken naar een uitgeverij respecteert nu altijd je eigen gegevens.** Velden die je handmatig hebt ingevuld — ook een bewust leeg gemaakt veld — worden niet meer door een kandidaat overschreven. Kies je `Geen van deze`, zoek je opnieuw of annuleer je, dan blijven er geen afgewezen online waarden achter.
+- **Alleen jouw bevestigde keuze wordt opgeslagen.** Het openen van boek- of uitgeverdetails kiest niet langer op de achtergrond een Wikidata-resultaat en schrijft ook geen mislukte zoekpoging weg. Opslaan gebeurt uitsluitend nadat je een kandidaat hebt gekozen en op `Bewaar` tikt.
+- **De kandidatenlijst maakt vergelijken makkelijker.** De beste overeenkomst met de gezochte naam staat voor een rijk maar anders genoemd bedrijf, iedere rij toont hoeveel metadatavelden beschikbaar zijn en na selectie verschijnen een gevonden logo en aanvullende geschiedenis direct in de voorvertoning.
+
 ## 4.92 — 2026-09-16
 
 - **"Ook online zoeken" bij een uitgeverij toont nu een lijst kandidaten in plaats van er zelf één te kiezen.** Eerder paste de app de eerste plausibele treffer automatisch toe en werd die al bewaard vóór je iets had gezien — Annuleren draaide dat niet terug. Je kiest nu zelf uit de kandidaten (of "Geen van deze"), ziet een korte preview van wat er verandert, en pas Bewaar zet iets vast.
