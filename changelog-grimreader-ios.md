@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.94 — 2026-09-21
+
+- **Grim Reader werkt nu ook in landschap op iPhone.** Start, Bibliotheek, Zoeken, Op dit apparaat, Meer, boekdetails en de luisterspeler blijven bij draaien op hetzelfde scherm; lees- en luisterpositie blijven behouden en bediening die door de lagere schermhoogte onder de vouw valt blijft bereikbaar door te scrollen.
+- **Brede vensters gebruiken voortaan de beschikbare ruimte in plaats van het toesteltype.** De EPUB-lezer kan bij voldoende breedte twee kolommen tonen wanneer die voorkeur aanstaat, ook op nieuwe schermvormen en resizable vensters. Smalle vensters blijven één kolom en een herindeling houdt dezelfde tekstpassage in beeld.
+- **De layoutconfiguratie wordt voortaan automatisch bewaakt.** De tests controleren dat iPhone portret en beide landschapsrichtingen houdt, dat iPad alle bestaande richtingen behoudt en dat `project.yml` en de gegenereerde plist niet uit elkaar lopen.
+
 ## 4.93 — 2026-09-16
 
 - **Online zoeken naar een uitgeverij respecteert nu altijd je eigen gegevens.** Velden die je handmatig hebt ingevuld — ook een bewust leeg gemaakt veld — worden niet meer door een kandidaat overschreven. Kies je `Geen van deze`, zoek je opnieuw of annuleer je, dan blijven er geen afgewezen online waarden achter.
