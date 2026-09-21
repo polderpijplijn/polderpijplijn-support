@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.95 — 2026-09-21
+
+- **iPhone blijft weer altijd in portret.** De landschapsrichtingen die in 4.94 waren aangezet zijn teruggedraaid; draaien van de telefoon verandert de interface niet meer.
+- **EPUB gebruikt op iPad alleen in landschap twee kolommen.** In portret blijft de lezer één rustige kolom tonen. Wanneer de instelling aanstaat, schakelt een breed liggend leesvenster naar twee kolommen en blijft bij draaien dezelfde tekstpassage in beeld.
+- **De instellingen beschrijven de kolomkeuze nu nauwkeurig.** De optie en toelichting spreken voortaan over brede liggende leesvensters, zodat duidelijk is wanneer twee kolommen worden gebruikt.
+
 ## 4.94 — 2026-09-21
 
 - **Grim Reader werkt nu ook in landschap op iPhone.** Start, Bibliotheek, Zoeken, Op dit apparaat, Meer, boekdetails en de luisterspeler blijven bij draaien op hetzelfde scherm; lees- en luisterpositie blijven behouden en bediening die door de lagere schermhoogte onder de vouw valt blijft bereikbaar door te scrollen.
