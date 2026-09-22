@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.97 — 2026-09-22
+
+- **Je kunt nu zoeken binnen een geopend EPUB- of PDF-boek.** Resultaten tonen het hoofdstuk of de pagina met een tekstfragment en brengen je rechtstreeks naar de treffer. Daarna kun je met vorige en volgende door alle treffers bladeren zonder het zoekscherm opnieuw te openen. Zoeken gebeurt alleen lokaal op het apparaat; een PDF zonder tekstlaag krijgt een duidelijke uitleg in plaats van een lege lijst.
+- **De teller bij het verwijderen van meerdere boeken blijft begrijpelijk.** Het oorspronkelijke totaal blijft tijdens de hele bewerking gelijk — bijvoorbeeld `3 van 14` — terwijl geslaagde en mislukte verwijderingen afzonderlijk worden bijgehouden.
+
 ## 4.96 — 2026-09-22
 
 - **PDF's hebben nu een volwaardige leesbediening.** Tik op de pagina om het rustige bedieningspaneel te tonen, spring met de voortgangsbalk, paginaminiaturen of de ingebouwde inhoudsopgave naar een andere pagina en kies tussen losse horizontale pagina's en doorlopend verticaal lezen. De app onthoudt zowel de weergavestand als de juiste pagina bij sluiten of naar de achtergrond gaan.
