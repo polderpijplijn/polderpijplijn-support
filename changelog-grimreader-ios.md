@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.98 — 2026-09-22
+
+- **Een geopende EPUB die in de achtergrond wordt onderbroken, blijft niet langer blanco en onbeweeglijk staan.** iOS kon het WebKit-weergaveproces tijdens een achtergrondperiode beëindigen; de lezer bleef dan zichtbaar terwijl er niets meer inlas of reageerde, en alleen sluiten en opnieuw openen hielp. Terugkeer naar de voorgrond controleert nu of de weergave nog leeft: is dat zo, dan volgt alleen een gewone herindeling op dezelfde plek; is dat niet zo, dan wordt de weergave herbouwd op de laatst bekende leespositie. Bladeren, de inhoudsopgave en zoeken binnen het boek wachten daarbij tot de weergave weer klaar is.
+
 ## 4.97 — 2026-09-22
 
 - **Je kunt nu zoeken binnen een geopend EPUB- of PDF-boek.** Resultaten tonen het hoofdstuk of de pagina met een tekstfragment en brengen je rechtstreeks naar de treffer. Daarna kun je met vorige en volgende door alle treffers bladeren zonder het zoekscherm opnieuw te openen. Zoeken gebeurt alleen lokaal op het apparaat; een PDF zonder tekstlaag krijgt een duidelijke uitleg in plaats van een lege lijst.
