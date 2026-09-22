@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.96 — 2026-09-22
+
+- **PDF's hebben nu een volwaardige leesbediening.** Tik op de pagina om het rustige bedieningspaneel te tonen, spring met de voortgangsbalk, paginaminiaturen of de ingebouwde inhoudsopgave naar een andere pagina en kies tussen losse horizontale pagina's en doorlopend verticaal lezen. De app onthoudt zowel de weergavestand als de juiste pagina bij sluiten of naar de achtergrond gaan.
+- **Luisterboeken hebben een slaaptimer.** Kies een vaste tijd of stop aan het einde van het huidige hoofdstuk; de resterende tijd blijft zichtbaar en de timer stopt de speler vanzelf.
+- **Een bewerkt boek laat geen gaten meer achter in het raster.** Nadat titel, taal of andere filtergegevens veranderen wordt de zichtbare lijst opnieuw ingedeeld, zodat boeken niet meer op oude rasterposities blijven staan.
+
 ## 4.95 — 2026-09-21
 
 - **iPhone blijft weer altijd in portret.** De landschapsrichtingen die in 4.94 waren aangezet zijn teruggedraaid; draaien van de telefoon verandert de interface niet meer.
