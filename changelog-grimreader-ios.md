@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 4.99 — 2026-09-23
+
+- **Een boek dat je net had geopend, kon een veel te hoge leesvoortgang tonen.** Voortgang onder de 1% (net begonnen) werd op het boekdetailscherm, in bibliotheeklijsten en bij series tot honderd keer te hoog weergegeven — 0,5% leek dan op de helft. Het startscherm ("Lees verder") toonde het al goed; dat klopt nu overal.
+- **De toestemmingstekst voor toegang tot je lokale netwerk staat voortaan ook in het Engels**, in plaats van alleen Nederlands te tonen aan een Engelstalige gebruiker.
+- Kleine correctie in de Engelse tekst: "catalog" en "catalogue" stonden door elkaar; nu overal hetzelfde.
+
 ## 4.98 — 2026-09-22
 
 - **Een geopende EPUB die in de achtergrond wordt onderbroken, blijft niet langer blanco en onbeweeglijk staan.** iOS kon het WebKit-weergaveproces tijdens een achtergrondperiode beëindigen; de lezer bleef dan zichtbaar terwijl er niets meer inlas of reageerde, en alleen sluiten en opnieuw openen hielp. Terugkeer naar de voorgrond controleert nu of de weergave nog leeft: is dat zo, dan volgt alleen een gewone herindeling op dezelfde plek; is dat niet zo, dan wordt de weergave herbouwd op de laatst bekende leespositie. Bladeren, de inhoudsopgave en zoeken binnen het boek wachten daarbij tot de weergave weer klaar is.
