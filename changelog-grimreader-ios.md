@@ -3,6 +3,15 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.00 — 2026-09-28
+
+- **De PDF-lezer loopt niet meer vast bij het wisselen naar doorlopend verticaal lezen.** Ook blijft het paginalabel na het schuiven met de voortgangsbalk niet meer op een oude pagina staan terwijl de PDF al ergens anders is.
+- **"Op dit apparaat" hapert niet meer bij het scrollen naar "Uit een catalogus".** Het scherm kon daar lange tijd bevriezen.
+- **De leesvoortgang op het boekdetailscherm is direct bijgewerkt** zodra je terugkomt uit de lezer.
+- **Je leespositie wordt betrouwbaarder bewaard.** Sluit je een boek of vergrendel je het toestel, dan krijgt het bewaren nu de tijd om af te ronden, ook als de app naar de achtergrond gaat. Mislukt het bewaren toch, dan wordt dat vastgelegd in plaats van stil genegeerd.
+- **Een EPUB kan geen verbinding meer maken met internet.** Afbeeldingen, scripts en andere inhoud van buiten het boek worden niet meer geladen, en een ingebed venster in een boek toont alleen nog bestanden uit dat boek zelf.
+- Onder de motorkap: de code wordt nu streng gecontroleerd op fouten die ontstaan wanneer meerdere taken tegelijk dezelfde gegevens gebruiken.
+
 ## 4.99 — 2026-09-23
 
 - **Een boek dat je net had geopend, kon een veel te hoge leesvoortgang tonen.** Voortgang onder de 1% (net begonnen) werd op het boekdetailscherm, in bibliotheeklijsten en bij series tot honderd keer te hoog weergegeven — 0,5% leek dan op de helft. Het startscherm ("Lees verder") toonde het al goed; dat klopt nu overal.
