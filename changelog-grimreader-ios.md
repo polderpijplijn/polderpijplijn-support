@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.01 — 2026-09-29
+
+- **Een heropend boek staat weer precies waar je gebleven was.** Begon de pagina waar je stopte met een nieuwe alinea, dan opende het boek één pagina eerder.
+- **Terugbladeren in een EPUB springt niet meer naar het begin van het vorige hoofdstuk.** Bladerde je terug over een hoofdstukgrens, dan kon de lezer soms op de eerste in plaats van de laatste pagina van het vorige hoofdstuk landen — bij een boek dat grotendeels in één bestand staat, op de eerste pagina van het boek. Die verkeerde plek werd daarna ook als leespositie bewaard.
+
 ## 5.00 — 2026-09-28
 
 - **De PDF-lezer loopt niet meer vast bij het wisselen naar doorlopend verticaal lezen.** Ook blijft het paginalabel na het schuiven met de voortgangsbalk niet meer op een oude pagina staan terwijl de PDF al ergens anders is.
