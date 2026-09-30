@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.10 — 2026-10-01
+
+- **Je plek in een EPUB blijft bewaard, ook als je de app direct na het omslaan wegveegt.** Voorheen kon de laatste pagina verloren gaan omdat het opslaan nog niet klaar was. De app legt elke nieuwe plek nu eerst meteen vast en zet hem bij de volgende start alsnog op de goede plek (#390).
+
 ## 5.09 — 2026-09-30
 
 - **Het heropenen van je boek na het wegvegen is betrouwbaarder.** Alleen het kruisje in de lezer sluit het boek nog echt af. Zonder verbinding of bij een tijdelijke fout onthoudt de app het boek en probeert het de volgende keer opnieuw; een gedownload exemplaar opent ook offline. Tijdens het terugzetten zie je niet meer eerst even het startscherm (#390).
