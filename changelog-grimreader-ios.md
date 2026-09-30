@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.08 — 2026-09-30
+
+- **Na het wegvegen van de app staat je boek weer open.** Voorheen begon de app daarna op het startscherm. Nu opent hij het boek dat je aan het lezen was, op je plek. Sluit je het boek zelf met het kruisje, dan begint de app de volgende keer gewoon op het startscherm. Geldt voor EPUB, PDF en strips (#390).
+
 ## 5.07 — 2026-09-30
 
 - **Een EPUB opent na het wegvegen van de app weer op de plek waar je was.** Op iPad kon het boek een paar pagina's terug openen. Bij het naar de achtergrond gaan laat iOS de app kort in een ander formaat tekenen; de lezer mat dan een eerdere plek en bewaarde die. Metingen buiten beeld worden nu genegeerd, en bij een formaatwissel (ook draaien) blijft de lezer bij de laatst bekende plek (#389).
