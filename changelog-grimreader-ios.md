@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.05 — 2026-09-30
+
+- Tijdelijke diagnosebuild: de EPUB-lezer toont onderaan een kleine rode regel met de laatst bewaarde en gelezen leespositie. Bedoeld om na te gaan waarom een boek na het wegvegen van de app een paar pagina's terug kon openen; de regel verdwijnt weer in een volgende versie.
+
 ## 5.04 — 2026-09-30
 
 - **Een EPUB bewaart je plek meteen na het omslaan.** Voorheen werd de nieuwe pagina pas na ruim een seconde vastgelegd; stopte de app in die tijd, dan opende het boek een pagina te vroeg. Nu is de plek bewaard zodra de pagina getekend is, en bij een nieuw hoofdstuk direct (#388).
