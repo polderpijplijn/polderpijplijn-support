@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.02 — 2026-09-30
+
+- **Terugbladeren vanaf het begin van een hoofdstuk landt weer op de laatste pagina van het vorige hoofdstuk.** In veel boeken sprong de lezer nog naar het begin van dat vorige hoofdstuk, omdat het einde van het hoofdstuk op witruimte achter de laatste alinea werd gezocht (#386).
+
 ## 5.01 — 2026-09-29
 
 - **Een heropend boek staat weer precies waar je gebleven was.** Begon de pagina waar je stopte met een nieuwe alinea, dan opende het boek één pagina eerder.
