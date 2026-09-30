@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.03 — 2026-09-30
+
+- **"Lees verder" op het startscherm opent het boek meteen, op de plek waar je gebleven was.** De knop ging eerst via het boekdetailscherm en kon op iPad op een eerdere pagina uitkomen. Hij gebruikt nu dezelfde route als "Verder lezen" in de rechterkolom; op iPhone slaat hij het detailscherm over (#387).
+- Lukt het openen vanaf het startscherm niet, dan verschijnt er een melding in plaats van dat er niets gebeurt.
+
 ## 5.02 — 2026-09-30
 
 - **Terugbladeren vanaf het begin van een hoofdstuk landt weer op de laatste pagina van het vorige hoofdstuk.** In veel boeken sprong de lezer nog naar het begin van dat vorige hoofdstuk, omdat het einde van het hoofdstuk op witruimte achter de laatste alinea werd gezocht (#386).
