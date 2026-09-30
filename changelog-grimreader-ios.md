@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.04 — 2026-09-30
+
+- **Een EPUB bewaart je plek meteen na het omslaan.** Voorheen werd de nieuwe pagina pas na ruim een seconde vastgelegd; stopte de app in die tijd, dan opende het boek een pagina te vroeg. Nu is de plek bewaard zodra de pagina getekend is, en bij een nieuw hoofdstuk direct (#388).
+
 ## 5.03 — 2026-09-30
 
 - **"Lees verder" op het startscherm opent het boek meteen, op de plek waar je gebleven was.** De knop ging eerst via het boekdetailscherm en kon op iPad op een eerdere pagina uitkomen. Hij gebruikt nu dezelfde route als "Verder lezen" in de rechterkolom; op iPhone slaat hij het detailscherm over (#387).
