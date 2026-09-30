@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.09 — 2026-09-30
+
+- **Het heropenen van je boek na het wegvegen is betrouwbaarder.** Alleen het kruisje in de lezer sluit het boek nog echt af. Zonder verbinding of bij een tijdelijke fout onthoudt de app het boek en probeert het de volgende keer opnieuw; een gedownload exemplaar opent ook offline. Tijdens het terugzetten zie je niet meer eerst even het startscherm (#390).
+- Boeken die je opent via Ontdek, rechtstreeks uit een WebDAV-map of meteen na importeren, worden nu ook onthouden.
+- Na springen via de inhoudsopgave, de voortgangsbalk, een link of een zoekresultaat wordt je plek in een EPUB meteen bewaard.
+
 ## 5.08 — 2026-09-30
 
 - **Na het wegvegen van de app staat je boek weer open.** Voorheen begon de app daarna op het startscherm. Nu opent hij het boek dat je aan het lezen was, op je plek. Sluit je het boek zelf met het kruisje, dan begint de app de volgende keer gewoon op het startscherm. Geldt voor EPUB, PDF en strips (#390).
