@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.06 — 2026-09-30
+
+- Diagnosebuild, vervolg op 5.05: de rode regels in de EPUB-lezer tonen nu ook een logboek van elk bewaren (tijd, lezer, reden en plek), dat ook het wegvegen van de app overleeft. Verdwijnt weer zodra de oorzaak bekend is.
+
 ## 5.05 — 2026-09-30
 
 - Tijdelijke diagnosebuild: de EPUB-lezer toont onderaan een kleine rode regel met de laatst bewaarde en gelezen leespositie. Bedoeld om na te gaan waarom een boek na het wegvegen van de app een paar pagina's terug kon openen; de regel verdwijnt weer in een volgende versie.
