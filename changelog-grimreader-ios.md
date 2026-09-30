@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.07 — 2026-09-30
+
+- **Een EPUB opent na het wegvegen van de app weer op de plek waar je was.** Op iPad kon het boek een paar pagina's terug openen. Bij het naar de achtergrond gaan laat iOS de app kort in een ander formaat tekenen; de lezer mat dan een eerdere plek en bewaarde die. Metingen buiten beeld worden nu genegeerd, en bij een formaatwissel (ook draaien) blijft de lezer bij de laatst bekende plek (#389).
+- De tijdelijke diagnoseregels uit 5.05 en 5.06 zijn weer weg.
+
 ## 5.06 — 2026-09-30
 
 - Diagnosebuild, vervolg op 5.05: de rode regels in de EPUB-lezer tonen nu ook een logboek van elk bewaren (tijd, lezer, reden en plek), dat ook het wegvegen van de app overleeft. Verdwijnt weer zodra de oorzaak bekend is.
