@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.11 — 2026-10-02
+
+- **Boeken, series en schrijvers vormen nu zichtbaar één ontwerpstijl.** Kaarten gebruiken dezelfde maatvoering, typografie, iconen, ontbrekende-afbeeldingweergave en drukfeedback, terwijl elk scherm zijn eigen passende indeling behoudt (#332).
+- Op iPad is het gekozen boek of de gekozen serie duidelijk gemarkeerd en ook voor VoiceOver als geselecteerd herkenbaar.
+- Series heeft niet langer twee sorteerknoppen. De overgebleven zoek-, sorteer- en filterbediening blijft bruikbaar met toetsenbord, VoiceOver en zeer grote tekst.
+- De App Store-naam, ondertitel, sleutelwoorden en Duitse productpagina zijn verbeterd voor een duidelijkere vindbaarheid.
+
 ## 5.10 — 2026-10-01
 
 - **Je plek in een EPUB blijft bewaard, ook als je de app direct na het omslaan wegveegt.** Voorheen kon de laatste pagina verloren gaan omdat het opslaan nog niet klaar was. De app legt elke nieuwe plek nu eerst meteen vast en zet hem bij de volgende start alsnog op de goede plek (#390).
