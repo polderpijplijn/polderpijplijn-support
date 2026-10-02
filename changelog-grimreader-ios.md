@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.13 — 2026-10-03
+
+- **Een geselecteerd boek is nu rustiger en duidelijker gemarkeerd.** Alleen de omslag wordt subtiel opgetild met een zachte schaduw, goudgloed en klein vinkje; titel en schrijver blijven zonder kader. Dit werkt consequent in boekrasters en op het startscherm.
+- De korte selectieanimatie respecteert de toegankelijkheidsinstelling ‘Verminder beweging’.
+
 ## 5.12 — 2026-10-02
 
 - **Boeken en schrijvers staan weer in een rustig, open raster.** De extra omlijning, kaartachtergrond en schaduw rond iedere omslag en schrijversfoto zijn verwijderd. De verbeterde typografie, drukfeedback en geselecteerde iPad-staat blijven behouden.
