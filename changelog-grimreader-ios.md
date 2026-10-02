@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.12 — 2026-10-02
+
+- **Boeken en schrijvers staan weer in een rustig, open raster.** De extra omlijning, kaartachtergrond en schaduw rond iedere omslag en schrijversfoto zijn verwijderd. De verbeterde typografie, drukfeedback en geselecteerde iPad-staat blijven behouden.
+
 ## 5.11 — 2026-10-02
 
 - **Boeken, series en schrijvers vormen nu zichtbaar één ontwerpstijl.** Kaarten gebruiken dezelfde maatvoering, typografie, iconen, ontbrekende-afbeeldingweergave en drukfeedback, terwijl elk scherm zijn eigen passende indeling behoudt (#332).
