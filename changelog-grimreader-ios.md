@@ -3,6 +3,15 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.14 — 2026-10-03
+
+- **De eigen boekenserver van Calibre werkt nu met inloggen.** Een Calibre-contentserver met gebruikersaccounts vraagt thuis (over `http`) om een andere manier van inloggen dan de app gebruikte, waardoor je steeds "Deze catalogus vereist inloggen" zag. De app ondersteunt nu beide manieren (Basic en Digest), voor het bladeren, zoeken, de omslagen en het downloaden (#392).
+- Je gebruikersnaam en wachtwoord gaan alleen nog naar het adres van de catalogus zelf. Een link of doorverwijzing naar een andere server krijgt ze niet meer mee.
+- Omslagen van een catalogus met inloggen verschijnen nu ook in de boekenlijst.
+- Klopt je wachtwoord niet, dan zegt de app dat nu, in plaats van alleen dat inloggen vereist is. Heeft je account geen toegang tot een boek, dan hoor je dat ook.
+- **Beschrijvingen uit een Calibre-catalogus zijn niet langer leeg.** Calibre levert de beschrijving met opmaak aan, en die werd bij het inlezen weggegooid. Ze verschijnt nu gewoon bij het boek (#393).
+- In een OPDS-zoekresultaat staan de gevonden boeken nu boven de mappen van de server, en een geopende map of een geopend boek springt niet meer vanzelf terug.
+
 ## 5.13 — 2026-10-03
 
 - **Een geselecteerd boek is nu rustiger en duidelijker gemarkeerd.** Alleen de omslag wordt subtiel opgetild met een zachte schaduw, goudgloed en klein vinkje; titel en schrijver blijven zonder kader. Dit werkt consequent in boekrasters en op het startscherm.
