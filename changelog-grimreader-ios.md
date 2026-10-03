@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.17 — 2026-10-04
+
+- **Bladeren in een strip loopt weer soepel.** Na het vegen naar de volgende pagina schoot de strip soms een stuk opzij en veerde dan terug naar het midden. Dat gebeurt niet meer (#400).
+
 ## 5.16 — 2026-10-04
 
 - **Eén striplezer voor alles.** Strips van Grimmory, van een netwerkmap, uit Ontdek en van je eigen toestel openen nu in dezelfde lezer, met dezelfde bediening en voortgang. Knijp om in te zoomen, sleep alleen als je ingezoomd bent, en dubbeltik om rond je vinger in te zoomen of terug naar passend te gaan. Onderin staan een paginateller en een schuif om snel te springen. De sluitknop is altijd zichtbaar (#372).
