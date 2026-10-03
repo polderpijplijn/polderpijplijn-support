@@ -3,6 +3,14 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.15 — 2026-10-03
+
+- **Boeken en strips van een Komga-server lezen.** De app begrijpt nu ook OPDS 2.0, de nieuwere vorm van een boekencatalogus die onder meer Komga gebruikt. Voeg de catalogus toe bij Instellingen → Servers (bij Komga het adres dat eindigt op `/opds/v2/catalog`), en je kunt bladeren, zoeken, downloaden en lezen (#397).
+- Rijen zoals "Verder lezen" of "Nieuwste boeken" verschijnen als eigen kopjes, met **Meer** voor de volledige lijst. **Meer laden** werkt nu ook in lange lijsten met alleen mappen of series.
+- **Strips (CBZ) uit een catalogus** kun je nu downloaden en openen in de stripslezer.
+- Zoeken met tekens als `&`, `+` of `=` (bijvoorbeeld "C++" of "Asterix & Obelix") stuurt nu precies die zoekterm naar de server.
+- Het boekscherm van een catalogusboek toont de grote omslag in plaats van het kleine lijstplaatje, en taal, uitgever, genres en ISBN uit de catalogus gaan mee met de download (#395).
+
 ## 5.14 — 2026-10-03
 
 - **De eigen boekenserver van Calibre werkt nu met inloggen.** Een Calibre-contentserver met gebruikersaccounts vraagt thuis (over `http`) om een andere manier van inloggen dan de app gebruikte, waardoor je steeds "Deze catalogus vereist inloggen" zag. De app ondersteunt nu beide manieren (Basic en Digest), voor het bladeren, zoeken, de omslagen en het downloaden (#392).
