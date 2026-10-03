@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.16 — 2026-10-04
+
+- **Eén striplezer voor alles.** Strips van Grimmory, van een netwerkmap, uit Ontdek en van je eigen toestel openen nu in dezelfde lezer, met dezelfde bediening en voortgang. Knijp om in te zoomen, sleep alleen als je ingezoomd bent, en dubbeltik om rond je vinger in te zoomen of terug naar passend te gaan. Onderin staan een paginateller en een schuif om snel te springen. De sluitknop is altijd zichtbaar (#372).
+- Laadt één pagina niet, dan kun je alleen die pagina opnieuw proberen.
+- **Strips op je toestel openen meteen.** De app leest een pagina pas uit het bestand als je ernaartoe bladert, in plaats van eerst de hele strip uit te pakken. Dat scheelt wachten en geheugen bij dikke strips, en één beschadigde pagina houdt de rest niet meer tegen (#399).
+- **Een catalogus toevoegen kan met alleen het serveradres.** Bij Instellingen → Servers zoekt de app zelf het juiste catalogusadres op, voor onder meer Komga, Stump, Grimmory, Ubooquity, COPS en Calibre. Een catalogus die zowel de oude als de nieuwe OPDS-vorm aanbiedt, gebruikt de nieuwe (#398).
+
 ## 5.15 — 2026-10-03
 
 - **Boeken en strips van een Komga-server lezen.** De app begrijpt nu ook OPDS 2.0, de nieuwere vorm van een boekencatalogus die onder meer Komga gebruikt. Voeg de catalogus toe bij Instellingen → Servers (bij Komga het adres dat eindigt op `/opds/v2/catalog`), en je kunt bladeren, zoeken, downloaden en lezen (#397).
