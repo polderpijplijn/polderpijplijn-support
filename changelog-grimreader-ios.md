@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.20 — 2026-10-04
+
+- **Een boek blijft op de pagina waar je was, ook als je pas later terugkomt.** Op de iPad stond de lezer na terugkeer in de app soms één pagina terug, en bij elke volgende keer weer één, tot aan het begin van het hoofdstuk. Dat is verholpen (#403).
+
 ## 5.19 — 2026-10-04
 
 - **Catalogi zien eruit als de rest van de app.** In de Modern-weergave tonen OPDS-catalogi boeken nu als omslagen in een raster, met de schrijver eronder. Met de knop rechtsboven wissel je tussen raster en lijst, en de app onthoudt je keuze. Mappen staan als kaarten met de uitleg van de server erbij, en rijen zoals "Most popular" verschijnen als planken met **Bekijk alles**. Op iPad staan de mappen naast elkaar. Klassiek blijft zoals het was (#402).
