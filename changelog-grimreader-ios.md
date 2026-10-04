@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.21 — 2026-10-04
+
+- **Een boek opent weer op de pagina waar je het sloot.** Op de iPad ging de lezer bij elke keer sluiten en weer openen één pagina terug. Dat is verholpen (#403).
+
 ## 5.20 — 2026-10-04
 
 - **Een boek blijft op de pagina waar je was, ook als je pas later terugkomt.** Op de iPad stond de lezer na terugkeer in de app soms één pagina terug, en bij elke volgende keer weer één, tot aan het begin van het hoofdstuk. Dat is verholpen (#403).
