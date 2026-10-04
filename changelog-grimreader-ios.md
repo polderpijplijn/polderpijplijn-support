@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.19 — 2026-10-04
+
+- **Catalogi zien eruit als de rest van de app.** In de Modern-weergave tonen OPDS-catalogi boeken nu als omslagen in een raster, met de schrijver eronder. Met de knop rechtsboven wissel je tussen raster en lijst, en de app onthoudt je keuze. Mappen staan als kaarten met de uitleg van de server erbij, en rijen zoals "Most popular" verschijnen als planken met **Bekijk alles**. Op iPad staan de mappen naast elkaar. Klassiek blijft zoals het was (#402).
+
 ## 5.18 — 2026-10-04
 
 - **Bladeren in een strip blijft nu altijd op één hele pagina staan.** Na het vegen bleef de strip soms tussen twee pagina's hangen, met van elke pagina de helft in beeld. De echte oorzaak is gevonden en verholpen, op iPad en iPhone, staand en liggend (#400).
