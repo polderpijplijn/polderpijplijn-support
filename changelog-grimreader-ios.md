@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.22 — 2026-10-05
+
+- **Een boek uit een catalogus ziet eruit als een boek uit je eigen bibliotheek.** Boeken uit OPDS-catalogi openen nu in hetzelfde boekscherm als boeken van je netwerkmap of je toestel: omslag, titel en schrijver bovenaan, en daarnaast kaarten met de beschrijving, de onderwerpen en de boekinformatie (formaat, uitgever, verschijningsdatum, taal, ISBN, medewerkers, rechten). Op een brede iPad staan die in twee kolommen, en het scherm volgt je sjabloon, Modern of Klassiek. Ontbreekt een gegeven, dan blijft de kaart weg in plaats van leeg te staan (#405).
+
 ## 5.21 — 2026-10-04
 
 - **Een boek opent weer op de pagina waar je het sloot.** Op de iPad ging de lezer bij elke keer sluiten en weer openen één pagina terug. Dat is verholpen (#403).
