@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.18 — 2026-10-04
+
+- **Bladeren in een strip blijft nu altijd op één hele pagina staan.** Na het vegen bleef de strip soms tussen twee pagina's hangen, met van elke pagina de helft in beeld. De echte oorzaak is gevonden en verholpen, op iPad en iPhone, staand en liggend (#400).
+
 ## 5.17 — 2026-10-04
 
 - **Bladeren in een strip loopt weer soepel.** Na het vegen naar de volgende pagina schoot de strip soms een stuk opzij en veerde dan terug naar het midden. Dat gebeurt niet meer (#400).
