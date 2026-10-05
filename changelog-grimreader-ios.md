@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.26 — 2026-10-05
+
+- **Een boek uit een oudere catalogus opent zonder crash, in dezelfde indeling.** Een boek uit een OPDS 1-catalogus zoals Project Gutenberg kon de app de eerste keer laten crashen, en daarna stond het scherm in één kolom zonder beschrijving, schrijver en boekinformatie. Het scherm ziet er nu hetzelfde uit als bij OPDS 2: een beschrijving zonder herhaalde gegevens, de verschijningsdatum erbij, en "Text" niet meer als onderwerp (#407).
+
 ## 5.25 — 2026-10-05
 
 - **Je leespositie komt goed aan bij Grimmory.** De app stuurde de plek in een EPUB in een eigen formaat naar de server. De webreader van Grimmory toonde dan een lege pagina, en andere apps konden niet verder lezen waar jij gebleven was. De positie gaat nu mee als standaard EPUB-verwijzing (#408).
