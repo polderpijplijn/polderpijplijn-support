@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.25 — 2026-10-05
+
+- **Je leespositie komt goed aan bij Grimmory.** De app stuurde de plek in een EPUB in een eigen formaat naar de server. De webreader van Grimmory toonde dan een lege pagina, en andere apps konden niet verder lezen waar jij gebleven was. De positie gaat nu mee als standaard EPUB-verwijzing (#408).
+- **Ook in oudere catalogi zijn schrijver en onderwerpen aan te tikken.** Catalogi zoals Project Gutenberg, die nog OPDS 1 gebruiken, openen nu ook met een tik de lijst van dezelfde schrijver of hetzelfde onderwerp (#407).
+- **Ontbrekende Engelse vertalingen aangevuld.** Onder meer "Alle bibliotheekbronnen", "Hulp en info" en "Zonder titel" stonden in het Engels nog in het Nederlands (#409).
+
 ## 5.24 — 2026-10-05
 
 - **Schrijver, onderwerpen en serie van een catalogusboek zijn aan te tikken.** Geeft een OPDS-catalogus bij een boek een verwijzing naar de schrijver, een onderwerp of de serie, dan opent een tik daarop de lijst met die boeken in dezelfde catalogus. Het boekscherm heeft nu ook een kaart met de schrijver en, als het boek bij een serie hoort, een seriekaart met het deelnummer. Zonder verwijzing blijven het gewone labels (#407).
