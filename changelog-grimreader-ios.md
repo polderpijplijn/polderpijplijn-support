@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.24 — 2026-10-05
+
+- **Schrijver, onderwerpen en serie van een catalogusboek zijn aan te tikken.** Geeft een OPDS-catalogus bij een boek een verwijzing naar de schrijver, een onderwerp of de serie, dan opent een tik daarop de lijst met die boeken in dezelfde catalogus. Het boekscherm heeft nu ook een kaart met de schrijver en, als het boek bij een serie hoort, een seriekaart met het deelnummer. Zonder verwijzing blijven het gewone labels (#407).
+
 ## 5.23 — 2026-10-05
 
 - **Voorlezen gebeurt in de taal van het boek.** Een Engels boek uit een catalogus, van een netwerkmap of uit een import werd voorgelezen met de stem van je toestel in plaats van een Engelse stem. De app gebruikt nu de taal uit de catalogus of uit het boek zelf. Hetzelfde geldt voor de brontaal bij vertalen (#406).
