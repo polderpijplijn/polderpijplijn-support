@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.23 — 2026-10-05
+
+- **Voorlezen gebeurt in de taal van het boek.** Een Engels boek uit een catalogus, van een netwerkmap of uit een import werd voorgelezen met de stem van je toestel in plaats van een Engelse stem. De app gebruikt nu de taal uit de catalogus of uit het boek zelf. Hetzelfde geldt voor de brontaal bij vertalen (#406).
+
 ## 5.22 — 2026-10-05
 
 - **Een boek uit een catalogus ziet eruit als een boek uit je eigen bibliotheek.** Boeken uit OPDS-catalogi openen nu in hetzelfde boekscherm als boeken van je netwerkmap of je toestel: omslag, titel en schrijver bovenaan, en daarnaast kaarten met de beschrijving, de onderwerpen en de boekinformatie (formaat, uitgever, verschijningsdatum, taal, ISBN, medewerkers, rechten). Op een brede iPad staan die in twee kolommen, en het scherm volgt je sjabloon, Modern of Klassiek. Ontbreekt een gegeven, dan blijft de kaart weg in plaats van leeg te staan (#405).
