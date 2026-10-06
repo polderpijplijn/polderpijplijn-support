@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.28 — 2026-10-07
+
+- **Strips lees je ook doorlopend van boven naar beneden.** Tik in de striplezer op de pagina en kies rechtsboven bij de leesweergave "Doorlopend verticaal" of, voor webtoons in lange stroken, "Doorlopend zonder ruimte". Alle pagina's staan dan op volle breedte onder elkaar en je scrolt er doorheen. Lange stroken blijven scherp, en ook een sprong met de paginaschuif naar het eind van een dikke strip gaat meteen. Je keuze geldt voor al je strips (#410).
+- **Je leesvoortgang komt alsnog bij Grimmory aan na een onderbreking.** Las je zonder verbinding, of viel de verbinding weg, dan bleef de plek waar je was soms alleen op je toestel staan. De app stuurt die nu vanzelf na zodra de server weer bereikbaar is, en altijd naar de server waar het boek vandaan komt (#413).
+
 ## 5.27 — 2026-10-06
 
 - **Een boek zonder download opent niet langer de lijst van de schrijver.** Bij Project Gutenberg brachten sommige luisterboeken je na een tik terug naar een cataloguslijst met boeken van dezelfde schrijver. Zo'n boek opent nu gewoon het boekscherm (#412).
