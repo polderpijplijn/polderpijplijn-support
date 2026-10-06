@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.27 — 2026-10-06
+
+- **Een boek zonder download opent niet langer de lijst van de schrijver.** Bij Project Gutenberg brachten sommige luisterboeken je na een tik terug naar een cataloguslijst met boeken van dezelfde schrijver. Zo'n boek opent nu gewoon het boekscherm (#412).
+- **Omslagen van een catalogus met inloggen blijven in beeld.** Bij onder meer Calibre met een account kwam elke omslag opnieuw van de server zodra je terugscrolde. De app onthoudt ze nu zolang ze open is, zonder iets op je toestel op te slaan (#414).
+
 ## 5.26 — 2026-10-05
 
 - **Een boek uit een oudere catalogus opent zonder crash, in dezelfde indeling.** Een boek uit een OPDS 1-catalogus zoals Project Gutenberg kon de app de eerste keer laten crashen, en daarna stond het scherm in één kolom zonder beschrijving, schrijver en boekinformatie. Het scherm ziet er nu hetzelfde uit als bij OPDS 2: een beschrijving zonder herhaalde gegevens, de verschijningsdatum erbij, en "Text" niet meer als onderwerp (#407).
