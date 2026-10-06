@@ -3,6 +3,35 @@
 Alle noemenswaardige wijzigingen per release. Nieuwste eerst.
 Versies komen overeen met de `vX.Y`-tags en `versionName`.
 
+## 1.19 — 2026-10-06
+
+De Android-app kan nu wat de iOS-app kan.
+
+- **Strips en luisterboeken van je NAS.** Strips (cbz) open je in de stripweergave,
+  luisterboeken spelen meteen af zonder eerst te downloaden. cbr en cb7 staan in de
+  lijst maar openen nog niet; de app zegt dat ook.
+- **Scannen dat tegen een stootje kan.** Een map die niet te lezen is kost alleen
+  die map. Je kunt een scan stoppen; vernieuwen gaat verder waar hij was.
+- **Meerdere boeken tegelijk.** Houd een boek ingedrukt om te selecteren, en
+  download, verwijder of verberg ze in één keer, of zet ze in een collectie.
+  "Alles selecteren" pakt echt alles.
+- **Collecties, reeksen en schrijvers** over al je servers heen. Reeksen staan op
+  volgorde van deel, en "deel 10" komt nu overal na "deel 9". Schrijvers krijgen
+  een profiel en portret, met waar de foto vandaan komt; "Mulisch, Harry" en
+  "Harry Mulisch" zijn één schrijver.
+- **Metadata zoeken** bij de KB, DNB, BnF, Open Library, Apple Books, Wikidata en
+  de Grand Comics Database, per boek of voor je hele bibliotheek. Er verandert
+  niets tot jij een voorstel overneemt.
+- **Dubbelen opruimen**: per boek kies je welk exemplaar blijft. Een EPUB en een
+  PDF van hetzelfde boek gelden niet als dubbel.
+- **Opslagoverzicht**: waar de ruimte op je toestel heen gaat, en wat er weg kan.
+- **Offline**: zonder netwerk zegt de app dat meteen; gedownloade boeken lees je
+  gewoon.
+- **Talen standaardiseren**: nl, nld, Nederlands en Dutch worden één taal.
+- **Terugschrijven naar je NAS** (staat uit tot je het aanzet): metadata in het
+  bestand zelf, en correcties delen met je andere toestellen, ook iOS. Het
+  origineel blijft staan als er onderweg iets misgaat.
+
 ## 1.18 — 2026-09-02
 
 - **Je bibliotheek zit nu in een database in plaats van in één groot bestand.**
