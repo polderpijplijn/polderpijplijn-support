@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.29 — 2026-10-08
+
+- **Luisterboeken uit een catalogus komen binnen.** Een luisterboek in een OPDS-catalogus kon de app niet downloaden. Dat gaat nu wel, of het nu één bestand is (MP3, M4B, M4A of AAC) of een boek in delen. Een boek in delen komt deel voor deel binnen, en na een onderbreking gaat "Verder downloaden" door bij het eerste deel dat ontbreekt. In de speler staan alle delen met hun eigen titel, of anders als "Deel 3". Een luisterboek met DRM (LCP) kan niet, en dat meldt het boekscherm (#416, #419).
+- **Sorteren en filteren zoals de catalogus het aanbiedt.** Biedt een catalogus eigen keuzes aan, zoals "Nieuwste", "Populair" of een taal, dan staan die boven de lijst, met het aantal boeken erbij. Je ziet welke keuze actief is. In Modern zijn het knoppen, in Klassiek menu's. Komga, Kavita, Calibre-Web en Project Gutenberg doen dit (#417).
+- **Een boek dat te koop is, wordt niet meer als download aangeboden.** Bood een catalogus een boek alleen aan om te kopen, te lenen of via een abonnement, of alleen als voorproefje, dan probeerde de app het toch als heel boek te downloaden. Het boekscherm meldt nu hoe het boek wordt aangeboden (#415).
+
 ## 5.28 — 2026-10-07
 
 - **Strips lees je ook doorlopend van boven naar beneden.** Tik in de striplezer op de pagina en kies rechtsboven bij de leesweergave "Doorlopend verticaal" of, voor webtoons in lange stroken, "Doorlopend zonder ruimte". Alle pagina's staan dan op volle breedte onder elkaar en je scrolt er doorheen. Lange stroken blijven scherp, en ook een sprong met de paginaschuif naar het eind van een dikke strip gaat meteen. Je keuze geldt voor al je strips (#410).
