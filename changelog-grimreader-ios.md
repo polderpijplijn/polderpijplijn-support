@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.30 — 2026-10-09
+
+- **Leesoverzicht.** Onder Instellingen zie je nu hoeveel je leest en luistert: je leestijd per dag of per maand, op welke dagen en momenten je leest, welke schrijvers, thema's en formaten de meeste tijd krijgen, en hoeveel dagen op rij je hebt gelezen. Bij de boeken die je nu leest staat hoe lang je nog bezig bent, op je eigen tempo. Alleen echte leestijd telt: lag het boek langer dan vijf minuten stil, dan loopt de klok niet door. De leestijd blijft op je apparaat en is in het overzicht te wissen. Het overzicht vult zich vanaf deze versie (#425).
+- **Een luisterboekdeel met een heel lange titel wordt weer opgeslagen.** Een deeltitel vol emoji of letters met gestapelde accenten maakte de bestandsnaam te lang, en dan kwam dat deel nooit binnen.
+
 ## 5.29 — 2026-10-08
 
 - **Luisterboeken uit een catalogus komen binnen.** Een luisterboek in een OPDS-catalogus kon de app niet downloaden. Dat gaat nu wel, of het nu één bestand is (MP3, M4B, M4A of AAC) of een boek in delen. Een boek in delen komt deel voor deel binnen, en na een onderbreking gaat "Verder downloaden" door bij het eerste deel dat ontbreekt. In de speler staan alle delen met hun eigen titel, of anders als "Deel 3". Een luisterboek met DRM (LCP) kan niet, en dat meldt het boekscherm (#416, #419).
