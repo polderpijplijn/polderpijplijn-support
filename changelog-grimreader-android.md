@@ -3,6 +3,24 @@
 Alle noemenswaardige wijzigingen per release. Nieuwste eerst.
 Versies komen overeen met de `vX.Y`-tags en `versionName`.
 
+## 1.20 — 2026-10-10
+
+- **Leesvoortgang naar Grimmory.** Waar je bent in een EPUB, PDF of strip gaat mee
+  naar de server, ook als je even offline was; dat wordt later ingehaald.
+- **Striplezer doorlopend.** Naast bladeren kun je een strip nu verticaal doorlopend
+  lezen, of als webtoon zonder ruimte tussen de pagina's.
+- **Leestijd en Leesoverzicht.** De app houdt bij hoe lang je leest en luistert; onder
+  Instellingen zie je wat je per dag, boek en thema gelezen hebt.
+- **OPDS vernieuwd.** OPDS 2.0, inloggen met Basic of Digest, en de app vindt zelf het
+  juiste adres van een catalogus. Lijsten als raster of lijst, met planken, facetten en
+  zoeken uit de feed, en een boekscherm met de details. Luisterboeken uit een OPDS-feed
+  komen in delen binnen en een onderbroken download gaat verder waar hij was.
+- **Slaaptimer** voor luisterboeken: stoppen na een gekozen tijd of aan het einde van
+  het hoofdstuk.
+- **Back-up.** Je collecties, eigen metadata, voortgang en serverlijst gaan mee in de
+  Android-back-up; downloads en wachtwoorden niet.
+- **Veiliger lezen.** Een EPUB kan niets meer van buiten het boek laden.
+
 ## 1.19 — 2026-10-06
 
 De Android-app kan nu wat de iOS-app kan.
