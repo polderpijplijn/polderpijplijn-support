@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.31 — 2026-10-09
+
+- **Grim Reader in het Duits.** Staat je iPhone of iPad op Duits, of kies je Duits voor Grim Reader in de iOS-instellingen, dan spreekt de hele app Duits, ook in het toestemmingsvenster voor het lokale netwerk (#427).
+- **"Mijn indeling" heet nu "Mijn lijsten".** De kop boven Favorieten, Collecties en Planken zegt nu wat eronder staat. In het Engels: "My lists".
+- **Bewaren en annuleren als ✓ en ✕.** In de bewerkschermen van boeken, servers, catalogi en uitgeverijen staan de knoppen nu als symbool, zoals iOS dat zelf doet. Bij een lange vertaling verdween "Bewaar" anders achter een menuknop.
+- **Een bibliotheek, plank of boek zonder naam staat in jouw taal.** "Naamloze bibliotheek", "Naamloze plank" en "Zonder titel" bleven in elke taal Nederlands (#428).
+
 ## 5.30 — 2026-10-09
 
 - **Leesoverzicht.** Onder Instellingen zie je nu hoeveel je leest en luistert: je leestijd per dag of per maand, op welke dagen en momenten je leest, welke schrijvers, thema's en formaten de meeste tijd krijgen, en hoeveel dagen op rij je hebt gelezen. Bij de boeken die je nu leest staat hoe lang je nog bezig bent, op je eigen tempo. Alleen echte leestijd telt: lag het boek langer dan vijf minuten stil, dan loopt de klok niet door. De leestijd blijft op je apparaat en is in het overzicht te wissen. Het overzicht vult zich vanaf deze versie (#425).
