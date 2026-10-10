@@ -3,6 +3,18 @@
 Alle noemenswaardige wijzigingen per release. Nieuwste eerst.
 Versies komen overeen met de `vX.Y`-tags en `versionName`.
 
+## 1.21 — 2026-10-10
+
+- **Meer filters in Boeken.** Naast het zoekveld staat nu een filterknop: kies op
+  lees-status, bestandstype, genre, tags, uitgever, stemming, verteller, jaar, je eigen
+  waardering, aantal pagina's of leeftijd, en stel een minimale waardering in. Filters
+  combineren met bibliotheek, taal en zoeken; de knop laat zien hoeveel er aan staan.
+- **Bibliotheekcontrole.** Onder Beheer loopt de app je EPUB's na en meldt welke
+  ontbreken, beschadigd zijn of niet te controleren zijn. Er wordt niets verwijderd.
+- **Correcties delen met iOS.** Schrijversprofielen en eigen portretten gaan via
+  authors.yaml mee met de iPhone- en iPad-app. Sidecarbestanden schrijft de app alleen
+  nog als je daarom vraagt, met drie onderhoudsknoppen in het terugschrijfscherm.
+
 ## 1.20 — 2026-10-10
 
 - **Leesvoortgang naar Grimmory.** Waar je bent in een EPUB, PDF of strip gaat mee
