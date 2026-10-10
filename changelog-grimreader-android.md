@@ -3,6 +3,31 @@
 Alle noemenswaardige wijzigingen per release. Nieuwste eerst.
 Versies komen overeen met de `vX.Y`-tags en `versionName`.
 
+## 1.22 — 2026-10-10
+
+- **Werken zonder Grimmory-server.** Start en Boeken tonen nu ook je imports, downloads
+  en WebDAV-bibliotheek als je niet bij een Grimmory-server bent ingelogd.
+- **Importeren van een map of USB-stick**, met voortgang, een stopknop en per bestand
+  wat er gebeurde. Strips en luisterboeken kun je nu ook los importeren of via
+  "Openen met" binnenhalen.
+- **Uitgeverijen, onderwerpen en reeksen beheren.** Onder Beheer staan lijsten om ze
+  samen te voegen of te hernoemen; uitgeverijen krijgen een profiel met suggesties uit
+  Wikidata, en favoriete onderwerpen verschijnen als tegel op Start.
+- **Boekgegevens volledig bewerken**: uitgever, reeks en deel, jaar, ISBN, onderwerpen
+  en schrijvers, met kiezen uit wat al in je bibliotheek staat.
+- **Ontbrekende gegevens aanvullen.** De app zoekt gericht naar een schrijver of omslag
+  voor boeken waar die ontbreekt.
+- **Zoeken in een boek**, in EPUB en PDF: een lijst met treffers en fragmenten, en
+  springen naar de vorige of volgende.
+- **Nieuwe PDF-lezer**: losse pagina's of doorlopend, knijpzoom, een schuifbalk en
+  miniaturen.
+- **Striplezer**: knijpen en dubbeltikken om te zoomen in alle standen, een paginaschuif,
+  en een plaat die niet laadt kun je opnieuw proberen.
+- **Verder lezen na een herstart.** Een boek dat open stond, gaat weer open op dezelfde
+  plek.
+- **Ingesproken audio loopt gelijk met de tekst**: starten midden in een hoofdstuk en
+  meebladeren met wat je hoort.
+
 ## 1.21 — 2026-10-10
 
 - **Meer filters in Boeken.** Naast het zoekveld staat nu een filterknop: kies op
