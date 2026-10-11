@@ -3,6 +3,26 @@
 Alle noemenswaardige wijzigingen per release. Nieuwste eerst.
 Versies komen overeen met de `vX.Y`-tags en `versionName`.
 
+## 1.23 — 2026-10-11
+
+- **Schrijvers zelf bewerken.** Op de schrijverspagina pas je naam, beschrijving,
+  biografie, geboorte- en sterfdatum met plaats, nationaliteit en website aan, ook als
+  er online niets over de schrijver te vinden is. Je kunt een eigen portret kiezen,
+  vervangen of verwijderen. Een nieuwe naam komt bij alle boeken van die schrijver te
+  staan, en opnieuw zoeken overschrijft je eigen gegevens niet meer.
+- **Meerdere boeken tegelijk aanpassen**: schrijver, uitgever, reeks (met doornummeren)
+  en taal, per veld aan of uit.
+- **Collecties met eigen boeken.** Imports, Ontdek-boeken en downloads kun je nu ook in
+  een collectie zetten (lang indrukken in Boeken of Downloads).
+- **De app weet welke bron bereikbaar is.** Antwoordt een WebDAV-server niet, dan zie je
+  daarvan alleen nog de gedownloade boeken; andere bronnen blijven gewoon staan.
+- **Onderwerpen uit het bestand**: uit EPUB (dc:subject), PDF (Keywords) en strips
+  (Genre). Een eigen lijst onderwerpen gaat altijd voor.
+- **Recent toegevoegd klopt weer.** Nieuwe boeken van je WebDAV-bibliotheek staan tussen
+  je imports en downloads, in de volgorde waarin ze erbij kwamen.
+- **Luister verder op Start** werkt ook voor luisterboeken van het toestel en van WebDAV,
+  en gaat verder op de plek waar je bleef.
+
 ## 1.22 — 2026-10-10
 
 - **Werken zonder Grimmory-server.** Start en Boeken tonen nu ook je imports, downloads
