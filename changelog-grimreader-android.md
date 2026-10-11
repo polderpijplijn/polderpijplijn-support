@@ -3,6 +3,15 @@
 Alle noemenswaardige wijzigingen per release. Nieuwste eerst.
 Versies komen overeen met de `vX.Y`-tags en `versionName`.
 
+## 1.24 — 2026-10-11
+
+- **Boeken uit Open Library.** Een boek uit de catalogus van Open Library opende niets:
+  er stond geen download. De app kijkt nu ook bij archive.org, waar Open Library het
+  aanbod heeft staan. Een vrij boek is daar vaak als PDF te downloaden. Kan dat niet,
+  dan zegt het boekscherm hoe het wel kan: "alleen online te lezen", met een knop die
+  het boek in de browser opent, of "alleen te leen bij Internet Archive". Lenen kan de
+  app niet.
+
 ## 1.23 — 2026-10-11
 
 - **Schrijvers zelf bewerken.** Op de schrijverspagina pas je naam, beschrijving,
