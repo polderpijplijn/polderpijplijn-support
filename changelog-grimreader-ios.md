@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.32 — 2026-10-11
+
+- **Boeken uit Open Library.** Een boek uit de catalogus van Open Library opende niets: er stond geen download. De app kijkt nu ook bij archive.org, waar Open Library het aanbod heeft staan. Een vrij boek is daar vaak als PDF te downloaden. Kan dat niet, dan zegt het boekscherm hoe het wel kan: "alleen online te lezen", met een knop die het boek in de browser opent, of "alleen te leen bij Internet Archive". Lenen kan de app niet (#421).
+- **Voorlezen met de beste stem op je toestel.** Heb je in de iOS-instellingen een verbeterde of premium stem gedownload, dan leest de app daarmee voor in plaats van met de compacte standaardstem. Een stem uit je eigen regio gaat voor; een persoonlijke stem kiest de app nooit vanzelf (#430).
+
 ## 5.31 — 2026-10-09
 
 - **Grim Reader in het Duits.** Staat je iPhone of iPad op Duits, of kies je Duits voor Grim Reader in de iOS-instellingen, dan spreekt de hele app Duits, ook in het toestemmingsvenster voor het lokale netwerk (#427).
