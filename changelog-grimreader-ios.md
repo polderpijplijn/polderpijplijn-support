@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.33 — 2026-10-12
+
+- **Een rustiger leesmenu in EPUB-boeken.** De brede balk onderin is vervangen door een compacte, zwevende balk. Bovenin staan het hoofdstuk, de pagina en hoe ver je bent. Daaronder vijf knoppen: Inhoud, Zoeken, Voorlezen, Weergave en Meer. Voorlezen, Weergave en Meer openen elk een eigen paneel boven de balk, en er staat er altijd maar één open. Vertalen en "Terug naar de link" staan nu onder Meer. De boektitel staat niet meer dubbel in beeld, en alle knoppen zijn groter en makkelijker te raken. Een tik naast de inhoudsopgave sluit die nu ook (#432).
+- **Kies zelf de voorleesstem.** In het voorleesmenu staat onder Snelheid nu Stem. Je kiest Automatisch of een van de stemmen op je toestel in de taal van het boek, ook uit een andere regio. De keuze geldt per taal. Verwijder je die stem later, dan kiest de app weer zelf. Grapstemmen zoals Zarvox vallen weg (#430).
+- **De omslag blijft na het downloaden van een PDF.** Bij een PDF van Internet Archive is de eerste pagina vaak de kale band. De app gebruikt nu de omslag uit de catalogus, en alleen als die er niet is de eerste pagina (#431).
+
 ## 5.32 — 2026-10-11
 
 - **Boeken uit Open Library.** Een boek uit de catalogus van Open Library opende niets: er stond geen download. De app kijkt nu ook bij archive.org, waar Open Library het aanbod heeft staan. Een vrij boek is daar vaak als PDF te downloaden. Kan dat niet, dan zegt het boekscherm hoe het wel kan: "alleen online te lezen", met een knop die het boek in de browser opent, of "alleen te leen bij Internet Archive". Lenen kan de app niet (#421).
