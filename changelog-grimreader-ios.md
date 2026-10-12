@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.34 — 2026-10-12
+
+- **De voorleesstem die je kiest, hoor je ook.** Koos je tijdens een pauze een andere stem of snelheid, dan las de app na het hervatten nog zo'n tien zinnen voor in de oude stem. De nieuwe keuze geldt nu meteen vanaf de eerste zin. En "Automatisch" kiest nu echt de beste stem op je toestel: een verbeterde of premium stem gaat voor, ook als die uit een andere regio komt, zoals een Vlaamse stem voor een Nederlands boek. Alleen bij gelijke kwaliteit gaat je eigen regio voor (#434).
+- **Voetnoten in een venster.** Een tik op een voetnootverwijzing in een EPUB toont de noot in een venster boven de pagina. Je blijft waar je was, in plaats van naar het eind van het boek te springen (#433).
+- **Het leesmenu nog eenvoudiger.** Vertalen heeft een eigen knop in de balk en het Meer-paneel is weg. In het voorleespaneel staan snelheid en stem meteen onder Start voorlezen. "Terug naar de link" verschijnt alleen nadat je een link in het boek hebt gevolgd.
+
 ## 5.33 — 2026-10-12
 
 - **Een rustiger leesmenu in EPUB-boeken.** De brede balk onderin is vervangen door een compacte, zwevende balk. Bovenin staan het hoofdstuk, de pagina en hoe ver je bent. Daaronder vijf knoppen: Inhoud, Zoeken, Voorlezen, Weergave en Meer. Voorlezen, Weergave en Meer openen elk een eigen paneel boven de balk, en er staat er altijd maar één open. Vertalen en "Terug naar de link" staan nu onder Meer. De boektitel staat niet meer dubbel in beeld, en alle knoppen zijn groter en makkelijker te raken. Een tik naast de inhoudsopgave sluit die nu ook (#432).
