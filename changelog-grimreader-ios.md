@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.36 — 2026-10-12
+
+- **Het leesmenu van de striplezer staat op zijn plek.** Het menu stond midden in het scherm en was altijd zwart. Het staat nu onderaan en volgt licht of donker van je toestel, net als bij PDF en EPUB. De knop Weergave heeft hetzelfde icoon als in de PDF-lezer.
+- **Scherpere strips met weinig pixels.** Oude scans zijn soms maar 768 pixels breed, en dan werd kleine tekst in de ballonnen wazig. Zet in het paneel Leesweergave "Verscherpen" aan: de app vergroot zo'n pagina dan zelf tot schermmaat en maakt lijnen en letters strakker. Strips met genoeg pixels blijven zoals ze zijn. De schakelaar staat standaard uit.
+- **Statusbalk in de PDF-lezer.** De klok en de batterij bovenin verdwijnen als je het leesmenu sluit, net als in de striplezer.
+
 ## 5.35 — 2026-10-12
 
 - **Eén leesmenu in alle lezers.** De PDF-lezer en de striplezer hebben nu hetzelfde zwevende leesmenu als de EPUB-lezer, met de pagina en hoe ver je bent bovenin. De PDF-lezer heeft geen balk bovenin meer, en de striplezer krijgt een paginaoverzicht met miniaturen.
