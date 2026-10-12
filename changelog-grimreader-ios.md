@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.35 — 2026-10-12
+
+- **Eén leesmenu in alle lezers.** De PDF-lezer en de striplezer hebben nu hetzelfde zwevende leesmenu als de EPUB-lezer, met de pagina en hoe ver je bent bovenin. De PDF-lezer heeft geen balk bovenin meer, en de striplezer krijgt een paginaoverzicht met miniaturen.
+- **Sluiten werkt overal hetzelfde.** Zoeken, Vertalen, een voetnoot, het paginaoverzicht en de PDF-inhoud sluit je met een kruisje rechtsboven. De inhoudsopgave en de panelen van het leesmenu kun je ook omlaag vegen. Het zoekveld heeft zelf een wisknop, dus de losse Wis-knop is weg.
+- **Grotere knoppen bij voorlezen.** Afspelen en pauzeren zit in een grote ronde knop in het midden, met terug en vooruit ernaast en een eigen stopknop eronder. Dat geldt ook voor de ingesproken audio van een boek.
+
 ## 5.34 — 2026-10-12
 
 - **De voorleesstem die je kiest, hoor je ook.** Koos je tijdens een pauze een andere stem of snelheid, dan las de app na het hervatten nog zo'n tien zinnen voor in de oude stem. De nieuwe keuze geldt nu meteen vanaf de eerste zin. En "Automatisch" kiest nu echt de beste stem op je toestel: een verbeterde of premium stem gaat voor, ook als die uit een andere regio komt, zoals een Vlaamse stem voor een Nederlands boek. Alleen bij gelijke kwaliteit gaat je eigen regio voor (#434).
