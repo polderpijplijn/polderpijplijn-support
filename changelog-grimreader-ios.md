@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.37 — 2026-10-13
+
+- **Strips in CBR-formaat.** Een CBR (een strip in een RAR-archief) kun je nu importeren, vanaf WebDAV openen en uit een OPDS-catalogus downloaden. De app zet hem bij het binnenhalen eenmalig om naar een CBZ, met een voortgangsbalk "Strip voorbereiden", en daarna leest hij als elke andere strip. Dat werkt voor RAR4 en RAR5, ook voor "solid" archieven. Een CBR met een wachtwoord of in meerdere delen kan de app niet lezen; dat meldt hij dan netjes. De RAR-lezer is in Swift geschreven en draait helemaal op je toestel (#435).
+- **Manga leest van rechts naar links.** Een strip die in ComicInfo.xml als manga staat aangemerkt, begint rechts en bladert naar links, en de paginaschuif draait mee. In het weergavepaneel kies je per boek zelf de leesrichting. Een pagina die als omslag is aangemerkt wordt de omslag, ook als hij niet vooraan staat, en een dubbele pagina blijft één plaat (#253).
+- **Geen "te groot" meer bij gewone strips.** Sommige ZIP-programma's schrijven de maat van een bestand in een apart veld. Een strip van 7 MB heette daardoor 4 GB groot en werd geweigerd. De app leest nu de echte maat (#436).
+
 ## 5.36 — 2026-10-12
 
 - **Het leesmenu van de striplezer staat op zijn plek.** Het menu stond midden in het scherm en was altijd zwart. Het staat nu onderaan en volgt licht of donker van je toestel, net als bij PDF en EPUB. De knop Weergave heeft hetzelfde icoon als in de PDF-lezer.
