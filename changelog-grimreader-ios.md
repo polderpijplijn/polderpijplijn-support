@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.38 — 2026-10-16
+
+- **CBR-strips op oudere iPhones.** Het omzetten van een CBR gebruikt nu hooguit een kwart van het werkgeheugen van eerst. Een archief dat toch meer vraagt, meldt de app als "te groot (onvoldoende geheugen)" in plaats van dat de app afsluit. Strips worden ook in de hele app één voor één omgezet, dus een strip die je via "Open in…" opent tijdens een bulkimport wacht netjes op zijn beurt (#438).
+- **Betrouwbaarder uitpakken van RAR.** De RAR-lezer is bijgewerkt naar SwiftRAR 0.2.0, met een fix voor sommige oudere RAR4-archieven en zuiniger geheugengebruik bij PPMd-compressie.
+- **Verscherpen is terug in beeld.** In het weergavepaneel van de striplezer viel de schakelaar Verscherpen onder de rand. Hij staat nu boven Leesrichting.
+
 ## 5.37 — 2026-10-13
 
 - **Strips in CBR-formaat.** Een CBR (een strip in een RAR-archief) kun je nu importeren, vanaf WebDAV openen en uit een OPDS-catalogus downloaden. De app zet hem bij het binnenhalen eenmalig om naar een CBZ, met een voortgangsbalk "Strip voorbereiden", en daarna leest hij als elke andere strip. Dat werkt voor RAR4 en RAR5, ook voor "solid" archieven. Een CBR met een wachtwoord of in meerdere delen kan de app niet lezen; dat meldt hij dan netjes. De RAR-lezer is in Swift geschreven en draait helemaal op je toestel (#435).
