@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `versionName`.
 
+## 4.92 — 2026-10-18
+- **Nieuw: Sensoren onder Instellingen.** Al je sensoren uit Home Assistant per verdieping en ruimte, met batterijstand en wanneer ze voor het laatst iets meldden. Sensoren met een bijna lege batterij of die al meer dan een dag zwijgen staan bovenaan; tik op een sensor voor fabrikant, model en alle metingen.
+- **Het klimaatscherm waarschuwt als een sensor aandacht nodig heeft**, met een verwijzing naar het sensorenoverzicht.
+- **De buitentemperatuur vindt weer-sensoren (zoals Buienradar) weer automatisch**, en tijdstippen uit Home Assistant worden op oudere Android-versies goed gelezen.
+
 ## 4.91 — 2026-07-30
 - **De demo staat nu altijd in Instellingen**, niet alleen bij de allereerste start.
 - **Je verliest je instellingen niet meer als je de demo probeert.** Eerder overschreef de demo je Home Assistant-adres; nu is het een losse schakelaar met een knop "Terug naar mijn Home Assistant".
