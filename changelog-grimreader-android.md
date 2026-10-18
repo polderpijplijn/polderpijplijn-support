@@ -3,6 +3,21 @@
 Alle noemenswaardige wijzigingen per release. Nieuwste eerst.
 Versies komen overeen met de `vX.Y`-tags en `versionName`.
 
+## 1.25 — 2026-10-18
+
+- **Instellingen zoals op iOS.** Instellingen is nu een lijst met onderwerpen, elk met
+  een korte uitleg: Lezen en luisteren, Weergave en sjablonen, Bronnen en accounts,
+  Bibliotheekbeheer, Leesoverzicht, Taal en Over Grim Reader.
+- **Server toevoegen werkt weer.** De knop viel onder de rand van het scherm, waardoor
+  je geen WebDAV-server kon toevoegen. "Servers beheren" heet nu **Bronnen en accounts**,
+  met je Grimmory-account bovenaan.
+- **Collecties, schrijvers en reeksen** staan niet meer bij de servers maar in het
+  ⋮-menu van de Boeken-tab.
+- **Manga van rechts naar links.** Een strip die in ComicInfo als manga gemarkeerd is,
+  begint rechts en bladert naar links. Per boek kies je zelf de leesrichting in het
+  leesweergavemenu; die keuze blijft bewaard. De omslag uit ComicInfo wordt de omslag,
+  en een dubbele pagina blijft één plaat.
+
 ## 1.24 — 2026-10-11
 
 - **Boeken uit Open Library.** Een boek uit de catalogus van Open Library opende niets:
