@@ -3,6 +3,17 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.08 — 2026-10-18
+- **Nieuw: Sensoren onder Instellingen.** Al je sensoren uit Home Assistant per verdieping en ruimte, met batterijstand en wanneer ze voor het laatst iets meldden. Sensoren met een bijna lege batterij of die al meer dan een dag zwijgen staan bovenaan; tik op een sensor voor fabrikant, model en alle metingen.
+- **Het klimaatscherm waarschuwt als een sensor aandacht nodig heeft**, met een verwijzing naar het sensorenoverzicht.
+- **Het eerste instellingenscherm verschijnt niet meer soms ten onrechte na een koude start.** Als de synchroniseerbare Keychain bij de eerste poging nog niet beschikbaar is, gebruikt de app een beveiligde lokale Keychain-kopie of probeert hij kort opnieuw. Alleen wanneer er werkelijk geen token is, verschijnt het formulier voor een nieuwe gebruiker.
+- **Een mislukte Keychain-opslag wordt niet meer stil als succes behandeld.** Home Assistant- en PlugChoice-tokens krijgen beide een beveiligde lokale kopie; lukt die niet, dan blijft Instellingen open met een foutmelding. Een tijdelijke iCloud-fout wordt later opnieuw geprobeerd.
+- Er is nu een snelle regressieronde voor issues (`./Tests/run.sh`) en een volledige XCTest- en Release-controle voor releases (`./Tests/run.sh --release`).
+- **De korte regressieronde compileert voortaan ook de volledige app.** Daardoor maakt een compileerfout in een willekeurige appbron de controle rood; dezelfde ronde draait automatisch bij pull requests en relevante pushes.
+- **Externe Home Assistant-verbindingen gebruiken voortaan altijd TLS.** Een extern adres zonder schema wordt als HTTPS/WSS behandeld; expliciete HTTP/WS-adressen worden vóór opslaan geweigerd zodat het toegangstoken nooit onbeveiligd over internet gaat.
+- **Snel wisselen tussen grafiekperioden toont geen verouderde data meer.** Geannuleerde statistiekaanvragen worden direct opgeruimd en alleen de nieuwste periode mag grafiek- en laadstatus bijwerken.
+- **De nachtelijke zonprognose herstelt nu eerst tijdelijk onbeschikbare Keychain-gegevens.** Annulering door iOS stopt credential-retries, verbinden en forecastwerk direct.
+
 ## 5.07 — 2026-07-30
 - **De demo staat nu altijd in Instellingen**, niet alleen bij de allereerste start. Handig om te zien wat een scherm doet dat bij jou leeg blijft — het klimaatscherm zonder sensoren, bijvoorbeeld.
 - **Je verliest je instellingen niet meer als je de demo probeert.** Eerder overschreef de demo je Home Assistant-adres; nu is het een losse schakelaar en staat er een knop "Terug naar mijn Home Assistant" zolang hij aanstaat.
