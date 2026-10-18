@@ -3,6 +3,21 @@
 Alle noemenswaardige wijzigingen per release. Nieuwste eerst.
 Versies komen overeen met de `vX.Y`-tags en `versionName`.
 
+## 1.26 — 2026-10-18
+
+- **WebDAV-adres met een spatie.** Een adres als `…/Ebooks/Boeken Maarten` liet de app
+  crashen zodra de boekenlijst ging scannen. De spatie wordt nu vanzelf gecodeerd,
+  zoals op iOS (#43).
+- **Omslagen van EPUB's.** Veel EPUB's van een WebDAV-server kregen geen omslag, en
+  hoofdstukken met een spatie of é in hun bestandsnaam vielen weg. De app leest de
+  verwijzingen in het boek nu net als iOS. Boeken die al zonder omslag in de lijst
+  staan: één keer de omslagen opruimen onder Bibliotheekbeheer (#44).
+- **Geen crash meer bij een vastgelopen weergave.** Loopt de weergave van een EPUB vast,
+  dan zie je een melding in plaats van dat de app sluit (#44).
+- **Nooit meer vast in een crashende lezer.** Crashte een boek bij het openen, dan opende
+  de app het bij elke start opnieuw en kwam je er niet meer in. Een boek komt bij een
+  nieuwe start nu pas terug als het tien seconden open heeft gestaan (#31).
+
 ## 1.25 — 2026-10-18
 
 - **Instellingen zoals op iOS.** Instellingen is nu een lijst met onderwerpen, elk met
