@@ -3,6 +3,19 @@
 Alle noemenswaardige wijzigingen per release. Nieuwste eerst.
 Versies komen overeen met de `vX.Y`-tags en `versionName`.
 
+## 1.27 — 2026-10-18
+
+- **Omslagen en schrijvers vullen zich vanzelf aan.** Boeken van een WebDAV-server werden
+  alleen uitgelezen als je ze in het serverscherm zag, en dan hooguit dertig tegelijk. Nu
+  gaat elk boek dat in beeld komt voor, in elk scherm, ook in de Boeken-tab, en vult de
+  app de rest op de achtergrond aan: na het starten, na een scan en als het netwerk of de
+  NAS terug is. Lukt het een keer niet, dan probeert de app het nog twee keer (#46).
+- **Veel minder downloaden bij het uitlezen.** Voor titel, schrijver en omslag van een
+  EPUB haalt de app nu alleen die paar stukjes van de server op in plaats van het hele
+  boek, zoals iOS. Een server die dat niet ondersteunt, krijgt de oude manier (#47).
+- **Omslag meteen in beeld.** Een omslag die net gevonden is, verschijnt in de Boeken-tab
+  zonder dat je het scherm opnieuw hoeft te openen.
+
 ## 1.26 — 2026-10-18
 
 - **WebDAV-adres met een spatie.** Een adres als `…/Ebooks/Boeken Maarten` liet de app
