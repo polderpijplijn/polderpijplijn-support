@@ -3,6 +3,12 @@
 Alle noemenswaardige wijzigingen per release. Nieuwste eerst.
 Versies komen overeen met de `vX.Y`-tags en `versionName`.
 
+## 1.28 — 2026-10-19
+
+- **EPUB's openen weer.** Openen van een EPUB liet de app crashen voordat de tekst
+  verscheen. De app voegt zijn eigen bladerscript nu letterlijk in het hoofdstuk in;
+  de vorige manier las tekens in dat script verkeerd en liep daarop vast (#44).
+
 ## 1.27 — 2026-10-18
 
 - **Omslagen en schrijvers vullen zich vanzelf aan.** Boeken van een WebDAV-server werden
