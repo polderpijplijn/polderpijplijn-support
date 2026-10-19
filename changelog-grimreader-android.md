@@ -3,6 +3,28 @@
 Alle noemenswaardige wijzigingen per release. Nieuwste eerst.
 Versies komen overeen met de `vX.Y`-tags en `versionName`.
 
+## 1.29 — 2026-10-19
+
+- **Nieuw leesmenu.** EPUB, PDF en strips hebben een zwevend leesmenu met positie
+  en paginaschuif. De statusbalk verdwijnt als het menu dicht is; met TalkBack blijft
+  de bediening zichtbaar. Strips hebben nu ook een paginaoverzicht (#48, #53).
+- **Meer mogelijkheden voor EPUB.** Inhoudsopgave met de huidige plek, interne links
+  met terugkeerknop en afbeeldingen schermvullend bekijken (#49, #50). Kies in het
+  weergavepaneel lettertype (ook OpenDyslexic), tekstgrootte, regelafstand, thema,
+  twee kolommen of doorlopend scrollen. Voorlezen markeert de huidige zin en wacht
+  bij een hoofdstukwissel tot de tekst geladen is (#51).
+- **Voorleesstem kiezen.** Bewaar een stem per taal; Automatisch kiest de beste
+  beschikbare kwaliteit. Snelheid en stem staan in het voorleespaneel (#52).
+- **CBR-strips openen.** Import, WebDAV en OPDS zetten CBR eenmalig om naar CBZ (#55).
+  Met Verscherpen maak je kleine scans beter leesbaar (#54).
+- **Sorteren per lijst.** Sorteerkeuzes blijven bewaard; de catalogus ondersteunt
+  ook toegevoegd, publicatiejaar en reeks (#63).
+- **Leesoverzicht.** Onderwerpen komen uit de catalogus of servercategorieën.
+  Luistertijd telt ook door als het spelerscherm gesloten is (#71, #72).
+- **Bibliotheekbeheer.** Meerdere boeken aanpassen gebruikt dezelfde schrijverslijst
+  als los bewerken. Catalogusmigraties worden per stap volledig uitgevoerd of
+  teruggedraaid. Ontdekken toont alleen zelf toegevoegde OPDS-catalogi (#59, #57, #70).
+
 ## 1.28 — 2026-10-19
 
 - **EPUB's openen weer.** Openen van een EPUB liet de app crashen voordat de tekst
