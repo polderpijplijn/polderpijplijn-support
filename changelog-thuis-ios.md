@@ -3,6 +3,14 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.09 — 2026-10-20 (testversie)
+
+- **Nieuw ontwerp uitproberen** in Instellingen: vijf hoofdschermen voor Overzicht, Energie, Laden, Klimaat en Analyses. Klassiek blijft standaard actief en direct terug te kiezen.
+- **iPad:** adaptieve kolommen en systeemnavigatie met zijbalk, geschikt voor brede en smalle vensters en grote tekst.
+- Bestaande zonprognose en tariefvergelijking geïntegreerd; geen fictieve accupercentages of nieuwe thermostaatsturing.
+- Sensorencatalogus en batterijstatus uit 5.08 behouden. Bestaande detailpagina's en laadbediening blijven beschikbaar.
+- Testfocus: iPhone/iPad, rotatie, venstergrootte, grote tekst, ontbrekende gegevens en terugschakelen naar klassiek.
+
 ## 5.08 — 2026-10-18
 - **Nieuw: Sensoren onder Instellingen.** Al je sensoren uit Home Assistant per verdieping en ruimte, met batterijstand en wanneer ze voor het laatst iets meldden. Sensoren met een bijna lege batterij of die al meer dan een dag zwijgen staan bovenaan; tik op een sensor voor fabrikant, model en alle metingen.
 - **Het klimaatscherm waarschuwt als een sensor aandacht nodig heeft**, met een verwijzing naar het sensorenoverzicht.
@@ -440,3 +448,4 @@ Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
 ## 1.0 — 2026-06-05
 - First TestFlight release.
+
