@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.10 — 2026-10-20 (testversie)
+
+- **Nieuw ontwerp, Overzicht (#30):** de adviekaart heeft een gekleurd teken en een 24-uursbalk waarop het huidige uur gemarkeerd is. De energiestroom is nu een schema met zon, net, huis en auto en bewegende lijnen in de stroomrichting; bij grote tekst wordt het een lijst. Het huis staat er zonder de auto. Dagtotalen tonen een groot getal met een kleine eenheid, de auto-rij toont laadvermogen en sessie.
+- Op iPad-portret en een opengevouwen iPhone Duo komen de hoofdschermen nu in twee kolommen.
+- Vermogens en kWh tonen in het Nederlands een decimale komma ("9,2 kWh"), ook in het klassieke ontwerp.
+- Gekleurde labels halen ook in licht ontwerp voldoende contrast, en de nieuwe schermen zijn in het Engels vertaald.
+
 ## 5.09 — 2026-10-20 (testversie)
 
 - **Nieuw ontwerp uitproberen** in Instellingen: vijf hoofdschermen voor Overzicht, Energie, Laden, Klimaat en Analyses. Klassiek blijft standaard actief en direct terug te kiezen.
