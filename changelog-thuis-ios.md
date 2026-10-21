@@ -3,6 +3,88 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.21 — 2026-10-21 (testversie)
+
+- **Laadpaal in plaats van auto (#42):** het auto-gedeelte in Instellingen is weg, net als de autofoto's. Op Laden staat nu je laadpaal, met de afbeelding en het model zoals PlugChoice ze kent.
+- Tik op de laadpaal voor alle details: vermogen, MID-meter, verbinding en laatste contact, connectorstatus, functies en firmware. Biedt PlugChoice een nieuwere firmware aan, dan kun je die hier installeren zolang de auto niet laadt.
+- De gegevens en de afbeelding worden bewaard, zodat ze ook zonder verbinding zichtbaar blijven.
+- De tegels "+km" en "Piek-laadsnelheid" zijn vervangen door "Deze sessie" en "Max. laadvermogen paal".
+- **Vaste teksten vertaald (#40):** een aantal Nederlandse teksten die in het Engels bleven staan, lopen nu ook door de vertaling.
+
+## 5.20 — 2026-10-21 (testversie)
+
+- **Instellingen in de opmaak van iOS (#41):** in het nieuwe ontwerp ziet Instellingen eruit als de Instellingen-app: groepen met een kop (Verbinding, Tarieven, Contract, Zonnepanelen, Auto, Woning, Taal, Over), het label links en de waarde of schakelaar rechts.
+- Keuzes zoals contracttype, zonnepanelensysteem, automerk en -model en huistype open je als lijst met een vinkje.
+- Verbindingsinstellingen, Entiteiten en de entiteitenkiezer volgen dezelfde opmaak. Licht/donker, grote tekst en VoiceOver lopen via het systeem; bij de grootste tekstmaten staan label en invoer onder elkaar.
+- Opslaan werkt als voorheen, met Klaar. Het klassieke ontwerp en het welkomstscherm blijven ongewijzigd.
+
+## 5.19 — 2026-10-21 (testversie)
+
+- **Laden: ring bovenaan (#39):** een ring toont het laadvermogen ten opzichte van je laadlimiet en het maximum van de laadpaal, met in het midden het vermogen en de limiet.
+- Het deel van het vermogen dat uit je eigen zonnepanelen komt, staat in geel in de ring en als "waarvan … zon" onder het getal. Het huis krijgt de zon eerst, de auto het overschot; een voorbijtrekkende wolk laat de ring niet springen.
+- Laadt de auto niet, dan is de ring grijs met de status in het midden. Onder de ring staan de auto en de status, daaronder Deze sessie, Vandaag en Uit eigen zon.
+- VoiceOver leest de ring als één regel voor. Bij de grootste tekstmaten staan de cijfers onder een kleinere ring.
+
+## 5.18 — 2026-10-21 (testversie)
+
+- **Nieuw ontwerp, verkenningen, Instellingen en Over (#38):** Vast vs. dynamisch, Huisbatterij en Stookefficiëntie openen vanuit Energie, Analyses en het Overzicht in de nieuwe stijl, licht of donker zoals je toestel staat.
+- Instellingen opent in het nieuwe ontwerp over het hele scherm, ook op iPad, en volgt licht en donker. Sluiten en opslaan gaat met Klaar. Over deze app, Verbinding, Entiteiten, Sensoren en Eigen auto volgen mee.
+- Wissel je in Instellingen van ontwerp, dan blijft het scherm open en blijven ingevulde velden staan.
+- Op iPad staan uitkomst en grafieken naast elkaar.
+- Instellingen houdt voorlopig de huidige opbouw; de omzetting naar de standaardopmaak van iOS volgt in #41.
+
+## 5.17 — 2026-10-21 (testversie)
+
+- **Nieuw ontwerp, klimaat, weer en sensoren (#37):** klimaatdetail, weer, sensoren, sensordetail en de warmtepomp openen vanuit Klimaat, Analyses en het Overzicht in de nieuwe stijl, licht of donker zoals je toestel staat.
+- Klimaat toont per ruimte temperatuur, vocht en dauwpunt; hernoemen met het potlood en de keuze van binnen- en buitensensor voor het ventilatie-advies staan op hetzelfde scherm.
+- Het weer toont de verwachting per uur met wind en bewolking; de weersymbolen zijn ook op een licht scherm goed te zien.
+- Sensoren met een lege batterij of zonder bericht staan bovenaan, met de reden in woorden erbij.
+- De warmtepomp, en het scherm van een gekozen pomp, volgen nu ook licht en donker.
+- Op iPad staan de onderdelen naast elkaar. Sensoren vanuit Instellingen blijft nog klassiek tot ook Instellingen is vernieuwd.
+
+## 5.16 — 2026-10-21 (testversie)
+
+- **Nieuw ontwerp, laadschermen (#36):** laaddetail, laadgeschiedenis, laadsessie en eigen auto openen vanuit Laden in de nieuwe stijl, licht of donker zoals je toestel staat.
+- Het laaddetail toont de auto, de laadsnelheid, wat er deze sessie en vandaag is bijgekomen, het verloop van de sessie en vandaag geladen met net- en zonnestroom. Starten, stoppen en de laadlimiet staan op het Laden-tabblad zelf.
+- In de grafieken zijn net- en zonnestroom ook op een licht scherm goed van elkaar te onderscheiden.
+- Heb je een eigen auto ingesteld, dan pas je die aan vanuit het laaddetail. In Instellingen blijft dit scherm nog klassiek tot ook Instellingen is vernieuwd.
+- Op iPad staan grafiek en cijfers naast elkaar.
+
+## 5.15 — 2026-10-21 (testversie)
+
+- **Nieuw ontwerp, detailschermen energie (#35):** Zon, Net, Huis en Gas openen vanuit Overzicht en Analyses in de nieuwe stijl, licht of donker zoals je toestel staat — niet meer altijd donker.
+- Het zonscherm toont daar ook weer hoe nauwkeurig de prognose de afgelopen weken was.
+- "Verbruik per maand" op Analyses opent het huisverbruik direct per jaar, met één staaf per maand.
+- Beste moment is vernieuwd: per uur een symbool naast de kleur (ja, liever niet, nee), VoiceOver leest het advies per uur voor, en bij grote tekst loopt een regel door. Op iPad staan vandaag en morgen naast elkaar.
+
+## 5.14 — 2026-10-20 (testversie)
+
+- **Nieuw ontwerp, Analyses (#34):** vast tegen dynamisch is de hoofdkaart, met in één zin welk contract de afgelopen 12 maanden goedkoper was en twee staven die de totalen naast elkaar zetten. Tik de kaart aan voor de berekening en aannames.
+- Verkenningen (huisbatterij, warmtepomp, stookefficiëntie) en historie staan als gegroepeerde lijsten met gekleurde iconen.
+- Op iPad en een opengevouwen iPhone Duo staat de tariefkaart links, de lijsten rechts.
+
+## 5.13 — 2026-10-20 (testversie)
+
+- **Nieuw ontwerp, Klimaat (#33):** bovenaan de buitentemperatuur en -vochtigheid, uit je eigen buitensensor als die er is.
+- De thermostaatkaart toont de gemeten temperatuur (alleen aflezen) en, als de thermostaat het doorgeeft, of de ketel brandt.
+- Het ventilatie-advies is een eigen kaart met uitleg: binnen- en buitentemperatuur, en bij drogen de dauwpunten binnen en buiten. De ruimte waar het advies over gaat is in het rooster gemarkeerd met een rand en het woord "luchten".
+- Ruimtes staan als tegels, twee naast elkaar; weer en warmtepomp als rijen. Op iPad en een opengevouwen iPhone Duo staan thermostaat en advies links, de ruimtes rechts.
+- De demo heeft nu een thermostaat en een ventilatie-advies voor de woonkamer.
+
+## 5.12 — 2026-10-20 (testversie)
+
+- **Nieuw ontwerp, Laden (#32):** de auto staat bovenaan met een gekleurde statusstip, het laadvermogen groot en drie tegels: deze sessie, vandaag geladen en hoeveel daarvan uit eigen zon kwam.
+- Laden starten en stoppen en de laadlimiet zitten nu op het tabblad zelf, met dezelfde bevestigingsvraag als op de detailpagina.
+- Recente sessies staan als lijst met dag, tijdvak, aandeel zon, kWh en (bij ingevuld tarief) de geschatte kosten; tik een sessie aan voor de details, of "Alles" voor de laadgeschiedenis.
+- Op iPad en een opengevouwen iPhone Duo staan auto en bediening links, de sessies rechts.
+
+## 5.11 — 2026-10-20 (testversie)
+
+- **Nieuw ontwerp, Energie (#31):** kies met de bronchips Zon, Net, Huis of Gas; elke bron toont zijn grafiek nu op het tabblad zelf, met Dag/Week/Maand/Jaar. De dubbele bronnenlijst is weg.
+- Per bron een kopcijfer met de grafiek en daaronder details: bij Zon het beste uur, hoeveel je zelf verbruikt en hoeveel je teruglevert; bij Net afname, teruglevering en kosten; bij Huis het drukste uur en het sluimerverbruik; bij Gas kosten, graaddagen en buitentemperatuur.
+- De zonprognose staat als rijen voor vandaag, morgen en (als de weersverwachting ver genoeg reikt) overmorgen.
+- Op iPad en een opengevouwen iPhone Duo staat de grafiek links en staan de details rechts.
+
 ## 5.10 — 2026-10-20 (testversie)
 
 - **Nieuw ontwerp, Overzicht (#30):** de adviekaart heeft een gekleurd teken en een 24-uursbalk waarop het huidige uur gemarkeerd is. De energiestroom is nu een schema met zon, net, huis en auto en bewegende lijnen in de stroomrichting; bij grote tekst wordt het een lijst. Het huis staat er zonder de auto. Dagtotalen tonen een groot getal met een kleine eenheid, de auto-rij toont laadvermogen en sessie.
