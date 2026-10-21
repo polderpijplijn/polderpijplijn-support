@@ -3,6 +3,14 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.39 — 2026-10-21
+
+- **Verwijderen zoals je verwacht.** In het Meer-menu van een boek staat nu "Verwijderen van dit toestel" voor elk boek dat je op je toestel hebt, met een waarschuwing als het je eigen import is (dan is dit het enige exemplaar). Bij een boek van WebDAV kun je daarnaast kiezen voor "Verwijderen van toestel en server".
+- **Meerdere schrijvers in één keer.** In Meerdere aanpassen kies je nu net zoveel schrijvers als bij het bewerken van één boek. De taal wordt nu ook in strips (CBZ) weggeschreven (#441).
+- **Series kloppen na bewerken.** Een bewerkte serie ververst meteen. Staat er geen deelnummer in het boek, dan blijft die kolom leeg in plaats van een volgnummer te tonen, en tijdens het verversen blijft de lijst gewoon staan.
+- **Stevigere bibliotheek.** Een update van de bibliotheekindex die halverwege misgaat, maakt de index niet meer blijvend onbruikbaar (#440). Een zeldzame "database is bezet"-fout bij het openen is verholpen.
+- **Strengere controle van ZIP-bestanden.** Een beschadigde EPUB of CBZ wordt herkend en netjes geweigerd in plaats van half uitgepakt (#439).
+
 ## 5.38 — 2026-10-16
 
 - **CBR-strips op oudere iPhones.** Het omzetten van een CBR gebruikt nu hooguit een kwart van het werkgeheugen van eerst. Een archief dat toch meer vraagt, meldt de app als "te groot (onvoldoende geheugen)" in plaats van dat de app afsluit. Strips worden ook in de hele app één voor één omgezet, dus een strip die je via "Open in…" opent tijdens een bulkimport wacht netjes op zijn beurt (#438).
