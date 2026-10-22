@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.41 — 2026-10-22
+
+- **Netjes verdeeld op de iPhone Duo.** Op de opengevouwen Duo valt de grens tussen de lijst en het detailpaneel nu precies op de vouw: op Start, Favorieten, Op dit apparaat, Bibliotheek, Strips en Luisterboeken. Ook de twee kolommen van een boek verdelen zich om de vouw. Op iPad blijft alles zoals het was (#443).
+- **Twee kolommen lezen op iPad en Duo.** EPUB-boeken staan op iPad en de open Duo voortaan standaard in twee kolommen als het scherm liggend is. Staand blijft het één kolom, en op een gewone iPhone verandert er niets. Heb je de instelling zelf uitgezet, dan blijft hij uit (#444).
+- **Geen crash meer bij Series op de Duo.** Een tik op Series in de zijrail van de opengevouwen Duo liet de app afsluiten. Dat is verholpen (#445).
+
 ## 5.40 — 2026-10-22
 
 - **De app merkt sneller dat je NAS weg is of terug.** Wissel je van wifi, of gaat je NAS uit of weer aan terwijl je toestel op hetzelfde netwerk blijft, dan meet de app dat nu opnieuw. Zolang de app open is, kijkt hij elke drie minuten of je servers bereikbaar zijn (#349).
