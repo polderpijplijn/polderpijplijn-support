@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.40 — 2026-10-22
+
+- **De app merkt sneller dat je NAS weg is of terug.** Wissel je van wifi, of gaat je NAS uit of weer aan terwijl je toestel op hetzelfde netwerk blijft, dan meet de app dat nu opnieuw. Zolang de app open is, kijkt hij elke drie minuten of je servers bereikbaar zijn (#349).
+- **Je hoort waarom een boek niet is bijgewerkt.** Lukt het niet om een boek aan te passen bij het samenvoegen van uitgevers, het hernoemen of samenvoegen van schrijvers of bij Meerdere aanpassen, dan noemt de melding het boek en de reden, ook voor boeken op je toestel. Die boeken blijven onder de oude naam staan, en de rest wordt gewoon bijgewerkt (#350, #442).
+
 ## 5.39 — 2026-10-21
 
 - **Verwijderen zoals je verwacht.** In het Meer-menu van een boek staat nu "Verwijderen van dit toestel" voor elk boek dat je op je toestel hebt, met een waarschuwing als het je eigen import is (dan is dit het enige exemplaar). Bij een boek van WebDAV kun je daarnaast kiezen voor "Verwijderen van toestel en server".
