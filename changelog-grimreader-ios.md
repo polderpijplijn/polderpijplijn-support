@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.45 — 2026-10-24
+
+- **Zonder server meteen aan de slag.** Heb je nog geen server ingesteld en geen boeken, dan meldt Boeken niet langer "Kan niet laden — Geen serveradres ingesteld". De app werkt dan gewoon met de bibliotheek op je toestel (#455).
+- **Wegwijzer als er nog niets is.** Boeken en Start tonen zolang er geen enkele bron is drie wegen naar binnen: boeken toevoegen, een server toevoegen (WebDAV, OPDS of Grimmory) of eerst de demo proberen. Op iPad wijst het keuzemenu van Server toevoegen naar de knop zelf (#455).
+
 ## 5.44 — 2026-10-24
 
 - **Het menu van strips en PDF's glijdt zacht.** Het leesmenu opent en sluit in strips en PDF's nu met dezelfde rustige beweging als in EPUB-boeken, in plaats van snel weg te schieten. Tik je op de paginateller onderin, dan glijdt het menu ook omhoog in plaats van in één keer te verschijnen.
