@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.43 — 2026-10-24
+
+- **Strips en PDF's openen zonder menu.** Net als bij EPUB-boeken zie je bij het openen meteen de pagina; tik om het leesmenu te tonen. Sluit het menu, met een tik of vanzelf na vier seconden, dan glijdt het nu naar beneden weg in plaats van in één keer te verdwijnen. Dat geldt in alle drie de lezers.
+
 ## 5.42 — 2026-10-24
 
 - **Het leesmenu gaat vanzelf weg.** In boeken, PDF's en strips verdwijnt het menu onderin na vier seconden als je het niet aanraakt; je hoeft niet meer ergens anders te tikken. Het blijft staan zolang er een paneel, de inhoudsopgave of het paginaraster open is, je vinger op het menu ligt of VoiceOver aanstaat.
