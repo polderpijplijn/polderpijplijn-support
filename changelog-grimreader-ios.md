@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.44 — 2026-10-24
+
+- **Het menu van strips en PDF's glijdt zacht.** Het leesmenu opent en sluit in strips en PDF's nu met dezelfde rustige beweging als in EPUB-boeken, in plaats van snel weg te schieten. Tik je op de paginateller onderin, dan glijdt het menu ook omhoog in plaats van in één keer te verschijnen.
+
 ## 5.43 — 2026-10-24
 
 - **Strips en PDF's openen zonder menu.** Net als bij EPUB-boeken zie je bij het openen meteen de pagina; tik om het leesmenu te tonen. Sluit het menu, met een tik of vanzelf na vier seconden, dan glijdt het nu naar beneden weg in plaats van in één keer te verdwijnen. Dat geldt in alle drie de lezers.
