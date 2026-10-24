@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.42 — 2026-10-24
+
+- **Het leesmenu gaat vanzelf weg.** In boeken, PDF's en strips verdwijnt het menu onderin na vier seconden als je het niet aanraakt; je hoeft niet meer ergens anders te tikken. Het blijft staan zolang er een paneel, de inhoudsopgave of het paginaraster open is, je vinger op het menu ligt of VoiceOver aanstaat.
+- **Afspelen opent de luisterspeler.** Start of hervat je een luisterboek op Start, in de bibliotheek of bij Luisterboeken, dan opent meteen het scherm Luisteren (#452).
+- **Beter op de iPhone Duo.** Halfopen toont de app dezelfde schermen als plat open, in plaats van alles in de bovenste helft te proppen (#447, #453). Opengevouwen houd je de vijf vertrouwde tabbladen in plaats van acht piepkleine (#454). Het detailpaneel van Series en de paneelgrens op Start vallen netjes op de vouw (#443, #451), en Strips heeft een eigen icoon zodat je het niet meer met Series verwart.
+- **Vertaald.** De tekst bij een lege Favorieten-lijst en de labels bij schrijversinformatie staan nu ook in het Engels (#449).
+
 ## 5.41 — 2026-10-22
 
 - **Netjes verdeeld op de iPhone Duo.** Op de opengevouwen Duo valt de grens tussen de lijst en het detailpaneel nu precies op de vouw: op Start, Favorieten, Op dit apparaat, Bibliotheek, Strips en Luisterboeken. Ook de twee kolommen van een boek verdelen zich om de vouw. Op iPad blijft alles zoals het was (#443).
