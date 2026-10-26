@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.49 — 2026-10-27
+
+- **Je eigen foto blijft echt staan.** Koos je bij online zoeken een treffer met een levensbericht, dan kon een fotoadres zonder foto erachter je eigen foto alsnog vervangen; je zag dan een leeg vak. Het adres wordt nu eerst nagekeken (#463).
+- **Foto zoeken toont alleen echte foto's.** "Online zoeken naar een foto" gaf vaak een rij lege silhouetten. Een adres zonder foto erachter telt nu niet meer mee, en de app zoekt dan verder bij Wikidata en Wikipedia (#463).
+
 ## 5.48 — 2026-10-26
 
 - **Land kiezen bij een schrijver werkt.** Een gekozen land bleef niet staan: na terugkomen uit de landenlijst was het weer weg. Je kunt nu meer landen aanvinken en sluit de lijst met Gereed; bij Opslaan blijven ze bewaard (#462).
