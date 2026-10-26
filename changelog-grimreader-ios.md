@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.47 — 2026-10-26
+
+- **Schrijvers filteren op land.** Bij Schrijvers staat naast Sorteren een wereldbol. Kies een land en je ziet alleen de schrijvers die daarvandaan komen. De lijst toont alleen landen die echt in je bibliotheek voorkomen, met vlag en aantal; schrijvers zonder bekend land staan onder Onbekend. Tik op het land boven de lijst om het filter weer weg te halen (#461).
+- **Strips in CBR-formaat krijgen een omslag.** Een CBR-strip van een WebDAV-server bleef zonder omslag. Bestaande strips worden bij de volgende scan opnieuw bekeken (#437).
+
 ## 5.46 — 2026-10-26
 
 - **Landen bij schrijvers.** Het profiel van een schrijver toont elk land met vlag en naam in de taal van de app; wie meer nationaliteiten heeft, krijgt ze allemaal. Een land dat niet meer bestaat, zoals Pruisen, staat er zonder vlag bij. Bij het bewerken kies je landen uit een doorzoekbare lijst in plaats van ze in te typen, zodat "Duitsland" en "Germany" voortaan hetzelfde land zijn. Onder Onderhoud vult "Landen bij schrijvers aanvullen" de bestaande profielen in één keer aan (#461).
