@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.48 — 2026-10-26
+
+- **Land kiezen bij een schrijver werkt.** Een gekozen land bleef niet staan: na terugkomen uit de landenlijst was het weer weg. Je kunt nu meer landen aanvinken en sluit de lijst met Gereed; bij Opslaan blijven ze bewaard (#462).
+- **Je eigen foto blijft staan.** Vond online zoeken wel gegevens over een schrijver maar geen foto, dan verdween de foto die je zelf had gekozen. Die wordt nu alleen vervangen als er online echt een foto is (#463).
+- **Landen in elke taal.** Een profiel dat in het Duits of Engels was opgeslagen, krijgt na een wijziging in het Nederlands geen dubbele landnamen meer. Historische staten zoals Pruisen hebben nu ook een Duitse naam. Eerdere staatsvormen van Sudan, Malta en Irak horen voortaan bij dat land, met vlag, in plaats van onder Onbekend (#461).
+- **Landen aanvullen ververst de lijst.** Na "Landen bij schrijvers aanvullen" toont het landfilter meteen de nieuwe landen. Een profiel dat je intussen zelf had aangepast, wordt niet overschreven (#461).
+
 ## 5.47 — 2026-10-26
 
 - **Schrijvers filteren op land.** Bij Schrijvers staat naast Sorteren een wereldbol. Kies een land en je ziet alleen de schrijvers die daarvandaan komen. De lijst toont alleen landen die echt in je bibliotheek voorkomen, met vlag en aantal; schrijvers zonder bekend land staan onder Onbekend. Tik op het land boven de lijst om het filter weer weg te halen (#461).
