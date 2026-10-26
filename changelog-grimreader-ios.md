@@ -3,6 +3,14 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.46 — 2026-10-26
+
+- **Landen bij schrijvers.** Het profiel van een schrijver toont elk land met vlag en naam in de taal van de app; wie meer nationaliteiten heeft, krijgt ze allemaal. Een land dat niet meer bestaat, zoals Pruisen, staat er zonder vlag bij. Bij het bewerken kies je landen uit een doorzoekbare lijst in plaats van ze in te typen, zodat "Duitsland" en "Germany" voortaan hetzelfde land zijn. Onder Onderhoud vult "Landen bij schrijvers aanvullen" de bestaande profielen in één keer aan (#461).
+- **Schrijvers scrollen soepel.** In een grote bibliotheek met duizenden schrijvers haperde de lijst bij het scrollen. Die wordt nu één keer opgebouwd en loopt daarna vlot door (#460).
+- **Beoordeel Grim Reader.** In Instellingen staat een rij om de app te beoordelen. Heb je een tijdje gelezen, dan vraagt de app na het sluiten van een boek hooguit één keer per versie om een beoordeling (#411).
+- **Strip alleen van je toestel verwijderen.** Bij een van WebDAV gedownloade strip staat onder Meer nu ook "Verwijderen van dit toestel", net als bij boeken (#459).
+- **EPUB op de iPhone Duo.** De tekst loopt niet langer onder de balk aan de zijkant door (#457).
+
 ## 5.45 — 2026-10-24
 
 - **Zonder server meteen aan de slag.** Heb je nog geen server ingesteld en geen boeken, dan meldt Boeken niet langer "Kan niet laden — Geen serveradres ingesteld". De app werkt dan gewoon met de bibliotheek op je toestel (#455).
