@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.50 — 2026-10-27
+
+- **Schrijvers koppelen aan Wikidata.** Bij de meeste schrijvers in een grote bibliotheek was geen land bekend, waardoor het landfilter weinig te kiezen had. Onder Bibliotheekbeheer → Back-up en herstel zoekt "Schrijvers koppelen aan Wikidata" in één ronde alle schrijvers zonder koppeling op naam op. Je ziet eerst wat er gevonden is, in drie bakken: zeker, twijfel (jij kiest de juiste persoon, met de omschrijving en levensjaren naast je eigen boektitels) en niet gevonden. Alleen wat je goedkeurt krijgt een Wikidata-ID en een land; bio en foto blijven zoals ze waren. Een voortgangsbalk toont hoe ver het zoeken is, en wie de app verlaat gaat later verder waar hij was, met de keuzes die hij al maakte (#465).
+- **Schrijversgegevens aanvullen houdt bestaande gegevens vast.** Een schrijver met een profiel zonder bio of foto wordt nu ook aangevuld, en wat er al in dat profiel stond, blijft staan (#465).
+- **Kaft zoeken vindt meer.** Online een kaft zoeken gaf vaak niets, omdat de hele zoektekst als titel naar de bronnen ging. Titel en schrijver worden nu apart gezocht, en wat je zelf typt wordt als vrije zoektekst gebruikt (#464).
+
 ## 5.49 — 2026-10-27
 
 - **Je eigen foto blijft echt staan.** Koos je bij online zoeken een treffer met een levensbericht, dan kon een fotoadres zonder foto erachter je eigen foto alsnog vervangen; je zag dan een leeg vak. Het adres wordt nu eerst nagekeken (#463).
