@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.51 — 2026-10-27
+
+- **Schrijvers verrijken op één plek.** Onder Bibliotheekbeheer heet "Schrijversgegevens aanvullen" nu "Schrijvers verrijken". Het scherm zet de drie stappen in volgorde onder elkaar: koppelen aan Wikidata, gegevens aanvullen en landen aanvullen. Koppelen en landen aanvullen stonden eerst onder Back-up en herstel, waar je ze niet zocht. Ze zijn nu ook te gebruiken als je alleen boeken op dit apparaat hebt (#466).
+- **Back-up en herstel is opgeruimd.** Het scherm heeft nu dezelfde naam als in de lijst. Bovenaan staat het schrijven van de indexen naar de servers, daaronder het terugzetten (#466).
+
 ## 5.50 — 2026-10-27
 
 - **Schrijvers koppelen aan Wikidata.** Bij de meeste schrijvers in een grote bibliotheek was geen land bekend, waardoor het landfilter weinig te kiezen had. Onder Bibliotheekbeheer → Back-up en herstel zoekt "Schrijvers koppelen aan Wikidata" in één ronde alle schrijvers zonder koppeling op naam op. Je ziet eerst wat er gevonden is, in drie bakken: zeker, twijfel (jij kiest de juiste persoon, met de omschrijving en levensjaren naast je eigen boektitels) en niet gevonden. Alleen wat je goedkeurt krijgt een Wikidata-ID en een land; bio en foto blijven zoals ze waren. Een voortgangsbalk toont hoe ver het zoeken is, en wie de app verlaat gaat later verder waar hij was, met de keuzes die hij al maakte (#465).
