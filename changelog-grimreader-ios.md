@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.53 — 2026-10-29
+
+- **Grote sprongen met de schuif lopen niet meer vast.** Sprong je in een EPUB met de schuif onderin ver vooruit of terug, dan kon de lezer blijven heen en weer springen tussen twee hoofdstukken: het paginanummer knipperde en de pagina bleef leeg tot je de app opnieuw opende. De lezer volgt een eigen, verouderde hoofdstuklading nu niet meer als link (#469).
+
 ## 5.52 — 2026-10-29
 
 - **De paginateller springt niet meer.** Bij een nieuw hoofdstuk kon het paginanummer in een EPUB ineens verspringen, bijvoorbeeld van 120 naar 146, omdat alleen het open hoofdstuk echt geteld was. De app telt nu op de achtergrond elk hoofdstuk en onthoudt dat per boek en per weergave. Zolang dat tellen loopt, zie je alleen de pagina binnen het hoofdstuk. Is alles geteld, dan zie je het paginanummer in het hele boek, en elke bladzijde gaat precies één verder (#468).
