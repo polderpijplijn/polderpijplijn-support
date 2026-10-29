@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.52 — 2026-10-29
+
+- **De paginateller springt niet meer.** Bij een nieuw hoofdstuk kon het paginanummer in een EPUB ineens verspringen, bijvoorbeeld van 120 naar 146, omdat alleen het open hoofdstuk echt geteld was. De app telt nu op de achtergrond elk hoofdstuk en onthoudt dat per boek en per weergave. Zolang dat tellen loopt, zie je alleen de pagina binnen het hoofdstuk. Is alles geteld, dan zie je het paginanummer in het hele boek, en elke bladzijde gaat precies één verder (#468).
+- **Tekst blijft leesbaar bij het thema Systeem.** Sommige boeken zetten hun tekst vast op zwart of wit, waardoor die in donkere of lichte modus onzichtbaar werd. Tekst met te weinig contrast wordt nu zwart of wit; leesbare kleuren van de uitgever blijven staan. De themakiezer heeft een zichtbaar label en de themanamen zijn vertaald.
+- **Meerdere boeken tegelijk verwijderen.** Onder Op dit apparaat kun je nu boeken aanvinken en in één keer verwijderen, net als bij Schrijvers.
+
 ## 5.51 — 2026-10-27
 
 - **Schrijvers verrijken op één plek.** Onder Bibliotheekbeheer heet "Schrijversgegevens aanvullen" nu "Schrijvers verrijken". Het scherm zet de drie stappen in volgorde onder elkaar: koppelen aan Wikidata, gegevens aanvullen en landen aanvullen. Koppelen en landen aanvullen stonden eerst onder Back-up en herstel, waar je ze niet zocht. Ze zijn nu ook te gebruiken als je alleen boeken op dit apparaat hebt (#466).
