@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.54 — 2026-10-30
+
+- **Werkt met elke Grimmory-gebruiker, ook zonder beheerdersrechten.** Wie geen beheerder was, kreeg op Grimmory 3.4 en 3.5 een serverfout bij het ophalen van de bibliotheken. De app gebruikt nu de vaste Grimmory-API in plaats van de verouderde app-API, die Grimmory binnenkort weghaalt. Oudere Grimmory-versies blijven werken via de oude route (#471).
+- **Voortgang klopt meteen in de lijsten.** De voortgangsbalk onder een Grimmory-boek liep een bladzijde achter of bleef leeg. Voortgang gaat nu op dezelfde manier naar Grimmory als vanuit de webversie (#471).
+- **Series met een komma in de naam.** Een serie als "Jan, Jans en de kinderen" gaf een fout bij het openen; die opent nu gewoon (#471).
+- **Luisterboeken starten weer.** Een groot luisterboek van de server kon een time-out geven, ook als het hele bestand al binnen was. De speler krijgt het bestand nu in stukken door en begint meteen (#470).
+
 ## 5.53 — 2026-10-29
 
 - **Grote sprongen met de schuif lopen niet meer vast.** Sprong je in een EPUB met de schuif onderin ver vooruit of terug, dan kon de lezer blijven heen en weer springen tussen twee hoofdstukken: het paginanummer knipperde en de pagina bleef leeg tot je de app opnieuw opende. De lezer volgt een eigen, verouderde hoofdstuklading nu niet meer als link (#469).
