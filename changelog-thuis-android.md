@@ -3,6 +3,18 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `versionName`.
 
+## 4.94 — 2026-11-01
+- **Energiebelasting 2027 (iOS #49).** De app rekent vanaf 1-1-2027 met de nieuwe tarieven: 0,1065 per kWh stroom en 0,7457 per m³ gas (incl. btw), uit het Belastingplan 2027 dat de Eerste Kamer nog moet aannemen.
+- **Kwartierprijzen.** Levert Home Assistant prijzen per kwartier, dan rekent de app met het gemiddelde per prijsblok.
+- **Einde saldering.** Vanaf 1-1-2027 beschrijft de uitleg op Beste moment de situatie zonder saldering; de uitleg op Besparing noemt de terugleverkosten.
+- **Adres op afstand alleen versleuteld (#6).** Het adres op afstand kon als http:// of ws:// worden opgeslagen, waardoor het token onversleuteld over het internet ging. Op afstand gebruikt de app nu alleen wss; een oud http/ws-adres wordt eenmalig omgezet en gemeld.
+
+## 4.93 — 2026-10-28
+- **Land kiezen (iOS #48).** In Instellingen staat nu een keuze voor het land. Op "Automatisch" neemt de app het land over uit Home Assistant. Belasting, btw, daluren, graaddagen, energielabel en standaardprijzen komen uit het profiel van dat land. Voorlopig is Nederland het enige profiel; voor andere landen rekent de app met de Nederlandse regels en zegt dat erbij.
+- **Netto afgenomen en Verbruikt tellen laden weer mee (iOS #43).** De app kon de daltariefteller van de P1-meter pakken in plaats van de totaalteller, waardoor laden overdag ontbrak.
+- **Sensorenoverzicht toont alleen echte sensoren.** Telefoons en tablets met de Companion-app en de kostensensoren van het Energie-dashboard staan er niet meer tussen.
+- **Batterij bij de juiste sensor (iOS #46).** Ook zolang Home Assistant de apparatenlijst nog niet heeft gestuurd, hoort de batterij bij zijn sensor.
+
 ## 4.92 — 2026-10-18
 - **Nieuw: Sensoren onder Instellingen.** Al je sensoren uit Home Assistant per verdieping en ruimte, met batterijstand en wanneer ze voor het laatst iets meldden. Sensoren met een bijna lege batterij of die al meer dan een dag zwijgen staan bovenaan; tik op een sensor voor fabrikant, model en alle metingen.
 - **Het klimaatscherm waarschuwt als een sensor aandacht nodig heeft**, met een verwijzing naar het sensorenoverzicht.
