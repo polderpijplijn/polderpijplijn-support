@@ -3,6 +3,33 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.25 — 2026-11-01 (testversie)
+
+- **Energiebelasting 2027 (#49):** de app rekent vanaf 1-1-2027 met de nieuwe tarieven: 0,1065 per kWh stroom en 0,7457 per m³ gas (incl. btw). Ze komen uit het Belastingplan 2027, dat de Eerste Kamer nog moet aannemen.
+- **Kwartierprijzen:** levert Home Assistant prijzen per kwartier, dan rekent de app met het gemiddelde per prijsblok. Voorheen keek het advies alleen naar het eerste kwartier.
+- **Einde saldering:** vanaf 1-1-2027 beschrijft de uitleg op Beste moment de situatie zonder saldering. De uitleg op Besparing noemt de terugleverkosten, die je van de ingevulde vergoeding aftrekt.
+- **Oud adres op afstand (#16):** een adres op afstand dat nog met http:// of ws:// was opgeslagen, werd stil ongeldig: Verbinden bleef grijs en Klaar deed niets. De app zet zo'n adres nu eenmalig om naar https/wss en meldt dat op het hoofdscherm. Is een adres om een andere reden ongeldig, dan staat de reden ook op het hoofdscherm.
+
+## 5.24 — 2026-10-28 (testversie)
+
+- **Land kiezen (#48):** in Instellingen staat nu een keuze voor het land. Op "Automatisch" neemt de app het land over uit Home Assistant. Belasting, btw, daluren, graaddagen, energielabel en standaardprijzen komen uit het profiel van dat land. Voorlopig is Nederland het enige profiel; voor andere landen rekent de app met de Nederlandse regels en zegt dat erbij.
+- Bedragen volgen de valuta van het land. De tegels Gaskosten en Netto tonen in het Nederlands nu een komma, net als de rest van de app.
+- **Instellingen blijven bewaard bij een fout in de verbinding (#17):** klopte het adres op afstand niet of lukte het opslaan van een token niet, dan gingen ook je andere wijzigingen verloren, zoals de gasprijs. Die worden nu altijd opgeslagen. Het verbindingsscherm blijft open en laat zien wat er mis is.
+- **Tokens na een start op slot (#47):** startte de app op de achtergrond terwijl het toestel vergrendeld was, dan kon ze zonder tokens blijven zitten. Ze worden nu opnieuw gelezen zodra de app actief wordt, en lege velden in Instellingen vullen zich vanzelf.
+
+## 5.23 — 2026-10-22 (testversie)
+
+- **Batterij van sensoren direct zichtbaar (#46):** vlak na het openen van de app kon het detailscherm van een sensor "Batterij: onbekend" tonen, en soms "niet meer gevonden". De batterij hoort nu meteen bij zijn sensor, ook zolang Home Assistant de apparatenlijst nog niet heeft gestuurd.
+- **Buitensensor te openen:** de kop "Buiten …" op Klimaat heeft een pijltje en opent de details van je eigen buitensensor.
+- Op de batterijregel staat niet meer twee keer "Batterij": alleen "100 %".
+
+## 5.22 — 2026-10-21 (testversie)
+
+- **Kamers op Klimaat tikbaar (#45):** tik op een kamervak om de details van die sensor te openen: metingen, batterij, laatst gezien en diagnose. Een pijltje in het vak laat zien dat het te openen is.
+- De kamer waar het ventilatie-advies over gaat, krijgt nu een windicoon naast "luchten" in plaats van een blauwe rand, zodat het niet meer op een selectie lijkt.
+- **Netto afgenomen en Verbruikt tellen laden weer mee (#43):** de app pakte de daltariefteller van de P1-meter in plaats van de totaalteller, waardoor laden overdag ontbrak. Een bestaande verkeerde keuze wordt bij het opstarten hersteld, en Verbruikt toont sneller een waarde.
+- **Meer teksten vertaald (#44):** "vandaag" en "gisteren" bij laadsessies en een paar grafieklabels bleven Nederlands in de Engelse app.
+
 ## 5.21 — 2026-10-21 (testversie)
 
 - **Laadpaal in plaats van auto (#42):** het auto-gedeelte in Instellingen is weg, net als de autofoto's. Op Laden staat nu je laadpaal, met de afbeelding en het model zoals PlugChoice ze kent.
