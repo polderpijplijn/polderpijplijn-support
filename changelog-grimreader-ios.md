@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.55 — 2026-11-02
+
+- **Bladwijzers in alle lezers.** In de EPUB-, PDF- en striplezer zet of haal je met één tik op het lint naast het kruisje een bladwijzer op de huidige pagina. De luisterboekspeler heeft een knop Bladwijzer. Per boek is er een overzicht: tik om terug te springen, veeg om te verwijderen, en zet er desgewenst een notitie bij. Een EPUB-bladwijzer blijft kloppen als je de lettergrootte verandert (#374).
+- **Markeringen met notitie.** Selecteer tekst in een EPUB of PDF en kies Markeer of Markeer met notitie. Tik op een markering om de notitie te lezen of de markering te verwijderen. Markeringen staan samen met de bladwijzers in het overzicht (#374).
+
 ## 5.54 — 2026-10-30
 
 - **Werkt met elke Grimmory-gebruiker, ook zonder beheerdersrechten.** Wie geen beheerder was, kreeg op Grimmory 3.4 en 3.5 een serverfout bij het ophalen van de bibliotheken. De app gebruikt nu de vaste Grimmory-API in plaats van de verouderde app-API, die Grimmory binnenkort weghaalt. Oudere Grimmory-versies blijven werken via de oude route (#471).
