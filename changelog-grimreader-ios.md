@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.56 — 2026-11-03
+
+- **Lettertype naar je eigen smaak.** Onder Weergave in de EPUB-lezer stel je nu ook de marge, de letterafstand en de woordafstand in. De uitlijning heeft drie standen: zoals het boek, uitgevuld of links uitgelijnd. Met Vettere tekst wordt de broodtekst zwaarder, koppen blijven zoals ze zijn. Je blijft op dezelfde passage als je iets verandert, en Herstel standaard zet alle leesinstellingen in één keer terug (#371).
+- **Leesliniaal.** Zet in de EPUB-lezer de leesliniaal aan: een band van één tot drie regels blijft helder en de rest van de pagina wordt gedimd. Tik op een regel om de liniaal daarheen te zetten, of sleep hem aan de greep. Bladeren met vegen en tikken werkt gewoon door. Met VoiceOver verschuif je de liniaal per regel (#371).
+- **Knoppen in het leesmenu reageren op hun hele vlak.** De knop Zoeken reageerde alleen op het pictogram; nu op de hele knop.
+- **PDF-lezer.** Een waarschuwing bij het sluiten van een PDF tijdens het laden is opgelost (#472).
+
 ## 5.55 — 2026-11-02
 
 - **Bladwijzers in alle lezers.** In de EPUB-, PDF- en striplezer zet of haal je met één tik op het lint naast het kruisje een bladwijzer op de huidige pagina. De luisterboekspeler heeft een knop Bladwijzer. Per boek is er een overzicht: tik om terug te springen, veeg om te verwijderen, en zet er desgewenst een notitie bij. Een EPUB-bladwijzer blijft kloppen als je de lettergrootte verandert (#374).
