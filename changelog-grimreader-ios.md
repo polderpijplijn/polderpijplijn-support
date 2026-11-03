@@ -3,7 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
-## 5.56 — 2026-11-03
+## 5.57 — 2026-11-03
+
+- **Geen kapotte omslagen meer bij Franse edities.** De BnF geeft voor elke editie een omslagadres, ook als er geen plaatje is. Bij het zoeken naar gegevens kijkt de app nu elke omslag na zodra die in beeld komt. Ontbreekt de afbeelding, dan zoekt de app op ISBN bij Google Books en Open Library. De gegevens blijven van de BnF; staat de omslag ergens anders vandaan, dan zie je dat. Bewaren wacht tot de gekozen omslag binnen is, en een omslag die je zelf hebt gekozen wordt niet overschreven (#153).
+- **Leesliniaal beter zichtbaar.** De band van de leesliniaal heeft nu een rand en een lichte tint (#371).
 
 - **Lettertype naar je eigen smaak.** Onder Weergave in de EPUB-lezer stel je nu ook de marge, de letterafstand en de woordafstand in. De uitlijning heeft drie standen: zoals het boek, uitgevuld of links uitgelijnd. Met Vettere tekst wordt de broodtekst zwaarder, koppen blijven zoals ze zijn. Je blijft op dezelfde passage als je iets verandert, en Herstel standaard zet alle leesinstellingen in één keer terug (#371).
 - **Leesliniaal.** Zet in de EPUB-lezer de leesliniaal aan: een band van één tot drie regels blijft helder en de rest van de pagina wordt gedimd. Tik op een regel om de liniaal daarheen te zetten, of sleep hem aan de greep. Bladeren met vegen en tikken werkt gewoon door. Met VoiceOver verschuif je de liniaal per regel (#371).
