@@ -3,6 +3,15 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.58 — 2026-11-04
+
+- **PDF's met een wachtwoord.** Een beveiligde PDF vraagt nu om het wachtwoord in plaats van niet te openen. Desgewenst onthoudt de app het; verwijder je het boek, dan gaat het onthouden wachtwoord mee (#478).
+- **Duidelijke melding bij DRM en onleesbare bestanden.** Een EPUB of PDF met DRM-beveiliging, of een bestand dat niet te lezen is, geeft nu een begrijpelijke melding in plaats van een lege lezer (#479).
+- **Hoofdstukken in eigen luisterboeken.** Een lokaal M4B- of MP3-bestand toont nu de hoofdstukken die in het bestand staan (#477).
+- **Arabische en Hebreeuwse boeken bladeren van rechts naar links.** De EPUB-lezer volgt de leesrichting van het boek; vegen en de schuif draaien mee, en de leesplek blijft goed bewaard (#481).
+- **Geen rode tekst meer in Gutenberg-boeken.** In sommige oudere EPUB's van Project Gutenberg werd bij een tik alle tekst rood. Die hoofdstukken worden nu goed ingelezen (#475).
+- Onder de motorkap: de app is overgezet naar Swift 6 (#488).
+
 ## 5.57 — 2026-11-03
 
 - **Geen kapotte omslagen meer bij Franse edities.** De BnF geeft voor elke editie een omslagadres, ook als er geen plaatje is. Bij het zoeken naar gegevens kijkt de app nu elke omslag na zodra die in beeld komt. Ontbreekt de afbeelding, dan zoekt de app op ISBN bij Google Books en Open Library. De gegevens blijven van de BnF; staat de omslag ergens anders vandaan, dan zie je dat. Bewaren wacht tot de gekozen omslag binnen is, en een omslag die je zelf hebt gekozen wordt niet overschreven (#153).
