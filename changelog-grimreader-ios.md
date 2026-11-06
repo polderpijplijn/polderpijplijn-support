@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.59 — 2026-11-06
+
+- **Status en waardering voor je eigen boeken.** Geïmporteerde en WebDAV-boeken krijgen een leesstatus (niet begonnen, bezig, uitgelezen, afgebroken) en een waardering van 1 tot 5 sterren. De status volgt je voortgang tot je hem zelf kiest; met Automatisch laat je dat weer los. Na het sluiten van een uitgelezen boek vraagt de app één keer wat je ervan vond. In de bibliotheek filter je op status en waardering en sorteer je op Mijn waardering. Alles blijft op dit toestel (#490).
+- **Opus-luisterboeken kloppen tot op de seconde.** iOS gaf bij Opus een te lange duur op en spoelde op een schatting, waardoor hervatten, bladwijzers en hoofdstukken tot 13 seconden naast konden zitten. De app zet Opus nu zonder kwaliteitsverlies om naar M4A; de duur en hoofdstukken komen uit het bestand zelf. Een extern Opus-bestand wordt daarvoor eerst gedownload in plaats van gestreamd (#487).
+- **PDF vult het hele scherm.** Op de iPad zijn de randen boven en onder weg en staat de pagina niet meer te hoog (#492).
+- **Dichte bediening is echt dicht.** In de PDF- en striplezer verdwijnen ook de sluitknop, de teller en de menuknop als je de bediening verbergt (#493).
+
 ## 5.58 — 2026-11-04
 
 - **PDF's met een wachtwoord.** Een beveiligde PDF vraagt nu om het wachtwoord in plaats van niet te openen. Desgewenst onthoudt de app het; verwijder je het boek, dan gaat het onthouden wachtwoord mee (#478).
