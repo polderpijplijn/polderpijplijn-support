@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.61 — 2026-11-06
+
+- **Waar was ik?** Ligt een boek een tijdje stil, dan vat Apple Intelligence in het boekdetail samen wat je tot nu toe las: het vorige hoofdstuk en het lopende tot je leesplek, met de eerdere hoofdstukken inklapbaar eronder. De laatste paar pagina's voor je leesplek slaat de samenvatting over, en wat daarna komt staat er nooit in. Alles gebeurt op het toestel; afgeronde hoofdstukken worden bewaard, dus een tweede keer gaat veel sneller. Alleen voor EPUB, en alleen op toestellen met Apple Intelligence (#489).
+- **Leesplek van de server in de juiste eenheid.** Een leesplek die van Grimmory werd overgenomen, stond op het toestel in procenten in plaats van als fractie. De voortgang van luisterboeken in de lijst klopt nu ook voor wat je op dit toestel beluisterde (#489).
+- **Versleutelde lettertypen in EPUB's.** Boeken met lettertypen die volgens IDPF of Adobe zijn versluierd, tonen nu het bedoelde lettertype in plaats van een vervangend (#484).
+
 ## 5.60 — 2026-11-06
 
 - **Ogg Vorbis-luisterboeken.** Luisterboeken in `.ogg` en `.oga` spelen nu af. De app zet ze, net als Opus, om naar M4A, zodat duur, hervatten en hoofdstukken kloppen. Bij boeken in meerdere delen schuiven de deelmarkers mee met de echte begintijden (#503).
