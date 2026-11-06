@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.60 — 2026-11-06
+
+- **Ogg Vorbis-luisterboeken.** Luisterboeken in `.ogg` en `.oga` spelen nu af. De app zet ze, net als Opus, om naar M4A, zodat duur, hervatten en hoofdstukken kloppen. Bij boeken in meerdere delen schuiven de deelmarkers mee met de echte begintijden (#503).
+- **Noten en bijlagen buiten de leesvolgorde zijn bereikbaar.** Sommige EPUB's zetten eindnoten of aanhangsels buiten de gewone volgorde (`linear="no"`). Een link ernaartoe opent nu een apart venster in je eigen thema en lettergrootte; je leesplek blijft staan. Ook in de inhoudsopgave staan ze weer (#476).
+- **Leesplek van de server klopt bij zulke boeken.** Een leesplek die van Grimmory of een andere app komt, landde in een boek met zulke noten soms een hoofdstuk te ver. Dat is opgelost (#504).
+- **Een geïmporteerd Opus-bestand opent in de speler.** Het opende eerder als PDF en gaf "Can't open PDF" (#502).
+
 ## 5.59 — 2026-11-06
 
 - **Status en waardering voor je eigen boeken.** Geïmporteerde en WebDAV-boeken krijgen een leesstatus (niet begonnen, bezig, uitgelezen, afgebroken) en een waardering van 1 tot 5 sterren. De status volgt je voortgang tot je hem zelf kiest; met Automatisch laat je dat weer los. Na het sluiten van een uitgelezen boek vraagt de app één keer wat je ervan vond. In de bibliotheek filter je op status en waardering en sorteer je op Mijn waardering. Alles blijft op dit toestel (#490).
