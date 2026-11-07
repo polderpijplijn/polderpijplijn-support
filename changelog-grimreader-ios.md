@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.65 — 2026-11-07
+
+- **Lijkt op dit boek.** Met AI-zoeken aan staat op de boekpagina een rij boeken die inhoudelijk op dit boek lijken. Het boek zelf, de andere delen van de serie en kopieën op een andere bron staan er niet in; boeken in andere talen wel. Er is geen apart zoekmodel voor nodig, en zonder treffers blijft de rij weg (#511).
+- **De boekenlijst houdt zijn plek.** Na het openen of bewerken van een boek sprong de lijst terug naar boven. Nu blijf je staan waar je was, ook als een boek op de server is aangepast of als je iets via het contextmenu deed (#510).
+
 ## 5.64 — 2026-11-07
 
 - **Waar was ik? binnen een halve minuut, en waar je echt was.** Apple Intelligence leest nu de laatste pagina's voor je leesplek en zegt in een paar korte zinnen waar je bent, wat er net gebeurde en bij welke zin je stopte. Dat duurt meestal 10 tot 20 seconden in plaats van een paar minuten. De samenvatting per hoofdstuk komt daarna op de achtergrond binnen; breek je die af, dan blijft Waar was ik? staan en maak je de hoofdstukken later alsnog. In een bundel losse verhalen gaat het over het verhaal dat je leest (#489).
