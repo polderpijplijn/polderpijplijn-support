@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.63 — 2026-11-07
+
+- **Gewoon zoeken en zoeken op betekenis in één.** Met AI-zoeken aan zoekt het zoekveld op het homescherm en in Zoeken nu allebei. Bovenaan staan de treffers op titel, schrijver en serie, zoals altijd. Daaronder staat "Lijkt op je vraag" met boeken die inhoudelijk passen, zonder de boeken die er al boven staan. Zijn er veel gewone treffers, dan zie je de eerste pagina en een regel "Alle N treffers" naar de volledige lijst. De treffers op betekenis komen uit je geïmporteerde en WebDAV-boeken (#509).
+- **Betere treffers op betekenis.** Onderwerpen tellen nu mee, afkortingen als "sf" en "ya" worden voluit begrepen, en zwakke treffers vallen weg. Je boeken worden na de update één keer opnieuw voorbereid; het model wordt niet opnieuw gedownload (#508).
+- **Vinkje als alles voorbereid is.** In Instellingen → AI staat een vinkje in plaats van een volle voortgangsbalk zodra al je boeken klaar zijn voor zoeken op betekenis (#507).
+
 ## 5.62 — 2026-11-07
 
 - **Zoeken op betekenis.** Onder Instellingen → AI zet je AI-zoeken aan. De app downloadt dan eenmalig een klein zoekmodel (66 MB) en bereidt je boeken voor; de voortgang staat erbij. Daarna zoek je in de serverlijst met "Op betekenis" naast titel en schrijver: je beschrijft waar een boek over gaat en krijgt de boeken die er inhoudelijk het meest op lijken. Alles gebeurt op het toestel. Met Verwijderen haal je het model weer weg (#498).
