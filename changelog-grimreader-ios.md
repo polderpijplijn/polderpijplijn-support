@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.67 — 2026-11-07
+
+- **Zoeken in gewone taal.** Met AI-zoeken aan en Apple Intelligence beschikbaar kun je in Zoeken een zin typen als "Engelse thrillers die ik nog niet gelezen heb". Na Enter maakt Apple Intelligence daar filters van: taal, onderwerp, leesstatus en eventueel een schrijver of titel. Die staan als knoppen boven de lijst; tik er een weg om dat filter los te laten, of kies "Zoek letterlijk" om gewoon op de zin te zoeken. Op het homescherm verschijnt na Enter een kaart "Boeken bij je vraag" die naar dezelfde lijst leidt. Een losse naam of titel zoekt zoals altijd (#514).
+- **Lijkt op dit boek: hooguit zes boeken.** De vergelijkbare boeken staan nu in één kolom onderaan de boekpagina (#511).
+
 ## 5.66 — 2026-11-07
 
 - **Grim Reader met Siri en Opdrachten.** Zeg "Ga verder met lezen in Grim Reader" en je boek gaat open op je leesplek. Met "Open een boek in Grim Reader" kies je een boek uit je bibliotheek. In de Opdrachten-app vind je ook "Zoek boeken": kies een taal, onderwerp en leesstatus en je krijgt de boeken die passen, bijvoorbeeld Engelse boeken die je nog niet gelezen hebt. Staat er nog een boek open, dan gaat dat eerst dicht, met je leesplek bewaard. Werkt in het Nederlands, Engels en Duits (#513).
