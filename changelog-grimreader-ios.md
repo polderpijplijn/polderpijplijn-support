@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.66 — 2026-11-07
+
+- **Grim Reader met Siri en Opdrachten.** Zeg "Ga verder met lezen in Grim Reader" en je boek gaat open op je leesplek. Met "Open een boek in Grim Reader" kies je een boek uit je bibliotheek. In de Opdrachten-app vind je ook "Zoek boeken": kies een taal, onderwerp en leesstatus en je krijgt de boeken die passen, bijvoorbeeld Engelse boeken die je nog niet gelezen hebt. Staat er nog een boek open, dan gaat dat eerst dicht, met je leesplek bewaard. Werkt in het Nederlands, Engels en Duits (#513).
+- **Lees verder slaat luisterboeken niet meer over.** Luister je veel, dan bleef de rij Lees verder op de startpagina soms leeg terwijl je wel een boek aan het lezen was (#513).
+- **Lijkt op dit boek als raster.** De vergelijkbare boeken op de boekpagina staan nu in kolommen, net als in de boekenlijsten, in plaats van in een rij die half uit beeld scrolde (#511).
+
 ## 5.65 — 2026-11-07
 
 - **Lijkt op dit boek.** Met AI-zoeken aan staat op de boekpagina een rij boeken die inhoudelijk op dit boek lijken. Het boek zelf, de andere delen van de serie en kopieën op een andere bron staan er niet in; boeken in andere talen wel. Er is geen apart zoekmodel voor nodig, en zonder treffers blijft de rij weg (#511).
