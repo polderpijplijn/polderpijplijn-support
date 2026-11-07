@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.64 — 2026-11-07
+
+- **Waar was ik? binnen een halve minuut, en waar je echt was.** Apple Intelligence leest nu de laatste pagina's voor je leesplek en zegt in een paar korte zinnen waar je bent, wat er net gebeurde en bij welke zin je stopte. Dat duurt meestal 10 tot 20 seconden in plaats van een paar minuten. De samenvatting per hoofdstuk komt daarna op de achtergrond binnen; breek je die af, dan blijft Waar was ik? staan en maak je de hoofdstukken later alsnog. In een bundel losse verhalen gaat het over het verhaal dat je leest (#489).
+- **Zoeken: een boek onder "Lijkt op je vraag" aantikken werkt.** Op de iPad verdween het aangetikte boek uit de lijst en schoof de rest op. Nu opent het boek in het paneel rechts, net als bij de gewone treffers (#509).
+- **Het vinkje voor voorbereide boeken blijft staan.** Terug in de app liep de app eerst al je boeken na en stond de balk zolang vol. Nu kijkt hij alleen boeken na die veranderd zijn; de balk komt alleen terug bij nieuwe boeken (#507).
+
 ## 5.63 — 2026-11-07
 
 - **Gewoon zoeken en zoeken op betekenis in één.** Met AI-zoeken aan zoekt het zoekveld op het homescherm en in Zoeken nu allebei. Bovenaan staan de treffers op titel, schrijver en serie, zoals altijd. Daaronder staat "Lijkt op je vraag" met boeken die inhoudelijk passen, zonder de boeken die er al boven staan. Zijn er veel gewone treffers, dan zie je de eerste pagina en een regel "Alle N treffers" naar de volledige lijst. De treffers op betekenis komen uit je geïmporteerde en WebDAV-boeken (#509).
