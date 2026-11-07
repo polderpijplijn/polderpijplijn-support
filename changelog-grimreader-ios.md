@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.62 — 2026-11-07
+
+- **Zoeken op betekenis.** Onder Instellingen → AI zet je AI-zoeken aan. De app downloadt dan eenmalig een klein zoekmodel (66 MB) en bereidt je boeken voor; de voortgang staat erbij. Daarna zoek je in de serverlijst met "Op betekenis" naast titel en schrijver: je beschrijft waar een boek over gaat en krijgt de boeken die er inhoudelijk het meest op lijken. Alles gebeurt op het toestel. Met Verwijderen haal je het model weer weg (#498).
+- **Waar was ik? leest van nieuw naar oud.** De samenvatting zet het nieuwste hoofdstuk nu overal bovenaan. Een klare samenvatting klap je in met de knop naast de kop; Waar was ik? opent hem weer zonder dat de app opnieuw moet rekenen (#489).
+
 ## 5.61 — 2026-11-06
 
 - **Waar was ik?** Ligt een boek een tijdje stil, dan vat Apple Intelligence in het boekdetail samen wat je tot nu toe las: het vorige hoofdstuk en het lopende tot je leesplek, met de eerdere hoofdstukken inklapbaar eronder. De laatste paar pagina's voor je leesplek slaat de samenvatting over, en wat daarna komt staat er nooit in. Alles gebeurt op het toestel; afgeronde hoofdstukken worden bewaard, dus een tweede keer gaat veel sneller. Alleen voor EPUB, en alleen op toestellen met Apple Intelligence (#489).
