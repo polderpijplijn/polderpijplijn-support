@@ -3,6 +3,14 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.68 — 2026-11-08
+
+- **Vraag Siri hoe ver je bent.** Zeg "Hoe ver ben ik in Grim Reader" of "Hoe ver ben ik met De Kameleon in Grim Reader" en Siri noemt het percentage en, als je het boek al een tijdje leest, hoe lang je nog bezig bent. De app hoeft daarvoor niet open (#505).
+- **Boeken in Spotlight.** Vanaf iOS 18 vind je je boeken via de zoekfunctie van iOS, ook die op de server en op WebDAV. Een tik opent het boek. Een bron die even niet bereikbaar is, blijft gewoon vindbaar (#505).
+- **Luisterboek bedienen met Siri.** "Speel mijn luisterboek verder", "Pauzeer mijn luisterboek", "Zet een slaaptimer van 20 minuten" (of tot het einde van het hoofdstuk) en "Volgend hoofdstuk" werken zonder de app te openen, ook op het vergrendelscherm. Via Instellingen › Actieknop › Opdracht kun je ze ook aan de Actieknop hangen (#505).
+- **Lees voor met Siri.** "Lees voor in Grim Reader" opent het boek dat je leest en begint meteen voor te lezen vanaf je leesplek (alleen EPUB) (#505).
+- **Lijkt op dit boek houdt boeken van andere schrijvers.** Een boek met dezelfde titel van een andere schrijver werd als kopie weggelaten; dat gebeurt nu alleen nog bij dezelfde schrijver (#516).
+
 ## 5.67 — 2026-11-07
 
 - **Zoeken in gewone taal.** Met AI-zoeken aan en Apple Intelligence beschikbaar kun je in Zoeken een zin typen als "Engelse thrillers die ik nog niet gelezen heb". Na Enter maakt Apple Intelligence daar filters van: taal, onderwerp, leesstatus en eventueel een schrijver of titel. Die staan als knoppen boven de lijst; tik er een weg om dat filter los te laten, of kies "Zoek letterlijk" om gewoon op de zin te zoeken. Op het homescherm verschijnt na Enter een kaart "Boeken bij je vraag" die naar dezelfde lijst leidt. Een losse naam of titel zoekt zoals altijd (#514).
