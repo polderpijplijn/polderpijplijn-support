@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.69 — 2026-11-09
+
+- **Omdat je … leest.** Met AI-zoeken aan staat op Start een rij met boeken die lijken op het boek dat je nu leest, onder Recent toegevoegd. Boeken die je al begon of uitlas staan er niet in, en ook geen delen uit dezelfde serie. Heeft het bovenste boek uit Lees verder geen vergelijkbare boeken, dan kijkt de rij naar het volgende (#517).
+
 ## 5.68 — 2026-11-08
 
 - **Vraag Siri hoe ver je bent.** Zeg "Hoe ver ben ik in Grim Reader" of "Hoe ver ben ik met De Kameleon in Grim Reader" en Siri noemt het percentage en, als je het boek al een tijdje leest, hoe lang je nog bezig bent. De app hoeft daarvoor niet open (#505).
