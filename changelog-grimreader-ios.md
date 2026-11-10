@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.70 — 2026-11-10
+
+- **Widget Lees verder.** Zet het boek dat je leest op je beginscherm of vergrendelscherm, in een kleine of middelgrote widget met omslag, titel, schrijver en hoe ver je bent. Een tik opent het boek op je leesplek. Log je uit, dan wordt de widget leeggemaakt (#505).
+
 ## 5.69 — 2026-11-09
 
 - **Omdat je … leest.** Met AI-zoeken aan staat op Start een rij met boeken die lijken op het boek dat je nu leest, onder Recent toegevoegd. Boeken die je al begon of uitlas staan er niet in, en ook geen delen uit dezelfde serie. Heeft het bovenste boek uit Lees verder geen vergelijkbare boeken, dan kijkt de rij naar het volgende (#517).
