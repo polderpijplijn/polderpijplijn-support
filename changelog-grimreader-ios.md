@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.71 — 2026-11-11
+
+- **Knop Lezen heet in het Engels Read.** Op het boekscherm stond in het Engels "Reading"; dat is nu "Read". De kop boven de kolommeninstelling in Instellingen › Lezen en luisteren heet voortaan Leesweergave (#518).
+
 ## 5.69 — 2026-11-09
 
 - **Omdat je … leest.** Met AI-zoeken aan staat op Start een rij met boeken die lijken op het boek dat je nu leest, onder Recent toegevoegd. Boeken die je al begon of uitlas staan er niet in, en ook geen delen uit dezelfde serie. Heeft het bovenste boek uit Lees verder geen vergelijkbare boeken, dan kijkt de rij naar het volgende (#517).
