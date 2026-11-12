@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.74 — 2026-11-12
+
+- **Zoeken met een zin verzint geen onderwerpen meer.** "Any books from Jan Terlouw" werd Roman · Misdaadroman · "jan terlouw", waardoor zijn jeugdboeken wegvielen. Vraag je alleen om een schrijver, titel of reeks, dan blijven alleen onderwerpen staan die je zelf noemt. "The Discworld series please" zoekt de reeks zonder Fantasy erbij; "fantasy uit de Discworld reeks" houdt Fantasy wel (#521).
+- **Taal alleen als je hem noemt.** "Boeken van Thea Beckman" kreeg ongevraagd het filter Nederlands, en "Duitse detectives voor op vakantie" werd Nederlands in plaats van Duits. Een taalfilter komt er nu alleen als de zin een taal noemt, en dan die taal. Een taalwoord in een naam telt niet: "books by Nicci French" zoekt op Nicci French, niet op Franse boeken van Nicci (#523).
+- **Naam valt niet meer weg.** "Detectives van Simenon" toonde alle detectives. De naam na van, door, by of from wordt nu de zoekterm, mits met hoofdletter geschreven; "biografieën van muzikanten" blijft een onderwerpvraag. Initialen, 't en apostroffen in namen en titels blijven staan ('t Hart, O'Brien, Witches' Brew) (#524).
+
 ## 5.73 — 2026-11-12
 
 - **Lijkt op je vraag zoekt ook op onderwerp.** Typ je een zin als "Engelse thrillers die ik nog niet gelezen heb", dan toont de lijst de boeken met het onderwerp Thriller. Lijkt op je vraag vult die nu aan met Engelse, ongelezen boeken die op een thriller lijken maar dat onderwerp niet hebben, bijvoorbeeld met alleen Suspense of Crime. Boeken die al in de lijst staan, komen er niet nog eens in (#520).
