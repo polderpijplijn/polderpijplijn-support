@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.73 — 2026-11-12
+
+- **Lijkt op je vraag zoekt ook op onderwerp.** Typ je een zin als "Engelse thrillers die ik nog niet gelezen heb", dan toont de lijst de boeken met het onderwerp Thriller. Lijkt op je vraag vult die nu aan met Engelse, ongelezen boeken die op een thriller lijken maar dat onderwerp niet hebben, bijvoorbeeld met alleen Suspense of Crime. Boeken die al in de lijst staan, komen er niet nog eens in (#520).
+- **Zoekbalk op Start wijst op Enter.** Typ je een zin met AI-zoeken aan, dan staat in de zoekbalk "↵ AI": pas na Enter maakt Apple Intelligence er filters van. Wis je het veld en typ je dezelfde zin opnieuw, dan staat de aanwijzing er weer (#519).
+
 ## 5.72 — 2026-11-12
 
 - **Lijkt op je vraag houdt zich aan je filters.** Typ je op Start een zin als "Engelse thrillers die ik nog niet gelezen heb", dan toont de sectie Lijkt op je vraag nu alleen boeken binnen dezelfde taal, onderwerpen en leesstatus als de kaart Boeken bij je vraag. Zolang de zin nog begrepen wordt, verschijnen er geen treffers die daarna weer wegspringen (#519).
