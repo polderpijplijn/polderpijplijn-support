@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.72 — 2026-11-12
+
+- **Lijkt op je vraag houdt zich aan je filters.** Typ je op Start een zin als "Engelse thrillers die ik nog niet gelezen heb", dan toont de sectie Lijkt op je vraag nu alleen boeken binnen dezelfde taal, onderwerpen en leesstatus als de kaart Boeken bij je vraag. Zolang de zin nog begrepen wordt, verschijnen er geen treffers die daarna weer wegspringen (#519).
+
 ## 5.71 — 2026-11-11
 
 - **Knop Lezen heet in het Engels Read.** Op het boekscherm stond in het Engels "Reading"; dat is nu "Read". De kop boven de kolommeninstelling in Instellingen › Lezen en luisteren heet voortaan Leesweergave (#518).
