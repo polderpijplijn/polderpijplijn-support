@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.75 — 2026-11-13
+
+- **Schrijver herkend in je zoekzin.** "Engelse boeken van Terry Pratchett" toonde "Terry Pratchett" als losse zoekterm, en "engelse boeken van asimov" kreeg er ongevraagd Science Fiction bij. Een schrijver uit je bibliotheek wordt nu een filter met een eigen chip ("door Isaac Asimov"). Ook alleen de achternaam na van of by werkt, als die maar bij één schrijver past. Een onderwerp of leesstatus die je zelf noemt blijft staan: "short stories by asimov" houdt Korte verhalen. Lijkt op je vraag zoekt niet meer op de naam van een schrijver, want daar kwamen willekeurige boeken uit (#527).
+- **Onderweg blijven de NAS-boeken weg.** Was de NAS niet bereikbaar, bijvoorbeeld op hotelwifi, dan stond de hele NAS-bibliotheek toch weer in beeld zodra de app de verbinding opnieuw controleerde, ook direct na het openen van de app. Tijdens zo'n controle blijven ze nu verborgen (#526).
+- **Instellingen › AI laat zien wat op dit toestel werkt.** Per AI-functie zie je of hij werkt, en zo niet, waarom: het toestel ondersteunt geen Apple Intelligence, die staat uit, is nog aan het laden, vraagt een nieuwere iOS, of het eigen model wordt nog gedownload. Op een iPhone zonder Apple Intelligence was voorheen niet te zien waarom de AI-knop in de zoekbalk ontbrak (#525).
+
 ## 5.74 — 2026-11-12
 
 - **Zoeken met een zin verzint geen onderwerpen meer.** "Any books from Jan Terlouw" werd Roman · Misdaadroman · "jan terlouw", waardoor zijn jeugdboeken wegvielen. Vraag je alleen om een schrijver, titel of reeks, dan blijven alleen onderwerpen staan die je zelf noemt. "The Discworld series please" zoekt de reeks zonder Fantasy erbij; "fantasy uit de Discworld reeks" houdt Fantasy wel (#521).
