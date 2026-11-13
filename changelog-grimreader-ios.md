@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.76 — 2026-11-13
+
+- **Uitgelezen boeken uit Lees verder.** Een boek dat je uitlas bleef onder Lees verder staan, omdat Grimmory het op 100% nog op Bezig houdt. Sluit je een uitgelezen boek, dan zet de app het nu op Gelezen, en boeken die de server nog op Bezig had worden bij het laden opgeruimd. Luister verder doet hetzelfde en kijkt bij een luisterboek naar je luistervoortgang (#530).
+- **Crash bij openen van een boek opgelost.** Sommige EPUB's, zoals Het huis vol van Anita Terpstra, lieten de app bij openen vastlopen door een onmogelijk paginatotaal. Zo'n meting telt nu niet meer mee en een al opgeslagen foute meting wordt opgeruimd (#529).
+- **Samenvattingen opschonen.** Onder Bibliotheekbeheer › Opschonen en samenvoegen staat een nieuwe taak die Word-opmaak en HTML-rommel uit samenvattingen haalt en er platte tekst met alinea's van maakt. Je ziet eerst voorbeelden van voor en na; pas na bevestigen wordt er geschreven. Alleen voor de WebDAV-catalogus (#501).
+- **Toetsenbord sluit bij scrollen op Start.** Na typen in de zoekbalk bleef het toetsenbord staan als je de lijst opschoof; nu verdwijnt het (#528).
+
 ## 5.75 — 2026-11-13
 
 - **Schrijver herkend in je zoekzin.** "Engelse boeken van Terry Pratchett" toonde "Terry Pratchett" als losse zoekterm, en "engelse boeken van asimov" kreeg er ongevraagd Science Fiction bij. Een schrijver uit je bibliotheek wordt nu een filter met een eigen chip ("door Isaac Asimov"). Ook alleen de achternaam na van of by werkt, als die maar bij één schrijver past. Een onderwerp of leesstatus die je zelf noemt blijft staan: "short stories by asimov" houdt Korte verhalen. Lijkt op je vraag zoekt niet meer op de naam van een schrijver, want daar kwamen willekeurige boeken uit (#527).
