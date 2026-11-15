@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.78 — 2026-11-15
+
+- **Start scrolt weer soepel op iPad.** Sinds de boekrijen een kaart kregen haperde het scrollen op Start op een iPad. De schaduw van de kaart wordt nu alleen om de kaart getekend, niet om elke omslag erin. Zo ziet het er hetzelfde uit maar kost het veel minder rekenwerk (#536).
+- **Boekrijen op iPhone weer zonder kaart.** Op iPhone maakte de kaart de rijen te smal. Daar staan ze weer open op de achtergrond tot de schermrand; op iPad blijft de kaart (#535).
+- **AI-knop blijft opvallen.** De gouden AI-knop in de zoekbalk blijft zacht ademen, en zo nu en dan glijdt er een glans overheen. Met Beweging beperken staat de gloed stil.
+
 ## 5.77 — 2026-11-15
 
 - **Omdat je … leest staat bovenaan.** De rij met voorstellen staat nu boven Recent toegevoegd, en de keuze van de vorige keer verschijnt meteen bij het openen van Start. Daardoor duwt de rij de lijst niet meer weg als de voorstellen binnenkomen. Alleen bij de eerste start na deze update, of als je AI-zoeken voor het eerst aanzet, schuift de rij er nog één keer tussen (#532).
