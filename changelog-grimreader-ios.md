@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.83 — 2026-11-15
+
+- **Omslagen verschijnen zonder haperen, ook direct na het terugkeren naar de app.** Voor elke omslag van een geïmporteerd boek, en voor de Lees verder-kaart op Start, las de app alle geïmporteerde boeken van schijf om er één uit te pikken. Dat gebeurde in de draad die het scherm tekent, en bij veel omslagen tegelijk stond het beeld tot twee seconden stil. Nu leest de app alleen dat ene boek (#538).
+
 ## 5.82 — 2026-11-15
 
 - **Start scrolt soepel, ook met de NAS via Tailscale.** Op de achtergrond zet de app je boeken in Spotlight. Daarbij keek hij per boek op schijf of er een omslag was, en dat gebeurde in dezelfde draad die het scherm tekent. Bij een grote bibliotheek stond het beeld zo twintig seconden lang twee keer per seconde even stil. Spotlight heeft die omslag niet nodig en slaat hem nu over. Kijken of je zelf een omslag koos, maakt bovendien niet meer bij elk boek een map aan (#537).
