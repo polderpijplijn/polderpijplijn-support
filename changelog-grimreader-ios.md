@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.77 — 2026-11-15
+
+- **Omdat je … leest staat bovenaan.** De rij met voorstellen staat nu boven Recent toegevoegd, en de keuze van de vorige keer verschijnt meteen bij het openen van Start. Daardoor duwt de rij de lijst niet meer weg als de voorstellen binnenkomen. Alleen bij de eerste start na deze update, of als je AI-zoeken voor het eerst aanzet, schuift de rij er nog één keer tussen (#532).
+- **Boekrijen als kaart.** De rijen op Start (Omdat je … leest, Recent toegevoegd, Strips, Audioboeken, Ontdek) staan op een eigen kaart die loskomt van de achtergrond, ook in donkere modus. "Grim Reader" staat vet in de kop (#533).
+- **AI-knop in de zoekbalk.** Typ je een zin met AI-zoeken aan, dan licht de AI-knop in goud op. Tikken op de knop doet hetzelfde als Enter. Met Beweging beperken vervaagt de knop alleen in beeld, zonder gloed (#534).
+
 ## 5.76 — 2026-11-13
 
 - **Uitgelezen boeken uit Lees verder.** Een boek dat je uitlas bleef onder Lees verder staan, omdat Grimmory het op 100% nog op Bezig houdt. Sluit je een uitgelezen boek, dan zet de app het nu op Gelezen, en boeken die de server nog op Bezig had worden bij het laden opgeruimd. Luister verder doet hetzelfde en kijkt bij een luisterboek naar je luistervoortgang (#530).
