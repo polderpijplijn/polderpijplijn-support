@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.79 — 2026-11-15
+
+- **Start scrolt soepel op een trage verbinding met de NAS.** Op hotelwifi via Tailscale haperde het scrollen op Start terwijl de app op de achtergrond titels en omslagen van NAS-boeken aanvulde. Elk aangevuld boek liet het hele startscherm opnieuw laden en tekenen. Nu wordt alleen dat ene boek in de rij bijgewerkt, en het omzetten van omslagen gebeurt buiten het scherm. Ontdek houdt zijn boeken; Strips en Audioboeken komen na een korte pauze weer op volgorde (#537).
+- **Geen volledige downloads meer bij een haperende verbinding.** Liep het ophalen van een stukje EPUB of strip af, dan haalde de app het hele boek op om er een omslag uit te halen. Nu probeert hij het later opnieuw (#537).
+
 ## 5.78 — 2026-11-15
 
 - **Start scrolt weer soepel op iPad.** Sinds de boekrijen een kaart kregen haperde het scrollen op Start op een iPad. De schaduw van de kaart wordt nu alleen om de kaart getekend, niet om elke omslag erin. Zo ziet het er hetzelfde uit maar kost het veel minder rekenwerk (#536).
