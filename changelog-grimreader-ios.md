@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.80 — 2026-11-15
+
+- **Meetversie voor het haperende scrollen op Start.** Onder Instellingen staat tijdelijk een onderdeel Scrollmeting. Zet je de meting aan, dan houdt de app per seconde bij hoeveel beeldjes hij miste en wat hij op dat moment deed. Met Rapport delen stuur je de uitkomst als tekstbestand door. De meting staat standaard uit en verdwijnt weer zodra de oorzaak gevonden is (#537).
+
 ## 5.79 — 2026-11-15
 
 - **Start scrolt soepel op een trage verbinding met de NAS.** Op hotelwifi via Tailscale haperde het scrollen op Start terwijl de app op de achtergrond titels en omslagen van NAS-boeken aanvulde. Elk aangevuld boek liet het hele startscherm opnieuw laden en tekenen. Nu wordt alleen dat ene boek in de rij bijgewerkt, en het omzetten van omslagen gebeurt buiten het scherm. Ontdek houdt zijn boeken; Strips en Audioboeken komen na een korte pauze weer op volgorde (#537).
