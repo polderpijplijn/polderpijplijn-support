@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.85 — 2026-11-16
+
+- **Lezers draaien op de iPhone mee naar liggend.** De strip-, EPUB- en PDF-lezer mogen liggend zolang ze open zijn; vooral strips lezen zo prettiger. Sluit je de lezer, dan gaat de app terug naar staand. De rest van de app blijft op de iPhone staand, en op de iPad verandert niets. Een afbeelding uit een EPUB op volledig scherm houdt de liggende stand vast (#540).
+
 ## 5.84 — 2026-11-16
 
 - **Scrollmeting weer uit Instellingen.** De tijdelijke meting heeft laten zien waar het haperen op Start vandaan kwam, en dat is in 5.82 en 5.83 opgelost. Het onderdeel Scrollmeting en de bewaking op de achtergrond zijn weer uit de app (#537, #538).
