@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.84 — 2026-11-16
+
+- **Scrollmeting weer uit Instellingen.** De tijdelijke meting heeft laten zien waar het haperen op Start vandaan kwam, en dat is in 5.82 en 5.83 opgelost. Het onderdeel Scrollmeting en de bewaking op de achtergrond zijn weer uit de app (#537, #538).
+
 ## 5.83 — 2026-11-15
 
 - **Omslagen verschijnen zonder haperen, ook direct na het terugkeren naar de app.** Voor elke omslag van een geïmporteerd boek, en voor de Lees verder-kaart op Start, las de app alle geïmporteerde boeken van schijf om er één uit te pikken. Dat gebeurde in de draad die het scherm tekent, en bij veel omslagen tegelijk stond het beeld tot twee seconden stil. Nu leest de app alleen dat ene boek (#538).
