@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.86 — 2026-11-17
+
+- **AI-functies werken nu ook voor boeken op je Grimmory-server.** Lijkt op je vraag, Lijkt op dit boek en Omdat je … leest gebruikten alleen geïmporteerde en WebDAV-boeken. Nu haalt de app de samenvattingen van je Grimmory-boeken op bij je eigen server en bereidt ze op dit apparaat voor, zodat ook die boeken meedoen. Elke keer komen alleen nieuwe boeken mee; met **Samenvattingen opnieuw ophalen** in Instellingen → AI haal je alles opnieuw op, bijvoorbeeld na het bijwerken van samenvattingen op de server. Een boek dat je gedownload hebt, staat er maar één keer in (#541).
+
 ## 5.85 — 2026-11-16
 
 - **Lezers draaien op de iPhone mee naar liggend.** De strip-, EPUB- en PDF-lezer mogen liggend zolang ze open zijn; vooral strips lezen zo prettiger. Sluit je de lezer, dan gaat de app terug naar staand. De rest van de app blijft op de iPhone staand, en op de iPad verandert niets. Een afbeelding uit een EPUB op volledig scherm houdt de liggende stand vast (#540).
