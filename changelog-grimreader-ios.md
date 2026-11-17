@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.87 — 2026-11-17
+
+- **Bladeren met toetsenbord, klik en trackpad op de Mac en de iPad.** In de EPUB-lezer blader je met de pijltjestoetsen, met spatie en shift-spatie en met PageUp/PageDown. Op de Mac bladert een klik in de linker- of rechterrand, en een veeg met twee vingers over het trackpad slaat precies één pagina om (#542).
+- **Ook in de strip- en PDF-lezer.** Dezelfde toetsen werken daar ook, bij manga in spiegelbeeld. Op de Mac bladert een klik in de rand, ook op een strippagina die nog laadt of niet geladen kon worden. In een PDF volgt een klik op een link alleen de link. In de kolomweergave van de striplezer en met het paginaraster of de bladwijzers open bladeren de toetsen niet (#543).
+
 ## 5.86 — 2026-11-17
 
 - **AI-functies werken nu ook voor boeken op je Grimmory-server.** Lijkt op je vraag, Lijkt op dit boek en Omdat je … leest gebruikten alleen geïmporteerde en WebDAV-boeken. Nu haalt de app de samenvattingen van je Grimmory-boeken op bij je eigen server en bereidt ze op dit apparaat voor, zodat ook die boeken meedoen. Elke keer komen alleen nieuwe boeken mee; met **Samenvattingen opnieuw ophalen** in Instellingen → AI haal je alles opnieuw op, bijvoorbeeld na het bijwerken van samenvattingen op de server. Een boek dat je gedownload hebt, staat er maar één keer in (#541).
