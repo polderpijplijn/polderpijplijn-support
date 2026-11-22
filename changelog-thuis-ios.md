@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.26 — 2026-11-22 (testversie)
+
+- **Autoaccu en actieradius (#60):** op Laden staat onder de laadpaal nu een kaart van de auto zelf, met accupercentage, actieradius, laaddoel en of de auto laadt. De gegevens komen uit een auto-integratie in Home Assistant, zoals VW Group EU Data Act. De laadpaal levert geen accupercentage. De auto wordt herkend aan het type sensor, niet aan de naam, en de kilometerstand telt niet als actieradius. Een regel zegt van wanneer de gegevens zijn; zijn ze ouder dan 2 uur, dan staat er "Verouderd" bij.
+- **Kaart met actieradius:** een kaart toont een cirkel rond je huis op 80 % van de actieradius, omdat die over de weg geldt en de cirkel hemelsbreed meet. Met "Openen in kaarten" open je de plek in Apple Kaarten of Google Maps. De positie van de auto zelf levert de integratie niet.
+- **Duitsland (#50):** Duitsland staat in de landkeuze. Prijzen per kwartier komen van Energy-Charts (Fraunhofer ISE), zonder token. Gas rekent in kWh, met Brennwert en Zustandszahl in Instellingen (standaard 11,2 × 0,95). Btw, Stromsteuer, Umlagen, Energiesteuer, CO2-prijs en graaddagen (VDI 3807) volgen de Duitse regels. Nederland rekent ongewijzigd.
+
 ## 5.25 — 2026-11-01 (testversie)
 
 - **Energiebelasting 2027 (#49):** de app rekent vanaf 1-1-2027 met de nieuwe tarieven: 0,1065 per kWh stroom en 0,7457 per m³ gas (incl. btw). Ze komen uit het Belastingplan 2027, dat de Eerste Kamer nog moet aannemen.
