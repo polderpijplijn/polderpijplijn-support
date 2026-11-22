@@ -3,6 +3,10 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `versionName`.
 
+## 4.95 — 2026-11-22
+- **Autoaccu en actieradius (#8, iOS #60).** Op het laadscherm staat onder de laadpaal nu een kaart van de auto zelf, met accupercentage, actieradius, laaddoel en of de auto laadt. De gegevens komen uit een auto-integratie in Home Assistant, zoals VW Group EU Data Act; de laadpaal levert geen accupercentage. De auto wordt herkend aan het type sensor, en de kilometerstand telt niet als actieradius. Zijn de gegevens ouder dan 2 uur, dan staat er "Verouderd" bij.
+- **Kaart met actieradius.** Een OpenStreetMap-kaart toont een cirkel rond je huis op 80 % van de actieradius, omdat die over de weg geldt. "Openen in kaarten" opent de plek in je kaarten-app.
+
 ## 4.94 — 2026-11-01
 - **Energiebelasting 2027 (iOS #49).** De app rekent vanaf 1-1-2027 met de nieuwe tarieven: 0,1065 per kWh stroom en 0,7457 per m³ gas (incl. btw), uit het Belastingplan 2027 dat de Eerste Kamer nog moet aannemen.
 - **Kwartierprijzen.** Levert Home Assistant prijzen per kwartier, dan rekent de app met het gemiddelde per prijsblok.
