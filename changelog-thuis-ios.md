@@ -3,6 +3,13 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.27 — 2026-11-25 (testversie)
+
+- **Warm minimalisme:** een rustiger ontwerp voor iPhone en iPad, met warme lichte en donkere achtergronden en een groen accent. Het overzicht geeft huisverbruik één hoofdkaart en toont dagtotalen compacter. Energiebronnen, stroomadvies, klimaat en weer blijven doorklikbaar.
+- **iPad-zijbalk:** Overzicht, Energie, Laden, Klimaat en Analyses staan in een vaste zijbalk. Op iPhone en in compacte vensters blijven de vijf tabbladen beschikbaar. De inhoud past zich aan de vensterbreedte en tekstgrootte aan.
+- **Laden blijft compleet:** de laadpaalafbeelding, vermogensring, start/stop, laadlimiet, autoaccu, actieradiuskaart, sessies, laadcurves en firmwaredetails blijven behouden en volgen de nieuwe stijl.
+- Het nieuwe ontwerp wordt eenmalig ingeschakeld. Terugschakelen naar klassiek blijft mogelijk via de bestaande instelling en het menu.
+
 ## 5.26 — 2026-11-22 (testversie)
 
 - **Autoaccu en actieradius (#60):** op Laden staat onder de laadpaal nu een kaart van de auto zelf, met accupercentage, actieradius, laaddoel en of de auto laadt. De gegevens komen uit een auto-integratie in Home Assistant, zoals VW Group EU Data Act. De laadpaal levert geen accupercentage. De auto wordt herkend aan het type sensor, niet aan de naam, en de kilometerstand telt niet als actieradius. Een regel zegt van wanneer de gegevens zijn; zijn ze ouder dan 2 uur, dan staat er "Verouderd" bij.
