@@ -3,6 +3,12 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.29 — 2026-11-26 (testversie)
+
+- **iPad-zijbalk overal (#67):** ook vanuit een detail in Energie, Laden, Klimaat en Analyses wissel je weer via de zijbalk naar een ander onderdeel. Het detail bedekte de zijbalk, zoals in 5.28 al voor het Overzicht verholpen was.
+- **Klimaat (#66):** de auto telt niet meer mee als sensor die aandacht vraagt. Sensoren van een auto-integratie worden ook herkend als Home Assistant geen apparaatregister levert.
+- **Thuisbatterij:** de huisbatterij heet in de app nu thuisbatterij.
+
 ## 5.28 — 2026-11-26 (testversie)
 
 - **Tariefkaart sneller (#63):** de tariefkaart op Analyses haalt stroom en gas tegelijk op, slaat het EV-deel over en bewaart de uitkomst een half uur, per Home Assistant-server en land. Een onvolledige uitkomst wordt niet bewaard.
