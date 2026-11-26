@@ -3,6 +3,14 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.28 — 2026-11-26 (testversie)
+
+- **Tariefkaart sneller (#63):** de tariefkaart op Analyses haalt stroom en gas tegelijk op, slaat het EV-deel over en bewaart de uitkomst een half uur, per Home Assistant-server en land. Een onvolledige uitkomst wordt niet bewaard.
+- **Verbruikshistorie bewaard (#64):** de app bewaart de opgehaalde verbruikshistorie uit Home Assistant op het toestel en haalt bij een volgend bezoek alleen de laatste week opnieuw op.
+- **Achtergrond Overzicht (#62):** de achtergrond van het Overzicht loopt door tot de schermranden.
+- **iPad-zijbalk:** vanuit een detail op het Overzicht (huisverbruik, zon, net, auto, laadpaal) wissel je weer gewoon via de zijbalk naar een ander onderdeel; het detail bedekte de zijbalk.
+- **Warmtepompcatalogus november 2026:** nieuw zijn de nieuwe generatie Vaillant aroTHERM plus (VWL 8.1), de aroTHERM pro en de Hisense Hi-Hybrid R290 M. De NIBE S2125 staat er nu als twee modellen (8–12 en 16–20 kW), met cijfers uit het datablad van NIBE.
+
 ## 5.27 — 2026-11-25 (testversie)
 
 - **Warm minimalisme:** een rustiger ontwerp voor iPhone en iPad, met warme lichte en donkere achtergronden en een groen accent. Het overzicht geeft huisverbruik één hoofdkaart en toont dagtotalen compacter. Energiebronnen, stroomadvies, klimaat en weer blijven doorklikbaar.
