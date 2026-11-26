@@ -3,7 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
-## 5.29 — 2026-11-26 (testversie)
+## 5.30 — 2026-11-26 (testversie)
+
+- **Tariefkaart sneller (#69):** de tariefkaart op Analyses haalt alleen de ontbrekende uren op, niet steeds het hele jaar. Lange prijshistorie en gasprijzen komen rechtstreeks van EnergyZero in plaats van via Home Assistant, waar een jaar stroomprijzen meer dan anderhalve minuut duurde.
+- **Batterij-analyse en laadhistorie sneller (#68):** het uurverbruik voor de thuisbatterij-analyse en de laadhistorie komt uit de bewaarde verbruikshistorie op het toestel. Alleen de laatste week wordt opnieuw bij Home Assistant opgehaald.
+- **Alleen nog het moderne ontwerp (#70, #71):** het klassieke ontwerp is verwijderd, met de instelling om ernaar terug te schakelen. Bij een eerste start krijg je meteen de moderne kaarten.
 
 - **iPad-zijbalk overal (#67):** ook vanuit een detail in Energie, Laden, Klimaat en Analyses wissel je weer via de zijbalk naar een ander onderdeel. Het detail bedekte de zijbalk, zoals in 5.28 al voor het Overzicht verholpen was.
 - **Klimaat (#66):** de auto telt niet meer mee als sensor die aandacht vraagt. Sensoren van een auto-integratie worden ook herkend als Home Assistant geen apparaatregister levert.
