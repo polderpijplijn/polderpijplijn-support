@@ -3,6 +3,14 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `CFBundleShortVersionString`.
 
+## 5.31 — 2026-11-27 (testversie)
+
+- **iPad-navigatie:** de zijbalk is nu een aanpasbare tabbladenbalk. Klap je hem dicht of is het venster smal, dan staan de onderdelen als tabbalk bovenaan, met het tandwiel voor Instellingen erbij. De dubbele instellingenknop rechtsboven is weg.
+- **iPhone Duo:** de tabbalk blijft onderin staan; de zijbalk is alleen voor de iPad.
+- **Woningvelden:** bij een tik in een veld staat de cursor aan het einde. De warmtepomp rekent opnieuw na een nieuwe binnentemperatuur en toont halve graden.
+- **Laden:** de rij 'Verloop en details' is weg.
+- **Bouwstraat (#75):** CI bouwt met één Xcode (27.2) en kiest de simulator op de nieuwste runtime.
+
 ## 5.30 — 2026-11-26 (testversie)
 
 - **Tariefkaart sneller (#69):** de tariefkaart op Analyses haalt alleen de ontbrekende uren op, niet steeds het hele jaar. Lange prijshistorie en gasprijzen komen rechtstreeks van EnergyZero in plaats van via Home Assistant, waar een jaar stroomprijzen meer dan anderhalve minuut duurde.
