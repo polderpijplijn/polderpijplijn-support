@@ -3,6 +3,11 @@
 All notable changes per release. Newest first.
 Versions match the `vX.Y` tags and `versionName`.
 
+## 4.97 — 2026-11-27
+- **Tariefkaart sneller (iOS #69).** De prijzencache haalt alleen de ontbrekende uren op, niet steeds het hele jaar. Lange prijshistorie en gasprijzen komen rechtstreeks van EnergyZero in plaats van via Home Assistant.
+- **Klimaat (iOS #66).** De auto telt niet meer mee als sensor die aandacht vraagt. Sensoren van een auto-integratie worden ook herkend als Home Assistant geen apparaatregister levert.
+- **Thuisbatterij.** De huisbatterij heet in de app nu thuisbatterij.
+
 ## 4.96 — 2026-11-26
 - **Warmtepompcatalogus november 2026.** Nieuw in de keuzelijst: de nieuwe generatie Vaillant aroTHERM plus (VWL 8.1), de aroTHERM pro en de Hisense Hi-Hybrid R290 M. De NIBE S2125 staat er nu als twee modellen (8–12 en 16–20 kW), met cijfers uit het datablad van NIBE.
 
